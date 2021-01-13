@@ -8,7 +8,7 @@
 		"tacticas": [
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Realizar seguimiento de los avances y resultados de los procesos auditados en instancias previas.",
+				"desc": "Realizar seguimiento de los avances y resultados de procesos auditados.",
 				"actores": [
 					{
 						"cai": "CI-AUD", "rol": "Responsable",
@@ -68,7 +68,21 @@
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Generados y presentados los informes de auditoria para el periodo 2021.",
+				"desc": "Generados y presentados los pre-informes de auditoria para el periodo 2021.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generados y presentados los informes finales de auditoria para el periodo 2021.",
 				"actores": [
 					{
 						"cai": "CI-AUD", "rol": "Responsable",
@@ -96,6 +110,10 @@
 				"actores": [
 					{
 						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-AUD", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{

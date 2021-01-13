@@ -161,34 +161,12 @@
 						"capacidades": [ "todos-gestion-academica" ]
 					}
 				]
-			},
-			{
-				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Gestionar de una base de datos con registro de antecedentes curriculares y documentación oficial de alumnos y egresados de pre y postgrado.",
-				"actores": [
-					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				]
 			}
 		]
 	},
 	{
 		"id": "01b", "area": "DAC",
-		"titulo": "Gestión, registro y certificación académica de estudiantes.",
+		"titulo": "Gestión, registro y certificación de antecedentes académicos y curriculares de estudiantes.",
 		"objetivo": "Desarrollar diversas funciones vinculadas a la documentación y certificación de la situación de los estudiantes y a la aplicación de procesos y protocolos para su ajuste.",
 		"responsable": "DAC-SA",
 		"tipo": "Misional",
@@ -240,6 +218,28 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Gestionar de una base de datos con registro de antecedentes curriculares y documentación oficial de alumnos y egresados de pre y postgrado.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -2560,7 +2560,7 @@
 		"id": "19", "area": "DAC",
 		"titulo": "Mejora en la comunicación interna con actores clave de los programas formativos",
 		"objetivo": "Levantar y pilotear mecanismos de difusión de los distintos instrumentos y directrices que regulan el funcionamiento de los programas formativos para mejorar su conocimiento y comprensión.",
-		"responsable": "DAC-SA",
+		"responsable": "DAC-EPRE",
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
@@ -2613,7 +2613,7 @@
 		"id": "20", "area": "DAC",
 		"titulo": "Preparación a la vida laboral para primeros/as egresados/as UAysén.",
 		"objetivo": "Desplegar mecanismos que permitan preparar y dar soporte integral al mundo laboral al que se enfrentarán los/as primeros/as egresados/as de la Institución.",
-		"responsable": "DAC-SA",
+		"responsable": "DAC-EPRE",
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
@@ -2621,16 +2621,16 @@
 				"desc": "Diseñado y aplicado estudio sobre campo laboral de carreras que entrarán en régimen para orientar estrategias de acompañamiento.",
 				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},					
 					{
 						"cai": "DPAC-AI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},	
 					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -2652,7 +2652,7 @@
 					},	
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -2663,18 +2663,18 @@
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñadas y desarrolladas actividades de difusión de oportunidades laborales con estudiantes UAysén que se titularán.",
-				"actores": [					
+				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},	
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},					
 					{
 						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -2689,14 +2689,14 @@
 					{
 						"cai": "DAC", "rol": "Aprobador",
 						"capacidades": [ "direccion" ]
-					},				
+					},
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},	
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
@@ -2715,14 +2715,14 @@
 					{
 						"cai": "DAC", "rol": "Aprobador",
 						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
 					},				
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},	
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
@@ -2739,12 +2739,12 @@
 				"desc": "Piloteados los mecanismos para promover la titulación oportuna.",
 				"actores": [		
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},	
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
 					{
-						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
@@ -5258,7 +5258,7 @@
 		"id": "40", "area": "DAC",
 		"titulo": "Institucionalizar la articulación de la docencia con la investigación",
 		"objetivo": "Diseñar y formalizar mecanismos que den cuenta de una articulación sistemática entre la docencia en todos sus niveles con la investigación y en coherencia al Modelo Educativo.",
-		"responsable": "DAC-SA",
+		"responsable": "DAC-EPRE",
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
@@ -5266,13 +5266,13 @@
 				"desc": "Levantado un catastro de iniciativas realizadas en la Institución y que promuevan la articulación entre la docencia y la investigación y que permitan guiar el diseño de mecanismos institucionales.",
 				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DAC-EPYEC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "coordinacion-educ-cont", "educacion-continua" ]
@@ -5300,8 +5300,8 @@
 				"desc": "Formalizados mecanismos normativos que regulan las instancias de coordinación existentes entre la docencia y la investigación (ej.: Comité de docencia e investigación).",
 				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
 					{
 						"cai": "DI-DINV", "rol": "Soporte",
@@ -5310,11 +5310,11 @@
 					{
 						"cai": "SG-JUR", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},					
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},				
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
@@ -5330,13 +5330,13 @@
 						"capacidades": [ "direccion" ]
 					},
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DAC-EPYEC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "coordinacion-educ-cont", "educacion-continua" ]
@@ -5368,13 +5368,13 @@
 				"desc": "Piloteados y evaluados los mecanismos operativos diseñados para promover la articulación entre la docencia y la investigación.",
 				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "coordinacion-educ-cont", "educacion-continua" ]
@@ -5399,7 +5399,7 @@
 		"id": "41", "area": "DAC",
 		"titulo": "Institucionalización de la movilidad estudiantil",
 		"objetivo": "Desarrollar mecanismos y actividades que permitan institucionalizar y dar proyección a la movilidad estudiantil en la institución.",
-		"responsable": "DAC-SA",
+		"responsable": "DAC-EPRE",
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
@@ -5407,13 +5407,13 @@
 				"desc": "Levantado un catastro de iniciativas realizadas en la Institución en materia de movilidad estudiantil.",
 				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DVcM-TE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
@@ -5455,13 +5455,13 @@
 						"capacidades": [ "direccion" ]
 					},
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
@@ -5489,13 +5489,13 @@
 				"desc": "Gestionados convenios con otras instituciones de educación superior (nacional e internacional) para desarrollar sistemáticamente acciones de movilidad estudiantil.",
 				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
@@ -5519,13 +5519,13 @@
 				"desc": "Piloteados y evaluados los mecanismos para el desarrollo de actividades de movilidad estudiantil emergentes.",
 				"actores": [
 					{
-						"cai": "DAC-SA", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
