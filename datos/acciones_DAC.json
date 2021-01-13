@@ -1,0 +1,5549 @@
+[
+	{
+		"id": "01", "area": "DAC",
+		"titulo": "Gestión de información en apoyo al acompañamiento, gestión curricular y documental de los estudiantes.",
+		"objetivo": "Sistematizar, gestionar y usar información con el propósito de apoyar los procesos de acompañamiento de los estudiantes y tener antecedentes curriculares en su proceso formativo.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisado y aplicado el Sistema de Alerta Temprana (SAT).",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborada, aplicada y analizada la encuesta ENCE.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborada, aplicada y analizada la encuesta de caracterización de estudiantes de primer año.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "operacion-misc", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborada, aplicada y analizada la encuesta de caracterización de estudiantes de curso superior.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborado, aplicado y analizado el informe de asignaturas críticas - primer semestre.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborado, aplicado y analizado el informe de asignaturas críticas - segundo semestre.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Gestionar de una base de datos con registro de antecedentes curriculares y documentación oficial de alumnos y egresados de pre y postgrado.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "01b", "area": "DAC",
+		"titulo": "Gestión, registro y certificación académica de estudiantes.",
+		"objetivo": "Desarrollar diversas funciones vinculadas a la documentación y certificación de la situación de los estudiantes y a la aplicación de procesos y protocolos para su ajuste.",
+		"responsable": "DAC-SA",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Registrar diversos procesos y protocolos aplicados en relación a la situación de los estudiantes y según reglamentación vigente.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Certificar y registrar convalidaciones, homologación, incompatibilidad de estudios y transferencias.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionar y resolver solicitudes de certificados estudiantiles.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "02", "area": "DAC",
+		"titulo": "Levantamiento de información actualizada para identificar y orientar la demanda de postgrado y educación continua.",
+		"objetivo": "Sistematizar información y generar conocimiento sobre las necesidades a nivel regional, nacional e internacional de postgrado y educación continua, y como ello se puede proyectar desde la UAysén.",
+		"responsable": "DAC-EPYEC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Aplicada y analizada encuesta de demanda de postgrado nacional e internacional.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general, coordinacion-postgrado, postgrado" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Aplicada y analizada encuesta de demanda de educación continua regional.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general, coordinacion-educ-cont, educacion-continua" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DCS", "rol": "Consultado",
+						"capacidades": [ "gestion" ]
+					},
+					{
+						"cai": "DCSH", "rol": "Consultado",
+						"capacidades": [ "gestion" ]
+					},
+					{
+						"cai": "DBS", "rol": "Consultado",
+						"capacidades": [ "gestion" ]
+					},
+					{
+						"cai": "DCAI", "rol": "Consultado",
+						"capacidades": [ "gestion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "03", "area": "DAC",
+		"titulo": "Proceso de admisión y matrícula 2021",
+		"objetivo": "Gestionar todas las actividades institucionales que permitan la incorporación de los nuevos estudiantes al periodo 2021, y la atracción e incorporación a la institución de nuevos estudiantes para el año 2022.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Generados reportes de resultados de matrícula.",
+				"actores": [					
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "complejidad": "Alta", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Implementado un módulo SGA para la matrícula online.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrollada la difusión vinculada a la matrícula 2021.",
+				"actores": [					
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Coordinada y preparadas las actividades para el desarrollo de la matrícula 2021.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "dsearrollo", "plataforma" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "complejidad": "Alta", "prioridad": "Alta",
+				"desc": "Ejecutada la matrícula 2021 de estudiantes de primer año.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "dsearrollo", "plataforma" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05b", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Ejecutada la matrícula 2021 de estudiantes de curso superior.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "dsearrollo", "plataforma" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantados los requerimientos de difusión comunicacional de la oferta de pregrado a nivel regional y nacional para su implementación durante el periodo 2021.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},					
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					}	
+				]
+			},
+			{
+				"id": "F01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Ejecutar la difusión comunicacional de la oferta de pregrado a nivel regional y nacional.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},	
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},	
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}					
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado el plan de articulación anual con establecimientos regionales y nacionales para desarrollar difusión académica de la oferta de pregrado.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},					
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					}	
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Ejecutado el plan de articulación anual con establecimientos regionales y nacionales para desarrollar difusión académica de la oferta de pregrado.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},	
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			},
+			{
+				"id": "H09", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrolladas las actividades de admisión regular para el periodo 2021.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H10", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrolladas las actividades de admisión especial (y de zonas extremas) para el periodo 2021.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "04", "area": "DAC",
+		"titulo": "Despliegue del Sistema de Gestión Académica (SGA) UAysén",
+		"objetivo": "Avanzar en la implementación inicial del sistema que permita gestionar el ciclo de vida del estudiante, con principal foco en el módulo de registro curricular.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Levantados requerimientos finales para modulos iniciales del sistema",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Generado el diseño de los módulos iniciales",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},					
+					{
+						"cai": "DAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Implementados los avances de los módulos iniciales",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Hecho el control de calidad de los módulos iniciales",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desplegados y socializados los módulos desarrollados",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluado un sistema LMS para registro curricular",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-TICE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Adquirido el sistema LMS para registro curricular",
+				"actores": [
+					{
+						"cai": "DAC-TICE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Implementado e integrado el sistema LMS para registro curricular",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DAC-TICE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "05", "area": "DAC",
+		"titulo": "Modernización del macroproceso de admisión institucional",
+		"objetivo": "Modernizar los procesos que dan soporte a la admisión institucional, con su respectivo vínculo con el proceso de matrícula.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Normalizados procesos críticos del macroproceso de Admisión",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Actualizado y/o regularizado el cuerpo normativo crítico para los procesos asociados a admisión, tanto regular como especial y de zonas extremas.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Informado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantados requerimientos de modulos SGA para dar soporte a los procesos de admisión",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", 
+				"desc": "Generado el diseño de las funcionalidades críticas de los módulos a desarrollar",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "naturaleza": "Técnica", 
+				"desc": "Implementados los avances de los módulos",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mínima", 
+				"desc": "Hecho el control de calidad de los módulos",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Desplegado y socializados los módulos implementados",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},				
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "06", "area": "DAC",
+		"titulo": "Despliegue de modernización tecnológica para los procesos formativos",
+		"objetivo": "Instalar capacidades que habiliten el uso de TICs con orientación innovadora en los procesos formativos (URY 20992).",
+		"responsable": "DAC-TICE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Constituída el área TICE para DAC",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DAC-SG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantadas y analizadas estrategias para implementar prototipo sala MOOC",
+				"actores": [
+					{
+						"cai": "DAC-TICE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-SG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementado prototipo sala MOOC",
+				"actores": [
+					{
+						"cai": "DAC-TICE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-SG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "07", "area": "DAC",
+		"titulo": "Implementación de software para dar soporte al repositorio institucional de Biblioteca",
+		"objetivo": "Mantener el ecosistema de aplicaciones asociadas al proyecto repositorio institucional junto con la evaluación de integración entre los mismos aplicativos y la implementación de nuevos.",
+		"responsable": "DAC-BRA",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Actualizar plataformas existentes en el repositorio de biblioteca (Koha-Dspace-OJS)",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", 
+				"desc": "Implementar nuevos aplicativos PKP para complementar el respositorio de biblioteca (OJS, OMS, OPS, OCS)",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DAC-BRA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+
+		]
+	},
+	{
+		"id": "08", "area": "DAC",
+		"titulo": "Planificación académica 2021",
+		"objetivo": "Sistematizar la información asociada a la planificación de las actividades del cuerpo académico.",
+		"responsable": "DAC-DA",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisados y actualizados los mecanismos para la construcción de la planificación anual del cuerpo académico",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Levantada y sistematizada la información de la planificación anual del cuerpo académico.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Formalizada la planificación anual del cuerpo académico.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "09", "area": "DAC",
+		"titulo": "Organización de la calificación, jerarquización y desarrollo académico 2021",
+		"objetivo": "Evaluar los avances del cuerpo académico en lo que respecta a sus actividades en el corto y largo plazo.",
+		"responsable": "DAC-DA",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Compilada y evaluada la información para la calificación académica de las actividades del 2020.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", 
+				"desc": "Revisados y ajustados los mecanismos para desarrollar la calificación académica 2021.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Compilada y evaluada la información para la calificación académica de las actividades del 2021.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", 
+				"desc": "Revisados y ajustados los mecanismos para desarrollar los procesos de jerarquización.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Compilada y evaluada la información para realizar la jerarquización anual.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrollar instancias de coordinación en el contexto del Comité de Desarrollo Académico.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}		
+		]
+	},
+	{
+		"id": "10", "area": "DAC",
+		"titulo": "Programación de docencia 2021",
+		"objetivo": "Levantar los insumos necesarios para el desarrollo de la docencia anual y de las actividades académicas relacionadas.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Diseñado y formalizado el calendario académico 2021.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Generadas y socializadas las directrices para la implementación de los planes de estudio de pregrado en el 1er semestre.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-BRA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Generadas y socializadas las directrices para la implementación de los planes de estudio de pregrado en el 2do semestre.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-BRA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Generada la programación de cursos para el 1er semestre.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Generada la programación de cursos para el 2er semestre.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generados y socializados los lineamientos para la implementación de la oferta académica de Formación Transversal.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Coordinar las reuniones e implementación de acuerdos del Consejo de Escuela de Pregrado.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-curricular", "curricular", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "11", "area": "DAC",
+		"titulo": "Seguimiento y soporte al desempeño académico de los estudiantes",
+		"objetivo": "Implementar procedimientos que permitan evaluar, priorizar y apoyar el desempeño de los estudiantes con miras a su participacion activa y continuidad de estudios.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Sistematizar y monitorear información de desempeño académico de los estudiantes.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Ejecutar medidas de acompañamiento con estudiantes en situaciones que requieren atención.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},	
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},			
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantar requerimientos de derivación de estudiantes para acompañamiento académico.",
+				"actores": [
+					{
+						"cai": "multiple", "rol": "Responsable",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrollada la inducción de estudiantes de primer año acorde a su caracterización.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},	
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Sistematizar y monitorear información de situación emocional, familiar y/o económica de los estudiantes.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F05", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Ejecutar medidas de atención psicológica individual y grupal de diagnóstico, intervención y derivación externa para los estudiantes que lo requieran.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F06", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluar impacto de medidas de acompañamiento y atención desarrolladas sobre estudiantes.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "12", "area": "DAC",
+		"titulo": "Acompañamiento y soporte para el desarrollo de la docencia universitaria",
+		"objetivo": "Aplicar mecanismos que permitan asegurar el desarrollo de la docencia en coherencia al Modelo Educativo.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizar acciones de acompañamiento y soporte pedagógico al cuerpo docente en la aplicación de estrategias de enseñanza-aprendizaje.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Evaluar el diseño e implementación curricular de los programas de pregrado, con foco en la innovación curricular.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", 
+				"desc": "Proponer y desarrollar ajustes a los diseños curriculares.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}	
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Monitorear la implementación del Modelo Educativo en el desarrollo de los planes formativos.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "42", "area": "DAC",
+		"titulo": "Gestión de la bibliografía para el desarrollo de la docencia.",
+		"objetivo": "Sistematizar y disponibilizar información asociada a los recursos bibliográficos que den soporte a la docencia universitaria.",
+		"responsable": "DAC-BRA",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar colecciones asociadas a la bibliografía de los programas de asignatura.",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar suscripciones a distintas bases de datos para su acceso y disponibilización a la comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Administrar sistemas de información de biblioteca (Koha) para la sistematización de información y registro de transacciones.",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "13", "area": "DAC",
+		"titulo": "Servicios para atender requerimientos de acceso a recursos bibliográficos.",
+		"objetivo": "Desarrollar actividades de atención y capacitación a usuarios para acceder a los recursos bibliográficos que la institución ofrece.",
+		"responsable": "DAC-BRA",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar y hacer seguimiento de préstamos/devoluciones de recursos bibliográficos y tecnológicos.",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Capacitar a usuarios sobre recursos bibliográficos y tecnológicos disponibles.",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Realizar difusión a los usuarios que permitan orientar e informar el acceso a los recursos disponibles.",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "14", "area": "DAC",
+		"titulo": "Gestión de becas y beneficios estudiantiles.",
+		"objetivo": "Ofrecer soporte y realizar difusión a los estudiantes respecto al acceso a beneficios para apoyar su proceso formativo.",
+		"responsable": "DAC-DE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Gestionar los beneficios estudiantiles desde su postulación a su asignación.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Difundir sobre los diversos beneficios y procesos a los que pueden acceder los estudiantes.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "15", "area": "DAC",
+		"titulo": "Gestión y promoción de actividades extracurriculares para los estudiantes",
+		"objetivo": "Desarrollar actividades que complementen la actividad curricular de los estudiantes, apuntando a su desarrollo integral.",
+		"responsable": "DAC-DE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana",
+				"desc": "Implementar y promover actividades extra programáticas en el ámbito del deporte, la recreación, el arte y la cultura.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Propiciar y promover estilos de vida saludable, el autocuidado y el uso del tiempo libre en la comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Promover la asociatividad y fortalecimiento del liderazgo estudiantil contribuyendo al desarrollo de iniciativas, proyectos y organizaciones estudiantiles.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "16", "area": "DAC",
+		"titulo": "Seguimiento de (ex-)estudiantes y/o potenciales estudiantes de programas de educación continua",
+		"objetivo": "Monitorear y realizar seguimiento de estudiantes, tanto egresados como potencial nueva matrícula, para implementar y retroalimentar la oferta de programas en la Institución.",
+		"responsable": "DAC-EPYEC",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana",
+				"desc": "Hacer seguimiento y acompañar a estudiantes que están realizando programas de educación continua.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionar el desarrollo de encuestas de satisfacción respecto a programas de educación continua.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Hacer seguimiento de (futuros) egresados de programas de pregrado para evaluar posible continuidad en programas de educación continua.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},				
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Hacer seguimiento de (futuros) egresados de programas de educación continua para evaluar continuidad en nueva oferta.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},				
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "17", "area": "DAC",
+		"titulo": "Evaluación y mejoramiento de la calidad docente",
+		"objetivo": "Revisar mejorar los mecanismos a través de los cuales se evalua la actividad docente, fomentando un uso sistemático e integral de la información.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generado un modelo de evaluación docente, en coherencia al Modelo Educativo, que le de un alcance apropiado a las dimensiones que son necesarias de evaluar.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y normalizados los principales procesos asociados a la evaluación docente en función al modelo diseñado.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y formalizado un reglamento de evaluación docente acorde a mecanismos establecidos.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Implementadas mejoras a los mecanismos tecnológicos de evaluación docente para hacer eficiente el proceso.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Piloteados y evaluados los mecanismos de evaluación docente revisados.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada estrategia para el perfeccionamiento docente.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "18", "area": "DAC",
+		"titulo": "Avance hacia la mejora en la organización interna de los Departamentos",
+		"objetivo": "Realizar las actividades conducentes a la instalación de mecanismos que regulen el funcionamiento interno de los departamentos, en coherencia y sinergia a los mecanismos institucionales de desarrollo académico (URY 20991).",
+		"responsable": "DAC-DA",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Levantados los requerimientos para la elaboración de directrices que permitan normar el funcionamiento interno de los departamentos.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generado un borrador inicial de reglamento de organización de departamentos que sea coherente con mecanismos de desarrollo académico.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "19", "area": "DAC",
+		"titulo": "Mejora en la comunicación interna con actores clave de los programas formativos",
+		"objetivo": "Levantar y pilotear mecanismos de difusión de los distintos instrumentos y directrices que regulan el funcionamiento de los programas formativos para mejorar su conocimiento y comprensión.",
+		"responsable": "DAC-SA",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñar mecanismos de comunicación interna que favorezcan la difusión de los instrumentos y directrices escenciales para el desarrollo de la docencia en la institución.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "coordinacion-acompanamiento-academico" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los mecanismos de comunicación interna para la difusión de instrumentos y directrices.",
+				"actores": [					
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "coordinacion-acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "20", "area": "DAC",
+		"titulo": "Preparación a la vida laboral para primeros/as egresados/as UAysén.",
+		"objetivo": "Desplegar mecanismos que permitan preparar y dar soporte integral al mundo laboral al que se enfrentarán los/as primeros/as egresados/as de la Institución.",
+		"responsable": "DAC-SA",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñado y aplicado estudio sobre campo laboral de carreras que entrarán en régimen para orientar estrategias de acompañamiento.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y desarrolladas actividades de difusión de programas formativos que entran en régimen con potenciales empleadores.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y desarrolladas actividades de difusión de oportunidades laborales con estudiantes UAysén que se titularán.",
+				"actores": [					
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantada estrategia para la instalación de nuevas capacidades que permitan dar soporte al área de titulados y egresados de la DAC.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},				
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos para promover la titulación oportuna.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},				
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Piloteados los mecanismos para promover la titulación oportuna.",
+				"actores": [		
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "21", "area": "DAC",
+		"titulo": "Despliegue de mecanismos de monitoreo y retroalimentación sobre el logro del perfil de egreso.",
+		"objetivo": "Sistematizar procesos e información vinculada al seguimiento del logro del perfil de egreso, que permita ajustar oportunamente las estrategias asociadas al proceso formativo.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado un modelo operativo que identifique la información y los procesos clave asociados al monitoreo de cumplimiento del perfil de egreso y la toma de decisiones desde dichos mecanismos.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y normalizados procesos claves asociados al monitoreo de cumplimiento del perfil de egreso.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Revisados y levantados los requerimientos mecanismos tecnológicos para el monitoreo de cumplimiento del perfil de egreso y su integración al SGA.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},			
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "22", "area": "DAC",
+		"titulo": "Despliegue de área de trabajo para la formación transversal.",
+		"objetivo": "Levantar una estrategia y los mecanismos iniciales que permitan potenciar la formación transversal en coherencia al modelo educativo.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado y socializado un diagnóstico institucional respecto a las iniciativas que se han desarrollado en materia de formación continua, para generar una línea base del área.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñar, validar y pilotear acciones formativas de carácter institucional que permitan profundizar en la formación transversal.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y piloteadas acciones de formación docente conducentes a incorporar prácticas asociadas a la formación transversal.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantada estrategia para la instalación de nuevas capacidades que permitan dar soporte al área de formación transversal.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]			
+	},
+	{
+		"id": "23", "area": "DAC",
+		"titulo": "Institucionalización de mecanismos de Vinculación con el Medio para la docencia universitaria.",
+		"objetivo": "Implementar y formalizar mecanismos que consoliden la vinculación con actores del medio y el impacto bidireccional de las actividades derivadas.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado y socializado un diagnóstico institucional respecto a las iniciativas que vinculen los procesos formativos con el medio de interés.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados mecanismos institucionales que permitan establecer convenios con instituciones del medio que favorezcan el aprendizaje de los estudiantes y futuras alianzas en el campo laboral.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima",
+				"desc": "Difundidos los mecanismos institucionales para establecer convenios con actores del medio.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados mecanismos institucionales y orientaciones asociadas a estrategias de vinculación con el medio en el proceso formativo (metodologías, profesional visitante, terreno, etc.).",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Piloteados y evaluados los mecanismos institucionales para la vinculación con el medio en el proceso formativo.",
+				"actores": [			
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "24", "area": "DAC",
+		"titulo": "Capacidades institucionales instaladas para valorizar la implementación de los programas de pregrado.",
+		"objetivo": "Aplicar, retroalimentar y mejorar mecanismos institucionales implementados en periodos anteriores para valorizar programas en el contexto de nueva oferta.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Aplicados mecanismos instalados de valorización de costos e inversión sobre oferta nueva (INF).",
+				"actores": [					
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Revisados y actualizados los mecanismos de valorización de costos e inversión para programas de pregrado.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "25", "area": "DAC",
+		"titulo": "Potenciar las instancias formales de participación del estamento estudiantil",
+		"objetivo": "Gestionar la implementación formal de mecanismos de participación del estamento estudiantil en la gobernanza institucional.",
+		"responsable": "DAC-DE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada metodología de implementación efectiva para la estructura de gobernanza del estamento estudiantil",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Conformada formalmente la Federación de Estudiantes de la UAysén",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Conformado formalmente el Comité de Desarrollo Estudiantil",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantados los lineamientos para la conformación de los CEE de los programas de pregrado",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Avanzada la conformación de los CEE de los programas de pregrado",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "26", "area": "DAC",
+		"titulo": "Despliegue de mecanismos regulatorios para prácticas profesionales",
+		"objetivo": "Diseñar, formalizar y pilotear los mecanismos institucionales para dar soporte a la realización de prácticas profesionales.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos reglamentarios en materia de prácticas profesionales.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Difundidos y desplegados los mecanismos para prácticas profesionales según los requerimientos de cada carrera.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y revisados los mecanismos para desarrollo de prácticas profesionales en las carreras.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "27", "area": "DAC",
+		"titulo": "Instalar una Escuela de Tutores Pares",
+		"objetivo": "Diseñar e implementar un sistema de formación integral a los tutores pares, entregándoles herramientas que aporten a su labor tutorial.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Generados los lineamientos y reglamentación asociada a la escuela y al proceso formativo de tutores pares.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Piloteados los mecanismos que permitan avanzar en el despliegue de la escuela.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Generado un diagnóstico de resultados e impacto de la implementación inicial de la escuela en los indicadores de progresión.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "28", "area": "DAC",
+		"titulo": "Mejora de procesos y recursos TIC de Biblioteca",
+		"objetivo": "Sistematizar procesos fundamentales de Biblioteca que permitan potenciar los servicios ofrecidos y complementarlos con TICs de soporte.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y normalizados los principales procesos asociados a servicios de biblioteca y acceso a sus recursos.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-BRA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que permitan mejorar los indicadores de cobertura bibliográfica.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-BRA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Identificadas y aplicadas mejoras a mecanismos tecnológicos que permitan el acceso de los usuarios y la sistematización de recursos bibliográficos.",
+				"actores": [					
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-BRA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "29", "area": "DAC",
+		"titulo": "Mejora de los procesos para la gestión de becas y beneficios estudiantiles",
+		"objetivo": "Sistematizar procesos y mecanismos relacionados con la gestión de becas y beneficios de los estudiantes.",
+		"responsable": "DAC-DE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Identificados y normalizados los principales procesos asociados a la gestión de becas y beneficios.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y formalizados los mecanismos reglamentarios necesarios para la gestión de becas y beneficios en la Institución.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desplegados y evaluados los mecanismos diseñados para la gestión de becas y beneficios.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}
+				]
+			}
+		]
+	},
+	{
+
+		"id": "30", "area": "DAC",
+		"titulo": "Modernización tecnológica en la gestión de becas y beneficios estudiantiles",
+		"objetivo": "Levantar requerimientos desde procesos e implementar módulos SGA para la gestión de becas y beneficios de los estudiantes.",
+		"responsable": "DAC-DE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantados los requerimientos de módulos del SGA para dar soporte a los procesos de becas y beneficios.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Informado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica",
+				"desc": "Implementados los módulos del SGA para dar soporte a los procesos de becas y beneficios.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},				
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Evaluados y desplegados los módulos en el SGA.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},				
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Informado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+
+		"id": "31", "area": "DAC",
+		"titulo": "Mejoramiento de procesos sobre atenciones psicosociales a los estudiantes",
+		"objetivo": "Sistematizar procesos e implementar módulos SGA para dar soporte a las atenciones psocisociales de los estudiantes.",
+		"responsable": "DAC-DE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Identificados y normalizados los principales procesos asociados a las atenciones psicosociales.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantados los requerimientos de módulos del SGA para dar soporte a las atenciones psicosociales.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Informado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H3", "tipo": "Hito", "cobertura": "Acotada", "naturaleza": "Técnica",
+				"desc": "Implementados los módulos del SGA para dar soporte a las atenciones psicosociales.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},				
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				]
+			},
+			{
+				"id": "H4", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Desplegados y evaluados los módulos en el SGA.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "plataforma" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Informado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "32", "area": "DAC",
+		"titulo": "Mejoramiento de procesos sobre participación estudiantil en actividades extracurriculares",
+		"objetivo": "Sistematizar procesos e implementar módulos SGA para dar soporte a la participación de estudiantes en actividades extracurriculares.",
+		"responsable": "DAC-DE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Identificados y normalizados los principales procesos asociados a la participación estudiantil en actividades extracurriculares.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}				
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantados los requerimientos de módulos del SGA para dar soporte a la participación estudiantil en actividades extracurriculares.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Informado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "naturaleza": "Técnica",
+				"desc": "Implementados los módulos del SGA para dar soporte a la participación estudiantil en actividades extracurriculares.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},				
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Evaluados y desplegados los módulos en el SGA.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "plataforma" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Informado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "33", "area": "DAC",
+		"titulo": "Despliegue de sistema de gestión integral para la progresión académica de los estudiantes",
+		"objetivo": "Implementar los primeros pasos de un modelo de gestión integral y los mecanismos que permitan hacer un seguimiento sistemático de la progresión académica, y desplegando desde ello procesos que favorezcan su nivelación y retención.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Levantado un catastro estructurado de iniciativas de acompañamiento y nivelación estudiantil realizadas por la Institución y que entreguen insumos al diseño del sistema.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}	
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado un perfil de ingreso (esperado) inicial del estudiante UAysén en coherencia al Modelo Educativo.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una propuesta de modelo conceptual que organice sistemáticamente los procesos, la información, los roles y responsabilidades asociadas la progresión académica y en coherencia al Modelo Educativo.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos institucionales, al alero del modelo conceptual y del perfil de ingreso esperado, para realizar un seguimiento sistemático y basado en datos de la progresión académica.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñada y evaluada una propuesta de mecanismo institucional que, al alero del modelo conceptual y del perfil de ingreso esperado, promueva la nivelación y retención de estudiantes (ej.: propedeutico).",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y evaluados mecanismos que, al alero del modelo conceptual y del perfil de ingreso esperado, permitan medir objetivamente el impacto de las iniciativas de acompañamiento y soporte a la progresión académica.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados, piloteados y evaluados mecanismos críticos que se hayan levantado como parte del sistema.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "34", "area": "DAC",
+		"titulo": "Despliegue de sistema de gestión integral de actividades y desarrollo académico",
+		"objetivo": "Implementar los primeros pasos de un modelo de gestión integral y los mecanismos asociados que permitan planificar, organizar, monitorear y evaluar sistemáticamente las actividades que realiza el cuerpo académico, con miras al desarrollo de su carrera.",
+		"responsable": "DAC-DA",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñado y validado un modelo de conceptualización y clasificación de actividades académicas, que permita medir el grado de contribución de las mismas a las funciones misionales (docencia, investigación y VCM).",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Revisados y actualizados los mecanismos normativos vigentes asociados a desarrollo académico (ej.: Reglamento General Académico) acorde a modelo diseñado.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02b", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollada y validada una proyección sistemática del cuerpo académico, basada en JCE y coordinada con el Plan de Fortalecimiento Institucional (URY 20991).",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Identificados y normalizados los procesos centrales asociados a la gestión de las actividades académicas y la captura de información para dar soporte al desarrollo académico.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},					
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que dan soporte a la operacionalización del modelo diseñado",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados, piloteados y evaluados mecanismos críticos del sistema desarrollado.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "35", "area": "DAC",
+		"titulo": "Avance en el diseño de la oferta fundacional de postgrado.",
+		"objetivo": "Generar las condiciones normativas para el diseño de los primeros programas de postgrado en coherencia a los lineamientos institucionales y al Modelo Educativo.",
+		"responsable": "DAC-EPYEC",
+		"tipo": "Desarrollo",
+		"tacticas": [			
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñada y validada la normativa de postgrado y sobre la participación de sus actores claves (académicos, estudiantes, etc.).",
+				"actores": [					
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},			
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Priorizada la oferta piloto para su diseño en postgrado.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]	
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},										
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Levantado un diseño preliminar de programa de postgrado priorizado como piloto de los mecanismos diseñados.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "36", "area": "DAC",
+		"titulo": "Implementación de la oferta fundacional de educación continua bajo lineamientos institucionalizados.",
+		"objetivo": "Generar las condiciones normativas para la implementación de programas de educación continua con pertinencia a los lineamientos institucionales y al Modelo Educativo.",
+		"responsable": "DAC-EPYEC",
+		"tipo": "Desarrollo",
+		"tacticas": [					
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñada y validada la normativa de educación continua y sobre la participación de sus actores claves (académicos, estudiantes, etc.).",
+				"actores": [					
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Priorizada la oferta piloto para su implementación en educación continua.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]	
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},										
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados programas piloto de educación continua bajo lineamientos institucionales diseñados.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{				
+
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Avanzada la implementación de programas piloto de educación continua bajo lineamientos institucionales diseñados.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "37", "area": "DAC",
+		"titulo": "Sistematización de procesos críticos para el despliegue del postgrado y educación continua en la Institución.",
+		"objetivo": "Levantar procesos, mecanismos normativos transversales y tecnológicos para dar soporte al despliegue de los programas fundacionales de postgrado y educación continua.",
+		"responsable": "DAC-EPYEC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Identificados y normalizados los procesos críticos para la implementación de programas de postgrado y educación continua.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "postgrado", "educacion-continua" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},					
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada la normativa para la implementación de programas de postgrado y educación continua en coherencia al Modelo Educativo.",
+				"actores": [					
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "educacion-continua" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},									
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantados requerimientos de modernización tecnológica para dar soporte a la implementación de programas de postgrado y educación continua.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},				
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "educacion-continua" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},									
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Ajustadas las herramientas tecnológicas existentes para dar soporte a requerimientos críticos en la implementación de postgrado y educación continua.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "educacion-continua" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},	
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},								
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "38", "area": "DAC",
+		"titulo": "Despliegue de mecanismos de coordinación interna y externa para postgrado y educación continua.",
+		"objetivo": "Desarrollar gestiones para coordinar mediante mecanismos institucionalizados el área de postgrado y educacción continua con actores internos y externos, para su retroalimentación y desarrollo integrado.",
+		"responsable": "DAC-EPYEC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantada una propuesta de instancia de coordinación en la estructura organizacional, acorde a lineamientos institucionales, que permita instalar canales de comunicación permanentes para el desarrollo del postgrado y la educación continua.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "postgrado", "educacion-continua" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},	
+					{
+						"cai": "DPAC", "rol": "Consultado",
+						"capacidades": [ "direccion" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionados convenios iniciales con instituciones externas para el soporte y vinculación que requiere el área de postgrado y educación continua.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "postgrado", "educacion-continua" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},				
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Desarrolladas actividades en conjunto con instituciones externas al alero de convenios formalizados para potenciar el postgrado y la educación continua.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "postgrado", "educacion-continua" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},			
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Incorporada el área de postgrado y educación continua a las redes universitarias tradicionales (CUECH, CRUCH y AUR) en base a la participación en reuniones y actividades iniciales.",
+				"actores": [
+					{
+						"cai": "DAC-EPYEC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "postgrado", "educacion-continua" ]
+					},			
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "39", "area": "DAC",
+		"titulo": "Avance en nueva oferta de pregrado para la institución",
+		"objetivo": "Realizar las gestiones necesarias para avanzar en la oferta de pregrado actualmente diseñada e identificar potencial oferta de pregrado para su implementación en los próximos periodos.",
+		"responsable": "DAC-EPRE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñada una metodología institucional para levantar antecedentes que permitan decidir sobre el diseño e implementación de nueva oferta de pregrado.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},								
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Actualizado el diseño de la oferta de pregrado elaborado en los periodos anteriores, acorde a la situación actual del medio y de la Institución.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Aplicada una valorización y costeo preliminar de la oferta de pregrado diseñada en los periodos anteriores por medio de mecanismos institucionales.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},			
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Tomada la decisión sobre la implementación de la oferta de pregrado diseñada en los periodos anteriores.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},									
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y aplicado un estudio de demanda e intereses sobre nueva oferta de pregrado para el contexto regional y nacional.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Levantados y sistematizados antecedentes que permitan tomar decisiones sobre nueva oferta de pregrado a diseñar.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mínima",
+				"desc": "Tomada la decisión sobre el diseño de nueva oferta de pregrado para periodos sucesivos.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},									
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "40", "area": "DAC",
+		"titulo": "Institucionalizar la articulación de la docencia con la investigación",
+		"objetivo": "Diseñar y formalizar mecanismos que den cuenta de una articulación sistemática entre la docencia en todos sus niveles con la investigación y en coherencia al Modelo Educativo.",
+		"responsable": "DAC-SA",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un catastro de iniciativas realizadas en la Institución y que promuevan la articulación entre la docencia y la investigación y que permitan guiar el diseño de mecanismos institucionales.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Formalizados mecanismos normativos que regulan las instancias de coordinación existentes entre la docencia y la investigación (ej.: Comité de docencia e investigación).",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos operativos para promover la articulación entre la docencia y la investigación.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Piloteados y evaluados los mecanismos operativos diseñados para promover la articulación entre la docencia y la investigación.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "41", "area": "DAC",
+		"titulo": "Institucionalización de la movilidad estudiantil",
+		"objetivo": "Desarrollar mecanismos y actividades que permitan institucionalizar y dar proyección a la movilidad estudiantil en la institución.",
+		"responsable": "DAC-SA",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un catastro de iniciativas realizadas en la Institución en materia de movilidad estudiantil.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Sistematizadas experiencias y oportunidades asociadas a movilidad estudiantil desde redes universitarias tradicionales.",
+				"actores": [					
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},			
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos emergentes para desarrollar actividades de movilidad estudiantil.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionados convenios con otras instituciones de educación superior (nacional e internacional) para desarrollar sistemáticamente acciones de movilidad estudiantil.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los mecanismos para el desarrollo de actividades de movilidad estudiantil emergentes.",
+				"actores": [
+					{
+						"cai": "DAC-SA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	}
+]

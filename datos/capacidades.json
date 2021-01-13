@@ -1,0 +1,11 @@
+[
+	{ "id": "estrategica", "nombre": "Estratégica", "ambito": "Gestión" },
+	{ "id": "tactica", "nombre": "Táctica", "ambito": "Gestión" },
+	{ "id": "tactica-estrategica", "nombre": "Táctica Estratégica", "ambito": "Gestión" },
+	{ "id": "operativa", "nombre": "Operativa", "ambito": "Gestión" },
+	{ "id": "docencia", "nombre": "Docencia", "ambito": "Académico" },
+	{ "id": "investigacion", "nombre": "Investigación", "ambito": "Académico" },
+	{ "id": "vinculacion", "nombre": "Vinculación con el Medio", "ambito": "Académico" },
+	{ "id": "gestion", "nombre": "Gestión Académica", "ambito": "Académico" },
+	{ "id": "soporte", "nombre": "Soporte a la Gestión Académica", "ambito": "Académico" }
+]

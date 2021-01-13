@@ -1,0 +1,3254 @@
+[
+	{
+		"id": "01", "area": "DAF",
+		"titulo": "Coordinación de procesos de contratación anual.",
+		"objetivo": "Gestionar todas las acciones conducentes a completar de forma eficiente los procesos de contratación del personal, en sus distintas calidades y requerimientos específicos, y acorde al marco legal vigente.",
+		"responsable": "DAF-DP",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado un Plan de Contrataciones anual en función a planificación institucional 2021.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Apoyar la generación y/o provisión de cargos y/o contrataciones del personal de colaboración en la Institución.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-estrategicos", "tacticos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Liderar y articular las gestiones para la generación y/o provisión de cargos y/o contrataciones de académicos y académicas en la Institución.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},									
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-estrategicos", "tacticos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Gestionar las contrataciones del personal en calidad de honorarios con orientación a productos en la Institución.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},										
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "tacticos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "02", "area": "DAF",
+		"titulo": "Coordinación de pagos y remuneraciones del personal universitario.",
+		"objetivo": "Implementar de forma oportuna los procedimientos conducentes a proveer la remuneración del personal en sus distintas calidades y según el marco normativo vigente.",
+		"responsable": "DAF-DP",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Efectuar los trámites para proveer las remuneraciones al personal permanente de la Institución.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Efectuar los trámites para realizar el pago de servicios por productos prestados por el personal a honorarios.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "03", "area": "DAF",
+		"titulo": "Calificación del personal de colaboración de la Universidad.",
+		"objetivo": "Implementar y evaluar durante el periodo el proceso de calificación del personal, levantando información sobre el proceso y recomendaciones de mejora en su desarrollo para los próximos periodos.",
+		"responsable": "DAF-DP",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Realizada la difusión del proceso de calificación con las distintas instancias involucradas.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Conformada y organizada la Junta Calificadora para el proceso.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Ejecutada la etapa de precalificación del proceso.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Ejecutada la etapa de calificación del proceso.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Ejecutada la etapa de apelación y reclamos del proceso.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Realizada una evaluación del proceso que permita levantar estrategias de mejora y ajuste.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "04", "area": "DAF",
+		"titulo": "Seguimiento de actividades y permisos del personal universitario.",
+		"objetivo": "Desarrollar actividades periódicas de soporte al personal de la institución en materia de la gestión de sus tiempos contractuales y de los permisos que solicitan en ese contexto.",
+		"responsable": "DAF-DP",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar y tramitar cometidos del personal de la Universidad que dan derecho a viático.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Controlar la asistencia del personal universitario, monitoreando y gestionando los distintos tipos de permiso (feriado, con y sin goce de remuneraciones, horas compensatorias y licencias médicas).",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "05", "area": "DAF",
+		"titulo": "Gestión del Plan de Compras de la Institución.",
+		"objetivo": "Desarrollar todas las actividades conducentes a implementar eficientemente el Plan de Compras del periodo vigente, respondiendo a la normativa de compras públicas, y desde aquello elaborar directrices para la construcción oportuna del Plan del periodo siguiente.",
+		"responsable": "DAF-ADQ",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Efectuada la planificación específica del Plan de Compras 2021, que permita articular y calendarizar compras estandarizadas y de manera eficiente.",
+				"actores": [					
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantada la información específica para la construcción del Plan de Compras 2022, desde los insumos de la Planificación Institucional 2022 y Prespuesto Institucional 2022, y acorde a la normativa vigente.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Cerrado y formalizado el diseño del Plan de Compras 2022.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar y efectuar compras a través de convenio marco y/o compra ágil.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar y efectuar compras a través de trato directo.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}					
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Dar soporte y gestionar el desarrollo de licitaciones públicas de baja envergadura.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}						
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Dar soporte y gestionar el desarrollo de licitaciones públicas de alta envergadura.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}	
+				]
+			},
+			{
+				"id": "F05", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Apoyar y orientar la busqueda de opciones de compra según normativa a las unidades requirentes y de forma articulada con proveedores.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "06", "area": "DAF",
+		"titulo": "Soporte administrativo al desarrollo de compras en la institución.",
+		"objetivo": "Implementar actos administrativos que permitan formalizar la ejecución de compras, sus pagos y dar respuesta con ello a las exigencias normativas vigentes.",
+		"responsable": "DAF-ADQ",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Confeccionar y tramitar actos administrativos asociados a gestión de compras de la Institución.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}					
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Elaborar y confeccionar set de pagos a proveedores por la adquisición de bienes y servicios, procurando resguardar el pago oportuno.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Administrar los seguros que corresponda e incorporar nuevos recursos físicos y materiales de la institución.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "07", "area": "DAF",
+		"titulo": "Gestión y control del inventario institucional.",
+		"objetivo": "Realizar actividades de soporte a los actores de la institución en materia de monitoreo, sistematización, logística y abastecimiento respecto a sus bienes muebles y al inventario respectivo.",
+		"responsable": "DAF-ADQ",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Efectuada la actualización del inventario de bienes muebles sobre el stock existente en las dependencias de la Univerisdad.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Desarrollar actividades administrativas de registro de altas, bajas, donaciones y traslados de bienes muebles.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Monitoreo y generación de propuestas para dar de baja materiales que se encuentran en desuso, obsoletos o un mal estado desde stock-bodega.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar el registro y actualización permanente del sistema de inventario Activo Fijo a través de las herramientas institucionales (FIN 700 SONDA).",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar y notificar a los distintos actores de la Universidad los materiales recepcionados, controlando su entrega y recepción conforme.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "08", "area": "DAF",
+		"titulo": "Control y monitoreo de movimientos contables.",
+		"objetivo": "Desarrollar actividades periodicas de naturaleza contable, permitiendo asegurar una realización y seguimiento apropiados de movimientos desde las actividades institucionales.",
+		"responsable": "DAF-FIN",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Realizar contabilidad de egresos e ingresos según estándares técnicos y normativos institucionales.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Coordinar y controlar los procesos de cierre contable mensual.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Revisar periódicamente fondos por rendir y fondos fijos.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Elaborar decretos de respaldo de información financiera para registro y control.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F05", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar soporte administrativo y técnico variado a gestión contable (ej: impuestos, conciliaciones).",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F06", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Rendir cuentas por fondos asignados correspondientes a gastos operacionales y de inversión.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "09", "area": "DAF",
+		"titulo": "Gestión de información financiero-contable y presuestaria.",
+		"objetivo": "Registrar y provisionar información asociada a la gestión contable y administrativa de la Universidad tanto con internos como con externos.",
+		"responsable": "DAF-FIN",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Registrar de forma oportuna egresos e ingresos en el sistema financiero-contable.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Emitir informes financiero-contables hacia entidades fiscalizadoras (FECU, SES, Contraloria, CNA etc.).",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},			
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Emitir informes financiero-contables periódicos para actores internos.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Emitir informes financiero-contables hacia Redes externas (CUECH, CRUCH, AUR).",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F05", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Revisar periódicamente validez de imputación de gastos e ingresos a su Cuenta Contable y Centro de Responsabilidad.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F06", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Analizar, mantener y controlar información de cuentas de gasto e ingreso.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Emitido informe sobre gestión financiera de 1er semestre para Ministerio de Educación y Hacienda.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Emitido informe sobre gestión financiera de 2do semestre para Ministerio de Educación y Hacienda.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "10", "area": "DAF",
+		"titulo": "Gestión y control financiero de asuntos estudiantiles.",
+		"objetivo": "Desarrollar actividades técnicas y administrativas de aspectos financieros asociadas a los estudiantes de la Universidad.",
+		"responsable": "DAF-FIN",
+		"tipo": "Misional",
+		"tacticas": [			
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Contabilizar transacciones ingresadas en caja única por asuntos estudiantiles.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-admision-matricula", "admision-matricula" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Administrar la normalización de acuerdos incumplidos en cuanto a cobranzas de estudiantes.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad", "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar técnica y administrativamente los distintos beneficios de los estudiantes.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "tesoreria" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}				
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar aspectos administrativos del funcionamiento del CAE.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad", "tesoreria" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "11", "area": "DAF",
+		"titulo": "Soporte financiero y administrativo a proyectos con financiamiento interno y externo.",
+		"objetivo": "Gestionar administrativa y soporte a los diversos proyectos de la institución (investigación, fortalecimiento, etc.) que permitan su correcto seguimiento y operación.",
+		"responsable": "DAF-FIN",
+		"tipo": "Misional",
+		"tacticas": [			
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Conciliar la información contable y los datos contenidos en las rendiciones de los diversos proyectos.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "finanzas", "tesoreria" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Dar respuesta a los requerimientos efectuados para la correcta apertura, gestión y cierre de proyectos.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Proveer periódicamente documentación que respalda los gastos e ingresos asociados a los proyectos para su correcta rendición y posterior solicitud de nueva remesa",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad", "tesoreria" ]
+					},					
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Elaborar y validar periodicamente rendiciones de proyectos institucionales para su presentación a Mineduc",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					}				
+				]
+			}
+		]
+	},
+	{
+		"id": "12", "area": "DAF",
+		"titulo": "Servicios generales para académicos y funcionarios de la Institución.",
+		"objetivo": "Realizar diversos servicios que permitan la operación básica y diaria de los equipos en términos logísticos.",
+		"responsable": "DAF-INSG",
+		"tipo": "Misional",
+		"tacticas": [			
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar traslados de equipamiento y otros bienes de uso de los funcionarios en sedes universitarias.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar tramites fuera de la institución en soporte a las actividades administrativas del personal.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Dar soporte logístico al desarrollo de actividades en la institución.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "13", "area": "DAF",
+		"titulo": "Mantención y supervisión de condiciones de las instalaciones Universitarias.",
+		"objetivo": "Gestionar e implementar mantenciones de diverso tipo sobre las condiciones de las instalaciones de la Universidad, que permitan su desarrollo en condiciones operativas apropiadas.",
+		"responsable": "DAF-INSG",
+		"tipo": "Misional",
+		"tacticas": [			
+			{
+				"id": "F01", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar mantenciones menores a las instalaciones (canaletas, pintura, reparaciones menores, etc.)",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "infraestructura", "riesgos" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar mantenciones mayores a las instalaciones (sistema de calefacción, eléctrico, etc.)",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "infraestructura", "riesgos" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Inspeccionar y asegurar las condiciones sanitarias ambientales básicas en las instalaciones (Decreto supremo 594)",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "infraestructura" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Cursar estados de pago para diseño, construcción y mantención",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizada la mantención y reparación de Campus Rio Simpson para su entrega",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizada la mantención y reparación del Centro del Visitante Cerro Castillo",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "14", "area": "DAF",
+		"titulo": "Sistematización de procesos críticos para la gestión de personas.",
+		"objetivo": "Diseñar los procesos críticos asociados a la gestión de personas en la institución, bajo las metodologías institucionales, que den contexto a las diversas iniciativas de mejora en el tema.",
+		"responsable": "DAF-DP",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado el macroproceso sobre gestión de personas con sus elementos prioritarios.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Normalizados los procesos prioritarios asociados a aspectos administrativos de la gestión de personas.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas", "contabilidad" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Normalizados los procesos prioritarios asociados a la evaluación y capacitación de personas.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Normalizados los procesos prioritarios a la incorporación, promoción y desvinculacion de personas.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada propuesta de diseño de mecanismos críticos en apoyo a procesos consolidados en gestión de personas.",
+				"actores": [					
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "15", "area": "DAF",
+		"titulo": "Modernización de procesos administrativos de gestión de personas.",
+		"objetivo": "Implementar herramientas tecnológicas y otros servicios de apoyo al desarrollo de la gestión de personas, para agilizar y hacer eficiente su funcionamiento.",
+		"responsable": "DAF-DP",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Identificados y sistematizados los requerimientos para dar soporte tecnológico a los procesos administrativos de gestión de persona.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluadas integraciones técnicas entre sistemas (ej.: SIAPER) que apoyen la gestión de información asociada a procesos de gestión de personas.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementadas y evaluadas las mejoras técnológicas que apoyen los procesos de gestión de personas.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "16", "area": "DAF",
+		"titulo": "Sistematización inicial de perfiles de cargo.",
+		"objetivo": "Implementar un proceso de levantamiento de línea base de perfiles de cargo, que permita su mantención periódica en los siguientes periodos.",
+		"responsable": "DAF-DP",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Propuesta, planificada y comunicada la metodología de levantamiento de perfiles para su despliegue apropiado.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Aplicada la metodología con actores institucionales.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Sistematizados y entregados los resultados del la aplicación metodológica.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñadas y validadas las estrategias de uso y actualización periódica de los perfiles levantados.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "17", "area": "DAF",
+		"titulo": "Despliegue de mecanismos para el perfeccionamiento del personal universitario.",
+		"objetivo": "Implementar mecanismos, desde las definciones de procesos debidamente sistematizados, que permitan identificar necesidades de capacitación y perfeccionamiento del personal de colaboración universitario.",
+		"responsable": "DAF-DP",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñar y validar criterios estratégicos y metodológicos para levantar y priorizar necesidades de perfeccionamiento del personal.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos"  ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñar y validar un reglamento de perfeccionamiento del personal acorde a los criterios establecidos.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un plan de pilotaje de perfeccionamiento de personal priorizado según criterios y reglamentos establecidos.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementado y evaluado el plan de perfeccionamiento de forma inicial.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Diseñada y aplicada un plan general de capacitación del personal de colaboración en competencias digitales.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "18", "area": "DAF",
+		"titulo": "Rediseño de la estructura salarial de la Universidad.",
+		"objetivo": "Evaluar, ajustar y desplegar un nuevo diseño para la estructura salarial de la institución, tanto en lo que respecta al personal de colaboración como al personal académico, considerando la modifiación de la escala de grados y las asignaciones institucionales.",
+		"responsable": "DAF-DP",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y aplicado un estudio interno de caracterización del personal universitario, que permita tener datos para medir el impacto de ajustes a la estructura salarial.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una nueva estructura de grados para el personal de colaboración, en base a criterios de experiencia, formacion y sostenibilidad económica de la institución.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]	
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una nueva estructura de grados para el personal académico, en base a criterios de experiencia, formación, desarrollo académico y sostenibilidad económica de la institución.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]	
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una nueva estructura de asignaciones para el personal universitario, en base a criterios de necesidades del personal, desarrollo académico y sostenibilidad económica de la institución.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]	
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado una plan de implementación gradual para los nuevos diseños para los próximos periodos, que contemplen el ajuste remuneracional y un ajuste al diseño inicial de la planta institucional.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]	
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "19", "area": "DAF",
+		"titulo": "Despliegue de capacidades para el desarrollo de Bienestar.",
+		"objetivo": "Instalar las capacidades institucionales para el desarrollo de bienestar en la institución.",
+		"responsable": "DAF-DP",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñado y aplicado un estudio de evaluación de clima laboral y necesidades de bienestar del estamento funcionario de la Institución.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Analizadas y definidas las capacidades (equipo, mecanismos, recursos) necesarias para iniciar y proyectar el funcionamiento de un área de Bienestar en la institución.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y aprobado un reglamento de servicio de Bienestar que contextualice la oferta de servicios, beneficios y convenios asociados.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Definidos los diversos servicios, beneficios y convenios conductores que serán articulados a través de Bienestar para su implementación progresiva.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos"]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Implementados los diversos principales servicios, beneficios y convenios conductores que serviran para la implementación inicial de Bienestar.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "20", "area": "DAF",
+		"titulo": "Mecanismos de adquisiciones para avanzar en implementación de procesos.",
+		"objetivo": "Implementar diversos mecanismos para el área de adquisiciones, al alero de procesos establecidos institucionalmente, que permitan su apropiada operacionalización.",
+		"responsable": "DAF-ADQ",
+		"tipo": "Desarrollo",
+		"tacticas": [			
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Actualizado el manual de adquisiciones institucional según actualizaciones de la ley de compras públicas.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y aprobado un proceso para el registro, control y seguimiento de contratos suscritos, según ley 19.886.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Gestionadas capacitaciones en materia de comercio exterior para adquisiciones institucionales.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos para la gestión de adquisiciones en el contexto internacional.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Generadas e institucionalizadas redes de apoyo en materia de adquisiciones (Aduana, SII, etc.).",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados medios de transferencia y difusión de los mecanismos de compras con orientación al usuario (estamentos).",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Aplicados los medios de transferencia y difusión de mecanismos de compras junto a los diversos equipos de la institución.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los diversos mecanismos de adquisiciones de forma integrada.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "21", "area": "DAF",
+		"titulo": "Mecanismos de inventario para avanzar en implementación de procesos.",
+		"objetivo": "Implementar diversos mecanismos para el área de inventario, al alero de procesos establecidos institucionalmente, que permitan su apropiada operacionalización.",
+		"responsable": "DAF-ADQ",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una metodología para el control de existencias para la institución.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado un manual de inventario para la institución.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},			
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñados medios de transferencia y difusión de los mecanismos de inventario con orientación al usuario (estamentos).",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Aplicados los medios de transferencia y difusión de mecanismos de inventario con los diversos equipos de la institución.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los diversos mecanimos de inventario de forma integrada.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "inventario" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "22", "area": "DAF",
+		"titulo": "Modernización de solicitudes de compras",
+		"objetivo": "Pilotear un sistema de información, al alero de procesos institucionales normalizados, que permitan mejorar su eficiencia y dar soporte a su gestión de información.",
+		"responsable": "DAF-ADQ",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluados y validados mecanismos tecnológicos para apoyar las solicitudes de compras y su seguimiento.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas", "contabilidad" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta", "prioridad": "Alta",
+				"desc": "Implementados los mecanismos tecnológicos evaluados para dar soporte a las solicitudes de compras y su seguimiento.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los mecanismos tecnológicos desplegados.",
+				"actores": [
+					{
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "23", "area": "DAF",
+		"titulo": "Instalación de un sistema financiero y presupuestario UAysén",
+		"objetivo": "Instalar un sistema de gestión para las finanzas y el presupuesto institucional, con sello UAysén, que en sintonía con la planificación y la coordinación institucional articule el uso de capacidades con recursos financieros, de forma proyectada en el tiempo y bajo criterios de aseguramiento de la calidad.",
+		"responsable": "DAF-FIN",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado un modelo conceptual, en coherencia a la política de finanzas y al lenguaje estratégico, que entregue el marco de trabajo para la definición formal de mecanismos, procesos, gestión de información y otros elementos clave del sistema.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Formulados y validados criterios institucionales para distribuir y redistribuir recursos del presupuesto institucional según temáticas misionales de la institución.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y formalizados los mecanismos institucionales para el levantamiento, mantención y ajuste de centros de responsabilidad, que se articulen directamente con los procesos de diseño y control de gestión de la planificación institucional.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñada y validada una metodología institucional para formular, evaluar y actualizar la proyección presupuestaria y plan de inversión institucional de largo plazo, basado en criterios de misión universitaria, Sello UAysén, planificación estratégica, análisis de escenarios y aseguramiento de la calidad.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y normalizados los procesos centrales asociados a la gestión de finanzas y presupuesto, en articulación con los procesos contables.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},					
+					{
+						"cai": "DAC-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas", "contabilidad" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que dan soporte a la operacionalización del modelo diseñado",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñados mencanismos institucionales de difusión y promoción de cultura financiera.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados, piloteados y evaluados mecanismos críticos del sistema desarrollado.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "contabilidad", "tesoreria" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "24", "area": "DAF",
+		"titulo": "Modernización para el seguimiento financiero de los estudiantes",
+		"objetivo": "Implementar mecanismos tecnológicos para hacer un seguimiento eficiente de la situación financiera de los estudiantes en el marco de procesos formativos.",
+		"responsable": "DAF-FIN",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y sistematizados requerimientos tecnológicos para el seguimiento de la situación financiera de los estudiantes.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "finanzas", "contabilidad" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Implementados y evaluados módulos en el SGA que respondan a los requerimientos levantados.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "finanzas", "contabilidad" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "25", "area": "DAF",
+		"titulo": "Instalación de estrategia para la sostenibilidad institucional por medio de ingreso de recursos",
+		"objetivo": "Desarrollar una hoja de ruta y mecanismos emergentes para establecer medios de generación de recursos que aporten a la sostenibilidad de la institución en función a su realidad.",
+		"responsable": "DAF-FIN",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un catastro estructurado de iniciativas de generación de recursos para la institución que entreguen insumos al diseño de la estrategia.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "educacion-continua" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados criterios y orientaciones institucionales para el desarrollo de acciones que aporten a la sostenibilidad institucional por medio de ingreso de recursos.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "coordinacion-postgrado", "educacion-continua", "postgrado" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Actualizada la planificación financiera al 2025 bajo nuevas condiciones reglamentarias y bajo los criterios definidos en la estrategia.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisada, mejorada y actualizada normativa para uso de recursos por overhead de proyectos asociados a la institución.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Diseñados y validados mecanismos metodológicos e instrumentales para promover y desarrollar intraemprendimientos en la Universidad.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},					
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "coordinacion-postgrado", "educacion-continua", "postgrado" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validado plan de pilotaje de la estrategia para su puesta en práctica en la institución.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "coordinacion-postgrado", "educacion-continua", "postgrado" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "26", "area": "DAF",
+		"titulo": "Construcción del Edificio Aulario de la Universidad - Primera Etapa Campus Río Simpson",
+		"objetivo": "Ejercer el rol institucional de gestión del proyecto, realizando seguimiento permanente de su avance para asegurar el exito en los plazos establecidos.",
+		"tipo": "Desarrollo",
+		"responsable": "DAF-INSG",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Detectar y resolver emergentes que permitan asegurar el avance del proyecto en los tiempos planificados.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Coordinar periódicamente con empresas contrapartes para monitorear y evaluar avance del proyecto.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizar trámites administrativos que den soporte al apropiado avance y desarrollo de la construcción.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Funcion", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionar la toma de decisiones emergentes relacionadas a los espacios de docencia que permitan avanzar de forma apropiada con la construcción.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-BRA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y aprobado plan de identificación y manejo de riesgos en el desarrollo de la construcción del Aulario.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Realizada difusión de avance del 1er semestre a comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Realizada difusión de avance del 2do semestre a comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "27", "area": "DAF",
+		"titulo": "Diseño del Proyecto Infraestructura Fundacional UAysén - Segunda Etapa Campus Río Simpson",
+		"objetivo": "Ejercer el rol institucional de gestión del proyecto, coordinando el avance del cronograma definido en las bases adjudicadas.",
+		"tipo": "Desarrollo",
+		"responsable": "DAF-INSG",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizar trámites administrativos que den soporte al apropiado avance y desarrollo de la construcción.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Funcion", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Completada la Etapa 1 - Ajuste metodológico.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Completada la Etapa 2 - Anteproyecto para aprobar IFC y realización de estudio de mecánica de suelos.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Completada la Etapa 3a - Avance proyecto de arquitectura y especialidades.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Completada la Etapa 3b - Avance proyecto de arquitectura y especialidades, e ingreso DIA.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Completada la Etapa 3c - Avance proyecto de arquitectura y especialidades, subsanación adendas DIA e ingreso proyectos sectoriales.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollada Participación Ciudadana 1.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollada Participación Ciudadana 2.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Funcion", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollada Participación Ciudadana 3.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "28", "area": "DAF",
+		"titulo": "Sistema para la gestión y priorización de requerimientos del Plan Maestro Institucional",
+		"objetivo": "Instalar un sistema de gestión para proyectar y valorizar el Plan Maestro, con sello UAysén, que en sintonía con la planificación y la coordinación institucional coordine las necesidades de infraestructura, las priorice de forma flexible y entregue insumos para generar un Plan de Inversión coherente.",
+		"responsable": "DAF-INSG",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado un modelo conceptual, en coherencia a la política de recursos físicos y materiales, que entregue el marco de trabajo para gestionar, priorizar y valorizar requerimientos de infraestructura que se proyecten en el tiempo, bajo criterios de aseguramiento de calidad y orientación académica.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y formalizados criterios institucionales para la priorización de requerimientos de infraestructura basados en aspectos de la misión institucional y la planificación estratégica.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador", "participacion": "Puntual",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAC-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},			
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y normalizados los procesos centrales asociados a la gestión de requerimientos de infraestructura para el Plan Maestro.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},					
+					{
+						"cai": "DAC-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que dan soporte a la operacionalización del modelo diseñado.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DAC-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados e integrados mecanismos financieros y presupuestarios que permitan valorizar requerimientos de infraestructura y proyectarlos, como insumo a un Plan de Inversión.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAC-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados, piloteados y evaluados mecanismos críticos del sistema por medio de la sistematización, priorización y valorización de requerimientos de infraestructura.",
+				"actores": [
+					{
+						"cai": "DAC-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Incorporados y evaluados mediante los mecanismos diseñados los requerimientos de infraestructura asociados al Centro de Simulación Médica y al Centro de Atención Psicosocial proyectados para la institución.",
+				"actores": [
+					{
+						"cai": "DAC-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DCS", "rol": "Consultado",
+						"capacidades": [ "gestion" ]
+					},
+					{
+						"cai": "DCSH", "rol": "Consultado",
+						"capacidades": [ "gestion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "29", "area": "DAF",
+		"titulo": "Directrices y mecanismos para la gestión de riesgos y seguridad",
+		"objetivo": "Implementar mecanismos fundacionales para la institución en materia de gestión de riesgo y seguridad.",
+		"responsable": "DAF-INSG",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñar y validar mecanismos para la gestión de la seguridad y la salud en el trabajo.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]	
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},			
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñar y validar mecanismos para la gestión de emergencias y desastres.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñar y validar mecanismos para normar el orden, higiene y seguridad.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]	
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollada la difusión de los mecanismos elaborados.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},					{
+						"cai": "DAF-DP", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los mecanismos elaborados con la comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	}
+]

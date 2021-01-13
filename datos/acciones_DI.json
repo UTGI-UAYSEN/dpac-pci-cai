@@ -1,0 +1,2332 @@
+[
+	{
+		"id": "01", "area": "DI",
+		"titulo": "Mejora de la gestión de información para productos de investigación.",
+		"objetivo": "Sistematizar y modernizar procesos que permitan gestionar la información de los diversos productos asociados a la investigación.",
+		"responsable": "DI-DINV",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un marco conceptual para la sistematización de información sobre productos de investigación, al alero de mecanismos conceptuales del área.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Normalizados procesos asociados a la sistematización de información sobre productos de investigación.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI", "rol": "Consultado",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Adquirida una herramienta de apoyo a la gestión de información de productos de investigación (ej.: Isotope)",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Informado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Implementada la herramienta de apoyo a la gestión de información de productos de investigación",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desplegada y validada la herramienta de apoyo a la gestión de información de productos de investigación",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "02", "area": "DI",
+		"titulo": "Mejora de procesos para la gestión de proyectos de investigación.",
+		"objetivo": "Normalizar y modernizar los procesos asociados a la postulación, evaluación, adjudicación y seguimiento de proyectos de investigación internos y externos en la Universidad.",
+		"responsable": "DI-DINV",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Normalizados los procesos iniciales del ciclo de vida de los proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos normativos, al alero de los procesos normalizados, que regulen apropiadamente la gestión de los proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluadas las alternativas para modernizar los procesos iniciales del ciclo de vida de proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementadas y evaluadas herramientas para dar soporte a las primeras etapas de los procesos del ciclo de vida de proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "03", "area": "DI",
+		"titulo": "Soporte a la difusión, postulación y acceso a fondos de investigación.",
+		"objetivo": "Desarrollar actividades conducentes a mejorar la información y acceso sobre fondos de investigación para incentivar la participación y captación de recursos por parte del cuerpo académico.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Sistematizadas y difundidas con el cuerpo académico oportunidades de postulación a fondos de investigación para el 1er semestre.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Sistematizadas y difundidas con el cuerpo académico oportunidades de postulación a fondos de investigación para el 2do semestre.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Monitorear y difundir etapas y resultados de fondos de investigación en los cuales los y las investigadoras de la institución hayan participado.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionar la incorporación de nuevos fondos de investigación adjudicados por el cuerpo académico.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", 
+				"desc": "Dar soporte general a los procesos de postulación a fondos de investigación en los cuales el cuerpo académico esté participando.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Dar soporte general al acceso de fondos de investigación con la Tutoría UCH vía ventanilla abierta.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "04", "area": "DI",
+		"titulo": "Seguimiento y control de proyectos de investigación adjudicados y asociados a la institución.",
+		"objetivo": "Realizar el control de gestión de los proyectos de investigación, con mirada específica en las necesidades de desarrollo científico y el éxito de sus resultados.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", 
+				"desc": "Generado un reporte de control de gestión de los proyectos de investigación de la institución para el 1er semestre.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", 
+				"desc": "Generado un reporte de control de gestión de los proyectos de investigación de la institución para el 2do semestre.",
+				"actores": [
+				{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}					
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Monitorear los avances de los proyectos de investigación de fuentes del GORE (ej.: FIC-R).",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Monitorear los avances de los proyectos de investigación ANID en donde la Institución sea el beneficiario principal y/o secundario.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica",
+				"desc": "Monitorear los avances de los proyectos de investigación ANID en donde académicos/as específicos sean beneficiarios/as principales y/o secundarios/as.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Monitorear los avances de los proyectos de investigación internos de la UAysén.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "05", "area": "DI",
+		"titulo": "Soporte administrativo al desarrollo de proyectos de investigación adjudicados.",
+		"objetivo": "Gestionar acciones articuladas con las unidades administrativas de la institución para asegurar un soporte apropiado al desarrollo de los proyectos de investigación en curso.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaboradas y aplicadas propuestas de mejora a decretos internos.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Ejecutar de tramites y sistematizar documentación para ejecutar adquisiciones en el marco de proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Ejecutar de tramites y sistematizar documentación para contratación de personal para los proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Levantar requerimientos y articular necesidades de los investigadores e investigadoras con las unidades administrativas en el marco de proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "06", "area": "DI",
+		"titulo": "Gestión de fondos y recursos internos para el desarrollo de la investigación.",
+		"objetivo": "Propiciar las condiciones para un acceso y distribución eficiente de los recursos internos de la Institución destinados a incentivar y potenciar el desarrollo científico.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Definidos y formalizados los recursos a distribuir en el año por fondos de investigación internos.",
+				"actores": [
+					{
+						"cai": "DAF", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI", "rol": "Consultado",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Definidas formalmente las orientaciones institucionales para estimular la investigación interdisciplinaria en los fondos internos.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y publicadas las bases para la postulación al fondo semilla de iniciación en la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionado y ejecutado el proceso de selección del fondo semilla de iniciación en la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Formalizada la adjudicación del fondo semilla de iniciación en la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}				
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y publicadas las bases para la postulación al fondo de equipamiento interno para la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionado y ejecutado el proceso de selección del fondo de equipamiento interno para la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Formalizada la adjudicación del fondo de equipamiento interno para la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", 
+				"desc": "Generar y colocar a disposición fondos generales e internos de investigación para el cuerpo académico.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "07", "area": "DI",
+		"titulo": "Acompañamiento al cuerpo académico en el desarrollo y difusión de sus investigaciones.",
+		"objetivo": "Realizar acciones de acompañamiento del cuerpo académico en la generación de productos de investigación (publicaciones, proyectos, etc.)y en la logística de su difusión, con el propósito de asegurar resultados de productividad apropiados.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Proveer soporte general y transversal al cuerpo académico en materia de publicaciones científicas.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Resolver necesidades generales del cuerpo académico durante el desarrollo de sus proyectos de investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana",
+				"desc": "Abordar y articular con unidades administrativas las necesidades del cuerpo académico para su participación en conferencias, congresos, coloquios, y otro tipo de acciones de difusión.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}					
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Sistematizados y difundidos los servicios de apoyo al cuerpo académico en materia de desarrollo y difusión de sus investigaciones.",
+				"actores": [
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "08", "area": "DI",
+		"titulo": "Gestión de información de la productividad en la investigación.",
+		"objetivo": "Sistematizar y mejorar el acceso periódico a los datos sobre productividad científica en coherencia a las actividades académicas desarrolladas.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Sistematizar datos e información asociadas a productos de investigación del cuerpo académico.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Actualizar periódicamente indicadores de productividad, creación y desarrollo de investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "09", "area": "DI",
+		"titulo": "Gestión de redes nacionales e internacionales para el desarrollo de la investigación.",
+		"objetivo": "Movilizar y generar nuevas redes de colaboración con actores externos, destinadas a potenciar el desarrollo científico de la Institución.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Actualizada la sistematización anual de redes de cooperación y trabajo colaborativo del cuerpo académico en el contexto nacional e internacional en materia de investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Levantada y validada una propuesta anual de mejoramiento de redes de colaboración nacionales e internacionales para la investigación en base a la situación del cuerpo académico.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizar acciones de comunicación y coordinación con redes nacionales e internacionales que mantiene el cuerpo académico en materia de investigación.",
+				"actores": [
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "11", "area": "DI",
+		"titulo": "Gestión técnica de la infraestructura para el desarrollo de la investigación.",
+		"objetivo": "Realizar acciones periódicas de levantamiento de requerimientos y soporte a la infraestructura de laboratorios y otros recursos de la actividad científica.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionar requerimientos de equipamiento e infraestructura menor para la investigación con unidades administrativas correspondientes.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Entregar soporte general a los/as investigadores/as en su trabajo en laboratorios de investigación de la Institución.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Efectuar actividades de revisión y evaluación periódica de las condiciones de funcionamiento de los laboratorios de la institución.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Dar soporte a la compilación periódica de requerimientos de infraestructura mayor del cuerpo académico para el desarrollo de investigación.",
+				"actores": [					
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}					
+				]
+			}
+		]		
+	},
+	{
+		"id": "11b", "area": "DI",
+		"titulo": "Coordinación institucional de la investigación.",
+		"objetivo": "Operacionalizar instancias de coordinación entre distintas áreas de la institución en donde la Investigación tiene un rol relevante.",
+		"responsable": "DI-DINV",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrollar instancias de coordinación en el contexto del Comité de Coordinación de las funciones de Investigación y Docencia.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Participar en instancias de coordinación en el contexto del Comité de Bioseguridad.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Participar en instancias de coordinación en el contexto del Comité de Ética y Bioética.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Realizar acciones de coordinación interna de la dirección para articular necesidades en el área de la investigación.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "12", "area": "DI",
+		"titulo": "Despliegue del área de Difusión y Divulgación de la Ciencia (URY 2093).",
+		"objetivo": "Instalar capacidades y mecanismos emergentes que permitan formalizar las acciones actuales y futuras en materia de difusión y divulgación de la ciencia, en el marco de los propósitos institucionales y su vocación regional.",
+		"responsable": "DI-DDC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Formalizada e instaladas capacidades para la conformación de un área de Difusión y Divulgación de la Ciencia en la Institución.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}	
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado un marco de trabajo que entregue contexto a la instalación de mecanismos para dar soporte a la difusión y divulgación de la ciencia, considerando impacto territorial, proyección nacional e incorporación del componente artístico.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñada y validada una política que establezca directrices de principios para el desarrollo de la difusión y divulgación de la ciencia, bajo el marco de trabajo establecido.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrolladas actividades de formación y de sistematización de ideas para orientar y operacionalizar el área de difusión y divulgación de la ciencia.",
+				"actores": [
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Sistematizadas y validadas oportunidades de colaboración y generación de vínculos formales con actores del medio para la realización de acciones de difusión y divulgación de la ciencia.",
+				"actores": [
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos comunicaciones para dar soporte a la difusión y divulgación de la ciencia en el contexto regional, nacional e internacional.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "13", "area": "DI",
+		"titulo": "Arranque de la institucionalidad y pilotaje de centros de investigación con impacto en el medio (URY 20993).",
+		"objetivo": "Implementar y desplegar mecanismos de carácter institucional que permitan dar formalidad y orientar de forma apropiada la generación, evolución y consolidación de centros de investigación, acorde a la estrategia institucional, a sus lineamientos misionales y a la realidad del contexto en que se desarrolla.",
+		"responsable": "DI-ITT",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diagnosticados proyectos e iniciativas de investigación existentes la Institución (ej.: FabLab, Simulación Clínica, Innovación Social, etc.) con potencial para evolucionar a centros de investigación formales.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable", 
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Formalizados y financieramente soportados proyectos de centros de investigación piloto para su conformación y proyección en el tiempo.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable", 
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos iniciales para la propuesta, evaluación y conformación de centros de investigación.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñado y validado un estudio de sostenibilidad financiera, jurídica y administrativa para dar soporte a institucionalidad de centros de investigación.",
+				"actores": [
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Fortalecidas las capacidades académicas y del personal de colaboración en materia de gestión de centros de investigación.",
+				"actores": [
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-DP", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "14", "area": "DI",
+		"titulo": "Instalación de un sistema de gestión integral para el ciclo de vida de la investigación.",
+		"objetivo": "Diseñar e implementar un sistema de gestión fundacional y con sello UAYsén que contextualice los diversos mecanismos que permitirán gestionar el ciclo de vida de la investigación, incluyendo la investigación básica, aplicada, la innovación, el emprendimiento y la transferencia tecnológica.",
+		"responsable": "DI-DINV",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado un modelo conceptual, en coherencia a la política de investigación y las líneas de investigación institucionales, que entregue el marco de trabajo para la definición formal de mecanismos, procesos, gestión de información y otros elementos clave del ciclo de vida completo de la investigación y la articulación entre los productos que genera, considerando los valores y principios institucionales.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DPAC-CG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados criterios, al alero del modelo, para promover y evidenciar la investigación interdisciplinaria en la Institución.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-CG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Incorporadas directrices al modelo para promover la equidad de género en el ciclo de vida de la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "EG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Integrado el diseño del modelo conceptual con el sistema de gestión integral de actividades y desarrollo académico (DAC-33), de forma que se explicite la contribución de los productos del ciclo de vida de la investigación al desarrollo académico.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y normalizados los procesos internos que permitan operacionalizar y desplegar aspectos centrales del sistema, centrados en la articulación de actividades y productos de investigación.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que dan soporte a la operacionalización del modelo diseñado y a la medición de la calidad de la investigación a través de su ciclo de vida.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Piloteados y validados los diversos mecanismos implementados al alero del sistema.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]		
+	},
+	{
+		"id": "15", "area": "DI",
+		"titulo": "Despliegue del plan de productividad y divulgación científica.",
+		"objetivo": "Implementar y aplicar mecanismos de forma emergente en la institución que permitan potenciar la productividad y la divulgación de la ciencia realizada por los investigadores y las investigadoras, proyectando su crecimiento y consolidación en el tiempo.",
+		"responsable": "DI-DINV",
+		"tipo": "Desarrollo",
+		"tacticas": [			
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos para regular instancias formativas que promuevan la productividad y divulgación científica.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-CG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos operacionales de apoyo a la divulgación de los productos de investigación generados en la institución (ej.: asistencia a eventos).",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-CG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Diseñados mecanismos para regular productos emergentes en materia de transferencia, licenciamiento y propiedad intelectual / industrial, y su articulación con otras etapas del ciclo de vida de la investigación",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-CG", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisados y ajustas los mecanismos de elaboración y adjudicación de fondos de investigación internos, que permita abordar su continuidad y adaptación al escenario actual y emergente del cuerpo académico de la Institución.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y validados los diversos mecanismos implementados al alero del sistema.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "16", "area": "DI",
+		"titulo": "Desarrollo del Fablab y su despliegue regional.",
+		"objetivo": "Implementación de mecanismos de coordinación interna del Fablab, junto a su articulación con actores del medio y su proyección en el tiempo.",
+		"responsable": "DI-DINV",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Formalizado el Fablab en el contexto de los procesos de institucionalización de centros de investigación.",
+				"actores": [
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Elaborados y validados criterios de colaboración entre el Fablab y actores del medio.",
+				"actores": [
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñados y validados mecanismos internos de seguimiento y sistematización de actividades del Fablab.",
+				"actores": [
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Diseñada y sistematizada una cartera de potenciales acciones lideradas por el Fablab, en coherencia a los estándares de planificación institucional.",
+				"actores": [
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteadas y evaluadas iniciativas piloto de trabajo entre el Fablab y actores del medio para el periodo en curso.",
+				"actores": [					
+					{
+						"cai": "DI-ITT", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "17", "area": "DI",
+		"titulo": "Despliegue de las líneas de investigación institucionales.",
+		"objetivo": "Formalizar y realizar acciones emergentes que permitan operacionalizar las líneas de investigación institucionales como directrices para la actividad académica.",
+		"responsable": "DI-DINV",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y formalizadas la primera versión de las líneas de investigación institucionales.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñada y validada una metodología de gestión (revisión y actualización periódica) de las líneas de investigación institucionales en función a la evolución, proyección e implementación de claustros académicos y en coherencia a necesidades del medio.",
+				"actores": [
+					{
+						"cai": "DI", "rol": "Aprobador",
+						"capacidades": [ "dirección" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Articulados mediante mecanismos formales la metodología de mantención de las líneas de investigación con las estrategias emergentes de desarrollo académico institucionales.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "18", "area": "DI",
+		"titulo": "Bioseguridad y gestión de infraestructura para el desarrollo de la investigación.",
+		"objetivo": "Implementación de mecanismos normativos y protocolares para articular la proyección y la gestión de la seguridad de la infraestructura para la investigación.",
+		"responsable": "DI-DINV",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generadas directrices especificas para complementar las metodologías de gestión de requerimientos de infraestructura con necesidades específicas sobre el desarrollo de la investigación.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y aplicados mecanismos protocolares para la clasificación y manejo de residuos peligrosos.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Licitada una empresa de residuos para la Bioseguridad.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generados y validados mecanismos protocolares para de uso de laboratorios por parte del personal universitario autorizado.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Propuesto y validado externamente un plan de Bioseguridad para el periodo.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Piloteados y evaluados los mecanismos diseñados al alero de la realización del plan de Bioseguridad.",
+				"actores": [
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "riesgos", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	}
+]

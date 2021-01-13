@@ -1,0 +1,17 @@
+{
+	"instrumentos": [
+		{ "id": "PEDI", "nombre": "Plan Estratégico de Desarrollo Institucional 2019-2023" }
+	],
+	"directrices": [
+		{ "id": "PEDI-OE01", "desc": "Diseñar, desarrollar y consolidar una oferta académica pertinente y de calidad.", "parteDe": "PEDI" },
+		{ "id": "PEDI-OE02", "desc": "Formar profesionales con las capacidades necesarias para contribuir al desarrollo regional y nacional.", "parteDe": "PEDI" }
+	],
+	"indicadores": [
+		{ "id": "PEDI-OE01-IE1", "nombre": "Número de carreras.", "tributaA": "PEDI-OE01" },
+		{ "id": "PEDI-OE01-IE2", "nombre": "Tasa de ocupación de carreras.", "tributaA": "PEDI-OE01" },
+		{ "id": "PEDI-OE02-IE1", "nombre": "Porcentaje de cumplimiento de bibliografía obligatoria en recursos físicos y recursos electrónicos o virtuales.", "tributaA": "PEDI-OE02" },
+		{ "id": "PEDI-OE02-IE2", "nombre": "Porcentaje de estudiantes del ciclo de licenciatura beneficiados con programas de movilidad estudiantil.", "tributaA": "PEDI-OE02" },
+		{ "id": "PEDI-OE02-IE3", "nombre": "Retención al 1er año institucional.", "tributaA": "PEDI-OE02" },
+		{ "id": "PEDI-OE02-IE4", "nombre": "Retención al 3er año institucional.", "tributaA": "PEDI-OE02" }
+	]
+}

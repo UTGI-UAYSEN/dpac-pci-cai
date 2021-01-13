@@ -1,0 +1,3064 @@
+[
+	{
+		"id": "01", "area": "DVcM",
+		"titulo": "Elaboración de estrategia para el uso de recursos web y redes sociales en la Institución.",
+		"objetivo": "Establecer capacidades, mecanismos conductores y orientaciones para la implementación de portales web y gestión de redes sociales que apoyen el posicionamiento estratégico.",
+		"responsable": "DVcM-COM",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Implementadas las mejoras que permiten renovar en plenitud el portal web institucional.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados los mecanismos comunicacionales que regulan la definición, priorización y elaboración de recursos web.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", 
+				"desc": "Diseñados los mecanismos tecnológicos que dan soporte a la implementación de recursos web institucionales que apoyan la comunicación.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica",
+				"desc": "Realizados desarrollos específicos que apunten a la disponibilización de recursos web institucionales.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DVcM-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollado y compilado un diagnóstico institucional de evaluación de los recursos web institucionales y su aporte al posicionamiento.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "posicionamiento", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "02", "area": "DVcM",
+		"titulo": "Instancias de coordinación de la Vinculación con el Medio.",
+		"objetivo": "Seguimiento periódico de las acciones internas y articuladas de la dirección, para asegurar el cumplimiento de su rol y su apropiada respuesta a las instancias de seguimiento institucional.",
+		"responsable": "DVcM",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar seguimiento periódico de las acciones internas asociadas a la implementación del Plan Operativo.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Responsable",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Realizar seguimiento periódico de las acciones internas asociadas a proyectos de fortalecimiento del área.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Responsable",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Informado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Actualizar periódicamente indicadores operativos asociados a las tareas de la dirección.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Responsable",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Informado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Informado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrollar instancias de coordinación en el contexto del Comité de Coordinación de la Vinculación con el Medio.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Responsable",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "03", "area": "DVcM",
+		"titulo": "Promoción y desarrollo de actividades artístico-culturales.",
+		"objetivo": "Gestionar actividades artístico-culturales que permitan a la Institución aportar al medio desde esta perspectiva.",
+		"responsable": "DVcM-CU",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñado, validado y socializado un calendario anual de actividades artístico-culturales en coherencia a las propuestas institucionales.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Actualizado y socializado el calendario anual de actividades artístico-culturales.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionada y desarrollada la actividad del Día de las Artes.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento", "diseno" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Gestionado y formalizado convenio con Red Patagonia Cultural.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Gestionado y formalizado convenio con Red Región de Aysén.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Gestionados y formalizados otros convenios con instituciones y agrupaciones culturales.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Dar soporte administrativo a las actividades artístico-culturales en articulación con unidades correspondientes.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Dar soporte logístico a las actividades artístico-culturales en articulación con unidades correspondientes.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interno", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana",
+				"desc": "Gestionar y desarrollar actividades artístico-culturales emergentes en la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñar herramientas, aplicarlas y sistematizar resultados de evaluación de resultados y opinión sobre actividades artístico-culturales desarrolladas.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}	
+				]
+			}
+		]
+	},
+	{
+		"id": "04", "area": "DVcM",
+		"titulo": "Soporte a la actividad de elencos y su desarrollo.",
+		"objetivo": "Gestionar actividades en donde la Institución se articule o patrocine elencos artístico-culturales para aportar a la temática en el medio.",
+		"responsable": "DVcM-CU",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñado un calendario anual de actividades asociadas al Coro de la Universidad de Aysén.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Gestionar y desarrollar actividades con el Coro de la Universidad de Aysén.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana",
+				"desc": "Diseñar, aplicar y sistematizar resultados de herramientas de evaluación y opinión sobre actividades desarrolladas con elencos.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}	
+				]
+			}
+		]
+	},
+	{
+		"id": "05", "area": "DVcM",
+		"titulo": "Operacionalización del Modelo de Gestión Territorial (MGT) UAysén (URY 2095).",
+		"objetivo": "Instalar capacidades operativas, al alero de proyectos de fortalecimiento, para ajustar y aplicar el Modelo de Gestión Territorial de la Institución, con el propósito de generar impacto y contribución académica en la región.",
+		"responsable": "DVcM-TE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantados antecedentes conceptuales y recopiladas experiencias desde otras IES que tributen a diseñar mecanismos operativos para el MGT.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado un marco conceptual, en el ámbito de las gobernanzas territoriales, para sustentar una metodología de trabajo con las localidades.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Hecho un barrido sobre procesos críticos para la gestión territorial que orienten la operacionalización del MGT, que incluyan aspectos de gobernanza territorial y que identifiquen responsabilidades sobre la gestión de información del modelo.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generadas propuestas preliminares de mecanismos tecnológicos que permitan apoyar los procesos identificados.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Propuestos ajustes preliminares para la incorporación de mecanismos operativos al MGT en conjunto a instancias de coordinación institucionales de VcM y el Consejo Social.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Validados y aplicados los ajustes para la incorporación de mecanismos operativos al MGT en conjunto al Consejo Social y otras instancias claves de la institución.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que dan soporte a la operacionalización del MGT y a la medición de sus resultados e impacto.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborados y desplegados instrumentos iniciales para la captura de datos que permitan resolver los requerimientos de información caracterizados.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					}
+				]
+			},
+			{
+				"id": "H09", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñado un plan de articulación con actores claves de los territorios que permita el despliegue de los mecanismos operativos del MTG en desarrollo.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					}
+				]
+			},
+			{
+				"id": "H10", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Formalizados convenios con actores claves de los territorios para desplegar plan de articulación establecido.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					}
+				]
+			},
+			{
+				"id": "H11", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollados Consejos Sociales Territoriales pilotos para la sistematización de líneas de trabajo colaborativas al alero del MGT.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interno", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					}					
+				]
+			},
+			{
+				"id": "H12", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Fortalecidas capacidades, tanto por nuevas contrataciones como por capacitaciones, que habilite el diseño e implementación de los mecanismos operacionales del MGT.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "06", "area": "DVcM",
+		"titulo": "Promoción de espacios de reflexión e incidencia pública sobre temáticas territoriales.",
+		"objetivo": "Desarrollar actividades de levantamiento y sistematización de necesidades que puedan ser articuladas con las capacidades académicas que la Universidad tiene para trabajar en conjunto a los territorios.",
+		"responsable": "DVcM-TE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñado, validado y socializado un calendario anual de espacios de reflexión e incidencia pública.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Actualizado y socializado el calendario anual de espacios de reflexión e incidencia pública.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Dar soporte logístico al desarrollo de espacios de reflexión e incidencia pública.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Gestionar y desarrollar de espacios de reflexión e incidencia pública emergentes en la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Gestionar redes y colaboraciones con actores claves de los territorios para el desarrollo de espacios de reflexión e incidencia pública.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñar herramientas, aplicarlas y sistematizar resultados de evaluación y opinión sobre espacios de reflexión e incidencia pública.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "07", "area": "DVcM",
+		"titulo": "Operacionalización del Consejo Social.",
+		"objetivo": "Coordinar e implementar los Consejos Sociales durante el periodo, como mecanismos de retroalimentación y asesoría a la gestión institucional con mirada territorial.",
+		"responsable": "DVcM-TE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Diseñado, validado y socializado un calendario anual de Consejos Sociales.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Confeccionada y validada una agenda anual de temáticas para trabajar con el Consejo Social, en función a la planificación anual y a las proyecciones estratégicas de mediano plazo en la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Actualizado y socializado el calendario anual de Consejos Sociales.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Desarrollados los Consejos sociales del 1er semestre.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Desarrollados los Consejos sociales del 2do semestre.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Dar soporte logístico al desarrollo de Consejos Sociales.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionar la comunicación con consejeros y consejeras regionales de forma periódica para retroalimentar y dar soporte a la realización de los Consejos.",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñar herramientas, aplicarlas y sistematizar resultados de evaluación y opinión sobre los Consejos Sociales.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}	
+				]
+			}
+		]
+	},
+	{
+		"id": "08", "area": "DVcM",
+		"titulo": "Vinculación con la Educación Escolar regional desde la Universidad de Aysén",
+		"objetivo": "Desarrollar acciones de difusión, vinculación y diseño estratégico para el desarrollo del área de Educación como línea de trabajo de la Universidad con los territorios.",
+		"responsable": "DVcM-TE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada metodología para el diseño de Proyectos de Vinculación Escolar Científica (VEC) que permita planificar ideas en el periodo y que considere situación de contingencia sanitaria (URY 1895).",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Sistematización de oportunidades para proyectos VEC desde temáticas de investigación desarrolladas por el cuerpo académico.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Articulados y desarrollados proyectos VEC iniciales con establecimientos educacionales.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interna" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Gestionados y desarrollados eventos científicos con muestra de proyectos VEC hacia la comunidad regional.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interna" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Conformada formalmente instancia Institucional para articular actores claves en el levantamiento de directrices estratégicas para el área de Educación.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñadas y validadas directrices estratégicas (ej.: Política) para el área de Educación a través de la instancia conformada.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantadas acciones, bajo los estándares de planificación institucional, para avanzar en el desarrollo del área de Educación en la Institución al alero de las directrices estratégicas definidas.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generadas articulación y acuerdos con actores claves de los territorios para el desarrollo de iniciativas al alero de la conformación de una Mesa Intersectorial de Educación Escolar (MIEE) (URY 1995).",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interna" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H09", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Formalizada la Mesa Intersectorial de Educación Escolar (MIEE).",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interna" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H10", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Gestionado el diseñadas y validación de directrices estratégicas, al alero de la MIEE, que orienten la definición de acciones para mejorar la calidad de la educación regional.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interna" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "09", "area": "DVcM",
+		"titulo": "Instalación y despliegue de Asistencia Técnica Educativa (ATE) por la Universidad de Aysén",
+		"objetivo": "Realizar las gestiones fundacionales para asegurar capacidades y proyección apropiada para la conformación de una ATE en la Institución, fomentando el aporte regional y la captación de recursos.",
+		"responsable": "DVcM-TE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generado y validado un análisis de capacidades institucionales para el despliegue de la ATE, basado en evaluación de contexto y lineas de acción proyectadas.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interna" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Diseñadas y validadas directrices estratégicas que establezcan los criterios, prioridades y grandes etapas de instalación y consolidación de la ATE, en coherencia a los instrumentos de planificación institucional.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generados y evaluados lineamientos específicos para asegurar la sostenibilidad financiera de la ATE, generando un plan de inversión y una proyección presupuestaria a largo plazo para su instalación.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrolladas y evaluadas acciones piloto en el contexto de instalación emergente de la ATE.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "educacion" ]
+					},					
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interna" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "10", "area": "DVcM",
+		"titulo": "Posicionamiento de la Institución en el medio regional, nacional e internacional.",
+		"objetivo": "Desarrollo de actividades de soporte comunicacional y posicionamiento de la Institución en el medio, al alero de orientaciones estratégicas de mediano y largo plazo.",
+		"responsable": "DVcM-COM",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y valido un plan anual de posicionamiento que permita establecer mecanismos periódicos y recursos para la difusión de las actividades académicas en el medio, en coherencia a la planificación institucional.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñado y valido un plan anual de posicionamiento que permita establecer mecanismos periódicos y recursos para la difusión de las actividades de los equipos de colaboración, en coherencia a la planificación institucional.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñado y valido un plan anual de posicionamiento internacional de las actividades realizadas en la institución, en función a los otros planes locales.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Sistematizar y difundir periódicamente en los medios regionales y nacionales actividades destacadas en el ámbito de la docencia de pregrado, postgrado y la educación continua de la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Sistematizar y difundir periódicamente en los medios regionales y nacionales actividades destacadas en el ámbito de la investigación, innovación y divulgación de la ciencia de la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana",
+				"desc": "Sistematizar y difundir periódicamente en los medios regionales y nacionales actividades destacadas en el ámbito de las actividades de los equipos de colaboración de la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Sistematizar y difundir periódicamente en los medios internacionales actividades destacadas de la Institución",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "11", "area": "DVcM",
+		"titulo": "Gestión de las comunicaciones internas de la Institución.",
+		"objetivo": "Desarrollo de actividades de soporte comunicacional para la coordinación de los equipos en la institución, al alero de orientaciones estratégicas de mediano y largo plazo.",
+		"responsable": "DVcM-COM",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y valido un plan anual de comunicación interna, en coherencia a la planificación institucional, que permita hacer seguimiento, compartir resultados y difundir mecanismos derivados de las actividades académicas y de la gestión institucional con todos los miembros de la comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica", "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Difundir periódicamente actividades destacadas en el ámbito de la docencia de pregrado, postgrado y la educación continua a la comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Difundir periódicamente actividades destacadas en el ámbito de la investigación, innovación y divulgación de la ciencia a la comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Sistematizar y difundir periódicamente actividades destacadas en el ámbito de las actividades de los equipos de colaboración  a la comunidad universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Difundir periódicamente acciones y lineamientos asociados a la gestión de calidad en la comunidad Universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F05", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Difundir periódicamente acciones y lineamientos asociados a la gestión de personas, clima organizacional y bienestar en la comunidad Universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "12", "area": "DVcM",
+		"titulo": "Escuelas de Temporada UAysén.",
+		"objetivo": "Gestionar la implementación de las Escuelas de temporada 2021 institucionalizadas en la región, para entregar oportunidades de vinculación y colaboración con los actores del medio.",
+		"responsable": "DVcM-TE",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Confeccionado y aprobado un calendario anual para la organización e implementación de las Escuelas de temporadas, en coherencia al calendario académico y la planificación institucional.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Confeccionadas y validadas las líneas temáticas y orientadoras para la organización de las Escuelas de temporada",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Realizadas las gestiones necesarias para coordinar el soporte administrativo y logístico requerido por las Escuelas de Temporada.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interno" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Consultadas y gestionadas las actividades específicas de naturaleza académica a desarrollar con los Departamentos y Carreras.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Desarrollada la Escuela de Invierno 2021 UAysén",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Desarrollada la Escuela de Verano 2021 UAysén",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "interno" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas, aplicadas y sistematizados los resultados de herramientas de evaluación de resultados y opinión sobre las Escuelas de temporada realizadas.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Consultado",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}					
+				]
+			}
+		]
+	},
+	{
+		"id": "13", "area": "DVcM",
+		"titulo": "Mejoras a la gestión y funcionamiento del Consejo Social.",
+		"objetivo": "Implementar mecanismos que permitan potenciar su funcionamiento interno y su rol como organismo asesor de la Rectoría.",
+		"responsable": "DVcM-TE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Confeccionado y validado un protocolo de gestión de expectativas, que establezca los criterios institucionales para definir el tipo de requerimientos y necesidades que pueden ser abordadas desde una perspectiva académica por la Universidad y que provengan de los actores del medio a través del Consejo Social.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interno" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado, validado y formalizado un mecanismo normativo (ej.: reglamento) para organizar el funcionamiento interno del Consejo Social y su interacción con la gestión universitaria.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interno" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñadas y piloteadas, en el marco de la normativa interna del Consejo Social, orientaciones para se puedan levantar propuestas de acción desde el Consejo hacia la Institución, enmarcadas en los procesos y mecanismos de planificación Institucional.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interno" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "14", "area": "DVcM",
+		"titulo": "Planificación de la Oficina Técnica de Capacitación (OTEC) en la Universidad de Aysén.",
+		"objetivo": "Desarrollar actividades que permitan instalar capacidades de despliegue de una OTEC que contribuya a la formación regional y a la sostenibilidad económica de la Institución.",
+		"responsable": "DVcM-TE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Desarrolladas jornadas de formación en la norma NCH 2728 para articular capacidades en la Institución necesarias en el despliegue de la OTEC.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					},					
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-educ-cont", "educacion-continua" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Generada y validada hoja de ruta para la instalación de mecanismos, al alero del emergente Sistema de Aseguramiento de la Calidad, que permitan avanzar en una certificación con SENCE.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Realizado el diseño y validación de los primeros mecanismos que permitan lograr la certificación.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "15", "area": "DVcM",
+		"titulo": "Instalación de la estrategia de posicionamiento en el medio de la Universidad de Aysén.",
+		"objetivo": "Formalizar lineamientos y mecanismos para potenciar sistemáticamente el posicionamiento de la Institución en el medio.",
+		"responsable": "DVcM-COM",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborada, aplicada y analizada encuesta de percepción UAysén hacia actores internos y externos.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica", "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado y validado un diagnóstico sobre el estado actual de la Institución respecto a su posicionamiento en el medio regional, nacional e internacional, basado en el catastro de iniciativas realizadas en los periodos anteriores y considerando variables de naturaleza académica orientadas al aseguramiento de la calidad (productividad, difusión y divulgación científica, internacionalización, movilidad, admisión, etc.).",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Confeccionado y validado un marco metodológico que defina el alcance y los propósitos de las capacidades institucionales para el posicionamiento de la Universidad en el medio, centrado en proyecciones y resultados de naturaleza académica, con un foco marcado en la admisión y la divulgación científica.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y validadas directrices estratégicas para orientar el posicionamiento de la Institución en el medio, en coherencia al marco metodológico establecido.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Perfeccionada y proyectada la imagen y marca UAysén en coherencia a las directrices institucionales de posicionamiento en el medio establecidas.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "diseno" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado un plan de implementación de mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemática e intencionadamente el posicionamiento en el medio de la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados y evaluados mecanismos priorizados del plan para mejorar el posicionamiento en el medio con perspectiva académica.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "16", "area": "DVcM",
+		"titulo": "Instalación de la estrategia de comunicaciones internas de la Universidad de Aysén.",
+		"objetivo": "Implementar mecanismos sistemáticos que mejoren la comunicación interna entre y con los distintos estamentos, de forma coordinada con la planificación y el aseguramiento de la calidad institucional, promoviendo aspectos valóricos, misionales y estratégicos.",
+		"responsable": "DVcM-COM",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado y validado un diagnóstico sobre el estado actual de la Institución respecto a su comunicación interna, basado en el catastro de iniciativas realizadas en los periodos anteriores en la materia y considerando variables de aseguramiento de la calidad, clima laboral y planificación estratégica.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Confeccionado y validado un marco metodológico que defina el alcance y los propósitos de las capacidades institucionales para la comunicación interna, centrado en la gestión de calidad, gestión de cambio, clima laboral y la planificación estratégica.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas y validadas directrices estratégicas para orientar la eficiencia en las comunicaciones internas de la Institución, en coherencia al marco metodológico establecido.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado un plan de implementación de mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemáticamente la eficiencia en la comunicación interna de la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados y evaluados mecanismos priorizados del plan, articulado integralmente con la planificación institucional del periodo, con los procesos de gestión de calidad y de desarrollo de personas, para mejorar la eficiencia en las comunicaciones internas de la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "psicologico" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "17", "area": "DVcM",
+		"titulo": "Despliegue de la estrategia de posicionamiento de actividades académicas en el medio Internacional.",
+		"objetivo": "Desarrollar actividades académicas en vinculación al medio internacional bajo lineamientos estratégicos establecidos, que permitan enriquecer y profundizar las relaciones y el posicionamiento internacional.",
+		"responsable": "DVcM-RI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un catastro de iniciativas realizadas en la Institución con vinculación al medio internacional, que permita guiar la revisión de estrategias y mecanismos tanto establecidos como nuevos en materia de internacionalización.",
+				"actores": [
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado diagnóstico de características y estado de desarrollo de convenios de colaboración con Instituciones internacionales, que permita guiar la revisión de estrategias y mecanismos tanto establecidos como nuevos en materia de internacionalización.",
+				"actores": [
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una propuesta sobre el potencial alcance geográfico de las relaciones internacionales proyectada en el mediano plazo para la Universidad de Aysén en función a los insumos catastrados y diagnosticados.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisadas y actualizadas las directrices estratégicas en materia de internacionalización para la Institución, acorde a diagnósticos y definiciones de alcance realizadas.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollada una cartera de acciones en materia de internacionalización para el mediano plazo, al alero de las directrices estratégicas establecidas y en coherencia a los mecanismos de planificación institucional, que permitan impulsar el área de forma apropiada.",
+				"actores": [
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generada una propuesta de fortalecimiento de capacidades e institucionalización de mecanismos conductores para el desarrollo de la internacionalización en la Institución.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisada, aprobada y formalizada la propuesta de reglamento de movilidad estudiantil para desarrollar acciones piloto de intercambio internacional (URY 1856).",
+				"actores": [
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisados y actualizados convenios que permitan la implementación de acciones piloto en materia de movilidad estudiantil internacional (URY 1856).",
+				"actores": [
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H09", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteadas y evaluadas actividades de movilidad estudiantil internacional (URY 1856).",
+				"actores": [
+					{
+						"cai": "DVcM-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}					
+				]
+			}
+		]
+	},
+	{
+		"id": "18", "area": "DVcM",
+		"titulo": "Instalación del Sistema de gestión de la Vinculación con el Medio UAysén.",
+		"objetivo": "Diseñar y desplegar un sistema de gestión, basado en metodologías, procesos, información y otros mecanismos, que permita la promoción de la bidireccionalidad y la medición objetiva de impacto en el corto, mediano y largo plazo que generan las actividades académicas en la Institución.",
+		"responsable": "DVcM-TE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una propuesta de modelo conceptual, en coherencia a la política de VcM, que organice sistemáticamente los procesos, la información, los roles y responsabilidades asociadas a la caracterización de actividades académicas en función a la bidireccionalidad y nivel de impacto en el medio que generan.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Integrado el diseño del modelo conceptual con el Modelo de Gestión Territorial (MGT - URY 2095) como un componente específico del sistema para caracterizar la bidireccionalidad e impacto de actividades académicas en función a la articulación con los territorios y el despliegue de mecanismos de gobernanza universitaria en ellos.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Integrado el diseño del modelo conceptual con el sistema de gestión integral de actividades y desarrollo académico (DAC-33), de forma que se explicite el rol de la bidireccionalidad e impacto de actividades de docencia e investigación en el desarrollo académico.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Identificados y normalizados los procesos centrales asociados a la caracterización de la bidireccionalidad y el impacto de actividades académicas al alero del modelo.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que dan soporte a la operacionalización del modelo diseñado",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados y piloteados mecanismos institucionales que orientan la caracterización y medición cualitativa y cuantitativa de bidireccionalidad e impacto de las actividades académicas",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},									
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "19", "area": "DVcM",
+		"titulo": "Desarrollo del Centro de Innovación Social (CIS - URY 1995).",
+		"objetivo": "Instalar mecanismos que permitan potenciar el despegue del centro como una incubadora de proyectos institucionales, derivados desde la actividad académica y en coherencia a la metodología de Innovación Social, que permita generar resultados de impacto notable en el medio.",
+		"responsable": "DVcM-TE",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Proponer y validar las directrices estratégicas del CIS con foco en la articulación de la actividad académica con los territorios y la aplicación de la metodología de Innovación social en dichos procesos.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñados mecanismos operativos (manuales, procedimientos, protocolos, etc.) que orienten al cuerpo académico respecto a la articulación de su actividad con las directrices de Innovación Social para implementar proyectos prototipos con impacto en los territorios.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "coordinacion-educ-cont" ]
+					},
+					{
+						"cai": "DAC-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Desarrollados proyectos piloto desde la actividad académica bajo los mecanismos operativos implementados con el CIS.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Generado y socializado un informe de resultados respecto a las iniciativas desarrolladas en el periodo por el CIS y su impacto territorial según los mecanismos de gestión de información establecidos.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	}
+]

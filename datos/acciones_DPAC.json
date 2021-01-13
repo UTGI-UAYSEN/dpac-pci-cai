@@ -1,0 +1,2554 @@
+[
+	{
+		"id": "01", "area": "DPAC",
+		"titulo": "Desarrollo de servicios computacionales y de información institucional.",
+		"objetivo": "Brindar el soporte necesario a la institución y formar de redes de apoyo a la gestión de sistemas computacionales y de información que resuelvan las necesidades de sus actores en materias tecnológicas.",
+		"responsable": "DPAC-TGI", "tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Mantener sistemas informáticos institucionales.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Brindar soporte tecnológico al personal de la institución y mantenimiento de su equipamiento.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "infraestructura", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Resolver requerimientos computacionales de docentes y estudiantes para el desarrollo de la docencia.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},					
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "curricular", "curricular" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada",
+				"desc": "Evaluar de nuevos desarrollos para la institución.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F05", "tipo": "Función", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Desarrollar redes y proyectos de colaboración TI con entidades externas.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "desarrollo", "plataforma", "conectividad" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "02", "area": "DPAC",
+		"titulo": "Gestión de la infraestructura tecnológica institucional.",
+		"objetivo": "Implementar los componentes computacionales en la institución asociados a los mecanismos de almacenamiento, de computo y de comunicación, junto con los componentes de seguridad para su funcionamiento apropiado.",
+		"responsable": "DPAC-TGI", "tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Administrar y mantener la infraestructura física y de cómputo institucional.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "desarrollo" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar servicios de conectividad y redes.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "conectividad" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "desarrollo" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "infraestructura", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Gestionar la seguridad de la información.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "desarrollo", "plataforma", "conectividad" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "03", "area": "DPAC",
+		"titulo": "Diseño de la Planificación Institucional 2022.",
+		"objetivo": "Sistematizar la información que permite consolidar las acciones planificadas para el año 2022 de forma oportuna y coherente a las capacidades institucionales.",
+		"responsable": "DPAC-PCI", "tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "prioridad": "Alta",
+				"desc": "Sistematizar datos sobre acciones planificadas y proyectadas para el próximo periodo.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador", "participacion": "Esporádica",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados los proyectos de fortalecimiento y otros proyectos institucionales para el 2022 en coherencia a las acciones levantadas y a los aspectos metodológicos que exige Mineduc.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Construídos los Planes Operativos Anuales que sistematizan la planificación del próximo periodo en coherencia a las capacidades institucionales.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Elaborada y aplicada encuesta de percepción sobre procesos de planificación institucional.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},					
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Actualizados indicadores del PEDI primer semestre.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},					
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Actualizados indicadores del PEDI segundo semestre.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},					
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Construido y difundido el calendario del proceso para el año.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada, propuesta y evaluada la priorización de acciones para el POA 2022.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Diseñada, propuesta y evaluada la priorización de acciones para los proyectos institucionales.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H09", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Elaborada y validada la propuesta de coordinación con Tutoría UCH desde planificación anual.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "04", "area": "DPAC",
+		"titulo": "Control y el soporte sobre la ejecución de las acciones planificadas para el 2021.",
+		"objetivo": "Realizar el seguimiento periódico de las acciones a ejecutar el 2021, que permita evaluar su cumplimiento, ejecutar medidas correctivas ante contextos emergentes y brindar soporte institucional para su avance.",
+		"responsable": "DPAC-PCI", "tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Ejecutar el seguimiento y retroalimentación de las acciones comprometidas en los Planes Operativos Anuales.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Proveer soporte operativo al desarrollo de proyectos institucionales como contraparte ante Mineduc.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado", "participacion": "Puntual",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Proveer soporte operativo al desarrollo de iniciativas de colaboración con la tutoría UCH.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Analizar y facilitar necesidades de articulación entre los equipos institucionales para el desarrollo apropiado de su planificación anual.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Informado",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los informes de avance de proyectos institucionales de mitad de año.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador", "participacion": "Puntual",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los informes de avance de proyectos institucionales de final de año.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador", "participacion": "Puntual",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generado y validado informe de rendición de POA 2020.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "05", "area": "DPAC",
+		"titulo": "Gestión de requerimientos de datos e información institucional.",
+		"objetivo": "Resolver diversos requerimientos de información internos y externos, en donde las capacidades de Análisis Institucional permitan respaldar la calidad de las entregas y un control apropiado.",
+		"responsable": "DPAC-AI",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Resolver requerimientos de datos e información internos y emergentes.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "gobierno-datos" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los datos de la encuesta INE de investigación y desarrollo.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					},					
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso SIES: matricula unificada pregrado y postgrado.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					},					
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso CNED: Indices proceso 1.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso CNED: Indices proceso 2.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso CNED: Indices proceso 3.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso SIES: avance curricular, personal académico e información financiera.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso SIES: infraestructura y recursos materiales.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso SIES: oferta académica vigente.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H09", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Entregados los datos del proceso SIES: aranceles.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "gobierno-datos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "06", "area": "DPAC",
+		"titulo": "Evaluación de servicios internos UAysén.",
+		"objetivo": "IMplementación y despliegue de mecanismos de uso periódico que permitan recopilar información cualitativa sobre la calidad de los servicios internos de la institución, para generar reportes periódicos que sirvan a los equipos en la mejora de sus procesos.",
+		"responsable": "DPAC-GC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Elaborada y aplicada encuesta sobre calidad de servicios internos UAysén.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Socializados y evaluados resultados asociados a los servicios institucionales.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Diseñados y evaluados mecanismos para dar uso a la información de evaluación de servicios internos de la Institución.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "07", "area": "DPAC",
+		"titulo": "Proceso de autoevaluación 2021 - 2022",
+		"objetivo": "Gestionar y articular los esfuerzos necesarios para dar comienzo al 2do proceso de autoevaluación de la Institución, con proyección al 1er proceso de acreditación institucional para el 2022.",
+		"responsable": "DPAC-GC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborada y aplicada encuesta de Calidad 2021.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborado y validado informe de avance de Plan de Mejora Institucional 2019.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborado y validado avance de Plan de Mejora 2022 basado en los estándares SPCI.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada metodología para proceso de autoevaluación.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborados los mecanismos para gestionar levantamiento de información para la autoevaluación.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada la estrategia comunicacional para complementar el desarrollo del proceso de levantamiento de antecedentes y articulación de equipos.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Aplicados en una primera iteración los mecanismos para gestionar levantamiento de información para la autoevaluación.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "08", "area": "DPAC",
+		"titulo": "Modernización de flujos de trabajo para dar soporte a procesos institucionales",
+		"objetivo": "Implementar mecanismos tecnológicos que permitan automatizar y digitalizar procesos institucionales bajo una estructura estandarizada.",
+		"responsable": "DPAC-GC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado  un catastro de los requerimientos de procesos que pueden someterse a automatización, caracterizados según su complejidad y necesidades de automatización.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Implementada y evaluada prueba de concepto que permita automatizar flujos de trabajo simples.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Evaluados los requerimientos de diseño para la construcción de una herramienta institucional para automatizar flujos de trabajo de mayor complejidad.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Implementados y evaluada una herramienta piloto para automatizar flujos de trabajo de mayor complejidad.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "09", "area": "DPAC",
+		"titulo": "Gestión de la calidad para la plataforma computacional e información de la Institución",
+		"objetivo": "Implementar MACs que permitan la gestión de la plataforma con orientación a la seguridad y monitoreo de la información y los servicios institucionales.",
+		"responsable": "DPAC-TGI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desplegadas las metodologías y herramientas tecnológicas para habilitar la integración continua en los desarrollos institucionales.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "soporte" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desplegadas las metodologías y herramientas tecnológicas para habilitar la gestión de pruebas unitarias en los desarrollos institucionales.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "soporte" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desplegados sistemas automatizados de monitoreo de plataformas y servicios críticos.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "soporte", "conectividad" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y piloteado mecanismos que regulen el respaldo de la información institucional.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "soporte", "conectividad" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y piloteado mecanismos que habiliten el respaldo de sistemas de información críticos.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "10", "area": "DPAC",
+		"titulo": "Gestión de la calidad para los procesos de desarrollo de sistemas de información institucional",
+		"objetivo": "Implementar MACs que permitan asegurar la calidad en los procesos de desarrollo e implementación de sistemas de información institucionales.",
+		"responsable": "DPAC-TGI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y formalizada una metodología de desarrollo de software con orientación ágil.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y piloteado un procedimiento para la gestión de cambios de sistemas de software.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "plataforma" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y socializados criterios institucionales que permitan orientar la adquisición de software externo.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "plataforma" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "11", "area": "DPAC",
+		"titulo": "Avance en conexión física con Red REUNA",
+		"objetivo": "Realizar las gestiones en colaboración con REUNA para avanzar en la conectividad física de la UAysén con la red.",
+		"responsable": "DPAC-TGI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantadas directrices estratégicas que permitan orientar los usos y aplicaciones de la conexión física.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "conectividad" ]
+					},					
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados los lineamientos técnicos junto a REUNA que permitan avanzar en la implementación de la conectividad requerida.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "conectividad" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Avanzar en las primeras gestiones de implementación de la conectividad diseñada.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "conectividad" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "12", "area": "DPAC",
+		"titulo": "Desarrollo de soporte tecnológico para el gobierno de datos",
+		"objetivo": "Implementar mejoras a las herramientas informáticas que dan soporte al gobierno de datos y a la gestión de información institucional.",
+		"responsable": "DPAC-AI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisado y ajustado el modelo de datos institucional que da soporte actualmente al gobierno de datos.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluada y diseñada propuesta para implementación de mecanismos de almacenamiento de datos con orientación estratégica para la institución.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados pilotos y aproximaciones iniciales de los mecanismos propuestos.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñadas e implementadas mejoras para la automatización de entrega de información institucional usando herramientas tecnológicas (Tableau).",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "13", "area": "DPAC",
+		"titulo": "Despliegue de mecanismos orientados a la seguridad de la información institucional",
+		"objetivo": "Impulsar de forma activa el desarrollo e implementación de mecanismos que permitan establecer condiciones mínimas habilitadoras para la seguridad de la información.",
+		"responsable": "DPAC-TGI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Elaboradas e implementadas de forma inicial políticas institucionales orientadas a la seguridad de la información.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñados e implementados mecanismos orientados al uso de recursos TICs en la institución con orientación a la seguridad.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Difundidos los mecanismos en la institución que orientan el uso de recursos TICs con orientación a la seguridad.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Desarrolladas asesorías e implementados convenios con entidades externas que permitan asesorar a la institución en materia de seguridad.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "14", "area": "DPAC",
+		"titulo": "Mejoras a los servicios de soporte computacional en la institución",
+		"objetivo": "Definir e implementar mecanismos y procesos tendientes a mejorar el servicio de soporte computacional.",
+		"responsable": "DPAC-TGI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseño e implementación inicial de procedimientos para la gestión eficaz y eficiente del soporte computacional.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Evaluación e implementación de software para la gestión de solicitudes de soporte.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseño de mecanismos específicos para planificar y gestionar recursos asociados al soporte computacional.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "soporte" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "15", "area": "DPAC",
+		"titulo": "Despliegue de capacidades de Planificación y Coordinación Institucional",
+		"objetivo": "Desarrollo de actividades para propiciar la instalación adecuada del equipo de Planificación y Coordinación Institucional.",
+		"responsable": "DPAC-PCI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Coordinadas y realizadas instancias de capacitación con actores externos en materia de Control de Gestión.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Hecha la difusión del rol, alcance y mecanismos de coordinación con los diversos equipos Institucionales.",
+				"actores": [					
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisados y actualizados los mecanismos pertinentes del SPCI para diseño de la planificación.",
+				"actores": [	
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},				
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisados y actualizados los mecanismos pertinentes del SPCI para control de gestión.",
+				"actores": [	
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},				
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Articulados los mecanismos de planificación y coordinación con la programación financiera, con miras a desarrollar una articulación coherente con el área financiera y presupuestaria.",
+				"actores": [	
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},				
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificación", "coordinacion" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "16", "area": "DPAC",
+		"titulo": "Sistematización y modernización de procesos SPCI",
+		"objetivo": "Formalizar y generar herramientas tecnológicas básicas para dar soporte a los procesos asociados al SPCI.",
+		"responsable": "DPAC-PCI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Normalizados los procesos críticos del SPCI.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},					
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Levantados los requerimientos de software para procesos críticos del SPCI.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Implementados y evaluados prototipos para modernizar procesos críticos del SPCI.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "17", "area": "DPAC",
+		"titulo": "Consolidación del Consejo de Evaluación de la Calidad (CEC)",
+		"objetivo": "Instalar los mecanismos necesarios para permitir el funcionamiento inicial del CEC.",
+		"responsable": "DPAC-GC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y formalizados los mecanismos normativos para la instalación de capacidades asociada al CEC.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Conformado y puesto en marcha el CEC.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrolladas las funciones del CEC en modalidad piloto.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}, 
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "18", "area": "DPAC",
+		"titulo": "Implementación de ajustes al diseño del Sistema de Gestión Integral de la Calidad (SGIC)",
+		"objetivo": "Revisar aspectos de la política de Gestión Integral de la Calidad, levantando aspectos de mejora y profundización que permitan avanzar en el diseño detallado del sistema y su proyección en el tiempo.",
+		"responsable": "DPAC-GC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Levantados requerimientos de mejora para el SGIC declarado en la política de gestión integral de la calidad, focalizados en mecanismos para la caracterización y gestión de información de mecanismos de aseguramiento de la calidad, criterios y estándares de calidad y la evaluación integral de estos elementos a través de indicadores de madurez.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Actualizados, diseñados y validados ajustes a los aspectos funcionales del SGIC.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Levantados datos e información requerida para pilotear el nuevo diseño del SGIC.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteado y evaluado el nuevo diseño del SGIC.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados e integrados al SGIC mecanismos para la gestión de riesgos de los procesos institucionales (ej.: matriz de riesgos).",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementados y piloteados los mecanismos institucionales para la gestión de riesgos en los procesos institucionales.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "19", "area": "DPAC",
+		"titulo": "Diseño y aplicación de metodología (pre-etapa) ágil de levantamiento de procesos",
+		"objetivo": "Diseñar, pilotear y formalizar una metodología ágil para levantar procesos institucionales, en coherencia y articulación con la metodología integral.",
+		"responsable": "DPAC-GC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada metodología ágil para el levantamiento de procesos.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Construidos y socializados instrumentos para la metodología diseñada.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Piloteada y evaluada la metodología diseñada",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "20", "area": "DPAC",
+		"titulo": "Continuidad del proceso de Evaluación Intermedia de la Gestión Institucional",
+		"objetivo": "Gestionar y completar del desarrollo del proceso de Evaluación Intermedia de la Gestión Institucional en coordinación con CNA.",
+		"responsable": "DPAC-GC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Coordinada y planificada la estrategia de continuidad del proceso.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "prensa" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado el diagnóstico actualizado de avance de la institución con miras a dar continuidad al proceso.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "prensa" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-tacticos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Diseñada y validada la estrategia de coordinación para la visita CNA.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "prensa" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Implementada y articulada la estrategia de coordinación para la visita CNA.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "prensa" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Realizada la visita de CNA.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Analizados, socializados y evaluados resultados de la visita de la CNA.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "prensa" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "21", "area": "DPAC",
+		"titulo": "Implementación de un Sistema emergente para el Gobierno de Datos Institucional",
+		"objetivo": "Diseñar y pilotear un sistema que organice mecanismos para normar, procedimentar y articular la producción y uso de datos, información y conocimiento sobre la Institución.",
+		"responsable": "DPAC-AI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y retroalimentado el marco conceptual del sistema, considerando como ejes la caracterización de requerimientos de información, el modelo de gestión para implementar el gobierno de datos, y los roles y responsabilidades de los actores institucionales sobre los datos.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados, evaluados y formalizados instrumentos conductores para el gobierno de datos.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados mecanismos del sistema.",
+				"actores": [
+					{
+						"cai": "DPAC-AI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "22", "area": "DPAC",
+		"titulo": "Evaluación e implementación de ajustes a la Estructura Organizacional",
+		"objetivo": "Analizar y proponer ajustes de largo y corto plazo a la estructura organizacional, implementando los últimos.",
+		"responsable": "DPAC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborada la metodología de análisis, priorización y sistematización de requerimientos de ajuste a la estructura organizacional.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantados los requerimientos de ajuste a la estructura organizacional de corto plazo.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Sistematizados y formalizados los ajustes de corto plazo a la estructura organizacional.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Discutidos e identificados ajustes integrales a la Estructura Académica de la institución.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},				
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborado y validado plan de acción para implementar ajustes integrales a la Estructura Académica de la institución.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},				
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "23", "area": "DPAC",
+		"titulo": "Instalación del Modelo de Gestión Universitario (MGU)",
+		"objetivo": "Diseñar, validar y desplegar el MGU como mecanismo central de desarrollo de la gestión en la Institución en el largo plazo.",
+		"responsable": "DPAC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Elaborada y validada la propuesta conceptual del MGU, basada en mecanismos para la evolución de la estructura organizacional y en estándares sobre instrumentos para el diseño de sistemas de gestión.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados los mecanismos operativos iniciales del MGU.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},	
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Levantada una propuesta de sistema de gestión críticos del MGU para la proyección de su instalación en los próximos 10 años.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados los mecanismos del MGU en el diseño de sistemas durante el periodo.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos" ]
+					}
+				]
+			}
+
+		]		
+	},
+	{
+		"id": "24", "area": "DPAC",
+		"titulo": "Construcción de los Planes Estratégicos de Desarrollo (PED) de las Direcciones",
+		"objetivo": "Formular y validar los PED de cada dirección con miras al cierre del PEDI actual, evaluando su sinergia y complementariedad con las Políticas Institucionales.",
+		"responsable": "DPAC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Actualizada la metodología y los instrumentos para la formulación de PEDs en la institución.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollado el análisis y formulación inicial de los PED por Dirección.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-estrategicos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Retroalimentados y ajustados los PED propuestos.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-estrategicos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Formalizados los PED e integrados al SPCI.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},	
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Analizados y propuestos ajustes a las Políticas Institucionales relevantes.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},	
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-estrategicos" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Formalizados ajustes a las Políticas Institucionales relevantes e integradas al SPCI.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},	
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "25", "area": "DPAC",
+		"titulo": "Hacia el desarrollo de la sustentabilidad desde la Universidad de Aysén como perspectiva transversal.",
+		"objetivo": "Instalar la sustentabilidad como perspectiva transversal en la institución, a través de la interacción con redes nacionales en la materia y el desarrollo de orientaciones estratégicas de largo plazo.",
+		"responsable": "DPAC-PCI",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Incorporada la Universidad de Aysén a la Red de Campus Sustentable.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-RI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un diagnóstico y evaluación institucional respecto a la incorporación de la temática de sustentabilidad en la investigación.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluadas y sistematizadas propuestas de alcance territorial para la incorporación de la perspectiva de sustentabilidad desde la Institución.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generada una cartera de acciones específicas para la institución en materia de sustentabilidad.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteadas y evaluadas iniciativas iniciales en materia de sustentabilidad en la institución.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generada una propuesta de articulación en la institucionalidad y orgánica de la sustentabilidad con el género como perspectivas transversales.",
+				"actores": [
+					{
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "EG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc", "juridica" ]
+					}
+				]
+			}
+		]
+	}
+]

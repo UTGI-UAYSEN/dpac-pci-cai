@@ -1,0 +1,422 @@
+[
+	{
+		"id": "01", "area": "CI",
+		"titulo": "Implementación del Plan de Auditorias anual 2021.",
+		"objetivo": "Diseñar, coordinar y ejecutar el plan de auditorias anual, que permita a la institución tener orientaciones sobre mejoras necesarias en el marco procedimental y normativo.",
+		"responsable": "CI-AUD",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizar seguimiento de los avances y resultados de los procesos auditados en instancias previas.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y aprobado formalmente el Plan de Auditorias para el 2021.",
+				"actores": [
+					{
+						"cai": "CI", "rol": "Aprobador",
+						"capacidades": [ "contraloria" ]
+					},
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Comunicado y difundido el Plan de Auditorias 2021 con los equipos institucionales.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generados y presentados los resultados de seguimiento de procesos auditados antes del 2021.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generados y presentados los informes de auditoria para el periodo 2021.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+
+		"id": "02", "area": "CI",
+		"titulo": "Control de juridicidad de actos administrativos y documentación institucional.",
+		"objetivo": "Desarrollar las actividades necesarias para el control de actos administrativos desde la perspectiva de su coherencia y regularidad con el marco normativo que rige a la Institución.",
+		"responsable": "CI-LCJ",
+		"tipo": "Misional",
+		"tacticas": [
+			{
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Efectuar el control de legalidad de los actos administrativos emitidos en la institución en relación a recursos financieros y materiales.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Sistematizar y coordinar la entrega de información hacia actores clave respecto a actos administrativos que requieren revisión.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "03", "area": "CI",
+		"titulo": "Despliegue de mecanismos procedimentales para sumarios administrativos e investigaciones sumarias.",
+		"objetivo": "Implementar mejoras procedimentales y otros mecanismos necesarios para una gestión eficiente de los sumarios administrativos e investigaciones sumarias.",
+		"responsable": "CI-LCJ",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Diseñado y formalizado el reglamento de sumarios administrativos e investigaciones sumarias.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Preparada y desarrollada la difusión a los distintos/as funcionarios/as sobre los derechos y obligaciones de los funcionarios públicos y su responsabilidad administrativa, contextualizada en la realidad de las Instituciones de Educación Superior Estatales de Chile.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Preparada y desarrolladas capacitaciones hacia actores estratégicos y tácticos de la Institución sobre la tramitación de investigaciones sumarias y sumarios administrativos, contextualizada en la realidad de las Instituciones de Educación Superior Estatales de Chile.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados e implementados mecanismos procedimentales y/o protocolares que permitan operacionalizar el reglamento de sumarios administrativos e investigaciones sumarias.",
+				"actores": [
+					{
+						"cai": "CI", "rol": "Aprobador",
+						"capacidades": [ "contraloria" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los mecanismos diseñados en materia de sumarios administrativos e investigaciones sumarias.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "04", "area": "CI",
+		"titulo": "Instalación de la gestión de riesgos en procesos institucionales.",
+		"objetivo": "Generar capacidades que permitan instalar y proyectar en el tiempo la gestión de riesgos en los procesos institucionales, por medio de mecanismos sistemáticos y articulados con la gestión por procesos de la Institución.",
+		"responsable": "CI-AUD",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantada propuesta de asesoría externa para la instalación de un sistema de gestión de riesgos basado en la construcción de matriz institucional y articulado con la gestión de procesos que realiza el área de aseguramiento de la calidad.",
+				"actores": [
+					{
+						"cai": "CI", "rol": "Aprobador",
+						"capacidades": [ "contraloria" ]
+					},
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Ejecutada asesoría externa para el levantamiento de matriz de riesgos de forma articulada a metodología de gestión de procesos de la Institución.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñados y validados mecanismos institucionales para el ajuste y actualización periódico de la matriz de riesgos en función a evolución en la gestión de procesos institucionales.",
+				"actores": [
+					{
+						"cai": "CI", "rol": "Aprobador",
+						"capacidades": [ "contraloria" ]
+					},
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y validado plan de acción, en función a estándares de planificación institucional, para el uso y ajuste de matriz de riesgo.",
+				"actores": [
+					{
+						"cai": "CI-AUD", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Aplicado de forma inicial el plan de acción para el uso y ajuste de la matriz de riesgos.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-AUD", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "05", "area": "CI",
+		"titulo": "Soporte tecnológico en apoyo a labores de juridicidad y control de actos administrativos.",
+		"objetivo": "Implementar mejoras de naturaleza tecnológica que apoyen el desarrollo de actividades asociadas al control de juridicidad y actos administrativos.",
+		"responsable": "CI-LCJ",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Identificar y sistematizar procesos críticos en la institución que se vinculen al control de juridicidad y actos administrativos.",
+				"actores": [
+					{
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluados mecanismos tecnológicos, en el contexto de procesos institucionales identificados, que permitan apoyar la gestión de información vinculada a legislación, jurisprudencia, doctrina, normativa y otra áreas asociadas al derecho (ej: VLEX).",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Implementado los mecanismos tecnológicos evaluados en apoyo al control de juridicidad y actos administrativos.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluado el uso de los mecanismos tecnológicos implementados.",
+				"actores": [
+					{
+						"cai": "CI-LCJ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				]
+			}
+		]
+	}
+]

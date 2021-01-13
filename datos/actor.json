@@ -1,0 +1,291 @@
+[
+	{ 
+		"cai": "Rectoria", "nombre": "Rectoría", "capacidades": [ 
+			{ "id": "rectoria", "tipo": "estrategica", "desc": "Rectoría" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" }
+		] 
+	},
+	{ 
+		"cai": "Gabinete", "nombre": "Gabinete", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "gabinete", "tipo": "tactica", "desc": "Gabinete" }
+		]
+	},
+	{ 
+		"cai": "CI", "nombre": "Contraloría Universitaria", "capacidades": [ 
+			{ "id": "contraloria", "tipo": "estrategica", "desc": "Contraloría" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" }
+		] 
+	},
+	{ 
+		"cai": "CI-AUD", "nombre": "Auditoria", "depende": "CI", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		] 
+	},
+	{
+		"cai": "CI-LCJ", "nombre": "Legalidad y Control de Juricidad", "depende": "CI", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		]
+	},
+	{ 
+		"cai": "EG", "nombre": "Equidad de Género", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "juridico", "tipo": "operativa", "desc": "Apoyo juridico" },
+			{ "id": "psicologico", "tipo": "operativa", "desc": "Apoyo psicologico" }
+		] 
+	},
+	{ 
+		"cai": "SG", "nombre": "Secretaría General", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "secretaria-general", "tipo": "estrategica", "desc": "Secretaría General" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" }
+		] 
+	},	
+	{ 
+		"cai": "SG-JUR", "nombre": "Jurídica", "depende": "SG", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." } 
+		] 
+	},
+	{ 
+		"cai": "SG-TG", "nombre": "Títulos y Grados", "depende": "SG", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		] 
+	},
+	{ 
+		"cai": "SG-OPGDT", "nombre": "Oficina de Partes, Gestión Documental y Transparencia", "depende": "SG", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		] 
+	},
+	{ 
+		"cai": "DAC", "nombre": "Dirección Académica", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "direccion", "tipo": "estrategica", "desc": "Dirección General" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" }
+		] 
+	},
+	{ 
+		"cai": "DAC-SA", "nombre": "Secretaría Académica", "depende": "DAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." } 
+		] 
+	},
+	{ 
+		"cai": "DAC-BRA", "nombre": "Biblioteca y Recursos de Aprendizaje", "depende": "DAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		]
+	},
+	{ 
+		"cai": "DAC-EPRE", "nombre": "Escuela de Pregrado", "depende": "DAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica-estrategica", "desc": "Coordinación general" },
+			{ "id": "coordinacion-curricular", "tipo": "tactica", "desc": "Coordinación Curricular" },
+			{ "id": "coordinacion-acompanamiento-academico", "tipo": "tactica", "desc": "Coordinación Acompañamiento Académico" },
+			{ "id": "coordinacion-admision-matricula", "tipo": "tactica", "desc": "Coordinación Admisión y Matrícula" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "curricular", "tipo": "operativa", "desc": "Soporte Registro Curricular" },
+			{ "id": "acompanamiento-academico", "tipo": "operativa", "desc": "Soporte Acompañamiento Académico" },
+			{ "id": "admision-matricula", "tipo": "operativa", "desc": "Soporte Admisión y Matrícula" }
+		] 
+	},
+	{ 
+		"cai": "DAC-EPYEC", "nombre": "Escuela de Postgrado y Formación Continua", "depende": "DAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica-estrategica", "desc": "Coordinación general" },
+			{ "id": "coordinacion-postgrado", "tipo": "tactica", "desc": "Coordinación Postgrado" },
+			{ "id": "coordinacion-educ-cont", "tipo": "tactica", "desc": "Coordinación Educación Continua" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "postgrado", "tipo": "operativa", "desc": "Soporte Postgrado" },
+			{ "id": "educacion-continua", "tipo": "operativa", "desc": "Soporte Educación Continua" }
+		] 
+	},
+	{
+		"cai": "DAC-TICE", "nombre": "Tecnologías de Información y Comunicación en Educación", "depende": "DAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." } 
+		] 
+	},
+	{ 
+		"cai": "DAC-DE", "nombre": "Desarrollo Estudiantil", "depende": "DAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." } 
+		] 
+	},
+	{ 
+		"cai": "DAC-DA", "nombre": "Desarrollo Académico", "depende": "DAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." } 
+		] 
+	},
+	{ 
+		"cai": "DI", "nombre": "Dirección de Investigación", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "direccion", "tipo": "estrategica", "desc": "Dirección General" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" }
+		] 
+	},
+	{ 
+		"cai": "DI-DINV", "nombre": "Desarrollo de la Investigación", "depende": "DI", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." } 
+		] 
+	},
+	{ 
+		"cai": "DI-ITT", "nombre": "Innovación, Tecnología y Transferencia", "depende": "DI", "capacidades": [ 
+			{ "id": "coord-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		] 
+	},
+	{ 
+		"cai": "DI-DDC", "nombre": "Divulgación y Difusión de la Ciencia", "depende": "DI", "capacidades": [ 
+			{ "id": "coord-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." } 
+		] 
+	},
+	{ 
+		"cai": "DVcM", "nombre": "Dirección de Vinculación con el Medio", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "direccion", "tipo": "estrategica", "desc": "Dirección General" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" },
+			{ "id": "coordinacion", "tipo": "operativa", "desc": "Soporte coordinación interna" }
+		] 
+	},
+	{ 
+		"cai": "DVcM-TE", "nombre": "Territorio", "depende": "DVcM", "capacidades": [
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "educacion", "tipo": "operativa", "desc": "Vinculación con la Educación Escolar." }
+		] 
+	},
+	{ 
+		"cai": "DVcM-COM", "nombre": "Comunicaciones", "depende": "DVcM", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica-estrategica", "desc": "Coordinación general" },					
+			{ "id": "posicionamiento", "tipo": "operativa", "desc": "Soporte Posicionamiento Institucional" },
+			{ "id": "interna", "tipo": "operativa", "desc": "Soporte Comunicaciones Internas" },
+			{ "id": "diseno", "tipo": "operativa", "desc": "Soporte diseño" }
+		] 
+	},
+	{ 
+		"cai": "DVcM-CU", "nombre": "Cultura", "depende": "DVcM", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		] 
+	},
+	{ 
+		"cai": "DVcM-RI", "nombre": "Relaciones Internacionales", "depende": "DVcM", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		] 
+	},
+	{ 
+		"cai": "DAF", "nombre": "Dirección de Administración y Finanzas", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "direccion", "tipo": "estrategica", "desc": "Dirección General" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" }
+		] 
+	},
+	{ 
+		"cai": "DAF-FIN", "nombre": "Finanzas", "depende": "DAF", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "finanzas", "tipo": "operativa", "desc": "Soporte financiero" },
+			{ "id": "contabilidad", "tipo": "operativa", "desc": "Soporte contable" },
+			{ "id": "tesoreria", "tipo": "operativa", "desc": "Tesorería" }
+		] 
+	},
+	{ 
+		"cai": "DAF-DP", "nombre": "Desarrollo de Personas", "depende": "DAF", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "psicologico", "tipo": "operativa", "desc": "Psicología organizacional" }
+		] 
+	},
+	{ 
+		"cai": "DAF-INSG", "nombre": "Infraestructura y Servicios Generales", "depende": "DAF", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },			
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "infraestructura", "tipo": "operativa", "desc": "Infraestructura" },
+			{ "id": "riesgos", "tipo": "operativa", "desc": "Prevención y gestión de riesgos" }
+		] 
+	},
+	{
+		"cai": "DAF-ADQ", "nombre": "Adquisiciones", "depende": "DAF", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "compras", "tipo": "operativa", "desc": "Soporte compras" },
+			{ "id": "inventario", "tipo": "operativa", "desc": "Soporte inventario" }
+		]
+	},
+	{ 
+		"cai": "DPAC", "nombre": "Dirección de Planificación y Aseguramiento de la Calidad", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "direccion", "tipo": "estrategica", "desc": "Dirección General" },
+			{ "id": "soporte-admin", "tipo": "operativa", "desc": "Soporte administrativo" }
+		] 
+	},
+	{ 
+		"cai": "DPAC-PCI", "nombre": "Planificación y Coordinación Institucional", "depende": "DPAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica-estrategica", "desc": "Coordinación general" },			
+			{ "id": "planificacion", "tipo": "operativa", "desc": "Soporte Planificación" },
+			{ "id": "coordinacion", "tipo": "operativa", "desc": "Soporte Coordinación" }
+		] 
+	},
+	{ 
+		"cai": "DPAC-GC", "nombre": "Gestión de la Calidad", "depende": "DPAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica-estrategica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." },
+			{ "id": "procesos", "tipo": "operativa", "desc": "Análisis de procesos" }
+		] 
+	},
+	{ 
+		"cai": "DPAC-AI", "nombre": "Análisis Institucional", "depende": "DPAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica-estrategica", "desc": "Coordinación general" },
+			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
+		] 
+	},
+	{ 
+		"cai": "DPAC-TGI", "nombre": "Tecnologías y Gestión de la Información", "depende": "DPAC", "capacidades": [ 
+			{ "id": "coordinacion-general", "tipo": "tactica-estrategica", "desc": "Coordinación general" },
+			{ "id": "desarrollo", "tipo": "operativa", "desc": "Desarrollo de sistemas" },
+			{ "id": "soporte", "tipo": "operativa", "desc": "Soporte computacional" },
+			{ "id": "plataforma", "tipo": "operativa", "desc": "Plataforma" },
+			{ "id": "conectividad", "tipo": "operativa", "desc": "Conectividad" },
+			{ "id": "gobierno-datos", "tipo": "operativa", "desc": "Gobierno de datos" }
+		] 
+	},
+	{ 
+		"cai": "DCS", "nombre": "Departamento de Ciencias de la Salud", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "docencia", "tipo": "docencia", "desc": "Docencia" },
+			{ "id": "investigacion", "tipo": "investigacion", "desc": "Investigación" },
+			{ "id": "vinculacion", "tipo": "vinculacion", "desc": "Vinculación con el Medio" },
+			{ "id": "gestion", "tipo": "gestion", "desc": "Gestión Universitaria" },
+			{ "id": "soporte-admin", "tipo": "soporte", "desc": "Soporte adminsitrativo académico" }
+		] 
+	},
+	{ 	"cai": "DBS", "nombre": "Departamento de Biósfera Sustentable", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "docencia", "tipo": "docencia", "desc": "Docencia" },
+			{ "id": "investigacion", "tipo": "investigacion", "desc": "Investigación" },
+			{ "id": "vinculacion", "tipo": "vinculacion", "desc": "Vinculación con el Medio" },
+			{ "id": "gestion", "tipo": "gestion", "desc": "Gestión Universitaria" },
+			{ "id": "soporte-admin", "tipo": "soporte", "desc": "Soporte adminsitrativo académico" }
+		] 
+	},
+	{ 	"cai": "DCAI", "nombre": "Departamento de Ciencias Aplicadas e Ingeniería", "depende": "Rectoria", "capacidades": [ 
+			{ "id": "docencia", "tipo": "docencia", "desc": "Docencia" },
+			{ "id": "investigacion", "tipo": "investigacion", "desc": "Investigación" },
+			{ "id": "vinculacion", "tipo": "vinculacion", "desc": "Vinculación con el Medio" },
+			{ "id": "gestion", "tipo": "gestion", "desc": "Gestión Universitaria" },
+			{ "id": "soporte-admin", "tipo": "soporte", "desc": "Soporte adminsitrativo académico" }
+		] 
+	},
+	{ 	"cai": "DCSH", "nombre": "Departamento de Ciencias Sociales y Humanidades", "depende": "Rectoria", "capacidades": [
+			{ "id": "docencia", "tipo": "docencia", "desc": "Docencia" },
+			{ "id": "investigacion", "tipo": "investigacion", "desc": "Investigación" },
+			{ "id": "vinculacion", "tipo": "vinculacion", "desc": "Vinculación con el Medio" },
+			{ "id": "gestion", "tipo": "gestion", "desc": "Gestión Universitaria" },
+			{ "id": "soporte-admin", "tipo": "soporte", "desc": "Soporte adminsitrativo académico" }
+		]
+	},
+	{ 	"cai": "multiple", "nombre": "Selección múltiple", "capacidades": [ 
+			{ "id": "todos-tacticos", "tipo": "tactica", "desc": "Todos tácticos" },
+			{ "id": "todos-estrategicos", "tipo": "estrategica", "desc": "Todos estratégicos" },
+			{ "id": "todos-gestion-academica", "tipo": "gestion", "desc": "Todos gestión académica" }
+		]
+	}
+]
