@@ -16,3 +16,11 @@ detach delete a, c
 
 match (ac:Actor)<-[:CORRESPONDE_A]-(a:Accion)-[:REALIZADA_CON]->(t:Tactica)
 detach delete a, t
+
+//////////////////////////////////
+// Limpia IOs y MDVs
+
+match (io:IO)
+match (mdv:MdV)
+
+detach delete io, mdv

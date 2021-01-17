@@ -122,6 +122,72 @@ return
 'reporte_uso_capacidades.csv', {delim: ';'});
 
 //////////////////////////////////
+// Reporte IOs (funciones)
+
+CALL apoc.export.csv.query("match (io:IO)<-[:MONITOREADA_CON]-(t:Tactica)<-[:REALIZADA_CON]-(a:Accion)
+match (dr:Actor)<-[:CORRESPONDE_A]-(a)
+match (um:Actor)<-[:REALIZADA_POR]-(a)
+optional match (mdv:MdV)<-[:RESPALDADA_CON]-(t)
+where t.tipo = 'Función'
+
+unwind mdv.estandar as Estandares_MDV
+
+return 
+	dr.cai as Area_POA,
+	um.cai as Unidad_Responsable,
+	a.tipo as Tipo_Accion,
+	a.id as ID_Accion,
+	a.titulo as Accion,
+	a.objetivo as Objetivo_Accion,
+	t.cod as Cod_Tactica,	
+	t.desc as Tactica,
+	t.prioridad as Prioridad_Tactica,
+	io.nombre as Nombre_IO,
+	io.formula as Formula_IO,
+	io.meta as Meta_IO,
+	mdv.nombre as Nombre_MDV,
+	Estandares_MDV",
+'reporte_ios.csv', {delim: ';'});
+
+//////////////////////////////////
+// Reporte MdVs (hitos)
+
+CALL apoc.export.csv.query("match (mdv:MdV)<-[:RESPALDADA_CON]-(t:Tactica)<-[:REALIZADA_CON]-(a:Accion)
+match (dr:Actor)<-[:CORRESPONDE_A]-(a)
+match (um:Actor)<-[:REALIZADA_POR]-(a)
+where t.tipo = 'Hito'
+
+unwind mdv.estandar as Estandares_MDV
+
+return 
+	dr.cai as Area_POA,
+	um.cai as Unidad_Responsable,
+	a.tipo as Tipo_Accion,
+	a.id as ID_Accion,
+	a.titulo as Accion,
+	a.objetivo as Objetivo_Accion,
+	t.cod as Cod_Tactica,	
+	t.desc as Tactica,
+	t.prioridad as Prioridad_Tactica,
+	mdv.nombre as Nombre_MDV,
+	mdv.plazo as Plazo_MDV,
+	case mdv.plazo 
+		when 'mar' then 1
+		when 'abr' then 2
+		when 'may' then 3
+		when 'jun' then 4
+		when 'jul' then 5
+		when 'ago' then 6
+		when 'sep' then 7
+		when 'oct' then 8
+		when 'nov' then 9
+		when 'dic' then 10
+		when 'ene' then 11
+	end as Plazo_MDV_Num,
+	Estandares_MDV",
+'reporte_mdvs_hitos.csv', {delim: ';'});
+
+//////////////////////////////////
 // Reporte de combinatorias JCE
 
 match (ct:ParamsJCE { id: 'cobertura' })

@@ -18,11 +18,31 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Porcentaje de observaciones auditadas a las cuales se ha hecho seguimiento.", 
+						"formula": "(Número de observaciones con seguimiento realizado / Número de observaciones sujetas a seguimiento) * 100",
+						"meta": "100%"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de seguimiento de observaciones",
+						"estandar": [
+							"Clasificado según dirección y/o unidad asociada.",
+							"Cuantificable en cantidad de observaciones que están sujetas a seguimiento.",
+							"Cada observación especifica una carencia observada.",
+							"Cada observación especifica el estado esperado de resolución de la carencia.",
+							"Cada observación debe indicar estado de seguimiento.",
+							"En el caso de observaciones con seguimiento realizado, se debe indicar resultado del seguimiento."
+						]
+					}
 				]
 			},
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y aprobado formalmente el Plan de Auditorias para el 2021.",
+				"desc": "Diseñado y aprobado formalmente el Plan de Auditorías para el 2021.",
 				"actores": [
 					{
 						"cai": "CI", "rol": "Aprobador",
@@ -31,6 +51,18 @@
 					{
 						"cai": "CI-AUD", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto aprobador de plan de auditoría 2021",
+						"plazo": "mar",
+						"estandar": [
+							"Especifica calendario de hitos clave.",
+							"Especifica responsabilidades de proceso.",
+							"Especifica direcciones y/o unidades auditadas.",
+							"Especifica productos y resultados a obtener."
+						]
 					}
 				]
 			},
@@ -50,6 +82,24 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones o instancias de presentación del Plan",
+						"plazo": "may",
+						"estandar": [
+							"Al menos un acta por cada dirección o área estratégica.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "may",
+						"estandar": [
+							"PPT, documento u otro que explique el proceso y sus detalles."
+						]
+					}
 				]
 			},
 			{
@@ -63,6 +113,26 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de resultado de seguimiento de procesos auditados",
+						"plazo": "jul",
+						"estandar": [
+							"Al menos un informe por cada dirección o área estratégica.",
+							"Debe indicar aquellas observaciones que han sido detectadas como resueltas y no resueltas.",
+							"Debe entregar sugerencias de plazos finales en el periodo para abordar observaciones no resueltas."
+						]
+					},
+					{
+						"nombre": "Actas de reuniones o instancias de presentación de resultados",
+						"plazo": "jul",
+						"estandar": [
+							"Al menos un acta por cada dirección o área estratégica.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					}
 				]
 			},
@@ -78,6 +148,24 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Pre-informes de auditoria para el periodo",
+						"plazo": "sep",
+						"estandar": [
+							"Al menos un pre-informe por cada dirección o área estratégica auditada.",
+							"Debe indicar de forma estructurada las observaciones detectadas.",
+							"Debe indicar plazos de entrega de antecedentes para subsanar observaciones de los pre-informes."
+						]
+					},
+					{
+						"nombre": "Validador de entrega",
+						"plazo": "sep",
+						"estandar": [
+							"Respaldo de medio de entrega del pre-informe (correo electrónico, acta de reunión u otros)."
+						]
+					}
 				]
 			},
 			{
@@ -91,6 +179,24 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de auditoria para el periodo",
+						"plazo": "nov",
+						"estandar": [
+							"Al menos un informe por cada dirección o área estratégica auditada.",
+							"Debe indicar de forma estructurada las observaciones detectadas.",
+							"Debe considerar los antecedentes entregados desde el pre-informe, indicando en aquellos casos que corresponda, por qué no se consideran subsanadas las observaciones."
+						]
+					},
+					{
+						"nombre": "Validador de entrega",
+						"plazo": "nov",
+						"estandar": [
+							"Respaldo de medio de entrega del informe (correo electrónico, acta de reunión u otros)."
+						]
 					}
 				]
 			}
@@ -124,6 +230,31 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Controles de legalidad efectuados.", 
+						"formula": "Número de informes de toma de razón emitidos",
+						"meta": "165"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de controles efectuados",
+						"estandar": [
+							"Clasificado según dirección y/o unidad asociada.",
+							"Cuantificable en cantidad de controles considerados para revisión.",
+							"Cada entrada en el registro debe indicar estado de revisión del control.",
+							"En el caso de controles efectuados, se debe indicar resultado del control."
+						]
+					},
+					{
+						"nombre": "Informes de legalidad",
+						"estandar": [
+							"Según formato establecido por CI.",
+							"Su cantidad debe ser equivalente a los controles que se registran como efectuados en el registro respectivo."
+						]
+					}
 				]
 			},
 			{
@@ -137,6 +268,21 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Controles de legalidad sujetos a revisión y entregados.", 
+						"formula": "Número de informes de toma de razón emitidos y que han sido informados a actores pertinentes.",
+						"meta": "165"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Comunicaciones efectuados a actores clave sobre controles de legalidad",
+						"estandar": [
+							"Respaldo de medio de entrega del control (correo electrónico, acta de reunión u otros)."
+						]
 					}
 				]
 			}
@@ -165,6 +311,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza reglamento de sumarios administrativos e investigaciones sumarias.",
+						"plazo": "mar",
+						"estandar": [
+							"Especifica etapas y actividades fundamentales del proceso de sumario e investigaciones.",
+							"Especifica roles asociados a las etapas y actividades, además de sus responsabilidades.",
+							"Especifica direcciones y/o unidades auditadas.",
+							"Especifica mecanismos que deben existir para operacionalizar el reglamento."
+						]
+					}
 				]
 			},
 			{
@@ -183,6 +341,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Lista de asistencia a actividades de difusión",
+						"plazo": "may",
+						"estandar": [
+							"Consolidada o dividida en cantidad de presentaciones realizadas.",
+							"Debe ser identificable de forma clara el número de asistentes.",
+							"Los asistentes deben estar clasificados por área de trabajo."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "may",
+						"estandar": [
+							"PPT, documento u otro que explique el reglamento y sus detalles.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -200,6 +377,26 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Lista de asistencia a actividades de capacitación",
+						"plazo": "may",
+						"estandar": [
+							"Consolidada o dividida en cantidad de presentaciones realizadas.",
+							"Debe ser identificable de forma clara el número de asistentes.",
+							"Los asistentes deben estar clasificados por cargo."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "may",
+						"estandar": [
+							"PPT, documento u otro que explique el reglamento y sus detalles.",
+							"Debe indicar fuentes y otros antecedentes respecto a como se incorporan perspectivas de la realidad de las Instituciones de Educación Superior Estatales de Chile.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					}
 				]
 			},
@@ -223,6 +420,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos que operacionalizan el reglamento",
+						"plazo": "jun",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para implementar el reglamento.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ago",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -236,6 +454,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan de pilotaje",
+						"plazo": "ago",
+						"estandar": [
+							"Documento simple que especifica la estrategia de aplicación de los mecanismos diseñados.",
+							"Debe especificar un calendario de eventos y actividades relevantes.",
+							"Debe especificar el alcance del pilotaje, indicando qué elementos se estiman que serán evaluados y cuáles quedarán para una mejora en próximo periodo."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "dic",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al reglamento.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el reglamento como sobre los mecanismos piloteados."
+						]
 					}
 				]
 			}
@@ -261,12 +500,35 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DAF-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Términos de referencia",
+						"plazo": "mar",
+						"estandar": [
+							"Debe especificar claramente los productos esperados de la asesoría, con particular énfasis en la matriz de riesgos.",
+							"Debe incorporar un calendario de realización.",
+							"Debe especificar los actores claves del proceso.",
+							"Debe indicar costos y otros insumos relevantes para efectuar acuerdos.",
+							"Debe explicitar, en términos de los resultados a obtener, que mecanismos se generarán respecto a la articulación con la gestión de procesos institucionales."
+						],
+						"nombre": "Validador de adquisición / servicio",
+						"plazo": "abr",
+						"estandar": [
+							"Documento formal que valide el acuerdo de servicio con empresa o institución que entrega la asesoría.",
+							"Según corresponda, debe seguir los estándares de las adquisiciones en la institución."
+						]
 					}
 				]
 			},
@@ -286,23 +548,23 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñados y validados mecanismos institucionales para el ajuste y actualización periódico de la matriz de riesgos en función a evolución en la gestión de procesos institucionales.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "CI", "rol": "Aprobador",
-						"capacidades": [ "contraloria" ]
-					},
-					{
-						"cai": "CI-AUD", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"nombre": "Informe de resultados",
+						"plazo": "ago",
+						"estandar": [
+							"Debe indicar los principales resultados obtenidos del proceso.",
+							"Debe indicar los mecanismos que fueron levantados, con particular énfasis en la matriz de riesgo.",
+							"Debe indicar las estrategias de aplicación y uso de los mecanismos levantados, como capacidad instalada.",
+							"Se debe manifestar la aprobación de la Institución respecto a estos resultados."
+						],
+						"nombre": "Mecanismo matriz de riesgos",
+						"plazo": "ago",
+						"estandar": [
+							"Documento que describe el diseño y funcionamiento de la matriz de riesgos, en coherencia a la realidad institucional.",
+							"Acompañado de un decreto validador, si corresponde."
+						]
 					}
 				]
 			},
@@ -317,6 +579,17 @@
 					{
 						"cai": "DPAC-PCI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "planificacion" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de acciones específicas para implementación de matriz de riesgo",
+						"plazo": "ago",
+						"estandar": [
+							"Acciones que den cuenta de utilización de matriz en función a mecanismos levantados con asesoría.",
+							"Diseño planteado desde estándares de planificación institucional (registro en cartera de acciones).",
+							"Acciones de corto plazo, que se desarrollen en el contexto de H05."
+						]
 					}
 				]
 			},
@@ -335,6 +608,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de aplicación del plan",
+						"plazo": "dic",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al diseño de la matriz.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el reglamento como sobre los mecanismos piloteados."
+						]
 					}
 				]
 			}
@@ -367,6 +652,17 @@
 						"cai": "SG-JUR", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "jun",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -378,13 +674,13 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "SG-JUR", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
@@ -393,10 +689,33 @@
 						"cai": "DAF-ADQ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "compras" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de recomendaciones de implementación tecnológica.",
+						"plazo": "ago",
+						"estandar": [
+							"Compila evaluación cualitativa y cuantitativa sobre alternativas de modernización de procesos levantados.",
+							"Evaluación se presenta en función a ventajas y desventajas de alternativas analizadas.",
+							"Alternativas pueden considerar tanto desarrollo propio como adquisición de software.",
+							"Cada alternativa debe especificar el alcance de la implementación para el periodo en curso.",
+							"Entrega recomendaciones de implementación emitidas desde el área de TGI."								
+						]
+					},
+					{
+						"nombre": "Validador de elección de mecanismo tecnológico para su implementación.",
+						"plazo": "ago",
+						"estandar": [
+							"Validador que confirma la elección de alternativa a implementar según informe de recomendaciones entregado.",
+							"Alternativa elegida debe responder a definiciones propuestas en el informe.",
+							"Validador debe ser emitido por mandante (CI), en donde debe asumir el liderazgo en la gestión del proceso de implementación de la alternativa escogida, y en apoyo en este proceso a TGI en su rol de soporte técnico.",
+							"Validador debe establecer los roles de otros actores que estarán involucrados en la implementación."
+						]
+					}
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima",
 				"desc": "Implementado los mecanismos tecnológicos evaluados en apoyo al control de juridicidad y actos administrativos.",
 				"actores": [
 					{
@@ -419,10 +738,23 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de implementación de sistema de información y/o servicio.",
+						"plazo": "nov",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de alternativa definida su elección por el mandante.",
+							"Debe referenciar artefactos de software debidamente implementados.",
+							"Debe considerar documentación técnica asociada al diseño e implementación del mecanismo.",
+							"Debe incorporar plan de despliegue y capacitación de usuarios sobre implementación inicial para su pilotaje.",
+							"Debe explicitar la aprobación de mandante sobre los artefactos entregados."
+						]
+					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Piloteados y evaluado el uso de los mecanismos tecnológicos implementados.",
 				"actores": [
 					{
@@ -430,8 +762,28 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de despliegue y evaluación de mecanismos tecnológicos implementados.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe sistematizar antecedentes entregados por usuarios del sistema respecto al uso de los mecanismos tecnológicos durante el pilotaje.",
+							"Debe indicar aspectos de la implementación que resultan exitosos.",
+							"Debe indicar aspectos de la implementación que no se lograron según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto desde la perspectiva de procesos como de tecnología."
+						]
 					}
 				]
 			}

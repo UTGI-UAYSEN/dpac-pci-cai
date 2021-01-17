@@ -97,6 +97,37 @@ optional match (a)-[:REALIZADA_CON]->(t:Tactica)
 return a, t, c1, c2
 
 //////////////////////////////////
+// Crea IOs y MDVs
+
+//WITH [ 'DAC', 'DPAC', 'DAF', 'DI', 'DVcM', 'Rectoria', 'CI' ] as files
+WITH [ 'CI' ] as files
+UNWIND files as file
+CALL apoc.load.json('file:///datos/acciones_' + file + '.json') YIELD value
+
+unwind value.tacticas as tactica
+match (t:Tactica {id: value.area + '-' + value.id + '-' + tactica.id})
+
+foreach(mdv in tactica.verificadores |
+	merge (t)-[:RESPALDADA_CON]->(n1:MdV { 
+		nombre: mdv.nombre, 
+		//estandar: reduce(text = '', e IN mdv.estandar | text + e + '\n')
+		estandar: mdv.estandar
+	})
+
+	set n1.plazo = (CASE WHEN mdv.plazo is not null then mdv.plazo else null end)
+)
+
+foreach(io in tactica.ios |
+	merge (t)-[:MONITOREADA_CON]->(n2:IO { nombre: io.nombre, formula: io.formula, meta: io.meta })
+)
+
+with t
+match (a:Accion)-[:REALIZADA_CON]->(t)
+optional match (t)-[:RESPALDADA_CON]->(mdv:MdV)
+optional match (t)-[:MONITOREADA_CON]->(io:IO)
+return a, t, mdv, io
+
+//////////////////////////////////
 // Crea directrices
 
 CALL apoc.load.json("file:///datos/directriz.json") YIELD value
