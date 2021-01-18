@@ -21,6 +21,24 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Mantenciones a sistemas o servicios de información existentes.", 
+						"formula": "Número de mantenciones a sistemas o servicios de información de naturaleza periódica ejecutadas y completadas.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de mantenciones a sistemas y servicios institucionales",
+						"estandar": [
+							"Debe registrar sistemas o servicios a los cuales se realiza mantención durante el periodo.",
+							"Para cada sistema o servicio registrado, debe indicar el alcance de su respectiva mantención.",
+							"Para cada sistema o servicio registrado, debe indicar el estado de avance de la mantención.",
+							"En el caso de mantenciones completadas, debe indicar resultados obtenidos y potenciales requerimientos derivados."
+						]
+					}
 				]
 			},
 			{
@@ -42,6 +60,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades de soporte realizadas para el personal de colaboración.", 
+						"formula": "Número de servicios de soporte computacional al personal de colaboración ejecutados y completados.",
+						"meta": "60"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de servicios de soporte",
+						"estandar": [
+							"Debe registrar atenciones de soporte computacional a los distintos estamentos durante el periodo.",
+							"Para cada atención registrada, debe indicar las características del servicio brindado.",
+							"Para cada atención registrada, debe indicar el estado de avance de la atención.",
+							"En el caso de atenciones completadas, debe considerar validadores de atención conforme (ej.: correo electrónico)."
+						]
 					}
 				]
 			},
@@ -65,11 +101,29 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades de soporte realizadas para docentes y estudiantes.", 
+						"formula": "Número de servicios de soporte computacional a docentes y estudiantes ejecutados y completados.",
+						"meta": "60"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de servicios de soporte",
+						"estandar": [
+							"Debe registrar atenciones de soporte computacional a los distintos estamentos durante el periodo.",
+							"Para cada atención registrada, debe indicar las características del servicio brindado.",
+							"Para cada atención registrada, debe indicar el estado de avance de la atención.",
+							"En el caso de atenciones completadas, debe considerar validadores de atención conforme (ej.: correo electrónico)."
+						]
+					}
 				]
 			},
 			{
 				"id": "F04", "tipo": "Función", "cobertura": "Acotada",
-				"desc": "Evaluar de nuevos desarrollos para la institución.",
+				"desc": "Evaluar nuevos desarrollos y requerimientos de software para la institución.",
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -87,6 +141,25 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Nuevos requerimientos de implementación de software institucional.", 
+						"formula": "Número de mecanismos tecnológicos emergentes que han sido caracterizados e identificados como necesidades desde actores clave.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Minutas de caracterización de nuevos desarrollos requeridos",
+						"estandar": [
+							"Documento en el cual se establecen requerimientos generales y elementos contextuales sobre potenciales nuevos sistemas de información para la institución.",
+							"Formato específico a establecer por área TGI.",
+							"Debe presentar un alcance preliminar de los requerimientos identificados.",
+							"Debe indicar si procede un análisis y normalización previa de procesos asociados.",
+							"Debe explicitar la aprobación de mandante respectivo en torno a la necesidad identificada."
+						]
+					}
 				]
 			},
 			{
@@ -100,6 +173,23 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "desarrollo", "plataforma", "conectividad" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Participaciones en redes de equipo TGI.", 
+						"formula": "Número de participaciones de uno o varios miembros del equipo en reuniones o actividades de redes de colaboración durante el proceso.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Minutas de participación en redes",
+						"estandar": [
+							"Resúmenes sobre actividades realizadas en el contexto de las redes de colaboraciones en las cuales el equipo TGI haya participado.",
+							"Pueden servir actas emitidas por las redes respectivas, idealmente explicitando la participación de la Institución en ellas",
+							"Debe agregar antecedentes y orientaciones respecto a como la participación del equipo TGI se retroalimenta con las actividades realizadas en las redes respectivas."
+						]
 					}
 				]
 			}
@@ -127,6 +217,24 @@
 						"cai": "DAF-INSG", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "infraestructura" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Mantenciones de plataforma institucional.", 
+						"formula": "Número de mantenciones a componentes de la plataforma institucional de naturaleza periódica ejecutadas y completadas.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de mantenciones a sistemas y servicios institucionales",
+						"estandar": [
+							"Debe registrar sistemas o servicios a los cuales se realiza mantención durante el periodo.",
+							"Para cada sistema o servicio registrado, debe indicar el alcance de su respectiva mantención.",
+							"Para cada sistema o servicio registrado, debe indicar el estado de avance de la mantención.",
+							"En el caso de mantenciones completadas, debe indicar resultados obtenidos y potenciales requerimientos derivados."
+						]
+					}
 				]
 			},
 			{
@@ -144,6 +252,24 @@
 					{
 						"cai": "DAF-INSG", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "infraestructura", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Servicios de conectividad monitoreados.", 
+						"formula": "Número de actividades de monitoreo sobre los servicios de conectividad institucional realizados durante el periodo.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de monitoreo de servicios de conectividad",
+						"estandar": [
+							"Cada informa detalla las características del monitoreo y los resultados obtenidos respecto a los servicios de conectividad.",
+							"Se deben utilizar indicadores técnicos asociados a los servicios de conectividad para el monitoreo, diagnóstico y análisis respectivo.",
+							"Los resultados deben dar cuenta de la normalidad de los servicios, o de anomalías que se deben ser revisadas.",
+							"Los informes deben ser visados por la jefatura TGI."
+						]
 					}
 				]
 			},
