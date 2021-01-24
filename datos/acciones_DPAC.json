@@ -256,7 +256,7 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Servicios de conectividad monitoreados.", 
+						"nombre": "Monitoreo de servicios de conectividad.", 
 						"formula": "Número de actividades de monitoreo sobre los servicios de conectividad institucional realizados durante el periodo.",
 						"meta": "5"
 					}
@@ -289,6 +289,24 @@
 						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "coordinacion-general" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Monitoreos de seguridad de la información.", 
+						"formula": "Número de actividades de revisiones de seguridad de datos realizados durante el periodo.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de revisión de seguridad de datos",
+						"estandar": [
+							"Cada informa detalla la metodología de revisión de datos institucionales y los resultados obtenidos respecto a parámetros para su seguridad.",
+							"Se deben utilizar indicadores técnicos asociados a seguridad y calidad de datos para el diagnóstico y análisis respectivo.",
+							"Los resultados deben dar cuenta del cumplimiento de estándares de seguridad, o de anomalías que se deben ser revisadas.",
+							"Los informes deben ser visados por la jefatura TGI."
+						]
+					}
 				]
 			}
 		]
@@ -315,6 +333,24 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Sistematización de datos en Cartera de Acciones Institucionales.", 
+						"formula": "Número de acciones en forma completa registradas en Cartera de Acciones Institucionales.",
+						"meta": "180"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de acciones sistematizadas en Cartera de Acciones Institucionales",
+						"estandar": [
+							"Reporte integrado con detalle de acciones registradas y que no han sido planificadas en periodos anteriores.",
+							"Incorpora detalle de estructura de trabajo: acción, tácticas, capacidades previstas, roles asignados, indicadores operativos con sus metas, medios de verificación y plazos para hitos.",
+							"Incorpora estimación de JCEs requeridas para ejecución.",
+							"Incorpora vinculación a directrices institucionales (PEDI, PFI, etc.)."
+						]
+					}
 				]
 			},
 			{
@@ -333,11 +369,21 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Versión final de proyectos diseñados.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe corresponder a versión que Mineduc DFI apruebe - se puede acompañar de correo electrónico que confirma.",
+							"Opcionalmente, acompañar con los convenios respectivos y formalizados."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Construídos los Planes Operativos Anuales que sistematizan la planificación del próximo periodo en coherencia a las capacidades institucionales.",
+				"desc": "Construidos los Planes Operativos Anuales que sistematizan la planificación del próximo periodo en coherencia a las capacidades institucionales.",
 				"actores": [
 					{
 						"cai": "DPAC", "rol": "Aprobador",
@@ -350,6 +396,16 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto POA 2022.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe corresponder a conjunto de acciones aprobadas y coordinadas con el presupuesto institucional 2022.",
+							"Acompañado de reporte técnico con la misma estructura del indicado en F01, considerando acciones que fueron priorizadas para el 2022."
+						]
 					}
 				]
 			},
@@ -369,10 +425,29 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de operacionalización de encuesta.",
+						"plazo": "mar",
+						"estandar": [
+							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
+							"Versión validada por Director DPAC."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de encuesta.",
+						"plazo": "may",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DPAC."
+						]
+					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Mínima",
 				"desc": "Actualizados indicadores del PEDI primer semestre.",
 				"actores": [
 					{
@@ -386,6 +461,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe técnico de actualización de indicadores.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe incorporar valores de cada indicador estratégico actualizado a la fecha.",
+							"Debe ser acompañado de metas establecidas para el periodo y valores medidos en periodos anteriores."
+						]
+					},
+					{
+						"nombre": "Memorándums de solicitud de datos para actualización de indicadores.",
+						"plazo": "jun",
+						"estandar": [
+							"Compilación de comunicaciones formales realizadas a las distintas direcciones y áreas para actualizar indicadores respectivos.",
+							"Opcionalmente, se puede acompañar de breve informe indicando situación de respuesta a cada solicitud."
+						]
 					}
 				]
 			},
@@ -405,6 +498,24 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe técnico de actualización de indicadores.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe incorporar valores de cada indicador estratégico actualizado a la fecha.",
+							"Debe ser acompañado de metas establecidas para el periodo y valores medidos en periodos anteriores."
+						]
+					},
+					{
+						"nombre": "Memorándums de solicitud de datos para actualización de indicadores.",
+						"plazo": "nov",
+						"estandar": [
+							"Compilación de comunicaciones formales realizadas a las distintas direcciones y áreas para actualizar indicadores respectivos.",
+							"Opcionalmente, se puede acompañar de breve informe indicando situación de respuesta a cada solicitud."
+						]
+					}
 				]
 			},
 			{
@@ -422,6 +533,18 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto aprobador de Proceso de Planificación Institucional 2022",
+						"plazo": "abr",
+						"estandar": [
+							"Especifica calendario de hitos clave.",
+							"Especifica responsabilidades de proceso.",
+							"Especifica direcciones y/o unidades auditadas.",
+							"Especifica productos y resultados a obtener."
+						]
 					}
 				]
 			},
@@ -441,6 +564,31 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de acciones priorizadas",
+						"plazo": "dic",
+						"estandar": [
+							"Sigue misma estructura de reporte estándar descrito en F01, incluyendo información de acciones que fueron priorizadas."
+						]
+					},
+					{
+						"nombre": "Descripción metodológica de proceso de priorización",
+						"plazo": "dic",
+						"estandar": [
+							"Material técnico (informe, presentación etc.) que describa los estándares y criterios utilizados para el proceso de priorización.",
+							"Debe ser coherente con los estándares de planificación institucional y el Lenguaje Estratégico."
+						]
+					},
+					{
+						"nombre": "Acta de validación de acciones 2022 priorizadas",
+						"plazo": "ene",
+						"estandar": [
+							"Debe incorporar visación de actores estratégicos involucrados en el proceso.",
+							"Puede ser acompañado de otros insumos descritos en esta acción."
+						]
+					}
 				]
 			},
 			{
@@ -459,6 +607,22 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de acciones priorizadas",
+						"plazo": "nov",
+						"estandar": [
+							"Sigue misma estructura de reporte estándar descrito en F01, incluyendo información de acciones que fueron priorizadas."
+						]
+					},
+					{
+						"nombre": "Versiones finales de proyectos diseñados",
+						"plazo": "nov",
+						"estandar": [
+							"Equivalente a lo indicado en H01."
+						]
+					}
 				]
 			},
 			{
@@ -476,6 +640,23 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de acciones vinculadas a trabajo con tutoría",
+						"plazo": "mar",
+						"estandar": [
+							"Sigue misma estructura de reporte estándar descrito en F01, incluyendo información de acciones que están asociadas a directrices de Tutoría UCH."
+						]
+					},
+					{
+						"nombre": "Acta de transferencia y acuerdo",
+						"plazo": "abr",
+						"estandar": [
+							"Documento que formalice acuerdos tomados entre DPAC-PCI y Coordinación Tutoría UCH respecto a acciones que recibirán soporte en el año para trabajo colaborativo.",
+							"Se debe acompañar de breve estrategia de operacionalización de solicitudes que se proyectan en el año, trabajada entre ambas partes."
+						]
 					}
 				]
 			}
@@ -507,6 +688,25 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Informes técnicos de control de gestión.", 
+						"formula": "Número de reportes de control de gestión emitidos hacia actores estratégicos respecto a las acciones de su responsabilidad.",
+						"meta": "35"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes técnicos entregados a actores estratégicos",
+						"estandar": [
+							"Deben proveer información actualizada tanto sobre indicadores de avance como de logro.",
+							"Deben considerar avances solo si existen medios de verificación respaldados.",
+							"Deben estar detallados a nivel de tácticas (hitos y funciones), y agregados a nivel de acciones.",
+							"Deben ser acompañados de un breve relato sobre el avance observado.",
+							"Deben ser transferidos por medios formales (memorándum)."
+						]
+					}					
 				]
 			},
 			{
@@ -529,6 +729,31 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Puntual",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de coordinación con equipos técnicos.", 
+						"formula": "Número de coordinaciones efectuadas con equipos técnicos.",
+						"meta": "80"
+					}
+
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de coordinación con equipos técnicos.",
+						"estandar": [
+							"Deben resumir temáticas y resultados asociados al seguimiento realizado con los equipos de forma periódica.",
+							"Debe explicitar requerimientos levantados para emitir pertinencias con Mineduc.",
+							"Cada acta debe incorporar diagnóstico de uso de recursos de proyectos respectivos."
+						]
+					},
+					{
+						"nombre": "Pertinencias emitidas a Mineduc.",
+						"estandar": [
+							"Incluye documento enviado a Mineduc para evaluación de pertinencia.",
+							"Incluye comunicaciones realizadas con analista contraparte, incluyendo correspondiente aprobación, si aplica."
+						]
+					}
 				]
 			},
 			{
@@ -546,6 +771,22 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Requerimientos emitidos para coordinación con tutoría.", 
+						"formula": "Número de requerimientos emitidos para generar acciones de colaboración con Tutoría UCH en diversas temáticas.",
+						"meta": "30"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Oficios a tutoría UCH emitidos.",
+						"estandar": [
+							"Deben corresponder a los estándares utilizados en DPAC-PCI para el procedimiento respectivo de solicitud.",
+							"Deben ser acompañados por los antecedentes asociados al proceso de solicitud (ej.: formulario de solicitud)."
+						]
 					}
 				]
 			},
@@ -565,6 +806,23 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de coordinación con equipos técnicos.", 
+						"formula": "Número de coordinaciones efectuadas con equipos técnicos.",
+						"meta": "80"
+					}
+
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de coordinación con equipos técnicos.",
+						"estandar": [
+							"Coordinaciones y seguimientos pueden ser equivalentes o pueden estar integradas a las desarrolladas en F02.",
+							"En caso de existir problemas de avance en compromisos, las actas deben explicitar motivos identificados y estrategias tentativas de resolución, junto al rol que jugará cada actor en ello.."
+						]
+					}
 				]
 			},
 			{
@@ -582,6 +840,16 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de avance / cierre entregados a Mineduc.",
+						"plazo": "jul",
+						"estandar": [
+							"Deben seguir los estándares entregados por Mineduc.",
+							"Acompañar de comunicaciones (ej.: correos) de entrega realizados."
+						]
 					}
 				]
 			},
@@ -601,6 +869,16 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de avance / cierre entregados a Mineduc.",
+						"plazo": "ene",
+						"estandar": [
+							"Deben seguir los estándares entregados por Mineduc.",
+							"Acompañar de comunicaciones (ej.: correos) de entrega realizados."
+						]
+					}
 				]
 			},
 			{
@@ -618,6 +896,25 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de rendición POA 2020.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe hacer referencia a POA 2020 formalizado en decreto.",
+							"Debe considerar avances logrados solo cuando existan medios de verificación que respalden los avances.",
+							"Debe estar organizado por dirección o área estratégica.",
+							"Para cada dirección o área, debe entregarse un apartado descriptivo breve de los resultados obtenidos."
+						]
+					},
+					{
+						"nombre": "Decreto rendición POA 2020.",
+						"plazo": "may",
+						"estandar": [
+							"Debe referenciar el informe respectivo."
+						]
 					}
 				]
 			}
@@ -646,6 +943,23 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Requerimientos de datos e información resueltos.", 
+						"formula": "Número de requerimientos emergentes (o no planificados) que han sido resueltos e informados a contrapartes interesadas.",
+						"meta": "20"
+					}
+
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"estandar": [
+							"Validadores de la entrega realizada, en donde se incluya la descripción del alcance del requerimiento resuelto.",
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos que Análisis Institucional establezca."
+						]
+					}
 				]
 			},
 			{
@@ -667,6 +981,15 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "contabilidad" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "abr",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
 					}
 				]
 			},
@@ -690,6 +1013,15 @@
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "may",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
+					}
 				]
 			},
 			{
@@ -703,6 +1035,15 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "gobierno-datos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "jun",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
 					}
 				]
 			},
@@ -718,6 +1059,15 @@
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "gobierno-datos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "oct",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
+					}
 				]
 			},
 			{
@@ -731,6 +1081,15 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "gobierno-datos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "dic",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
 					}
 				]
 			},
@@ -758,6 +1117,15 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "contabilidad" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "ago",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
+					}
 				]
 			},
 			{
@@ -780,6 +1148,15 @@
 						"cai": "DAF-ADQ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "oct",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
+					}
 				]
 			},
 			{
@@ -797,6 +1174,15 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "nov",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
 					}
 				]
 			},
@@ -820,6 +1206,15 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Respaldos de entrega de datos e información.",
+						"plazo": "dic",
+						"estandar": [
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+						]
+					}
 				]
 			}
 		]
@@ -827,7 +1222,7 @@
 	{
 		"id": "06", "area": "DPAC",
 		"titulo": "Evaluación de servicios internos UAysén.",
-		"objetivo": "IMplementación y despliegue de mecanismos de uso periódico que permitan recopilar información cualitativa sobre la calidad de los servicios internos de la institución, para generar reportes periódicos que sirvan a los equipos en la mejora de sus procesos.",
+		"objetivo": "Implementación y despliegue de mecanismos de uso periódico que permitan recopilar información cualitativa sobre la calidad de los servicios internos de la institución, para generar reportes periódicos que sirvan a los equipos en la mejora de sus procesos.",
 		"responsable": "DPAC-GC",
 		"tipo": "Desarrollo",
 		"tacticas": [
@@ -847,6 +1242,17 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de Resultados de la Evaluación de servicios internos.",
+						"plazo": "ago",
+						"estandar": [
+							"Al menos un apartado por cada dirección o área estratégica evaluada.",
+							"Debe acompañar infografía que permita identificar visualmente las observaciones.",
+							"Debe indicar de forma estructurada las observaciones detectadas."
+						]
+					}
 				]
 			},
 			{
@@ -865,6 +1271,23 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Listado Cobertura de difusión.",
+						"plazo": "sep",
+						"estandar": [
+							"Los asistentes deben estar clasificados por área de trabajo.",
+							"Consolidada o dividida en cantidad de informes, presentaciones o infografías realizadas."
+						]
+					},
+					{
+						"nombre": "Material de difusión.",
+						"plazo": "sep",
+						"estandar": [
+							"PPT, documento u otro que explique el proceso de evaluación y sus resultados."
+						]
+					},
 				]
 			},
 			{
@@ -886,6 +1309,36 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos",
+						"plazo": "oct",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para dar sustento al uso de la información.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados.",
+						"plazo": "nov",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Coherentes con el índice que los específica.",
+							"Registro ordenado de documentos que compilan los mecanismos diseñados."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de aplicación de mecanismos",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre la evaluación de servicios como para los mecanismos que usen dicha información."
+						]
 					}
 				]
 			}
@@ -918,6 +1371,25 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de operacionalización de encuesta.",
+						"plazo": "ago",
+						"estandar": [
+							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
+							"Versión validada por DPAC-GC."
+						]
+					},
+					{
+						"nombre": "Informe de Resultados de encuesta",
+						"plazo": "sep",
+						"estandar": [
+							"Al menos un apartado por cada dirección o área estratégica evaluada.",
+							"Debe acompañar infografía que permita identificar visualmente las observaciones.",
+							"Debe indicar de forma estructurada las observaciones detectadas."
+						]
+					}
 				]
 			},
 			{
@@ -944,6 +1416,19 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de avance de Plan de Mejora 2019.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe responder integralmente a compromisos de Informe de Autoevaluación 2019.",
+							"Debe entregar indicadores generales de avance, con la metodología de cálculo empleada.",
+							"Debe estar respaldado en medios de verificación que den cuenta de los avances reportados.",
+							"Estructurado por las distintas áreas estratégicas.",
+							"Cada área debe incorporar un relato sobre el estado de avance, en función a los resultados obtenidos desde el informe."
+						]
+					}
 				]
 			},
 			{
@@ -965,6 +1450,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "ene",
+						"estandar": [
+							"Plan de mejora debe ser sistematizado en formato de acciones según establece el Lenguaje Estratégico.",
+							"Cada área estratégica debe tener asociada una serie de acciones a modo de avances.",
+							"Las acciones deben ser coherentes y responder a las acciones de autoevaluación a la fecha desarrolladas, con miras a la acreditación 2022."
+						]
 					}
 				]
 			},
@@ -992,6 +1488,27 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de metodología para implementación proceso autoevaluación 2021-2022.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe incorporar elementos de comunicaciones del proceso.",
+							"Debe incluir cronograma de trabajo.",
+							"Debe incluir fases del proceso.",
+							"Debe incluir organización interna del trabajo, considerando actores claves.",
+							"Debe especificar recursos tecnológicos de soporte que serán necesarios."
+						]
+					},
+					{
+						"nombre": "Acta de aprobación de metodología.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe dar cuenta de presentación a equipo directivo y aprobación desde Rectoría.",
+							"Se puede acompañar de material desde otros MdVs."
+						]
+					}
 				]
 			},
 			{
@@ -1010,6 +1527,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de Mecanismos Elaborados.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe considerar implementación inicial de mecanismos que soporten todo el proceso.",
+							"Debe incorporar recomendaciones de aplicación.",
+							"Acompañado de validador que confirme elección de alternativa a implementar."
+						]
+					}
 				]
 			},
 			{
@@ -1027,6 +1555,26 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de estrategia comunicacional para proceso de autoevaluación.",
+						"plazo": "may",
+						"estandar": [
+							"Debe incorporar aliados y actores claves.",
+							"Debe detallar técnicamente canales internos y externos de comunicación.",
+							"Debe especificar cronograma de trabajo.",
+							"Debe incorporar Plan Comunicacional."
+						]
+					},
+					{
+						"nombre": "Acta de aprobación de estrategia.",
+						"plazo": "may",
+						"estandar": [
+							"Debe dar cuenta de presentación y acuerdos entre actores clave de DPAC-GC y DVcM-COM.",
+							"Se puede acompañar de material desde otros MdVs."
+						]
 					}
 				]
 			},
@@ -1050,6 +1598,26 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de Aplicación de mecanismos piloto.",
+						"plazo": "dic",
+						"estandar": [
+							"Acciones de corto plazo, que se desarrollen en el contexto del proceso de aplicación de encuestas a informantes clave.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe indicar los elementos que resultan exitosos."
+						]
+					},
+					{
+						"nombre": "Avance de Ficha Institucional y otros insumos de información levantados.",
+						"plazo": "ene",
+						"estandar": [
+							"Diseñados según estándares CNA.",
+							"Otros insumos pueden considerar informes, reportes y/o estudios con datos e información relevante.",
+							"Debe sumar otros insumos de análisis de la información, que tengan relación con reflexiones y conclusiones a incorporar en nuevo informe de autoevaluación."
+						]
+					}
 				]
 			}
 		]
@@ -1063,7 +1631,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantado  un catastro de los requerimientos de procesos que pueden someterse a automatización, caracterizados según su complejidad y necesidades de automatización.",
+				"desc": "Levantado un catastro de los requerimientos de procesos que pueden someterse a automatización, caracterizados según su complejidad y necesidades de automatización.",
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -1077,14 +1645,30 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructura de procesos sujetos a automatización.",
+						"plazo": "may",
+						"estandar": [
+							"Basado en Mapa de Procesos que la institución tenga actualizado a la fecha.",
+							"Para cada proceso considerable, debe indicar nivel de complejidad de la automatización aplicable (ej.: workflow de complejidad baja o mediana).",
+							"Opcionalmente, incorporar estrategia de priorización para cada nivel de complejidad en la automatización."
+							"Validado por DPAC-GC."
+						]
+					}
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Implementada y evaluada prueba de concepto que permita automatizar flujos de trabajo simples.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
+						"cai": "DAF-ADQ", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
@@ -1092,12 +1676,21 @@
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					},
 					{
-						"cai": "DAF-ADQ", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
-					},
-					{
 						"cai": "DAF-DP", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de automatización.",
+						"plazo": "ago",
+						"estandar": [
+							"Puede dar cuenta de uno o varios procesos simples para los cuales se haya aplicado una estrategia de automatización.",
+							"Debe detallar los mecanismos tecnológicos de apoyo a la automatización, con sus características funcionales y técnicas.",
+							"Debe describir principales logros y dificultades experimentadas en el proceso de implementación.",
+							"Debe concluir una estrategia de aplicación extensiva, con posibles ajustes en los mecanismos tecnológicos y/o procedimentales considerados.",
+							"Área tentativa de aplicación: Adquisiciones."
+						]
 					}
 				]
 			},
@@ -1113,11 +1706,33 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de sistema.",
+						"plazo": "ago",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para herramienta requerida.",
+							"Debe tener coherencia con evaluación de procesos en H01.",
+							"Aproximación incremental: debe entenderse como una primera etapa de implementación."								
+						]
+					},
+					{
+						"nombre": "Informe de recomendaciones de implementación tecnológica.",
+						"plazo": "oct",
+						"estandar": [
+							"Compila evaluación cualitativa y cuantitativa sobre alternativas para la implementación de la herramienta.",
+							"Evaluación se presenta en función a ventajas y desventajas de alternativas analizadas.",
+							"Alternativas pueden considerar tanto desarrollo propio como adquisición de software.",
+							"Cada alternativa debe especificar el alcance de la implementación para el periodo en curso.",
+							"Entrega recomendaciones de implementación emitidas desde el área de TGI."								
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Implementados y evaluada una herramienta piloto para automatizar flujos de trabajo de mayor complejidad.",
+				"desc": "Implementada y evaluada herramienta piloto para automatizar flujos de trabajo de mayor complejidad.",
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -1130,6 +1745,19 @@
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de implementación de sistema de información y/o servicio.",
+						"plazo": "ene",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de alternativa definida su elección por el mandante.",
+							"Debe referenciar artefactos de software debidamente implementados.",
+							"Debe considerar documentación técnica asociada al diseño e implementación del mecanismo.",
+							"Debe incorporar plan de despliegue y capacitación de usuarios sobre implementación inicial para su pilotaje.",
+							"Debe explicitar la aprobación de mandante sobre los artefactos entregados."
+						]
 					}
 				]
 			}
@@ -1144,15 +1772,35 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Desplegadas las metodologías y herramientas tecnológicas para habilitar la integración continua en los desarrollos institucionales.",
+				"desc": "Desplegadas metodologías y herramientas tecnológicas para habilitar la integración continua en los desarrollos institucionales.",
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "plataforma" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "desarrollo", "soporte" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Metodología para la integración continua en construcción de software institucional.",
+						"plazo": "may",
+						"estandar": [
+							"Debe considerar elementos teóricos y conceptuales para el despliegue de la metodología.",
+							"Debe establecer alcances iniciales de aplicación y proyecciones de desarrollo de la metodología.",
+							"Eventualmente se podría integrar a metodologías de desarrollo en DPAC-10."
+						]
+					},
+					{
+						"nombre": "Informe de implementación de mecanismos automatizados para integración continua.",
+						"plazo": "jul",
+						"estandar": [
+							"Considera la implementación inicial de mecanismos según alcance de proyectos disponibles.",
+							"Debe detallar mecanismos tecnológicos desplegados y la evaluación en su uso.",
+							"Debe considerar documentación técnica asociada al diseño e implementación de mecanismos."
+						]
 					}
 				]
 			},
@@ -1165,8 +1813,32 @@
 						"capacidades": [ "coordinacion-general", "plataforma" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "desarrollo" ]
+					},
+					{
 						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "desarrollo", "soporte" ]
+						"capacidades": [ "soporte" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Metodología para la gestión de pruebas unitarias en la implementación de software institucional.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe considerar elementos teóricos y conceptuales para el despliegue de la metodología.",
+							"Debe establecer alcances iniciales de aplicación y proyecciones de desarrollo de la metodología.",
+							"Eventualmente se podría integrar a metodologías de desarrollo en DPAC-10."
+						]
+					},
+					{
+						"nombre": "Informe de implementación de mecanismos automatizados para la gestión de pruebas unitarias.",
+						"plazo": "oct",
+						"estandar": [
+							"Considera la implementación inicial de mecanismos según alcance de proyectos disponibles.",
+							"Debe detallar mecanismos tecnológicos desplegados y la evaluación en su uso.",
+							"Debe considerar documentación técnica asociada al diseño e implementación de mecanismos."
+						]
 					}
 				]
 			},
@@ -1181,6 +1853,26 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "desarrollo", "soporte", "conectividad" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estándares de monitoreo de plataformas y servicios críticos.",
+						"plazo": "jul",
+						"estandar": [
+							"Documentación técnica respecto a los mecanismos tecnológicos que habilitarán el monitoreo.",
+							"Debe explicitar los requerimientos procedimentales asociados al monitoreo de plataformas y servicios críticos que se debe hacer en la institución.",
+							"Debe explicitar capacidades institucionales requeridas para su implementación."
+						]
+					},
+					{
+						"nombre": "Informe de implementación de mecanismos automatizados para el monitoreo.",
+						"plazo": "nov",
+						"estandar": [
+							"Considera la implementación inicial de mecanismos según alcance de requerimientos existentes.",
+							"Debe detallar mecanismos tecnológicos desplegados y la evaluación en su uso.",
+							"Debe considerar documentación técnica asociada al diseño e implementación de mecanismos."
+						]
 					}
 				]
 			},
@@ -1200,6 +1892,26 @@
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estándares de respaldo de información institucional.",
+						"plazo": "abr",
+						"estandar": [
+							"Documentación técnica respecto a los mecanismos tecnológicos que habilitarán el respaldo de información.",
+							"Debe explicitar los requerimientos procedimentales asociados a los respaldos y su transferencia a los usuarios.",
+							"Debe agregar otros insumos técnicos que faciliten su aplicación a nivel institucional."
+						]
+					},
+					{
+						"nombre": "Informe de implementación de mecanismos automatizados para el respaldo.",
+						"plazo": "jul",
+						"estandar": [
+							"Considera la implementación inicial de mecanismos según alcance de escenario institucional respecto a requerimientos de respaldo de información.",
+							"Debe detallar mecanismos tecnológicos desplegados y la evaluación en su uso.",
+							"Debe considerar documentación técnica asociada al diseño e implementación de mecanismos."
+						]
+					}
 				]
 			},
 			{
@@ -1213,6 +1925,26 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "desarrollo" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estándares de respaldo de información institucional.",
+						"plazo": "abr",
+						"estandar": [
+							"Documentación técnica respecto a los mecanismos tecnológicos que habilitarán el respaldo de información.",
+							"Debe explicitar los requerimientos procedimentales asociados a los respaldos y su transferencia a los usuarios.",
+							"Debe agregar otros insumos técnicos que faciliten su aplicación a nivel institucional."
+						]
+					},
+					{
+						"nombre": "Informe de implementación de mecanismos automatizados para el respaldo.",
+						"plazo": "jul",
+						"estandar": [
+							"Considera la implementación inicial de mecanismos según alcance de escenario institucional respecto a requerimientos de respaldo de información.",
+							"Debe detallar mecanismos tecnológicos desplegados y la evaluación en su uso.",
+							"Debe considerar documentación técnica asociada al diseño e implementación de mecanismos."
+						]
 					}
 				]
 			}
@@ -1241,6 +1973,27 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documento de metodología de desarrollo de software.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe detallar las etapas asociadas al proceso y sus actores clave.",
+							"Debe entregar una especificación de los artefactos centrales y mínimos que deben ser generados desde la aplicación de la metodología.",
+							"Debe entregar orientaciones respecto a los estándares de calidad esperados de la aplicación de la metodología."
+							"Debe indicar principales mecanismos de apoyo y/o automatización de actividades clave de la metodología.",
+							"Debe entregar pautas de cuantificación de capacidades requeridas para el desarrollo involucrado, según criterios generales asociados a los requerimientos.",
+							"Debe referenciar aspectos teóricos y/o conceptuales de metodologías ágiles que son incorporados en la metodología."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza la metodología.",
+						"plazo": "jul",
+						"estandar": [
+							"Basado en el documento principal, que puede incorporarse o anexarse al decreto."
+						]
+					}
 				]
 			},
 			{
@@ -1254,6 +2007,26 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "plataforma" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estándares de gestión de cambios en sistemas de software.",
+						"plazo": "ago",
+						"estandar": [
+							"Documentación técnica respecto a los mecanismos tecnológicos que habilitarán la gestión de cambios.",
+							"Deben explicitarse los procedimientos y el uso de los mecanismos en el contexto del instrumento.",
+							"Debe agregar otros insumos técnicos que faciliten su aplicación a nivel institucional."
+						]
+					},
+					{
+						"nombre": "Informe de implementación de procedimientos diseñados.",
+						"plazo": "oct",
+						"estandar": [
+							"Considera la implementación inicial de los mecanismos en proyectos en desarrollo.",
+							"Debe detallar mecanismos tecnológicos desplegados y la evaluación en su uso.",
+							"Debe considerar documentación técnica asociada al diseño e implementación de mecanismos."
+						]
 					}
 				]
 			},
@@ -1277,6 +2050,26 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Criterios documentados.",
+						"plazo": "mar",
+						"estandar": [
+							"Debe considerar pautas de aseguramiento de calidad para la implementación y/o adquisición de sistemas de información en la institución.",
+							"Debe explicitar procesos preliminares y mandatorios a la implementación de tecnologías, y los criterios cuando ellos apliquen (por ej.: normalización de procesos).",
+							"Debe explicitar responsabilidades institucionales en la materia.",
+							"Debe explicitar mecanismos de formalización de los criterios, por ejemplo, comunicaciones formales requeridas para la toma de decisiones respecto a alternativas factibles."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza criterios.",
+						"plazo": "abr",
+						"estandar": [
+							"Necesario para profundizar en su validez.",
+							"Considerar el acompañar con validadores respecto a su difusión."
+						]
+					},
 				]
 			}
 		]
@@ -1293,21 +2086,21 @@
 				"desc": "Levantadas directrices estratégicas que permitan orientar los usos y aplicaciones de la conexión física.",
 				"actores": [
 					{
-						"cai": "DPAC", "rol": "Aprobador",
+						"cai": "DI", "rol": "Aprobador",
 						"capacidades": [ "direccion" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "conectividad" ]
 					},					
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
+					},					
 					{
 						"cai": "DVcM-TE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
@@ -1316,19 +2109,49 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documento que sistematiza orientaciones estratégicas.",
+						"plazo": "may",
+						"estandar": [
+							"Debe explicitar estrategia metodológica usada para levantar las directrices.",
+							"Debe dar cuenta de estrategia participativa con cuerpo académico para el diseño.",
+							"Debe explicitar un modelo de articulación con otros actores regionales asociados a la ciencia, tecnología y educación.",
+							"Debe estar articulado con instrumentos estratégicos de planificación.",
+							"Debe tener un foco marcado en los procesos de investigación, innovación y creación."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñados los lineamientos técnicos junto a REUNA que permitan avanzar en la implementación de la conectividad requerida.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "conectividad" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe técnico para implementación de Nodo Reuna UAysén.",
+						"plazo": "jul",
+						"estandar": [
+							"El análisis técnico debe ser coherente con las orientaciones estratégicas levantadas.",
+							"Debe incorporar especificaciones técnicas detalladas, orientadas a definir los aspectos de implementación y operación del nodo.",
+							"En función a análisis técnico, debe presentar un análisis presupuestario para su despliegue.",
+							"El análisis presupuestario debe considerar el aporte de cada institución que se articule en la implementación del nodo.",
+							"El análisis debe incorporar estrategias de proyección y sostenibilidad en el tiempo."
+						]
 					}
 				]
 			},
@@ -1337,14 +2160,31 @@
 				"desc": "Avanzar en las primeras gestiones de implementación de la conectividad diseñada.",
 				"actores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "conectividad" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
-				]
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de avance.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe explicitar acciones realizadas a la fecha e hitos alcanzados, con sus fechas.",
+							"Debe detallar sinergia generada con otros actores regionales y proyecciones en la materia.",
+							"Debe profundizar en proyectos específicos en materia de ciencia y tecnología, que servirán de motor de utilización del Nodo.",
+							"Debe dar cuenta de recursos a la fecha utilizados para implementar las gestiones realizadas, y entregar estimación de recursos que serán necesarios en siguiente periodo."
+							"Debe especificar cronograma de trabajo para siguiente periodo, en función a gestiones que se reportan."
+						]
+					}
+				]				
 			}
 		]
 	},
@@ -1371,6 +2211,26 @@
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "desarrollo", "plataforma" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estándares de diseño y mantención del modelo de datos institucional.",
+						"plazo": "abr",
+						"estandar": [
+							"Considera la definición de estándar de modelado que permita su extensión y mantención en el tiempo.",
+							"Debe incorporar procedimientos para su actualización periódica y pautas de extensión.",
+							"Debe explicitar roles y responsabilidades para su mantención.",
+							"Debe diferenciar y articular apropiadamente los alcances transaccionales y estratégicos respecto al uso de los datos asociados al modelo."
+						]
+					},
+					{
+						"nombre": "Modelo de datos actualizado.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe estar sistematizado en función a los estándares definidos.",
+							"Debe ser acompañado de documentación que especifique los alcances de los datos que considera actualmente el modelo."
+						]
+					}
 				]
 			},
 			{
@@ -1384,6 +2244,27 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos asociados a la sistematización de datos estratégicos",
+						"plazo": "jun",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para orientar el almacenamiento de los datos.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Considerar como iteración (solo mecanismos iniciales y críticos)."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ago",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -1407,6 +2288,18 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los mecanismos procedimentales como tecnológicos que correspondan."
+						]
+					}
 				]
 			},
 			{
@@ -1418,7 +2311,7 @@
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Consultado",
+						"cai": "DPAC-AI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -1428,6 +2321,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actualización del servicio para la generación de reportes con Tableau.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe proveerse como entorno de trabajo que permita la publicación de reportes.",
+							"Debe acompañarse de una estrategia de disponibilidad del servicio y tolerancia a fallos.",
+							"Debe acompañarse de documentación técnica y/o procedimental que oriente la aplicación de los mecanismos asociados.",
+							"Debe evidenciarse la aprobación de DPAC-AI en la entrega del servicio."
+						]
+					},
+					{
+						"nombre": "Reportes automatizados con Tableau.",
+						"plazo": "ago",
+						"estandar": [
+							"Deben implementarse a través de Tableau batería de reportes críticos y de uso periódico demostrado en el pasado.",
+							"Deben presentarse a través de mecanismos de acceso y con estándares de seguridad apropiados.",
+							"Debe acompañarse de un listado estructurado y ordenado de reportes disponibles, indicando los actores a quienes se dirige."
+						]
 					}
 				]
 			}
@@ -1441,7 +2355,7 @@
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Elaboradas e implementadas de forma inicial políticas institucionales orientadas a la seguridad de la información.",
 				"actores": [
 					{
@@ -1451,6 +2365,10 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado",
@@ -1463,6 +2381,16 @@
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza política de seguridad de la información.",
+						"plazo": "may",
+						"estandar": [
+							"Debe responder a requerimientos de contraloría general en la materia.",
+							"Debe haber sido elaborada en función a los estándares institucionales para creación de políticas."
+						]
 					}
 				]
 			},
@@ -1477,6 +2405,27 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos asociados a la seguridad en uso de recursos TICs",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para propiciar la seguridad en las TICs institucionales.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Considerar como iteración (solo mecanismos iniciales y críticos)."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "sep",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -1504,6 +2453,25 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Lista de asistencia a actividades de difusión",
+						"plazo": "dic",
+						"estandar": [
+							"Consolidada o dividida en cantidad de presentaciones realizadas.",
+							"Debe ser identificable de forma clara el número de asistentes.",
+							"Los asistentes deben estar clasificados por cargo."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "dic",
+						"estandar": [
+							"PPT, documento u otro que explique el reglamento y sus detalles.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -1517,6 +2485,17 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "desarrollo", "plataforma" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de trabajo colaborativo con otras entidades.",
+						"plazo": "ene",
+						"estandar": [
+							"En el caso de convenios, deben ser evidenciados a través de decretos.",
+							"En el caso de asesorías, deben entregarse TdRs y sus resultados.",
+							"Debe existir un informe que resuma e integre las capacidades incorporadas a través de las diversas instancias de capacitación, asesoría y cooperación."
+						]
 					}
 				]
 			}
@@ -1545,6 +2524,36 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de procedimientos diseñados.",
+						"plazo": "may",
+						"estandar": [
+							"Deben incorporar criterios de priorización en la atención de necesidades de los usuarios.",
+							"Deben explicitar criterios de calidad en la atención a los usuarios.",
+							"Deben incorporar mecanismos de registro, seguimiento y cuantificación de tiempos.",
+							"Deben incorporar mecanismos de evaluación de los servicios de soporte."
+						]
+					},
+					{
+						"nombre": "Índice de mecanismos asociados a los servicios de soporte computacional",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para propiciar la calidad de los servicios de soporte computacional.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Considerar como iteración (solo mecanismos iniciales y críticos)."
+						]
+					},
+					{
+						"nombre": "Mecanismos de registro diseñados",
+						"plazo": "jun",
+						"estandar": [
+							"Registro ordenado de artefactos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica."
+						]
+					}
 				]
 			},
 			{
@@ -1559,6 +2568,36 @@
 						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "desarrollo", "plataforma" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de implementación.",
+						"plazo": "jun",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para herramienta requerida.",
+							"Debe tener coherencia con mecanismos diseñados en H01.",
+							"Aproximación incremental: debe entenderse como una primera etapa de implementación."								
+						]
+					},
+					{
+						"nombre": "Informe de recomendaciones de implementación tecnológica.",
+						"plazo": "jul",
+						"estandar": [
+							"Compila evaluación cualitativa y cuantitativa sobre alternativas de modernización de procedimientos asociados.",
+							"Evaluación se presenta en función a ventajas y desventajas de alternativas analizadas.",
+							"Cada alternativa debe especificar el alcance de la implementación para el periodo en curso.",
+							"Debe proveer conclusión respecto a alternativa que se considerará."			
+						]
+					},
+					{
+						"nombre": "Sistema implementado.",
+						"plazo": "sep",
+						"estandar": [
+							"Coherente con recomendación tecnológica levantada.",
+							"Acompañado de documentación técnica y funcional respecto al software implementado.",
+							"Acompañado de cronograma de uso y pilotaje de la herramienta en el contexto de los procesos de soporte computacional."			
+						]
+					}
 				]
 			},
 			{
@@ -1572,6 +2611,17 @@
 					{
 						"cai": "DAF-ADQ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Mecanismos de gestión de recursos diseñados",
+						"plazo": "dic",
+						"estandar": [
+							"Registro ordenado de artefactos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica en H01.",
+							"Acompañado de estrategia de despliegue y utilización de los mecanismos."
+						]
 					}
 				]
 			}
@@ -1596,6 +2646,17 @@
 						"cai": "DPAC-PCI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de trabajo colaborativo con otras entidades.",
+						"plazo": "jun",
+						"estandar": [
+							"En el caso de desarrollar asesorías, deben entregarse TdRs y sus resultados.",
+							"En caso de recurrir a instancias de capacitación específicas, considerar registro de grabación y/o escrito de temáticas abordadas con equipo.",
+							"Debe existir un informe simple que resuma e integre las capacidades incorporadas a través de las diversas instancias de capacitación."
+						]
+					}
 				]
 			},
 			{
@@ -1614,6 +2675,25 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Lista de asistencia a actividades de difusión",
+						"plazo": "dic",
+						"estandar": [
+							"Consolidada o dividida en cantidad de presentaciones realizadas.",
+							"Debe ser identificable de forma clara el número de asistentes.",
+							"Los asistentes deben estar clasificados por cargo."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "dic",
+						"estandar": [
+							"PPT, documento u otro que explique el reglamento y sus detalles.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -1627,6 +2707,36 @@
 					{
 						"cai": "DPAC-PCI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Lenguaje estratégico actualizado.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe responder a proceso piloto 2020 de planificación institucional.",
+							"Debe incorporar nuevos grupos de información considerados, o la actualización de aquellos que corresponda.",
+							"Debe incorporar actualizaciones al ciclo de vida de las acciones según corresponda."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza Lenguaje estratégico.",
+						"plazo": "may",
+						"estandar": [
+							"Actualizado y alineado con versión final del Lenguaje."
+						]
+					},
+					{
+						"nombre": "Procedimientos para diseño de acciones actualizados.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe responder a la actualización del ciclo de vida de las acciones plasmado en versión final de Lenguaje Estratégico.",
+							"Debe considerar nuevas capacidades instaladas y proyectadas para DPAC-PCI"
+						]
 					}
 				]
 			},
@@ -1641,6 +2751,25 @@
 					{
 						"cai": "DPAC-PCI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de diseño y ajustes a mecanismos de control de gestión institucionales.",
+						"plazo": "may",
+						"estandar": [
+							"Debe responder a las observaciones y/o estrategias identificadas e incorporadas como capacidades tras las actividades de capacitación realizadas en H01.",
+							"Debe abordar que instrumentos deben ser ajustados y que nuevos artefactos se propone crear.",
+							"Debe especificar retroalimentación a Lenguaje Estratégico, si corresponde."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados y/o actualizados",
+						"plazo": "jul",
+						"estandar": [
+							"Registro ordenado de artefactos que compilan los mecanismos nuevos o actualizados.",
+							"Acompañado de estrategia de aplicación de los mecanismos, en coherencia a los procedimientos de control de gestión en curso."
+						]
 					}
 				]
 			},
@@ -1663,6 +2792,34 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de procedimiento para la articulación de planificación y diseño presupuestario.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe responder a experiencia piloto de proceso de planificación 2020.",
+							"Debe explicitar flujos de información e insumos asociados que se traspasan desde los resultados de la planificación a la construcción del presupuesto institucional",
+							"Debe establecer criterios sistemáticos para la asignación de costos a los clasificadores presupuestarios (decreto 180) desde las acciones diseñadas en la planificación",
+							"Debe especificar listado de gastos que deben ser especificados de forma exclusiva por actores específicos en la institución, y bajo que criterios ello se operacionaliza.",
+							"Debe explicitar roles y funciones asociadas a esta articulación."
+						]
+					},
+					{
+						"nombre": "Decreto de procedimiento para la articulación de planificación y diseño presupuestario.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe formalizar especificaciones diseñadas en el procedimiento."
+						]
+					},
+					{
+						"nombre": "Artefactos de apoyo a la articulación de la planificación y el presupuesto.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe responder a los requerimientos del proceso diseñado y decretado.",
+							"Debe ser pensado como insumo del proceso de planificación hacia el 2022."
+						]
 					}
 				]
 			}
@@ -1695,6 +2852,17 @@
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "jun",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -1702,13 +2870,13 @@
 				"desc": "Levantados los requerimientos de software para procesos críticos del SPCI.",
 				"actores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
+						"cai": "DPAC-PCI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
 					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},					
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
@@ -1717,23 +2885,46 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de sistema.",
+						"plazo": "sep",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para herramienta requerida.",
+							"Debe tener coherencia con evaluación de procesos en H01.",
+							"Aproximación incremental: debe entenderse como una primera etapa de implementación."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
 				"desc": "Implementados y evaluados prototipos para modernizar procesos críticos del SPCI.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
+						"cai": "DPAC-PCI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
 					},
 					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "planificacion", "coordinacion" ]
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de implementación de prototipo.",
+						"plazo": "dic",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de requerimientos levantados.",
+							"Debe referenciar artefactos de software debidamente implementados.",
+							"Debe considerar documentación técnica asociada al diseño e implementación del mecanismo.",
+							"Debe explicitar la aprobación de mandante sobre los artefactos entregados."
+						]
 					}
 				]
 			}

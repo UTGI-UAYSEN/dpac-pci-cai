@@ -458,15 +458,6 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Plan de pilotaje",
-						"plazo": "ago",
-						"estandar": [
-							"Documento simple que especifica la estrategia de aplicación de los mecanismos diseñados.",
-							"Debe especificar un calendario de eventos y actividades relevantes.",
-							"Debe especificar el alcance del pilotaje, indicando qué elementos se estiman que serán evaluados y cuáles quedarán para una mejora en próximo periodo."
-						]
-					},
-					{
 						"nombre": "Informe de resultados de pilotaje",
 						"plazo": "dic",
 						"estandar": [
@@ -633,7 +624,7 @@
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Identificar y sistematizar procesos críticos en la institución que se vinculen al control de juridicidad y actos administrativos.",
 				"actores": [
 					{
@@ -666,7 +657,7 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Evaluados mecanismos tecnológicos, en el contexto de procesos institucionales identificados, que permitan apoyar la gestión de información vinculada a legislación, jurisprudencia, doctrina, normativa y otra áreas asociadas al derecho (ej: VLEX).",
 				"actores": [
 					{
