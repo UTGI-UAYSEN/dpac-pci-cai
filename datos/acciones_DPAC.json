@@ -3706,6 +3706,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar el marco de trabajo en gobierno de datos",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "oct",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -3731,6 +3752,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al marco de trabajo desarrollado.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el marco de trabajo como de sus mecanismos derivados."
+						]
 					}
 				]
 			}
@@ -3759,6 +3792,28 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Plan de ajustes para el periodo",
+						"plazo": "mar",
+						"estandar": [
+							"Debe organizar las estrategias de ajuste y su alcance, tanto en el corto plazo como en el mediano plazo.",
+							"En el caso de ajustes a corto plazo, debe especificar las orientaciones necesarias de trabajo que permitan recopilar información y sistematizar ajustes de menor complejidad y rápida aprobación (funciones, unidades no formalizadas, etc.).",
+							"Debe establecer componentes de la estructura que tentativamente deberán ser revisados y ajustados.",
+							"Debe definir cronograma para el periodo con hitos clave e indicando participación de actores clave."
+						]
+					},
+					{
+						"nombre": "Metodología para la actualización periódica de estructura salarial",
+						"plazo": "may",
+						"estandar": [
+							"Debe considerar procedimientos generales para el análisis y diseño de ajustes.",
+							"Debe especificar y clasificar componentes que dan forma a la estructura y que son blanco de ajustes."
+							"Debe establecer criterios de ajuste y antecedentes requeridos para tomar decisiones respecto a los ajustes, en función a los componentes identificados.",
+							"Debe especificar criterios de periodicidad y necesidad de realización de ajustes."
+						]
+					}
 				]
 			},
 			{
@@ -3776,6 +3831,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de ajustes específicos de corto plazo a la estructura organizacional",
+						"plazo": "jun",
+						"estandar": [
+							"Informe simple que compila ajustes evaluados para la estructura en el corto plazo.",
+							"Debe describir estructuradamente los ajustes a realizar y clasificados por área estratégica y/o unidad relevante.",
+							"Debe ser coherente y articularse con diseño e Modelo de Gestión Universitario (DPAC-23).",
+							"Debe dar cuenta de la metodología diseñada en H01."
+						]
 					}
 				]
 			},
@@ -3799,11 +3866,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que aprueba ajustes menores a la estructura organizacional.",
+						"plazo": "ago",
+						"estandar": [
+							"Coherente con propuesta diseñada anteriormente."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Discutidos e identificados ajustes integrales a la Estructura Académica de la institución.",
+				"desc": "Discutidos e identificados ajustes mayores a la Estructura Académica de la institución.",
 				"actores": [
 					{
 						"cai": "DPAC", "rol": "Responsable",
@@ -3820,6 +3896,26 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de sistematización de propuestas para ajustes mayores.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe compilar diversas miradas y observaciones de actores claves de la institución respecto a los ajustes propuestos.",
+							"Debe incorporar cambios estructurales en la línea de: estructura académica, nuevas direcciones o ajustes a direcciones actuales, formación de consejos, etc.",
+							"Debe ser coherente con otros validadores asociados a instancias de discusión y trabajo sobre los ajustes propuestos.",
+							"Debe acompañarse de validadores de aprobación de actores claves."
+						]
+					},
+					{
+						"nombre": "Actas de instancias institucionales de discusión sobre ajustes mayores.",
+						"plazo": "nov",
+						"estandar": [
+							"Deben considerar instancias como: reuniones con actores estratégicos, claustros académicos, etc.",
+							"Deben incorporar temáticas discutidas, propuestas, acuerdos y otros elementos que representen antecedentes para avanzar en las materias."
+						]
 					}
 				]
 			},
@@ -3838,7 +3934,11 @@
 					{
 						"cai": "SG-JUR", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},				
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
@@ -3846,6 +3946,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la propuesta de ajustes mayores elaborada en materia de estructura académica.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
 					}
 				]
 			}
@@ -3874,6 +3985,36 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de marco de trabajo para el MGU.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe especificar los elementos conceptuales que dan sustento al MGU.",
+							"Debe entregar orientaciones respecto al desarrollo de la estructura organizacional en coherencia al MGU y la estandarización de sus componentes.",
+							"Debe entregar las pautas generales para el diseño de sistemas de gestión al alero del MGU.",
+							"Debe entregar las orientaciones sobre estándares de los componentes transversales del MGU, considerando elementos como gestión de información, procesos, articulación de actores, gestión de calidad, entre otros necesarios.",
+							"Debe explicitar su articulación y desarrollo coordinado con los instrumentos de planificación estratégica.",
+							"Diseño debe responder a retroalimentación de comisión."
+						]
+					},					
+					{
+						"nombre": "Formalización de comisión para revisión y ajuste de marco de trabajo MGU.",
+						"plazo": "abr",
+						"estandar": [
+							"Formada por actores estratégicos y otros atingentes al diseño del MGU.",
+							"Validada a través de decreto, el cual especifique responsabilidades, actividades y plazos."
+						]
+					},
+					{
+						"nombre": "Actas de reuniones de comisión para retroalimentación de propuesta de diseño MGU.",
+						"plazo": "jun",
+						"estandar": [
+							"Detalla participantes y principales observaciones.",
+							"Acompañado de material usado para guiar el trabajo de la comisión."
+						]
+					}
 				]
 			},
 			{
@@ -3896,6 +4037,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar el marco de trabajo en gobierno de datos",
+						"plazo": "jun",
+						"estandar": [
+							"Listado simple de mecanismos relevantes para la implementación inicial del MGU.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ago",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -3913,6 +4075,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar el marco de trabajo en gobierno de datos",
+						"plazo": "jun",
+						"estandar": [
+							"Debe complementar el marco de trabajo inicial del MGU.",
+							"Debe estar articulado a la planificación del periodo y a la proyección en próximos.",
+							"Debe describir los alcances, características, propósitos y puntos de articulación de los distintos sistemas críticos",
+							"Debe dar cuenta de su articulación con el Plan de Fortalecimiento Institucional a 10 años."
+						]
 					}
 				]
 			},
@@ -3932,9 +4106,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de instalación de MGU",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al MGu y los sistemas de gestión trabajados durante el periodo.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el marco de trabajo como de sus mecanismos derivados."
+						]
+					}
 				]
 			}
-
 		]		
 	},
 	{
@@ -3960,6 +4145,19 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Nueva versión de metodología de formulación de PEDs",
+						"plazo": "jul",
+						"estandar": [
+							"Debe considerar integralmente el Lenguaje Estratégico en términos conceptuales y funcionales.",
+							"Debe especificar una estructura metodológica y de forma de los documentos con mayor detalle posible.",
+							"Debe explicitar criterios de decisión y flexibilidad en aquellos elementos en donde el diseño lo permita.",
+							"Debe incorporar orientaciones para la redacción de objetivos de desarrollo y para indicadores de desempeño.",
+							"Debe incorporar mecanismos de diseño para explicitar articulaciones con instrumentos de planificación estratégica."
+						]
+					}
 				]
 			},
 			{
@@ -3978,6 +4176,18 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Versiones propuesta de PEDs por Dirección.",
+						"plazo": "oct",
+						"estandar": [
+							"Cada área estratégica relevante debe proveer su PED.",
+							"Debe responder a la metodología ajustada, y a sus posteriores ajustes derivados desde su misma aplicación.",
+							"Debe explicitar mecanismos de participación de los equipos relevantes a cada PED.",
+							"Debe responder al periodo restante de vigencia del PEDI actual."
+						]
+					}
 				]
 			},
 			{
@@ -3995,6 +4205,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Insumos de retroalimentación.",
+						"plazo": "nov",
+						"estandar": [
+							"Emitidos desde DPAC según versiones iniciales entregadas por cada Dirección.",
+							"Debe proveer elementos de ajuste con una lógica estructurada y coherente a la metodología diseñada",
+							"Debe establecer plazos de entrega de correcciones."
+						]
 					}
 				]
 			},
@@ -4018,6 +4239,24 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Versiones ajustadas y formalizadas de PEDs.",
+						"plazo": "ene",
+						"estandar": [
+							"En coherencia a retroalimentación entregada durante el proceso.",
+							"Debe decretarse cada PED, lo que debe entregarse como validador."
+						]
+					},
+					{
+						"nombre": "Datos de directrices institucionales levantadas en los PED.",
+						"plazo": "ene",
+						"estandar": [
+							"Validador de que los datos están incorporados a la Cartera de Acciones Institucionales para su uso en los procesos de planificación.",
+							"Puede utilizar cualquier formato de datos tradicional (planilla, documento, etc.)."
+						]
+					}
 				]
 			},
 			{
@@ -4040,11 +4279,23 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Definición de mejoras de Políticas relevantes.",
+						"plazo": "oct",
+						"estandar": [
+							"Aplica a políticas que no sigan los estándares de diseño atingentes al Lenguaje Estratégico."
+							"Debe responder al diseño de los PED, en donde se identifique redundancia de directrices de propósito, y que permita marcar la diferencia entre los propósitos de los PED y las Políticas mismas.",
+							"Debe entregar orientaciones y detallar los ajustes que deben realizarse a las Políticas, y así mismo, los elementos que pueden ser utilizados desde las Políticas para los PED.",
+							"Deben sistematizarse en informes breves para cada ´parea estratégica pertinente."
+						]
+					}
 				]
 			},
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Formalizados ajustes a las Políticas Institucionales relevantes e integradas al SPCI.",
+				"desc": "Formulado Plan de acción para actualización de Políticas Institucionales relevantes.",
 				"actores": [
 					{
 						"cai": "DPAC", "rol": "Responsable",
@@ -4061,6 +4312,17 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la propuesta de ajustes a las políticas pertinentes.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
 					}
 				]
 			}
@@ -4109,6 +4371,15 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenio de incorporación a la Red.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe indicar los principales acuerdos de incorporación de la Institución a la Red, y otros elementos solicitados por la misma."
+						]
+					}
 				]
 			},
 			{
@@ -4130,6 +4401,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de evaluación sobre transversalización de la sustentabilidad en la investigación.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe proveer elementos cuantitativos y cualitativos del diagnóstico.",
+							"Debe plantear estrategias tentativas de transversalización de la sustentabilidad como principio en la investigación institucional.",
+							"Debe levantar estrategia para el trabajo durante el 2do semestre en la materia, específicamente en la generación de propuestas."
+						]
 					}
 				]
 			},
@@ -4153,6 +4435,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de evaluación sobre incentivo de actividades académicas en el territorio con sentido de sustentabilidad.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe proveer elementos cuantitativos y cualitativos del diagnóstico.",
+							"Debe plantear estrategias tentativas de transversalización de la sustentabilidad como principio en el trabajo en los territorios.",
+							"Debe levantar propuesta temática para el desarrollo de proyectos institucionales asociados a sustentabilidad.",
+							"Debe levantar estrategia para el trabajo durante el 2do semestre en la materia, específicamente en la generación de propuestas."
+						]
+					}
 				]
 			},
 			{
@@ -4171,6 +4465,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la propuesta de actividades asociadas a transversalización de la sustentabilidad.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en periodo actual y/o en siguiente periodo, según proceso de planificación institucional."
+						]
+					}
 				]
 			},
 			{
@@ -4184,6 +4489,17 @@
 					{
 						"cai": "multiple", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de realización de actividades asociadas a sustentabilidad.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe considerar actividades puntuales que respondan a acciones levantadas previamente.",
+							"Deben tener coherencia con acuerdos en la Red de Campus Sustentable.",
+							"Debe proveer reflexiones y proyecciones en torno a la instalación de la temática a nivel Institucional."
+						]
 					}
 				]
 			},
@@ -4202,6 +4518,17 @@
 					{
 						"cai": "EG", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc", "juridica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de integración de la sustentabilidad como perspectiva transversal.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe explicitar como la sustentabilidad puede trabajar de forma articulada con el género.",
+							"Debe indicar la utilización de estrategias aplicadas en materia de género para los principios de sustentabilidad.",
+							"Debe entregar una propuesta de cómo avanzar en la orgánica de la sustentabilidad a largo plazo, y en coherencia a los compromisos definidos con al Red de Campus Sustentable."
+						]
 					}
 				]
 			}

@@ -513,7 +513,9 @@
 							"Debe especificar los actores claves del proceso.",
 							"Debe indicar costos y otros insumos relevantes para efectuar acuerdos.",
 							"Debe explicitar, en términos de los resultados a obtener, que mecanismos se generarán respecto a la articulación con la gestión de procesos institucionales."
-						],
+						]
+					},
+					{
 						"nombre": "Validador de adquisición / servicio",
 						"plazo": "abr",
 						"estandar": [
@@ -549,7 +551,9 @@
 							"Debe indicar los mecanismos que fueron levantados, con particular énfasis en la matriz de riesgo.",
 							"Debe indicar las estrategias de aplicación y uso de los mecanismos levantados, como capacidad instalada.",
 							"Se debe manifestar la aprobación de la Institución respecto a estos resultados."
-						],
+						]
+					},
+					{
 						"nombre": "Mecanismo matriz de riesgos",
 						"plazo": "ago",
 						"estandar": [
