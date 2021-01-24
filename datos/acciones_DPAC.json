@@ -2953,6 +2953,18 @@
 						"cai": "SG-JUR", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto aprobador CEC.",
+						"plazo": "jun",
+						"estandar": [
+							"Especifica objetivo, funciones y responsabilidades asociadas, en coherencia a Estatutos.",
+							"Establece mecanismos que permiten su regulación, entre ellos, reglamento de funcionamiento.",
+							"Establece disposiciones transitorias que permitan su instalación, entre ellas, sesiones y plazos para construir sus mecanismos de regulación.",							
+							"Establece composición inicial de sus miembros."
+						]
+					}
 				]
 			},
 			{
@@ -2964,12 +2976,37 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "DAC-DA", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto reglamento de funcionamiento CEC.",
+						"plazo": "sep",
+						"estandar": [
+							"Establece roles específicos dentro del órgano.",
+							"Establece mecanismos para la toma de decisión."
+							"Especifica medios de interacción y articulación con área de Calidad y con Rectoría.",
+							"Establece otras disposiciones procedimentales para habilitar su funcionamiento pleno."
+						]
+					},
+					{
+						"nombre": "Programa de sesiones iniciales",
+						"plazo": "sep",
+						"estandar": [
+							"Establece calendario de sesiones para el resto del periodo.",
+							"Define los temas a abordar en las sesiones.",
+							"Con foco en proceso de autoevaluación y acreditación."
+						]
 					}
 				]
 			},
@@ -2988,6 +3025,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de sesiones.",
+						"plazo": "ene",
+						"estandar": [
+							"Detallan participantes y principales acuerdos.",
+							"Se puede acompañar de validador de aceptación por parte de actores pertinentes."
+						]
+					},
+					{
+						"nombre": "Informe Piloto Actividades y Funciones.",
+						"plazo": "ene",
+						"estandar": [
+							"En coherencia a actas de sesiones.",
+							"Acompañado por validador de aceptación desde actor pertinente.",
+							"Detalla aspectos trabajados durante el periodo y los principales hitos logrados.",
+							"Detalla los productos obtenidos desde el trabajo en el periodo, con foco en su contribución a la autoevaluación y acreditación.",
+							"Define pauta de mejora y ajuste a sus mecanismos para ser implementados en el próximo periodo."
+						]
 					}
 				]
 			}
@@ -3012,6 +3070,18 @@
 						"cai": "DPAC-GC", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estrategia de mejoramiento y ajuste del SGIC.",
+						"plazo": "abr",
+						"estandar": [
+							"Compila evaluación cualitativa y cuantitativa sobre requerimientos de mejora para el SGIC.",
+							"Considerar documentación técnica en cuanto a normativa y regulación de Sistemas de Gestión de Calidad.",
+							"Específica elementos críticos en base a normas de gestión de la calidad.",
+							"Incorpora recomendaciones de rediseño SGIC."
+						]
+					}
 				]
 			},
 			{
@@ -3034,6 +3104,42 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta Marco de trabajo SGIC.",
+						"plazo": "jul",
+						"estandar": [
+							"Definición de conceptos y mecanismos procedimentales que habilitan el funcionamiento del SGIC.",
+							"Explicita articulaciones con otros sistemas de gestión relevantes (ej.: Planificación y Coordinación Institucional).",
+							"Establece requerimientos de datos e información necesaria para operacionalizar el sistema.",
+							"Establece modelo de articulación específico en la institución que habilite su funcionamiento."
+						]
+					},
+					{
+						"nombre": "Acta de presentación y validación con actores clave.",
+						"plazo": "jul",
+						"estandar": [
+							"Recoge presentación y observaciones retroalimentadas del diseño del sistema desde actores estratégicos.",
+							"Se puede acompañar de material complementario (ej.: ppt)."
+						]
+					},
+					{
+						"nombre": "Estrategia de pilotaje e implementación del SGIC.",
+						"plazo": "jul",
+						"estandar": [
+							"Especificación de proceso para 2do semestre que permita sistematizar información clave para el arranque del SGIC.",
+							"Establece grandes etapas, plazos, roles y requerimientos.",
+							"Considera de forma particular el proceso de autoevaluación y acreditación de contexto."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza propuesta SGIC.",
+						"plazo": "ago",
+						"estandar": [
+							"Explicita el mecanismo como versión transitoria y sujeta a pilotaje."
+						]
+					}
 				]
 			},
 			{
@@ -3052,10 +3158,29 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de datos y diseño de indicadores para SGIC.",
+						"plazo": "nov",
+						"estandar": [
+							"Control de datos e información operacional, táctica y estratégica que permite el funcionamiento del SGIC.",
+							"Coherente con marco de trabajo diseñado.",
+							"Descripción inicial y especificaciones de fuentes para la integración con otros mecanismos operativos del SGIC."
+						]
+					},
+					{
+						"nombre": "Datos e información levantada y asociada a operacionalización del SGIC.",
+						"plazo": "ene",
+						"estandar": [
+							"Reportes operativos con datos e información que ha sido levantada y sistematizada.",
+							"Entregada en formatos tradicionales (excel, bases de datos, etc.)"
+						]
+					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Piloteado y evaluado el nuevo diseño del SGIC.",
 				"actores": [
 					{
@@ -3065,6 +3190,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje nuevo diseño SGIC.",
+						"plazo": "ene",
+						"estandar": [
+							"Documento simple que especifica el alcance del pilotaje y la estrategia de aplicación del rediseño."
+							"Debe indicar logros obtenidos y contingencias ocurridas en el diseño y pilotaje.",
+							"Incluye propuesta de plan de mejoramiento de los mecanismos relevantes para un próximo periodo."
+						]
 					}
 				]
 			},
@@ -3084,23 +3220,16 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
-				]
-			},
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementados y piloteados los mecanismos institucionales para la gestión de riesgos en los procesos institucionales.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "CI-AUD", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+						"nombre": "Marco específico para la articulación de mapa de procesos con matriz de riesgos.",
+						"plazo": "sep",
+						"estandar": [
+							"Componente específico de marco de trabajo SGIC que especifica los mecanismos para la articulación.",
+							"Considerar insumos desde resultados en CI-04.",
+							"Se puede validar desde el marco diseñado en H02."
+						]
 					}
 				]
 			}
@@ -3133,6 +3262,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Metodología ágil para procesos.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe dar cuenta de articulación y coherencia con metodología integral existente.",
+							"Acompañado de documentación técnica en base a metodología propuesta.",
+							"Especifica descripción y componentes claves para el modelo y alcance para implementación.",
+							"Plan de implementación metodología para procesos críticos según estándares definidos."
+						]
+					}
 				]
 			},
 			{
@@ -3151,6 +3292,42 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Instrumentos para levantamiento de procesos.",
+						"plazo": "ago",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de instrumentos en los que aplique.",
+							"Considera manuales y/o especificaciones de aplicación de instrumentos.",
+							"Establece requerimientos e información mínimos para instrumentos clave."
+						]
+					},
+					{
+						"nombre": "Plan de capacitación y socialización.",
+						"plazo": "ago",
+						"estandar": [
+							"Considerar aliados claves en proceso.",
+							"Especificar cronograma de trabajo y temáticas de transferencia."
+						]
+					},
+					{
+						"nombre": "Lista de asistencia a actividades de socialización",
+						"plazo": "oct",
+						"estandar": [
+							"Consolidada o dividida en cantidad de presentaciones realizadas.",
+							"Debe ser identificable de forma clara el número de asistentes.",
+							"Los asistentes deben estar clasificados por cargo."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "oct",
+						"estandar": [
+							"PPT, documento u otro que explique el reglamento y sus detalles.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -3164,6 +3341,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseños de procesos levantados con metodologías ágiles.",
+						"plazo": "ene",
+						"estandar": [
+							"Colección de procesos específicos sobre los cuales ha sido aplicada la metodología ágil.",
+							"Clasificados según estructura de mapa de procesos.",
+							"Acompañado de documentación técnica que sea relevante y acorde a metodología."
+						]
+					},
+					{
+						"nombre": "Informe de pilotaje y resultados.",
+						"plazo": "ene",
+						"estandar": [
+							"Considerar documento simple que especifique la aplicación piloto y evaluación de metodología ágil.",
+							"Debe especificar el alcance del pilotaje realizado, indicando aspectos relevantes de logro y cuáles quedarán para una mejora en próximo periodo según metodología.",							
+							"Especificar principales eventos y actividades relevantes que hayan sido desarrollados.",
+							"Focalizar diagnóstico en tiempos de desarrollo de los procesos a los cuales aplicó la metodología."
+						]
 					}
 				]
 			}
@@ -3196,6 +3394,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Planificación proceso de ev. Intermedia de la gestión.",
+						"plazo": "mar",
+						"estandar": [
+							"Debe considerar actores y aliados clave para el proceso.",
+							"Debe considerar principales hitos para la preparación del proceso.",
+							"Documento simple que especifica la estrategia de aplicación para el proceso."
+						]
+					}
 				]
 			},
 			{
@@ -3217,6 +3426,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diagnóstico continuidad del proceso ev. intermedia.",
+						"plazo": "mar",
+						"estandar": [
+							"Debe indicar los elementos comprometidos en proceso 2019 que no lograron implementarse según lo esperado.",
+							"Acompañado de documento con actualización del estado de avance del Plan de Mejora Institucional 2019 (Considerar DPAC-07-H02).",
+							"Especificar por Dirección o área estratégica principales avances y eventos del periodo."
+						]
 					}
 				]
 			},
@@ -3240,6 +3460,23 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones en instancias directivas.",
+						"plazo": "abr",
+						"estandar": [
+							"Acompañadas por validadores de aceptación que apliquen.",
+							"Al menos un acta por dirección o área estratégica."
+						]
+					},
+					{
+						"nombre": "Materia de difusión.",
+						"plazo": "abr",
+						"estandar": [
+							"PPT, documento u otro que explique el proceso y sus detalles."
+						]
+					}
 				]
 			},
 			{
@@ -3262,6 +3499,34 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes específicos de implementación y articulación.",
+						"plazo": "may",
+						"estandar": [
+							"Al menos un informe por cada dirección o área estratégica, que responda a sus particularidades y estados de avance en la materia.",
+							"Debe indicar aquellos hitos o eventos relevantes del proceso para cada dirección.",
+							"Debe detallar actividades y formas de participación específicas de cada dirección y de sus miembros claves en el proceso.",
+						]
+					},
+					{
+						"nombre": "Materia de difusión.",
+						"plazo": "may",
+						"estandar": [
+							"Comprende registro audiovisual de instancias de implementación y articulación."
+						]
+					},
+					{
+						"nombre": "Programa de Visita CNA.",
+						"plazo": "may",
+						"estandar": [
+							"Considera descripción y cronograma específico de visita, considerando grupos de entrevista según defina CNA.",
+							"Establecer modalidades y puntos de encuentros virtuales.",
+							"Establecer responsabilidades por dirección o áreas estratégicas",
+							"Debe considerar un plan de contingencias y formas de actuación ante eventualidades que puedan ocurrir el día de la visita CNA."
+						]
+					}
 				]
 			},
 			{
@@ -3279,6 +3544,16 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Material de Registro.",
+						"plazo": "jul",
+						"estandar": [
+							"Minutas, documento u otro que explique el desarrollo del proceso y sus detalles.",
+							"Incorpora antecedentes descriptivos capturados desde los actores entrevistados, a modo de registro y para retroalimentación."
+						]
 					}
 				]
 			},
@@ -3301,6 +3576,41 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de salida de pares CNA.",
+						"plazo": "ago",
+						"estandar": [
+							"Incluye principales Fortalezas y Debilidades encontradas en el proceso.",
+							"Entregado directamente desde CNA."
+						]
+					},
+					{
+						"nombre": "Informe de análisis de resultados.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe considerar los antecedentes entregados desde el informe de salida de pares evaluadores, indicando en aquellos casos que corresponda, comentarios a debilidades.",
+							"Debe indicar de forma estructurada las observaciones detectadas y análisis por dirección o área estratégica.",
+							"Acompañado de respaldos de comentarios a observaciones."
+						]
+					},
+					{
+						"nombre": "Material de registro y difusión.",
+						"plazo": "ago",
+						"estandar": [
+							"Considera infografía del proceso y resultados a comunidad universitaria."
+						]
+					},
+					{
+						"nombre": "Documento de diagnóstico, lecciones y evaluación de proceso.",
+						"plazo": "sep",
+						"estandar": [
+							"Documentación o bitácora de observaciones generales del proceso.",
+							"Documento simple especificando logros y desafíos en el proceso de realización de la Visita CNA.",
+							"Formular plan de acción y articulación con autoevaluación, en miras de Proceso de Acreditación 2021-2022."
+						]
 					}
 				]
 			}
@@ -3336,6 +3646,35 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Marco de trabajo para el gobierno de datos.",
+						"plazo": "may",
+						"estandar": [
+							"Considera aspectos teóricos y conceptuales para la gestión de información y la implementación de gobierno de datos en la institución.",
+							"Define las estructuras con las cuales los requerimientos de información y sus productos derivados puede ser caracterizados, y con ello, sistematizados.",
+							"Establece alcances y tipos generales de información que deben ser gestionados en la institución.",
+							"Establece roles y alcances de acceso, manipulación y provisión de datos para los diversos actores clave involucrados.",
+							"Entrega orientaciones para el aseguramiento de la calidad en los datos institucionales, en articulación a los roles y responsabilidades definidos.",							
+							"Define los principales mecanismos para la implementación y operacionalización del marco."
+						]
+					},
+					{
+						"nombre": "Actas de validación y difusión de marco de trabajo con actores clave.",
+						"plazo": "jun",
+						"estandar": [
+							"Considera la presentación y evaluación de actores estratégicos que adoptarán responsabilidades en la implementación del sistema.",
+							"Acompañado de material que explica los elementos críticos del sistema."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza marco de trabajo.",
+						"plazo": "jun",
+						"estandar": [
+							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."
+						]
 					}
 				]
 			},
