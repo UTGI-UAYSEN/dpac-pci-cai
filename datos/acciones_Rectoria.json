@@ -8,7 +8,7 @@
 		"tacticas": [
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta", "naturaleza": "Técnica",
-				"desc": "Gestionar la agenda de Rectoría en articulación a la disponibilidad de otros actores con lo que se requiera coordinación.",
+				"desc": "Gestionar la agenda de Rectoría en articulación a la disponibilidad de otros actores con quien se requiera coordinación.",
 				"actores": [
 					{
 						"cai": "Gabinete", "rol": "Responsable",
@@ -17,6 +17,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica", "todos-tacticos" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación con actores internos.", 
+						"formula": "Número de reuniones coordinadas, ejecutadas y sistematizadas entre Rectoría y actores internos.",
+						"meta": "35"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones de Rectoría con actores internos",
+						"estandar": [
+							"Debe indicar temática abordada y principales conclusiones / acuerdos.",
+							"Debe especificar actores claves que participan.",
+							"Sistematizadas según fechas y direcciones / unidades / deptos. relevantes.",
+							"Deben estar acompañadas de antecedentes relevantes que se utilizan en las reuniones (informes, material, etc.)"
+						]
 					}
 				]
 			},
@@ -32,6 +50,24 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación de equipo directivo.", 
+						"formula": "Número de reuniones coordinadas, ejecutadas y sistematizadas con equipo Directivo.",
+						"meta": "35"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones de equipo Directivo",
+						"estandar": [
+							"Debe indicar lista de temas abordados y principales conclusiones / acuerdos.",
+							"Debe especificar actores claves que puedan ser invitados.",
+							"Sistematizadas según fechas.",
+							"Deben estar acompañadas de antecedentes relevantes que se utilizan en las reuniones (informes, material, etc.)"
+						]
+					}
 				]
 			},
 			{
@@ -45,6 +81,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación con actores externos.", 
+						"formula": "Número de reuniones coordinadas, ejecutadas y sistematizadas con actores externos.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones con actores externos",
+						"estandar": [
+							"Debe indicar lista de temas abordados y principales conclusiones / acuerdos.",
+							"Debe especificar actores claves que participan, indicando Instituciones / Organizaciones asociadas.",
+							"Sistematizadas según fechas.",
+							"Deben estar acompañadas de antecedentes relevantes que se utilizan en las reuniones (informes, material, etc.)"
+						]
 					}
 				]
 			},
@@ -63,6 +117,23 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación con área de comunicaciones.", 
+						"formula": "Número de reuniones coordinadas, ejecutadas y sistematizadas con área de comunicaciones.",
+						"meta": "35"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones con área de comunicaciones",
+						"estandar": [
+							"Debe indicar lista de temas abordados y principales conclusiones / acuerdos.",
+							"Sistematizadas según fechas.",
+							"Deben estar acompañadas de antecedentes relevantes que se utilizan en las reuniones (informes, material, etc.)"
+						]
 					}
 				]
 			}
@@ -91,6 +162,16 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Lista de sujetos pasivos publicada en portal de lobby UAysen",
+						"plazo": "abr",
+						"estandar": [
+							"Debe seguir indicaciones y protocolos de Ley de Lobby.",
+							"Implementado en el portal respectivo."
+						]
+					}
 				]
 			},
 			{
@@ -117,6 +198,24 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Sistema de solicitud de audiencias",
+						"plazo": "jun",
+						"estandar": [
+							"Debe seguir indicaciones y protocolos de Ley de Lobby.",
+							"Implementado en el portal respectivo."
+						]
+					},
+					{
+						"nombre": "Procedimientos internos asociados a Ley de Lobby",
+						"plazo": "jun",
+						"estandar": [
+							"Deben profundizar en particularidades y otros aspectos específicos a la Universidad de Aysén, complementando otra documentación de carácter más general."
+							"Debe ser coherentes con indicaciones de Ley de Lobby."
+						]
+					}
 				]
 			},
 			{
@@ -134,6 +233,16 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Listado de audiencias desarrolladas durante periodo",
+						"plazo": "dic",
+						"estandar": [
+							"Debe seguir indicaciones y protocolos de Ley de Lobby.",
+							"Implementado en el portal respectivo."
+						]
 					}
 				]
 			}
@@ -162,6 +271,19 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documento que detalla plan anual",
+						"plazo": "mar",
+						"estandar": [
+							"Coherente con planificación anual definida para el área.",
+							"Debe estar articulado con estrategias de comunicación interna para la Institución."
+							"Debe detallar en focos, alcances y mecanismos de prevención.",
+							"Debe ser coherente con PVSDA.",
+							"Debe tener calendario de actividades clave."
+						]
+					}
 				]
 			},
 			{
@@ -171,10 +293,25 @@
 					{
 						"cai": "EG", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"plazo": "sep",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
 					}
 				]
 			},
@@ -190,6 +327,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"plazo": "oct",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia."
+						]
+					},
+					{
+						"nombre": "Validadores de actividades relacionadas",
+						"plazo": "oct",
+						"estandar": [
+							"Puede considerar grabaciones, publicaciones u otro material asociado a organización de iniciativas.",
+							"Incluye listado de asistencia según corresponda."
+						]
+					},
+					{
+						"nombre": "Evaluación de actividades",
+						"plazo": "nov",
+						"estandar": [
+							"Informe simple que incorpore antecedentes y plantee análisis sobre impacto de actividad como medida de prevención / promoción en la Institución.",
+							"El análisis debe estar basado en antecedentes recopilados desde asistentes / participantes de actividades."
+						]
+					}
 				]
 			},
 			{
@@ -203,6 +366,32 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"plazo": "mar",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia."
+						]
+					},
+					{
+						"nombre": "Validadores de actividades relacionadas",
+						"plazo": "mar",
+						"estandar": [
+							"Puede considerar grabaciones, publicaciones u otro material asociado a organización de iniciativas.",
+							"Incluye listado de asistencia según corresponda."
+						]
+					},
+					{
+						"nombre": "Evaluación de actividades",
+						"plazo": "abr",
+						"estandar": [
+							"Informe simple que incorpore antecedentes y plantee análisis sobre impacto de actividad como medida de prevención / promoción en la Institución.",
+							"El análisis debe estar basado en antecedentes recopilados desde asistentes / participantes de actividades."
+						]
 					}
 				]
 			},
@@ -218,6 +407,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"plazo": "dic",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
+					}
 				]
 			},
 			{
@@ -231,6 +431,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"plazo": "oct",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
 					}
 				]
 			},
@@ -246,6 +457,42 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Cronograma de organización",
+						"plazo": "sep",
+						"estandar": [
+							"Define principales actividades, fechas y acciones críticas.",
+							"Establece responsables y requerimientos de organización",
+							"Establece pautas de contenido e impactos esperados en materia de género"
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "sep",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia."
+						]
+					},
+					{
+						"nombre": "Listado de inscripción y ejecución",
+						"plazo": "sep",
+						"estandar": [
+							"Listado de inscripción y asistencia final, compilando información fundamental de participantes (nombre, edad, institución, etc.).",
+							"Evidencias de realización (fotografías, videos, material gráfico, etc.).",
+							"Material de apoyo (documentación, PPTs, etc.)."
+						]
+					},
+					{
+						"nombre": "Evaluación de actividad",
+						"plazo": "oct",
+						"estandar": [
+							"Informe simple que incorpore antecedentes y plantee análisis sobre impacto de actividad como medida de prevención / promoción en la Institución.",
+							"El análisis debe estar basado en antecedentes recopilados desde asistentes / participantes."
+						]
+					}
 				]
 			},
 			{
@@ -260,6 +507,42 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Cronograma de organización",
+						"plazo": "jun",
+						"estandar": [
+							"Define principales actividades, fechas y acciones críticas.",
+							"Establece responsables y requerimientos de organización",
+							"Establece pautas de contenido e impactos esperados en materia de género"
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "jun",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia."
+						]
+					},
+					{
+						"nombre": "Listado de inscripción y ejecución",
+						"plazo": "jun",
+						"estandar": [
+							"Listado de inscripción y asistencia final, compilando información fundamental de participantes (nombre, edad, institución, etc.).",
+							"Evidencias de realización (fotografías, videos, material gráfico, etc.).",
+							"Material de apoyo (documentación, PPTs, etc.)."
+						]
+					},
+					{
+						"nombre": "Evaluación de actividad",
+						"plazo": "jul",
+						"estandar": [
+							"Informe simple que incorpore antecedentes y plantee análisis sobre impacto de actividad como medida de prevención / promoción en la Institución.",
+							"El análisis debe estar basado en antecedentes recopilados desde asistentes / participantes."
+						]
+					}
 				]
 			},
 			{
@@ -273,6 +556,42 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Cronograma de organización",
+						"plazo": "nov",
+						"estandar": [
+							"Define principales actividades, fechas y acciones críticas.",
+							"Establece responsables y requerimientos de organización",
+							"Establece pautas de contenido e impactos esperados en materia de género"
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "nov",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia."
+						]
+					},
+					{
+						"nombre": "Listado de inscripción y ejecución",
+						"plazo": "nov",
+						"estandar": [
+							"Listado de inscripción y asistencia final, compilando información fundamental de participantes (nombre, edad, institución, etc.).",
+							"Evidencias de realización (fotografías, videos, material gráfico, etc.).",
+							"Material de apoyo (documentación, PPTs, etc.)."
+						]
+					},
+					{
+						"nombre": "Evaluación de actividad",
+						"plazo": "dic",
+						"estandar": [
+							"Informe simple que incorpore antecedentes y plantee análisis sobre impacto de actividad como medida de prevención / promoción en la Institución.",
+							"El análisis debe estar basado en antecedentes recopilados desde asistentes / participantes."
+						]
 					}
 				]
 			},
@@ -296,6 +615,23 @@
 						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación área de género", 
+						"formula": "Número de reuniones coordinadas, ejecutadas y sistematizadas desde género con otras áreas administrativas de la institución para desarrollo de actividades de prevención de la violencia sexual y promoción de equidad de género.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones desarrolladas",
+						"estandar": [
+							"Debe indicar lista de temas abordados y principales conclusiones / acuerdos.",
+							"Sistematizadas según fechas.",
+							"Deben estar acompañadas de antecedentes relevantes que se utilizan en las reuniones (informes, material, etc.)"
+						]
+					}
 				]
 			},
 			{
@@ -313,6 +649,31 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades complementarias de comunicación / difusión para prevención de la violencia sexual y promoción de equidad de género", 
+						"formula": "Número de actividades de comunicación / difusión para prevención de la violencia sexual y promoción de equidad de género realizadas hacia actores específicos de la institución (unidades administrativas, carreras, deptos., cee, etc.)",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones realizadas",
+						"estandar": [
+							"Debe indicar lista de asistencia y principales temas abordados.",
+							"Sistematizadas según fechas.",
+							"Deben estar acompañadas de antecedentes relevantes que se utilizan (material, PPTs, etc.)"
+						]
+					},
+					{
+						"nombre": "Evaluación de actividades",
+						"estandar": [
+							"Informe simple que incorpore antecedentes y plantee análisis sobre impacto de actividad como medida de prevención / promoción en la Institución.",
+							"El análisis debe estar basado en antecedentes recopilados desde asistentes / participantes.",
+							"Uno por cada actividad de comunicación realizada."
+						]
 					}
 				]
 			}
@@ -357,6 +718,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Calendario anual de reuniones de Comisión",
+						"plazo": "mar",
+						"estandar": [
+							"Considera fechas de sesiones y horarios para instancias emergentes."
+							"Listar temáticas a abordar, en coherencia a planificación institucional.",
+							"Establecer instancias específicas de participación de Rectoría, priorizando respecto a necesidad de asesoramiento y elevación de temáticas críticas para su trabajo.",
+						]
+					}
 				]
 			},
 			{
@@ -374,6 +746,18 @@
 					{
 						"cai": "DVcM-COM", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenio formalizado",
+						"plazo": "jun",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través del convenio."
+						]
 					}
 				]
 			},
@@ -405,6 +789,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Sesiones de la Comisión", 
+						"formula": "Número de sesiones realizadas durante el periodo.",
+						"meta": "25"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de sesiones realizadas",
+						"estandar": [
+							"Debe indicar lista de asistencia y principales temas abordados.",
+							"Sistematizadas según fechas.",
+							"Deben estar acompañadas de antecedentes relevantes que se utilizan (material, PPTs, etc.).",
+							"Explicita resultados de decisiones y participación de Rectoría cuando corresponda.",
+							"Puede ser acompañado de otras evidencias de realización (ej.: grabaciones)."
+						]
+					}
 				]
 			},
 			{
@@ -419,6 +822,24 @@
 						"cai": "EG", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "psicologico", "juridico" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Recomendaciones de trabajo en materia de género y perspectivas transversales", 
+						"formula": "Número de informes emitidos desde la comisión durante el periodo con recomendaciones en la materia.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes desarrollados",
+						"estandar": [
+							"Deben sistematizar antecedentes y diagnósticos relevantes del periodo.",
+							"Deben proponer una lista sistematizada de recomendaciones para promover la transversalización de género y otras perspectivas en la institución, según área de trabajo.",
+							"Deben evidenciar la aprobación de integrantes de la comisión.",
+							"Deben evidenciar como acciones planificadas contribuyen al diseño de las propuestas."
+						]
+					}
 				]
 			},
 			{
@@ -432,6 +853,23 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de participación en Redes relevantes", 
+						"formula": "Número de participaciones de la Institución evidenciadas en las Redes relevantes.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de participación",
+						"estandar": [
+							"Se puede materializar en actas u otros documentos emitidos por externos en donde se explicite la participación de la Institución.",
+							"Se puede acompañar de evidencia gráfica (difusión, grabaciones, etc.)",
+							"Debe incorporar informes breves de participantes en la Institución para cada participación, destacando aportes y contribuciones al trabajo interno de la Institución desde las redes."
+						]
 					}
 				]
 			}
@@ -456,6 +894,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Lista de asistencia a actividades de capacitación",
+						"plazo": "may",
+						"estandar": [
+							"Consolidada o dividida en cantidad de presentaciones realizadas.",
+							"Debe ser identificable de forma clara el número de asistentes.",
+							"Los asistentes deben estar clasificados por cargo."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "may",
+						"estandar": [
+							"PPT, documento u otro que explique el reglamento y sus detalles.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -470,6 +927,24 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Verificación de canales para aplicación de protocolo", 
+						"formula": "Número de instancias periódicas de revisión de canales para recepción de denuncias a través del protocolo.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de revisión de canales",
+						"estandar": [
+							"Debe dar cuenta que persona responsable ha revisado los contenidos o información que puede dar cuenta de la recepción de denuncias.",
+							"El canal dependerá de los mecanismos operativos implementados por EG en el tema.",
+							"Debe evidenciarse a través de algún certificado o medio de confirmación de la revisión del canal.",
+							"Para cada instancia de revisión, debe indicar si existían denuncias ingresadas o no, y en el caso que si, cómo se procede."
+						]
+					}
 				]
 			},
 			{
@@ -483,6 +958,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de coordinación efectuadas", 
+						"formula": "Número de instancias conformadas en prevención, ensayo o respuesta a casos de violencia y discriminación.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de conformación de instancias",
+						"estandar": [
+							"Instancias deben dar cuenta respecto a si se conforman ante una denuncia, o como instancia periódica de conformación.",
+							"Considerar que, aunque no existan denuncias, se recomienda conformar instancias a modo de ensayo, prevención y para levantar necesidades emergentes respecto a los canales.",
+							"Se debe proveer acta de la instancia de conformación, independiente de que exista o no denuncia, lo cual debe quedar estipulado en ella.",
+							"Adicionalmente, se puede acompañar de otro material que evidencie los motivos de la conformación (ej.: recepción de denuncia)."
+						]
 					}
 				]
 			},
@@ -501,6 +994,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Registros (innominados) asociados a la revisión y/o seguimiento de casos de violencia y discriminación", 
+						"formula": "Número de registros sistematizados respecto a casos detectados y/o instancias de revisión periódica y preventiva a través del protocolo.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro sistematizado de revisión y seguimiento",
+						"estandar": [
+							"Debe dar cuenta de la información que es ingresada respecto al seguimiento de casos, o revisiones de rutina sobre la aplicación del protocolo.",
+							"En el caso de existir casos activos de denuncias, el registro debe entregarse innominado y ocultando toda la información que pueda evidenciar la identidad de las personas involucradas.",
+							"Cuando no existen casos, el registro debe simplemente dar evidencia de las revisiones de los canales, en coherencia al desarrollo de F01.",
+							"Debe tener un formato tradicional para la sistematización de datos (planilla, documento, etc.)"
+						]
 					}
 				]
 			},
@@ -524,6 +1035,25 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Registro de acciones operativas y derivaciones legales asociadas a la aplicación del protocolo", 
+						"formula": "Número de reportes sistematizados que dan cuenta de la evaluación, aplicación y ejecución del protocolo.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes mensuales de aplicación de protocolo",
+						"estandar": [
+							"Debe dar cuenta de las acciones procedimientales y legales realizadas por los responsables institucionales para la aplicación del protocolo.",
+							"Cada informe debe resumir posibles casos detectados, y todas las acciones realizadas, tanto en materia interna como derivación a asuntos legales.",
+							"En caso de no existir casos que evidenciar, Cada reporte lo debe explicitar",
+							"Los reportes deben ocultar toda información personal de involucrados/as para cuidar privacidad y asegurar su entrega.",
+							"Debe indicar periodo de seguimiento."
+						]
+					}
 				]
 			},			
 			{
@@ -541,6 +1071,24 @@
 					{
 						"cai": "DAF-ADQ", "rol": "Soporte",
 						"capacidades": [ "operacion-misc", "compras" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Registro de derivaciones psicologicas", 
+						"formula": "Número de reportes sistematizados que dan cuenta de derivaciones realizadas y acciones previas.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes bimensuales sobre acciones de derivación",
+						"estandar": [
+							"Debe dar cuenta de las acciones ejecutadas, en complemento a lo reportado en F04, respecto a tratamiento psicológico.",
+							"En caso de no existir casos que evidenciar, cada reporte lo debe explicitar",
+							"Los reportes deben ocultar toda información personal de involucrados/as para cuidar privacidad y asegurar su entrega.",
+							"Debe indicar periodo de seguimiento."
+						]
 					}
 				]
 			}
