@@ -527,7 +527,7 @@
 	},
 	{
 		"id": "03", "area": "DAC",
-		"titulo": "Proceso de admisión y matrícula 2021",
+		"titulo": "Proceso de matrícula 2021 y admisión 2022",
 		"objetivo": "Gestionar todas las actividades institucionales que permitan la incorporación de los nuevos estudiantes al periodo 2021, y la atracción e incorporación a la institución de nuevos estudiantes para el año 2022.",
 		"responsable": "DAC-EPRE",
 		"tipo": "Misional",
@@ -806,7 +806,7 @@
 			},
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantados los requerimientos de difusión comunicacional de la oferta de pregrado a nivel regional y nacional para su implementación durante el periodo 2021.",
+				"desc": "Levantados los requerimientos de difusión comunicacional de la oferta 2022 de pregrado a nivel regional y nacional para su implementación durante el periodo 2021.",
 				"actores": [
 					{
 						"cai": "DAC", "rol": "Aprobador",
@@ -848,7 +848,7 @@
 			},
 			{
 				"id": "F01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Ejecutar la difusión comunicacional de la oferta de pregrado a nivel regional y nacional.",
+				"desc": "Ejecutar la difusión comunicacional de la oferta 2022 de pregrado a nivel regional y nacional.",
 				"actores": [
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
@@ -904,7 +904,7 @@
 			},
 			{
 				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado el plan de articulación anual con establecimientos regionales y nacionales para desarrollar difusión académica de la oferta de pregrado.",
+				"desc": "Diseñado el plan de articulación anual con establecimientos regionales y nacionales para desarrollar difusión académica de la oferta 2022 de pregrado.",
 				"actores": [
 					{
 						"cai": "DAC", "rol": "Aprobador",
@@ -949,7 +949,7 @@
 			},
 			{
 				"id": "H08", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Ejecutado el plan de articulación anual con establecimientos regionales y nacionales para desarrollar difusión académica de la oferta de pregrado.",
+				"desc": "Ejecutado el plan de articulación anual con establecimientos regionales y nacionales para desarrollar difusión académica de la oferta 2022 de pregrado.",
 				"actores": [
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
@@ -984,7 +984,7 @@
 			},
 			{
 				"id": "H09", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Desarrolladas las actividades de admisión regular para el periodo 2021.",
+				"desc": "Desarrolladas las actividades de admisión regular para el periodo 2022.",
 				"actores": [
 					{
 						"cai": "DAC", "rol": "Aprobador",
@@ -1012,7 +1012,7 @@
 						"nombre": "Reporte de desarrollo de proceso.",
 						"plazo": "ene",
 						"estandar": [
-							"Debe describir en detalle las actividades realizadas para el desarrollo del proceso, considerando los preparativos necesarios para proceso de matrícula 2021.",
+							"Debe describir en detalle las actividades realizadas para el desarrollo del proceso, considerando los preparativos necesarios para proceso de matrícula 2022.",
 							"Las actividades descritas deben clasificarse según su naturaleza (gestión de datos, logística, difusión, etc.)",
 							"Debe indicar conjunto de insturmentos normativos (ej.: reglamentos) que dan soporte apropiado al proecso, tanto aquellos que se hayan formalizado a la fecha como aquellos pendientes.",
 							"Debe dar cuenta de productos generados, responsables y plazos, tanto de aquellos ya generados como pendientes.",
@@ -1024,7 +1024,7 @@
 			},
 			{
 				"id": "H10", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Desarrolladas las actividades de admisión especial (y de zonas extremas) para el periodo 2021.",
+				"desc": "Desarrolladas las actividades de admisión especial (y de zonas extremas) para el periodo 2022.",
 				"actores": [
 					{
 						"cai": "DAC", "rol": "Aprobador",
@@ -1990,7 +1990,7 @@
 	{
 		"id": "08", "area": "DAC",
 		"titulo": "Planificación académica 2021",
-		"objetivo": "Sistematizar la información asociada a la planificación de las actividades del cuerpo académico.",
+		"objetivo": "Sistematizar la información asociada a la planificación de las actividades del cuerpo académico para el año 2021.",
 		"responsable": "DAC-DA",
 		"tipo": "Misional",
 		"tacticas": [
@@ -2015,12 +2015,45 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos que operacionalizan la planificación académica anual",
+						"plazo": "mar",
+						"estandar": [
+							"Listado simple de mecanismos asociados al proceso de planificación anual.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos preliminares para operacionalizar proceso 2021",
+						"plazo": "mar",
+						"estandar": [
+							"Versión inicial de mecanismos, acorde a índice, que permita operacionalizar de forma oportuna el proceso.",
+							"Sujeto a ajustes posteriores para su implementación definitiva."
+						]
+					},
+					{
+						"nombre": "Mecanismos actualizados",
+						"plazo": "jun",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -2037,12 +2070,23 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Planificación anual de académicos y académicas.",
+						"plazo": "may",
+						"estandar": [
+							"Documentación de cada académico/a en función a mecanismos preliminares para la operacionalización 2021.",
+							"Propuestas validadas por Jefaturas de Departamento respectivas.",
+							"Versiones preliminares y finales, estás últimas posterior a revisión y sugerencias de ajustes de equipo DAC."
+						]
 					}
 				]
 			},
@@ -2066,6 +2110,16 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decretos que formalizan planificación anual de académicos y académicas.",
+						"plazo": "jun",
+						"estandar": [
+							"Respaldo formal de versión final de las distintas planificaciones.",
+							"Formato para formalización según definiciones de SG (decreto único, múltiples decretos, etc.)"
+						]
+					}
 				]
 			}
 		]
@@ -2079,7 +2133,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Compilada y evaluada la información para la calificación académica de las actividades del 2020.",
+				"desc": "Compilada la información para la calificación académica de las actividades del 2020.",
 				"actores": [
 					{
 						"cai": "DAC-DA", "rol": "Responsable",
@@ -2090,7 +2144,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -2100,6 +2154,62 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Requerimientos de información para proceso de calificación.",
+						"plazo": "mar",
+						"estandar": [
+							"Documento simple que consolida requerimientos emanados desde DAC para operacionalizar proceso de calificación.",
+							"Coherente con normativa e instrumentos relevantes.",
+							"Debe ser revisada y retroalimentada por AI para analizar obtención desde fuentes institucionales.",
+							"Se deben establecer roles y responsabilidades sobre los datos requeridos para su obtención oportuna."
+						]
+					},
+					{
+						"nombre": "Datos para proceso de calificación.",
+						"plazo": "abr",
+						"estandar": [
+							"Sistematización de información en formato que pueda ser usada por actores claves en proceso de calificación.",
+							"Soporte desde AI para información desde fuentes institucionales.",
+							"Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
+							"Considerar formatos manipulables y de uso general (ej.: excel)."
+						]
+					}
+				]
+			},
+			{
+				"id": "H01b", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Ejecutada la calificación académica de las actividades del 2020.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de calificación 2020.",
+						"plazo": "jun",
+						"estandar": [
+							"Registro de documentos que detallan la calificación de académicos y académicas en la institución, uno por cada uno/a.",
+							"Coherente con normativa e instrumentos vigentes.",
+							"Aplicado por instancias establecidas en Reglamento General Académico, con participación directa de Jefaturas de Departamento.",
+							"Validados y visados por DAC según corresponda."
+						]
 					}
 				]
 			},
@@ -2131,11 +2241,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos que operacionalizan la calificación académica",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos asociados al proceso de calificación anual.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos actualizados",
+						"plazo": "nov",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Compilada y evaluada la información para la calificación académica de las actividades del 2021.",
+				"desc": "Compilada la información para la calificación académica de las actividades del 2021.",
 				"actores": [
 					{
 						"cai": "DAC-DA", "rol": "Responsable",
@@ -2146,7 +2277,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -2156,6 +2287,62 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Requerimientos de información para proceso de calificación.",
+						"plazo": "ago",
+						"estandar": [
+							"Documento simple que consolida requerimientos emanados desde DAC para operacionalizar proceso de calificación.",
+							"Coherente con normativa e instrumentos relevantes.",
+							"Debe ser revisada y retroalimentada por AI para analizar obtención desde fuentes institucionales.",
+							"Se deben establecer roles y responsabilidades sobre los datos requeridos para su obtención oportuna."
+						]
+					},
+					{
+						"nombre": "Datos para proceso de calificación.",
+						"plazo": "nov",
+						"estandar": [
+							"Sistematización de información en formato que pueda ser usada por actores claves en proceso de calificación.",
+							"Soporte desde AI para información desde fuentes institucionales.",
+							"Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
+							"Considerar formatos manipulables y de uso general (ej.: excel)."
+						]
+					}
+				]
+			},
+			{
+				"id": "H03b", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Ejecutada la calificación académica de las actividades del 2021.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de calificación 2021.",
+						"plazo": "ene",
+						"estandar": [
+							"Registro de documentos que detallan la calificación de académicos y académicas en la institución, uno por cada uno/a.",
+							"Coherente con normativa e instrumentos vigentes.",
+							"Aplicado por instancias establecidas en Reglamento General Académico, con participación directa de Jefaturas de Departamento.",
+							"Validados y visados por DAC según corresponda."
+						]
 					}
 				]
 			},
@@ -2187,11 +2374,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos que operacionalizan la jerarquización académica",
+						"plazo": "abr",
+						"estandar": [
+							"Listado simple de mecanismos asociados al proceso de jerarquización anual.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos actualizados",
+						"plazo": "jun",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
 				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Compilada y evaluada la información para realizar la jerarquización anual.",
+				"desc": "Compilada la información para realizar la jerarquización anual.",
 				"actores": [
 					{
 						"cai": "DAC-DA", "rol": "Responsable",
@@ -2202,7 +2410,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -2212,6 +2420,62 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Requerimientos de información para proceso de jerarquización.",
+						"plazo": "jun",
+						"estandar": [
+							"Documento simple que consolida requerimientos emanados desde DAC para operacionalizar proceso de jerarquización.",
+							"Coherente con normativa e instrumentos relevantes.",
+							"Debe ser revisada y retroalimentada por AI para analizar obtención desde fuentes institucionales.",
+							"Se deben establecer roles y responsabilidades sobre los datos requeridos para su obtención oportuna."
+						]
+					},
+					{
+						"nombre": "Datos para proceso de jerarquización.",
+						"plazo": "ago",
+						"estandar": [
+							"Sistematización de información en formato que pueda ser usada por actores claves en proceso de jerarquización.",
+							"Soporte desde AI para información desde fuentes institucionales.",
+							"Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
+							"Considerar formatos manipulables y de uso general (ej.: excel)."
+						]
+					}
+				]
+			},
+			{
+				"id": "H05b", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Ejecutada la jerarquización académica anual.",
+				"actores": [
+					{
+						"cai": "DAC-DA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de jearquización anual.",
+						"plazo": "sep",
+						"estandar": [
+							"Registro de documentos que detallan los resultados de jerarquización de académicos y académicas en la institución, uno por cada uno/a.",
+							"Coherente con normativa e instrumentos vigentes.",
+							"Aplicado por instancias establecidas en Reglamento General Académico, con participación directa de Jefaturas de Departamento.",
+							"Validados y visados por DAC según corresponda."
+						]
 					}
 				]
 			},
@@ -2246,6 +2510,23 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación de Comité de Desarrollo Académico.", 
+						"formula": "Número de instancias de coordinación ejecutadas por el Comité.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones del Comité",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					}
 				]
 			}		
