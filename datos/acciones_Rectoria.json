@@ -212,7 +212,7 @@
 						"nombre": "Procedimientos internos asociados a Ley de Lobby",
 						"plazo": "jun",
 						"estandar": [
-							"Deben profundizar en particularidades y otros aspectos específicos a la Universidad de Aysén, complementando otra documentación de carácter más general."
+							"Deben profundizar en particularidades y otros aspectos específicos a la Universidad de Aysén, complementando otra documentación de carácter más general.",
 							"Debe ser coherentes con indicaciones de Ley de Lobby."
 						]
 					}
@@ -278,7 +278,7 @@
 						"plazo": "mar",
 						"estandar": [
 							"Coherente con planificación anual definida para el área.",
-							"Debe estar articulado con estrategias de comunicación interna para la Institución."
+							"Debe estar articulado con estrategias de comunicación interna para la Institución.",
 							"Debe detallar en focos, alcances y mecanismos de prevención.",
 							"Debe ser coherente con PVSDA.",
 							"Debe tener calendario de actividades clave."
@@ -724,9 +724,9 @@
 						"nombre": "Calendario anual de reuniones de Comisión",
 						"plazo": "mar",
 						"estandar": [
-							"Considera fechas de sesiones y horarios para instancias emergentes."
+							"Considera fechas de sesiones y horarios para instancias emergentes.",
 							"Listar temáticas a abordar, en coherencia a planificación institucional.",
-							"Establecer instancias específicas de participación de Rectoría, priorizando respecto a necesidad de asesoramiento y elevación de temáticas críticas para su trabajo.",
+							"Establecer instancias específicas de participación de Rectoría, priorizando respecto a necesidad de asesoramiento y elevación de temáticas críticas para su trabajo."
 						]
 					}
 				]
@@ -1168,7 +1168,7 @@
 							"Debe explicitar metodología de ajuste y mejora aplicada",
 							"Debe incorporar integralmente las distintas fuentes de retroalimentación generadas a la fecha (auditoría, recomendaciones externas, etc.).",
 							"Debe explicitar los ajustes realizados, y aquellas cosas que requieren mayor revisión para una futura versión.",
-							"Debe incorporar plan de transición para su aplicación integral durante el periodo, explicitando que elementos deberán ser implementados de forma posterior y según las capacidades existentes."
+							"Debe incorporar plan de transición para su aplicación integral durante el periodo, explicitando que elementos deberán ser implementados de forma posterior y según las capacidades existentes.",
 							"Debe explicitar validación de actores claves, incluyendo DPAc-GC y Rectoría."
 						]
 					},
@@ -1732,7 +1732,7 @@
 						"estandar": [
 							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para la institución en materia de inclusión.",
 							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
-							"Debe articularse y diseñarse de forma armónica con ajustes propuestos en materia de género y perspectivas transversales (Rectoria-07-H01)."
+							"Debe articularse y diseñarse de forma armónica con ajustes propuestos en materia de género y perspectivas transversales (Rectoria-07-H01).",
 							"Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
 							"Debe dar cuenta de un diálogo con diversos estamentos, con actores estratégicos de la institución y al contexto normativo que influye.",
 							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
@@ -1764,7 +1764,7 @@
 						"estandar": [
 							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
 							"Debe responder a la propuesta de ajustes propuestas durante esta acción.",
-							"Debe considerar elementos que serán actualizados en la planificación 2021 para incorporar las líneas de acción levantadas."
+							"Debe considerar elementos que serán actualizados en la planificación 2021 para incorporar las líneas de acción levantadas.",
 							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
 						]
 					}
@@ -2155,7 +2155,7 @@
 						"estandar": [
 							"Debe considerar necesidades institucionales en la materia y diagnósticos requeridos.",
 							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos."
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
 							"Debe establecer productos esperados, plazos y condiciones generales."
 						]
 					},
@@ -2353,7 +2353,7 @@
 						"estandar": [
 							"Registro simple (planilla, documento, etc.) con detalle de correspondencia debidamente gestionada.",
 							"Debe dar cuenta del estado de cada correspondencia gestionada.",
-							"Debe indicar cuando se trata de recepciones o de derivaciones."
+							"Debe indicar cuando se trata de recepciones o de derivaciones.",
 							"Debe explicitar tiempos de respuesta de las gestiones realizadas."
 						]
 					}
@@ -2489,7 +2489,7 @@
 						"nombre": "Calendario anual de sesiones del CS",
 						"plazo": "mar",
 						"estandar": [
-							"Considera fechas de sesiones y horarios para instancias emergentes."
+							"Considera fechas de sesiones y horarios para instancias emergentes.",
 							"Establecer instancias específicas de articulación con Senado Universitario, priorizando respecto a necesidad de articular decisiones clave."
 						]
 					}
@@ -2670,7 +2670,7 @@
 						"nombre": "Calendario anual de sesiones del SU",
 						"plazo": "mar",
 						"estandar": [
-							"Considera fechas de sesiones y horarios para instancias emergentes."
+							"Considera fechas de sesiones y horarios para instancias emergentes.",
 							"Establecer instancias específicas de articulación con Consejo Superior, priorizando respecto a necesidad de articular decisiones clave."
 						]
 					}

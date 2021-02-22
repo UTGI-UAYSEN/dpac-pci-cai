@@ -26,6 +26,25 @@
 						"cai": "DAC-DE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de ajustes a SAT",
+						"plazo": "abr",
+						"estandar": [
+							"Informe simple que indique ajustes y/o actualizaciones realizadas.",
+							"Debe dar cuenta de estado previo y justificación de los ajustes.",
+							"Debe indicar impactos esperados de los ajustes sobre los datos y elementos predictivos de la alerta temprana."
+						]
+					},
+					{
+						"nombre": "Datos de alerta temprana",
+						"plazo": "may",
+						"estandar": [
+							"Generados en función al sistema que fue ajustado.",
+							"Presentados en función de requerimientos de acompañamiento académico."
+						]
+					}
 				]
 			},
 			{
@@ -51,6 +70,25 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de encuesta.",
+						"plazo": "abr",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DAC."
+						]
+					},
+					{
+						"nombre": "Datos de análisis",
+						"plazo": "abr",
+						"estandar": [
+							"En formato estándar que permita su revisión (excel, csv, etc.).",
+							"Innominado o según corresponda su protección."
+						]
 					}
 				]
 			},
@@ -82,6 +120,25 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de operacionalización de encuesta.",
+						"plazo": "mar",
+						"estandar": [
+							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
+							"Versión validada por Director DAC."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de encuesta.",
+						"plazo": "may",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DAC."
+						]
+					}
 				]
 			},
 			{
@@ -107,6 +164,25 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de operacionalización de encuesta.",
+						"plazo": "abr",
+						"estandar": [
+							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
+							"Versión validada por Director DAC."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de encuesta.",
+						"plazo": "jun",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DAC."
+						]
 					}
 				]
 			},
@@ -134,6 +210,17 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de análisis.",
+						"plazo": "jul",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DAC."
+						]
+					}
 				]
 			},
 			{
@@ -159,6 +246,17 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de análisis.",
+						"plazo": "ene",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DAC."
+						]
 					}
 				]
 			}
@@ -187,6 +285,26 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Tramites de asuntos académicos estudiantiles", 
+						"formula": "Número de registros de tramites académicos realizados para atender requerimientos académicos y curriculares de estudiantes.",
+						"meta": "400"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de trámites académicos estudiantiles",
+						"estandar": [
+							"Clasificado según datos relevantes de estudiantes asociados a los trámites (carrera, situación, etc.).",
+							"Cuantificable en cantidad de trámites registrados.",
+							"Se debe especificar estados de trámites respectivos y tiempos de realización, según procesos asociados.",
+							"Cada registro debe indicar reglamentación a la cual se somete.",
+							"Cada registro debe indicar ubicación de certificación respectiva, si aplica (ej.: decreto)",
+							"En formato estándar para su revisión (ej.: excel)"
+						]
+					}
 				]
 			},
 			{
@@ -205,6 +323,26 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Ajustes en programas cursados", 
+						"formula": "Número de registros de tramites académicos realizados para realizar ajustes sobre asignación de programas de estudiantes.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de ajustes a programas cursados",
+						"estandar": [
+							"Clasificado según tipo de ajuste (convalidación, transferencia, etc.).",
+							"Cuantificable en cantidad de trámites registrados.",
+							"Se debe especificar estados de trámites respectivos y tiempos de realización, según procesos asociados.",
+							"Cada registro debe indicar reglamentación a la cual se somete.",
+							"En formato estándar para su revisión (ej.: excel)",
+							"Se podría combinar con MDVs de F01."
+						]
+					}
 				]
 			},
 			{
@@ -222,6 +360,25 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Emisión de certificados", 
+						"formula": "Número de certificados emitidos en función a requerimientos de estudiantes.",
+						"meta": "80"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de emisión de certificados",
+						"estandar": [
+							"Cuantificable en cantidad de solicitudes abordadas.",
+							"Cada solicitud debe indicar estudiante, estado de emisión y tiempos de emisión y otros datos de seguimiento que sean relevantes.",
+							"Clasificado según tipo de certificado.",							
+							"Cada solicitud debe tener respaldo de certificado emitido, si corresponde.",
+							"En formato estándar para su revisión (ej.: excel)"
+						]
 					}
 				]
 			},
@@ -244,6 +401,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Informes trimestral de registro de antecedentes y documentación de estudiantes", 
+						"formula": "Número de informes periódicos que resumen estado de avance de registros en base de datos.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de registro de antecedentes y documentación de estudiantes",
+						"estandar": [
+							"Deben resumir y proveer información agregada relevante respecto a tramites realizados en torno a antecedentes curriculares y documentación generada durante el periodo.",
+							"Debe proveer indicadores generales sobre los tramites cuantificados, clasificando según su tipo, carreras asociadas, estados, etc.",
+							"Deben dar cuenta de los tiempos que toman los trámites y otros elementos asociados a la calidad del servicio entregado a los/las estudiantes.",
+							"Debe incorporar un apartado descriptivo con análisis desde el área sobre los resultados generados en términos de eficiencia y cobertura."
+						]
 					}
 				]
 			}
@@ -272,6 +447,32 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de operacionalización de encuesta.",
+						"plazo": "mar",
+						"estandar": [
+							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
+							"Versión validada por Director DAC."
+						]
+					},
+					{
+						"nombre": "Datos de análisis",
+						"plazo": "abr",
+						"estandar": [
+							"En formato estándar que permita su revisión (excel, csv, etc.)."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de encuesta.",
+						"plazo": "may",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DAC."
+						]
+					}
 				]
 			},
 			{
@@ -287,24 +488,38 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DCS", "rol": "Consultado",
-						"capacidades": [ "gestion" ]
-					},
-					{
-						"cai": "DCSH", "rol": "Consultado",
-						"capacidades": [ "gestion" ]
-					},
-					{
-						"cai": "DBS", "rol": "Consultado",
-						"capacidades": [ "gestion" ]
-					},
-					{
-						"cai": "DCAI", "rol": "Consultado",
-						"capacidades": [ "gestion" ]
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de operacionalización de encuesta.",
+						"plazo": "abr",
+						"estandar": [
+							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
+							"Versión validada por Director DAC."
+						]
+					},
+					{
+						"nombre": "Datos de análisis",
+						"plazo": "may",
+						"estandar": [
+							"En formato estándar que permita su revisión (excel, csv, etc.)."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de encuesta.",
+						"plazo": "jun",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Director DAC."
+						]
 					}
 				]
 			}
@@ -320,14 +535,14 @@
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
 				"desc": "Generados reportes de resultados de matrícula.",
-				"actores": [					
+				"actores": [
 					{
-						"cai": "DPAC-AI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Soporte",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},					
+					{
+						"cai": "DPAC-AI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte",
@@ -336,6 +551,26 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Requerimientos de información de proceso.",
+						"plazo": "mar",
+						"estandar": [
+							"Especificación general (documento simple) con el detalle de los datos requeridos para seguimiento del proceso.",
+							"Emitido desde mandante (DAC_EPRE).",
+							"Debe especificar en detalle fechas, periodicidad y otros detalles que sean necesarios para las entregas.",
+							"Debe indicar usos que se daran a los datos que se entregarán (difusión, análisis interno, reportería, etc.)."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de proceso.",
+						"plazo": "mar",
+						"estandar": [
+							"Informes incrementales del avance de la matrícula según requerimientos de mandantes.",
+							"Debe considerar un informe final que compile los diversos incrementos, como última entrega."
+						]
 					}
 				]
 			},
@@ -375,6 +610,39 @@
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Actas de capacitación.",
+						"plazo": "mar",
+						"estandar": [
+							"Al menos un acta por cada grupo de usuarios clave.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					},
+					{
+						"nombre": "Manual de usuario de módulo.",
+						"plazo": "mar",
+						"estandar": [
+							"Debe considerar las principales funcionalidades asociadas al sistema.",
+							"En formato de transmisión estándar (docx, pdf)."
+						]
+					},
+					{
+						"nombre": "Certificado de entrega de módulo.",
+						"plazo": "mar",
+						"estandar": [
+							"Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."
+						]
+					},
+					{
+						"nombre": "Documentación técnica módulo.",
+						"plazo": "abr",
+						"estandar": [
+							"Formatos y estructura según estándares TGI."
+						]
+					}
 				]
 			},
 			{
@@ -393,12 +661,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"plazo": "abr",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Coordinada y preparadas las actividades para el desarrollo de la matrícula 2021.",
 				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
@@ -422,6 +705,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Programa de realización de proceso",
+						"plazo": "mar",
+						"estandar": [
+							"Detalle de tareas, plazos y resonsabilidades sobre el desarrollo de la matrícula.",
+							"Validado y acordado con cada uno de los actores involucrados.",
+							"Debe indicar principales productos a generar y resultados esperados.",
+							"Visado por Director DAC."
+						]
 					}
 				]
 			},
@@ -453,6 +748,18 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de matrícula de primer año",
+						"plazo": "abr",
+						"estandar": [
+							"Informe descriptivo de principales resultados de proceso.",
+							"Puede contener referencias y otros análisis a resultados cuantitativos obtenidos desde H01.",
+							"Debe dar cuenta de logros y puntos de mejora identificados.",
+							"Debe especificar plan de mejora para atender debilidades identificadas, proyectando su incorporación a POA de próximo periodo."
+						]
+					}
 				]
 			},
 			{
@@ -483,6 +790,18 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de matrícula de curso superior",
+						"plazo": "may",
+						"estandar": [
+							"Informe descriptivo de principales resultados de proceso.",
+							"Puede contener referencias y otros análisis a resultados cuantitativos obtenidos desde H01.",
+							"Debe dar cuenta de logros y puntos de mejora identificados.",
+							"Debe especificar plan de mejora para atender debilidades identificadas, proyectando su incorporación a POA de próximo periodo."
+						]
+					}
 				]
 			},
 			{
@@ -490,12 +809,16 @@
 				"desc": "Levantados los requerimientos de difusión comunicacional de la oferta de pregrado a nivel regional y nacional para su implementación durante el periodo 2021.",
 				"actores": [
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
 					},
 					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
 						"cai": "DAC-DE", "rol": "Consultado",
@@ -509,6 +832,18 @@
 						"cai": "DAF-ADQ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "compras" ]
 					}	
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos comunicaciones para admisión y matrícula 2021",
+						"plazo": "may",
+						"estandar": [
+							"Descripción detallada de requerimientos no técnicos sobre la difusión que debe ser realizada para dar soporte al proceso.",
+							"Específicación orientada por DVcM-COM, desde donde se entregan los insumos de forma para proveer los requerimientos.",
+							"Debe considerar posible nueva oferta según proyecciones del área.",
+							"Visado por Director DAC."
+						]
+					}
 				]
 			},
 			{
@@ -539,6 +874,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}					
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de oferta realizada", 
+						"formula": "Número de instancias de difusión (redes sociales, apariciones en prensa, reportajes, etc.) realizadas y verificables.",
+						"meta": "150"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
+					},
+					{
+						"nombre": "Informe de impacto de difusión",
+						"estandar": [
+							"Da cuenta de impacto generado con las instancias de difusión realizada.",
+							"Debe incorporar métricas e indicadores asociados a criterios académicos (ej.: encuestas sobre interés en carreras, apreciación, etc.).",
+							"Debe entregar comparativas sobre impactos esperados vs logrados (ej.: público objetivo vs público alcanzado).",
+							"Debe comparar avances con periodos anteriores."
+						]
+					}
 				]
 			},
 			{
@@ -569,6 +930,21 @@
 						"cai": "DAF-ADQ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "compras" ]
 					}	
+				],
+				"verificadores": [
+					{
+						"nombre": "Estrategia de articulación para el periodo",
+						"plazo": "may",
+						"estandar": [
+							"Debe indicar cobertura de articulación a nivel nacional y regional.",
+							"Debe indicar establecimientos y/o grupos de establecimientos con los cuales se pretende trabajar, además de las estrategias para poder concretar dicha articulación.",
+							"Debe entregar detalle sobre las capacidades académicas requeridas para dar soporte a la articulación, que sea coherente con las capacidades existentes en la institución y debidamente articulado con los Departamentos.",
+							"Debe indicar resultados e impactos de articulación esperados con cada establecimiento, a nivel regional y nacional, en referencia a los resultados de admisión y matrícula en periodos anteriores.",
+							"Debe indicar principales actividades, roles y responsabilidades en la estrategia a desarrollar.",
+							"Debe generar calendario tentativo del proceso completo de articulación.",
+							"Visado por Director DAC."
+						]
+					}
 				]
 			},
 			{
@@ -578,7 +954,7 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
-					},					
+					},
 					{
 						"cai": "multiple", "rol": "Soporte",
 						"capacidades": [ "todos-gestion-academica" ]
@@ -591,12 +967,29 @@
 						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de difusión en establecimientos.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe describir de forma detallada las acciones realizadas en comparación a las planificadas.",
+							"Debe proveer indicadores de resultados obtenidos que permitan dar cuenta de las acciones realizadas (ej.: establecimientos articulados por región, número de estudiantes alcanzados/as, número de charlas, exposiciones u otro tipo de actividades realizadas, etc.).",
+							"Debe entregar un análisis respecto a los impactos esperados del proceso en la matrícula 2021 y sustentado en las acciones realizadas.",
+							"Debe dar cuenta de logros obtenidos y debilidades identificadas.",
+							"Debe proveer un plan de mejora para el próximo proceso y para su incorporación a la planificación anual."
+						]
+					}
 				]
 			},
 			{
 				"id": "H09", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Desarrolladas las actividades de admisión regular para el periodo 2021.",
 				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
@@ -613,12 +1006,30 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de desarrollo de proceso.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe describir en detalle las actividades realizadas para el desarrollo del proceso, considerando los preparativos necesarios para proceso de matrícula 2021.",
+							"Las actividades descritas deben clasificarse según su naturaleza (gestión de datos, logística, difusión, etc.)",
+							"Debe indicar conjunto de insturmentos normativos (ej.: reglamentos) que dan soporte apropiado al proecso, tanto aquellos que se hayan formalizado a la fecha como aquellos pendientes.",
+							"Debe dar cuenta de productos generados, responsables y plazos, tanto de aquellos ya generados como pendientes.",
+							"En preparación a receso, debe establecer un checklist de actividades pendientes que deben ser consideradas para la vuelta, y/o aquellas actividades que deberán ser desarrolladas durante receso.",
+							"Visado por Director DAC."
+						]
+					}
 				]
 			},
 			{
 				"id": "H10", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Desarrolladas las actividades de admisión especial (y de zonas extremas) para el periodo 2021.",
 				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
@@ -638,6 +1049,15 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de desarrollo de proceso.",
+						"plazo": "ene",
+						"estandar": [
+							"Se anexa a reporte de H09, considerando los mismos estándares."
+						]
 					}
 				]
 			}
@@ -682,6 +1102,17 @@
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de sistema.",
+						"plazo": "abr",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los modulos respectivos.",
+							"Debe tener coherencia con los procesos asociados.",
+							"Se debe especificar alcance de los módulos iniciales y posibles próximas etapas."
+						]
+					}
 				]
 			},
 			{
@@ -719,6 +1150,17 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Artefactos de diseño de sistema.",
+						"plazo": "may",
+						"estandar": [
+							"Documentación técnica de elementos de diseño de los módulos acorde a estándares TGI.",
+							"Debe considerar al menos artefactos asociados a las bases de datos, interfaces de usuario y arquitectura del sistema, incorporando documentación sobre las tecnologías involucradas.",
+							"Debe ser coherente con especificación de requerimientos de sistema."
+						]
 					}
 				]
 			},
@@ -758,6 +1200,18 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "ago",
+						"estandar": [
+							"Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
+							"Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
+							"Desarrollo debe ser coherente con estándares TGI definidos.",
+							"Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+						]
+					}
 				]
 			},
 			{
@@ -791,6 +1245,19 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes de testing de sistema.",
+						"plazo": "oct",
+						"estandar": [
+							"Documentación que de cuenta de la ejecución de pruebas (ya sea automatizadas o no) sobre las versiones estables de los desarrollos realizados a la fecha.",
+							"Debe considerar estándares TGI para testing.",
+							"Debe dar cuenta de problemas detectados, correcciones y posteriores revisiones.",
+							"Debe indicar metodología y tecnologías de soporte utilizadas.",
+							"Debe proveer el detalle de los set de pruebas utilizados para futura replicabilidad."
+						]
 					}
 				]
 			},
@@ -830,6 +1297,32 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Actas de capacitación.",
+						"plazo": "ene",
+						"estandar": [
+							"Al menos un acta por cada grupo de usuarios clave.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					},
+					{
+						"nombre": "Manual de usuario de módulos.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe considerar las principales funcionalidades asociadas al sistema.",
+							"En formato de transmisión estándar (docx, pdf)."
+						]
+					},
+					{
+						"nombre": "Certificado de entrega de módulos.",
+						"plazo": "ene",
+						"estandar": [
+							"Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."
+						]
+					}
 				]
 			},
 			{
@@ -849,7 +1342,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},					
 					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
+						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
@@ -859,6 +1352,29 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Informe de recomendaciones de implementación tecnológica.",
+						"plazo": "abr",
+						"estandar": [
+							"Compila evaluación cualitativa y cuantitativa sobre alternativas de LMS requerido.",
+							"Evaluación se presenta en función a ventajas y desventajas de alternativas analizadas.",
+							"Alternativas pueden considerar tanto desarrollo propio como adquisición de software.",
+							"Cada alternativa debe especificar el alcance de la implementación para el periodo en curso.",
+							"Entrega recomendaciones de implementación emitidas desde el área de TGI."
+						]
+					},
+					{
+						"nombre": "Validador de elección de mecanismo tecnológico para su implementación.",
+						"plazo": "abr",
+						"estandar": [
+							"Validador que confirma la elección de alternativa a implementar según informe de recomendaciones entregado.",
+							"Alternativa elegida debe responder a definiciones propuestas en el informe.",
+							"Validador debe ser emitido por mandante (DAC), en donde debe asumir el liderazgo en la gestión del proceso de implementación de la alternativa escogida, y en apoyo en este proceso a TGI en su rol de soporte técnico.",
+							"Validador debe establecer los roles de otros actores que estarán involucrados en la implementación."
+						]
 					}
 				]
 			},
@@ -890,19 +1406,29 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validador de adquisición de producto / servicio.",
+						"plazo": "may",
+						"estandar": [
+							"Coherente con validador de elección de mecanismo respectivo.",
+							"Debe corresponder a documentación técnica según los estándares de adquisiciones de la Institución."
+						]
+					}
 				]
 			},
 			{
 				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Implementado e integrado el sistema LMS para registro curricular",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+						"cai": "DAC-TICE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DAC-TICE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "DAC-SA", "rol": "Consultado",
@@ -911,6 +1437,19 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de implementación de sistema de información y/o servicio.",
+						"plazo": "jul",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de alternativa definida su elección por el mandante.",
+							"Debe referenciar artefactos de software debidamente implementados.",
+							"Debe considerar documentación técnica asociada al diseño e implementación del mecanismo.",
+							"Debe incorporar plan de despliegue y capacitación de usuarios sobre implementación inicial para su pilotaje.",
+							"Debe explicitar la aprobación de mandante sobre los artefactos entregados."
+						]
 					}
 				]
 			}
@@ -963,6 +1502,17 @@
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "may",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -1001,10 +1551,21 @@
 						"cai": "DPAC-TGI", "rol": "Informado",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decretos actualizados de normativa pertinente.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe ser coherente con procesos normalizados.",
+							"Se debe acompañar de minuta sobre actualización de toda la reglamentación respectiva, detallando cambios y/o incorporaciones para cada decreto que corresponda.",
+							"Todo ajuste debe ser visado por Director DAC."
+						]
+					}
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Levantados requerimientos de modulos SGA para dar soporte a los procesos de admisión",
 				"actores": [					
 					{
@@ -1030,6 +1591,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de sistema.",
+						"plazo": "jul",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los modulos respectivos.",
+							"Debe tener coherencia con los procesos que fueron normalizados.",
+							"Se debe especificar alcance de los módulos iniciales y posibles próximas etapas."
+						]
 					}
 				]
 			},
@@ -1057,6 +1629,17 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Artefactos de diseño de sistema.",
+						"plazo": "ago",
+						"estandar": [
+							"Documentación técnica de elementos de diseño de los módulos acorde a estándares TGI.",
+							"Debe considerar al menos artefactos asociados a las bases de datos, interfaces de usuario y arquitectura del sistema, incorporando documentación sobre las tecnologías involucradas.",
+							"Debe ser coherente con especificación de requerimientos de sistema."
+						]
+					}
 				]
 			},
 			{
@@ -1083,6 +1666,18 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "oct",
+						"estandar": [
+							"Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
+							"Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
+							"Desarrollo debe ser coherente con estándares TGI definidos.",
+							"Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+						]
+					}
 				]
 			},
 			{
@@ -1105,6 +1700,19 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes de testing de sistema.",
+						"plazo": "nov",
+						"estandar": [
+							"Documentación que de cuenta de la ejecución de pruebas (ya sea automatizadas o no) sobre las versiones estables de los desarrollos realizados a la fecha.",
+							"Debe considerar estándares TGI para testing.",
+							"Debe dar cuenta de problemas detectados, correcciones y posteriores revisiones.",
+							"Debe indicar metodología y tecnologías de soporte utilizadas.",
+							"Debe proveer el detalle de los set de pruebas utilizados para futura replicabilidad."
+						]
+					}
 				]
 			},
 			{
@@ -1126,6 +1734,32 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Actas de capacitación.",
+						"plazo": "ene",
+						"estandar": [
+							"Al menos un acta por cada grupo de usuarios clave.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					},
+					{
+						"nombre": "Manual de usuario de módulos.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe considerar las principales funcionalidades asociadas al sistema.",
+							"En formato de transmisión estándar (docx, pdf)."
+						]
+					},
+					{
+						"nombre": "Certificado de entrega de módulos.",
+						"plazo": "ene",
+						"estandar": [
+							"Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."
+						]
 					}
 				]
 			}
@@ -1162,6 +1796,32 @@
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "soporte" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acta de contratación de coordinador TICE",
+						"plazo": "abr",
+						"estandar": [
+							"Resultado de concurso publico debidamente respaldado por estándares institucionales y requerimientos Mineduc para las contrataciones."
+						]
+					},
+					{
+						"nombre": "Informe de propuesta sobre orgánica institucional en la materia",
+						"plazo": "may",
+						"estandar": [
+							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para el área TICE.",
+							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+							"Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
+							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza área TICE",
+						"plazo": "jun",
+						"estandar": [
+							"Debe ser coherente con recomendaciones de estructura levantadas en informe de propuesta."
+						]
+					}
 				]
 			},
 			{
@@ -1191,6 +1851,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estrategia de pilotaje sala MOOC",
+						"plazo": "ago",
+						"estandar": [
+							"Documento simple que describe componentes de estrategia para implementación del prototipo.",
+							"Debe considerar entre otras cosas: requerimientos tecnológicos, infraestructura, reglamentación o normativa requerida, alcance de implementación y metodología de pilotaje.",
+							"Debe establecer calendario, actividades, roles y responsabilidades asociadas a la implementación."
+						]
 					}
 				]
 			},
@@ -1222,6 +1893,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de resultados de pilotaje sala MOOC",
+						"plazo": "dic",
+						"estandar": [
+							"Debe dar cuenta del resultado del proceso de pilotaje, indicando actividades realizadas y ajustes efectuados a estrategia original.",
+							"Debe contener evidencia gráfica de la implementación de la sala.",
+							"Debe establecer orientaciones para la confección de material audiovisual para la enseñanza que permita metodologías híbridas.",
+							"Debe indicar logros alcanzados y mejoras a realizar en el futuro luego de la implementación."
+						]
+					}
 				]
 			}
 		]
@@ -1235,7 +1918,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Actualizar plataformas existentes en el repositorio de biblioteca (Koha-Dspace-OJS)",
+				"desc": "Actualizadas las plataformas existentes en el repositorio de biblioteca (Koha-Dspace-OJS)",
 				"actores": [
 					{
 						"cai": "DAC-BRA", "rol": "Responsable",
@@ -1249,27 +1932,59 @@
 						"cai": "DI-DINV", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe técnico de implementación de plataformas",
+						"plazo": "may",
+						"estandar": [
+							"Documento simple con especificación de ajustes realizados a plataformas respectivas.",
+							"Debe sintetizar ajustes efectuados para cada uno de los servicios involucrados, justificándolos según su objetivo e impactos esperados tras la actualización.",
+							"Acompañado de documentación técnica sobre plataforma respectiva que se pueda proveer desde TGI."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", 
-				"desc": "Implementar nuevos aplicativos PKP para complementar el respositorio de biblioteca (OJS, OMS, OPS, OCS)",
-				"actores": [					
+				"desc": "Implementados y desplegados nuevos aplicativos PKP para complementar el respositorio de biblioteca (OJS, OMS, OPS, OCS)",
+				"actores": [
+					{
+						"cai": "DAC-BRA", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "plataforma" ]
 					},
 					{
-						"cai": "DAC-BRA", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
 						"cai": "DI-DINV", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de implementación de sistemas de información y/o servicio.",
+						"plazo": "oct",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de tecnologías asociadas.",
+							"Debe referenciar artefactos de software debidamente implementados.",
+							"Debe considerar documentación técnica asociada al diseño e implementación del mecanismo.",
+							"Debe incorporar plan de despliegue y capacitación de usuarios sobre implementación inicial para su pilotaje."
+						]
+					},
+					{
+						"nombre": "Informe de despliegue y evaluación de mecanismos tecnológicos implementados.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe sistematizar antecedentes entregados por usuarios del sistema respecto al uso de los mecanismos tecnológicos durante el pilotaje.",
+							"Debe indicar aspectos de la implementación que resultan exitosos.",
+							"Debe indicar aspectos de la implementación que no se lograron según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto desde la perspectiva de procesos como de tecnología."
+						]
+					}
 				]
 			}
-
 		]
 	},
 	{

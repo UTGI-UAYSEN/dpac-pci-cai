@@ -1653,7 +1653,7 @@
 						"estandar": [
 							"Basado en Mapa de Procesos que la institución tenga actualizado a la fecha.",
 							"Para cada proceso considerable, debe indicar nivel de complejidad de la automatización aplicable (ej.: workflow de complejidad baja o mediana).",
-							"Opcionalmente, incorporar estrategia de priorización para cada nivel de complejidad en la automatización."
+							"Opcionalmente, incorporar estrategia de priorización para cada nivel de complejidad en la automatización.",
 							"Validado por DPAC-GC."
 						]
 					}
@@ -1981,7 +1981,7 @@
 						"estandar": [
 							"Debe detallar las etapas asociadas al proceso y sus actores clave.",
 							"Debe entregar una especificación de los artefactos centrales y mínimos que deben ser generados desde la aplicación de la metodología.",
-							"Debe entregar orientaciones respecto a los estándares de calidad esperados de la aplicación de la metodología."
+							"Debe entregar orientaciones respecto a los estándares de calidad esperados de la aplicación de la metodología.",
 							"Debe indicar principales mecanismos de apoyo y/o automatización de actividades clave de la metodología.",
 							"Debe entregar pautas de cuantificación de capacidades requeridas para el desarrollo involucrado, según criterios generales asociados a los requerimientos.",
 							"Debe referenciar aspectos teóricos y/o conceptuales de metodologías ágiles que son incorporados en la metodología."
@@ -2069,7 +2069,7 @@
 							"Necesario para profundizar en su validez.",
 							"Considerar el acompañar con validadores respecto a su difusión."
 						]
-					},
+					}
 				]
 			}
 		]
@@ -2180,7 +2180,7 @@
 							"Debe explicitar acciones realizadas a la fecha e hitos alcanzados, con sus fechas.",
 							"Debe detallar sinergia generada con otros actores regionales y proyecciones en la materia.",
 							"Debe profundizar en proyectos específicos en materia de ciencia y tecnología, que servirán de motor de utilización del Nodo.",
-							"Debe dar cuenta de recursos a la fecha utilizados para implementar las gestiones realizadas, y entregar estimación de recursos que serán necesarios en siguiente periodo."
+							"Debe dar cuenta de recursos a la fecha utilizados para implementar las gestiones realizadas, y entregar estimación de recursos que serán necesarios en siguiente periodo.",
 							"Debe especificar cronograma de trabajo para siguiente periodo, en función a gestiones que se reportan."
 						]
 					}
@@ -2994,7 +2994,7 @@
 						"plazo": "sep",
 						"estandar": [
 							"Establece roles específicos dentro del órgano.",
-							"Establece mecanismos para la toma de decisión."
+							"Establece mecanismos para la toma de decisión.",
 							"Especifica medios de interacción y articulación con área de Calidad y con Rectoría.",
 							"Establece otras disposiciones procedimentales para habilitar su funcionamiento pleno."
 						]
@@ -3197,7 +3197,7 @@
 						"nombre": "Informe de resultados de pilotaje nuevo diseño SGIC.",
 						"plazo": "ene",
 						"estandar": [
-							"Documento simple que especifica el alcance del pilotaje y la estrategia de aplicación del rediseño."
+							"Documento simple que especifica el alcance del pilotaje y la estrategia de aplicación del rediseño.",
 							"Debe indicar logros obtenidos y contingencias ocurridas en el diseño y pilotaje.",
 							"Incluye propuesta de plan de mejoramiento de los mecanismos relevantes para un próximo periodo."
 						]
@@ -3471,7 +3471,7 @@
 						]
 					},
 					{
-						"nombre": "Materia de difusión.",
+						"nombre": "Material de difusión.",
 						"plazo": "abr",
 						"estandar": [
 							"PPT, documento u otro que explique el proceso y sus detalles."
@@ -3507,11 +3507,11 @@
 						"estandar": [
 							"Al menos un informe por cada dirección o área estratégica, que responda a sus particularidades y estados de avance en la materia.",
 							"Debe indicar aquellos hitos o eventos relevantes del proceso para cada dirección.",
-							"Debe detallar actividades y formas de participación específicas de cada dirección y de sus miembros claves en el proceso.",
+							"Debe detallar actividades y formas de participación específicas de cada dirección y de sus miembros claves en el proceso."
 						]
 					},
 					{
-						"nombre": "Materia de difusión.",
+						"nombre": "Material de difusión.",
 						"plazo": "may",
 						"estandar": [
 							"Comprende registro audiovisual de instancias de implementación y articulación."
@@ -3809,7 +3809,7 @@
 						"plazo": "may",
 						"estandar": [
 							"Debe considerar procedimientos generales para el análisis y diseño de ajustes.",
-							"Debe especificar y clasificar componentes que dan forma a la estructura y que son blanco de ajustes."
+							"Debe especificar y clasificar componentes que dan forma a la estructura y que son blanco de ajustes.",
 							"Debe establecer criterios de ajuste y antecedentes requeridos para tomar decisiones respecto a los ajustes, en función a los componentes identificados.",
 							"Debe especificar criterios de periodicidad y necesidad de realización de ajustes."
 						]
@@ -4285,7 +4285,7 @@
 						"nombre": "Definición de mejoras de Políticas relevantes.",
 						"plazo": "oct",
 						"estandar": [
-							"Aplica a políticas que no sigan los estándares de diseño atingentes al Lenguaje Estratégico."
+							"Aplica a políticas que no sigan los estándares de diseño atingentes al Lenguaje Estratégico.",
 							"Debe responder al diseño de los PED, en donde se identifique redundancia de directrices de propósito, y que permita marcar la diferencia entre los propósitos de los PED y las Políticas mismas.",
 							"Debe entregar orientaciones y detallar los ajustes que deben realizarse a las Políticas, y así mismo, los elementos que pueden ser utilizados desde las Políticas para los PED.",
 							"Deben sistematizarse en informes breves para cada ´parea estratégica pertinente."
