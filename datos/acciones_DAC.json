@@ -2559,6 +2559,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de calendario académico",
+						"plazo": "mar",
+						"estandar": [
+							"Organizado según estamentos y fechas claves para cada uno.",
+							"Debe explicitar posibles recesos en función a contingencia sanitaria.",
+							"Visado por Director DAC."
+						]
+					}
 				]
 			},
 			{
@@ -2584,6 +2595,26 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentos de trabajo para implementación de planes de estudio",
+						"plazo": "mar",
+						"estandar": [
+							"Según formatos y estándares DAC.",
+							"Debe entregar orientaciones generales para la realización de la docencia semestral en función a los aspectos clave del Modelo Educativo.",
+							"Debe entregar orientaciones para la construcción de los programas de curso.",
+							"Debe entregar orientaciones específicas en función a contingencia sanitaria."
+						]
+					},
+					{
+						"nombre": "Actas de capacitación nuevos/as académicos/as",
+						"plazo": "abr",
+						"estandar": [
+							"Considera lista de asistentes, temáticas tratadas y otros elementos que sean pertinentes.",
+							"Acompañar de material que haya sido facilitado."
+						]
 					}
 				]
 			},
@@ -2611,6 +2642,18 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentos de trabajo para implementación de planes de estudio",
+						"plazo": "ago",
+						"estandar": [
+							"Según formatos y estándares DAC.",
+							"Debe entregar orientaciones generales para la realización de la docencia semestral en función a los aspectos clave del Modelo Educativo.",
+							"Debe entregar orientaciones para la construcción de los programas de curso.",
+							"Debe entregar orientaciones específicas en función a contingencia sanitaria."
+						]
+					}
 				]
 			},
 			{
@@ -2636,6 +2679,17 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Planificación horaria de cursos",
+						"plazo": "mar",
+						"estandar": [
+							"Debe indicar horarios, salas, docentes y otros elementos pertinentes para la operacionalización del semestre académico.",
+							"En formato apropiado para su difusión (planilla, pdf, etc.) según estándares DAC",
+							"Debe ser acompañado de validador sobre la comunicación de la planificación al cuerpo docente."
+						]
 					}
 				]
 			},
@@ -2663,6 +2717,17 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Planificación horaria de cursos",
+						"plazo": "ago",
+						"estandar": [
+							"Debe indicar horarios, salas, docentes y otros elementos pertinentes para la operacionalización del semestre académico.",
+							"En formato apropiado para su difusión (planilla, pdf, etc.) según estándares DAC",
+							"Debe ser acompañado de validador sobre la comunicación de la planificación al cuerpo docente."
+						]
+					}
 				]
 			},
 			{
@@ -2680,6 +2745,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentos de trabajo para implementación de cursos de Formación Transversal",
+						"plazo": "mar",
+						"estandar": [
+							"Según formatos y estándares DAC.",
+							"Debe entregar orientaciones generales para la realización de la Formación Transversal en función a los aspectos clave del Modelo Educativo.",
+							"Debe entregar orientaciones para la construcción de los programas de curso respectivos.",
+							"Debe entregar orientaciones específicas en función a contingencia sanitaria."
+						]
 					}
 				]
 			},
@@ -2711,6 +2788,23 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación de Consejo de Escuela de Pregrado.", 
+						"formula": "Número de instancias de coordinación ejecutadas por el Comité.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones del Comité",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
 				]
 			}
 		]
@@ -2739,8 +2833,29 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "multiple", "rol": "Consultado",
+						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Seguimiento de situación académica de estudiantes.", 
+						"formula": "Número de reportes institucionales de desempeño académico.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes institucionales de desempeño académico",
+						"estandar": [
+							"Reportes globales e incrementales con información agregada y analizada respecto al desempeño académico de los/las estudiantes de las diferentes carreras de la Institución.",
+							"Debe considerar aspectos cuantitativos y cualitativos de seguimiento de los estudiantes, como sesiones de atención y seguimiento efectuadas, calificaciones, derivaciones, etc.",
+							"Considerar tres reportes semestrales, al segundo y cuarto y quinto mes de cada semestre (esta temporalidad será mandatoria para el cumplimiento del indicador).",
+							"Información debe estar organizada según carrera, antecedentes socioeconómicos, periodo académico, entre otros que sean pertinentes para clasificar a los estudiantes.",
+							"Se debe generar diagnóstico descriptivo por cada carrera, indicando principales problemáticas de desempeño observadas y recomendaciones para atender oportunamente las debilidades observadas.",
+							"Desde cada reporte se debe desprender número de intervenciones a realizar en cada carrera para atender casos de estudiantes con riesgo y debilidades asociadas a desempeño académico.",
+							"El análisis puede considerar casuística específica de estudiantes que permita a Jefaturas de Carrera efectar acciones de apoyo."
+						]
 					}
 				]
 			},
@@ -2761,26 +2876,85 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Seguimiento presencial de estudiantes.", 
+						"formula": "Número de sesiones presenciales de seguimiento académico con estudiantes.",
+						"meta": "1000"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de seguimiento con estudiantes",
+						"estandar": [
+							"Un acta por sesión de evaluación realizada con estudiante que requiere intervención.",
+							"Considerar al menos tres sesiones semestrales por estudiante que requiere intervención.",
+							"Acta debe indicar aspectos evaluados, situación cualitativa del/la estudiante y diagnóstico preliminar de situación de desempeño.",
+							"Deben indicar medidas paleativas y aspectos a evaluar en próximas sesiones con estudiante (si aplica).",
+							"Debe acompañarse de antecedentes académicos (ej.: notas, rendimiento, etc.) de estudiante, si aplica."
+						]
+					},
+					{
+						"nombre": "Bitácoras de segumiento con estudiantes",
+						"estandar": [
+							"Registro simple para contabilizar sesiones presenciales con estudiantes.",
+							"Cada elemento del registro debe dar cuenta de una sesión registrada y hacer referencia a su acta."
+						]
+					},
+					{
+						"nombre": "Encuestas de satisfacción de acompañamiento académico",
+						"estandar": [
+							"Considerar al menos una encuesta por estudiante con el/la cual se ha realizado una sesión.",
+							"Estructura de encuestas debe ser retroalimentada y establecida en conjunto a DPAC-GC.",
+							"Estructura de encuesta debe dar cuenta entre otras cosas de elementos de calidad de atención recibida por estudiantes y percepción de impacto sobre desempeño académico.",
+							"Formato que pueda ser sujeto a análisis de datos (ej.: planilla)."
+						]
 					}
 				]
 			},			
 			{
 				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantar requerimientos de derivación de estudiantes para acompañamiento académico.",
+				"desc": "Compilar requerimientos de derivación de estudiantes para acompañamiento académico.",
 				"actores": [
 					{
-						"cai": "multiple", "rol": "Responsable",
-						"capacidades": [ "todos-gestion-academica" ]
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
 					},
 					{
-						"cai": "DAC-EPRE", "rol": "Soporte",
-						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+						"cai": "multiple", "rol": "Soporte",
+						"capacidades": [ "todos-gestion-academica" ]
 					},
 					{
 						"cai": "DAC-DE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Sistematización de derivación de estudiantes.", 
+						"formula": "Número de derivaciones recibidas desde las carreras y sistematizadas en registros internos.",
+						"meta": "80"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de requerimientos de derivación",
+						"estandar": [
+							"Registro estructura con información detallada de cada derivación recibida y los cursos de acción tomados para su atención.",
+							"Debe ser cuantificable en número de derivaciones.",
+							"Las derivaciones deben poder clasificarse en carrera, motivos, periodo, estado, entre otros relevantes.",
+							"Cada derivación debe ser acompañada de información del estudiante y debe mantener un historial de desarrollo, incluyendo estado de seguimiento y atención.",
+							"Según corresponda, las derivaciones deben vincularse a las isntancia de seguimiento registradas en F02.",
+							"Sistematización en formato estandar (ej.: excel)."
+						]
 					}
 				]
 			},
@@ -2804,6 +2978,28 @@
 						"cai": "DAC-SA", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de inducción",
+						"plazo": "abr",
+						"estandar": [
+							"Un acta por sesión/grupo de estudiantes realizada.",
+							"Debe especificar listado de estudiantes asistentes",
+							"Acta debe indicar las caracteristicas del grupo al cual se hace inducción según información de caracterización disponible.",
+							"Acta debe indicar aspectos que fueron trabajados con los/las estudiantes, considerando dimensiones académicas y no académicas.",
+							"Acta debe indicar diagnóstico preliminar de cada estudiante con el/la cual se ha trabajado según antecedentes que puedan ser rescatados de las instancias de inducción, para sistematizar antecedentes preliminares de futuras intervenciones."
+						]
+					},
+					{
+						"nombre": "Encuestas de satisfacción de inducciones",
+						"estandar": [
+							"Considerar al menos una encuesta por sesión realizada.",
+							"Debe indicar tasa de respuesta de asistentes por sesión.",
+							"Debe dar cuenta de aspectos cualitativos respecto a la calidad de las sesiones y percepción de estudiantes respecto a ellas como mecanismo de inducción a la vida universitaria.",
+							"Caompañado tanto de respuestas individuales como de indicadores agragados que den cuenta de la percepción general sobre las sesiones."
+						]
+					}
 				]
 			},
 			{
@@ -2822,11 +3018,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Seguimiento de situación socioeconómica de estudiantes.", 
+						"formula": "Número de reportes institucionales de situación socioeconómica.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes institucionales de situación socioeconómica",
+						"estandar": [
+							"Reportes globales e incrementales con información agregada y analizada respecto a la situación emocional, familiar y/o económica de estudiantes de las diferentes carreras de la Institución.",
+							"Debe considerar aspectos cuantitativos y cualitativos de seguimiento de los estudiantes, como sesiones de atención y seguimiento efectuadas, naturaleza de los problemas identificados, atención psicológica, etc.",
+							"Considerar tres reportes semestrales, al segundo y cuarto y quinto mes de cada semestre (esta temporalidad será mandatoria para el cumplimiento del indicador).",
+							"Información debe estar organizada según carrera, antecedentes socioeconómicos, periodo académico, entre otros que sean pertinentes para clasificar a los estudiantes.",
+							"Se debe generar diagnóstico descriptivo por cada carrera, indicando principales problemáticas socieconómicas observadas y recomendaciones para atender oportunamente las debilidades observadas.",
+							"Desde cada reporte se debe desprender número de intervenciones a realizar en cada carrera para atender casos de estudiantes con riesgo y debilidades asociadas a factores socioeconómicos.",
+							"El análisis puede considerar casuística específica de estudiantes que permita a Jefaturas de Carrera efectar acciones de apoyo."
+						]
+					}
 				]
 			},
 			{
 				"id": "F05", "tipo": "Función", "prioridad": "Alta",
-				"desc": "Ejecutar medidas de atención psicológica individual y grupal de diagnóstico, intervención y derivación externa para los estudiantes que lo requieran.",
+				"desc": "Ejecutar medidas de atención psicológica de diagnóstico, intervención y derivación externa para los estudiantes que lo requieran.",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -2835,16 +3052,56 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
-					},					
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Seguimiento presencial de estudiantes.", 
+						"formula": "Número de sesiones presenciales de seguimiento socioeconómico con estudiantes.",
+						"meta": "1000"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de seguimiento con estudiantes",
+						"estandar": [
+							"Un acta por sesión de evaluación realizada con estudiante que requiere intervención.",
+							"Considerar al menos tres sesiones semestrales por estudiante que requiere intervención.",
+							"Acta debe indicar aspectos evaluados, situación cualitativa del/la estudiante y diagnóstico preliminar de situación socioeconómica.",
+							"Deben indicar medidas paleativas y aspectos a evaluar en próximas sesiones con estudiante (si aplica).",
+							"Debe indicar cuando corresponde si aplican medidas de derivación externa.",
+							"Debe acompañarse de antecedentes académicos (ej.: notas, rendimiento, etc.) de estudiante, si aplica."
+						]
+					},
+					{
+						"nombre": "Bitácoras de segumiento con estudiantes",
+						"estandar": [
+							"Registro simple para contabilizar sesiones presenciales con estudiantes.",
+							"Cada elemento del registro debe dar cuenta de una sesión registrada y hacer referencia a su acta."
+						]
+					},
+					{
+						"nombre": "Encuestas de satisfacción de atención socioeconómica",
+						"estandar": [
+							"Considerar al menos una encuesta por estudiante con el/la cual se ha realizado una sesión.",
+							"Estructura de encuestas debe ser retroalimentada y establecida en conjunto a DPAC-GC.",
+							"Estructura de encuesta debe dar cuenta entre otras cosas de elementos de calidad de atención recibida por estudiantes y percepción de impacto sobre situación psicológica.",
+							"Formato que pueda ser sujeto a análisis de datos (ej.: planilla)."
+						]
+					}
 				]
 			},
 			{
-				"id": "F06", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Evaluar impacto de medidas de acompañamiento y atención desarrolladas sobre estudiantes.",
+				"id": "H02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluado el impacto de medidas de acompañamiento y atención desarrolladas sobre estudiantes durante el 1er semestre.",
 				"actores": [
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
@@ -2861,6 +3118,51 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de impacto de acompañamiento académico y psicológico de 1er semestre",
+						"plazo": "ago",
+						"estandar": [
+							"Informe que entrega un diagnóstico agregado y comparativo respecto a situación previa (inicio semestre) y posterior (final de semestre) de estudiantes en la Universidad, en función al impacto de las iniciativas de acompañamiento académico y atención psicosocial.",
+							"Se debe presentar un análisis cuantitativo en función a datos compilados durante el semestre.",
+							"Debe considerar tanto análisis integrado de variables (efecto de todo tipo de intervención sobre rendimiento y retención) como análisis independiente de variables clave (efecto individual de cada tipo de intervención - académica, psicológica, etc.).",
+							"Deben ser consideradas los resultados de las diversas encuestas de percepción en el análisis de resultados.",
+							"Debe ndar cuenta de principales logros desde resultados obtenidos y desafios emergentes.",
+							"Debe establecer un breve plan de mejora que permita abordar desafíos encontrados para el mejoramiento de los procesos respectivos."
+						]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluado el impacto de medidas de acompañamiento y atención desarrolladas sobre estudiantes durante el 2do semestre.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},					
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de impacto de acompañamiento académico y psicológico de 2er semestre",
+						"plazo": "ene",
+						"estandar": [
+							"Informe equivalente al del primer semestre en términos de estándares."
+						]
 					}
 				]
 			}
@@ -2897,6 +3199,24 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Actividades de capacitación al cuerpo docente", 
+						"formula": "Número de actividades de capacitación al cuerpo docente en materias de estrategias de enseñanza-aprendizaje.",
+						"meta": "8"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de capacitación con cuerpo docente",
+						"estandar": [
+							"Un acta por sesión de capacitación.",
+							"Considerar al menos dos sesiones semestrales por grupo de docentes capacitados/as.",
+							"Se debe indicar el grupo que es capacitado y registrar listado de asistencia.",
+							"Acta debe indicar contenidos reforzados y metodologías aplicadas para ello."
+						]
+					}
 				]
 			},
 			{
@@ -2923,10 +3243,71 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Iniciativas de evaluación de implementación curricular de programas", 
+						"formula": "Número de programas de pregrado sobre los cuales se efectuan evaluaciones respecto al diseño de su currículo.",
+						"meta": "8"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de evaluación de ajuste curricular",
+						"estandar": [
+							"Proveen un diagnóstico cualitativo respecto a la implementación curricular de programas de pregrado, enfocado en analizar oportunidades de mejora en ellos y con orientación hacia la innovación curricular.",
+							"Cada informe debe entregar orientaciones asociadas a una carrera en específico.",
+							"Deben considerar aspectos técnicos de gestión y diseño curricular, además de orientaciones disciplinares recopiladas desde el cuerpo docente de la carrera respectiva.",
+							"Diagnóstico debe plantearse en términos de desafíos identificados y dificultad potencial de abordarlos.",
+							"Trabajados en conjunto a Jefaturas de Carrera."
+						]
+					}
 				]
 			},
 			{
-				"id": "F03", "tipo": "Función", "cobertura": "Acotada", 
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Monitorear la implementación del Modelo Educativo en el desarrollo de los planes formativos.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Evaluación de cohortes respecto a avance del proceso formativo", 
+						"formula": "Número de evaluaciones realizadas sobre cohortes específicas de carreras de pregrado para diganósticar estado de avance respecto a objetivos de perfil de egreso.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de avance de cohortes respecto a cumplimiento de perfil de egreso",
+						"estandar": [
+							"Cada informe evalua la situación de una cohorte específica de un programa en curso respecto al cumplimiento de perfil de egreso.",
+							"Análisis basado en información cualitativa y cuantitativa obtenida desde el avance curricular de los/las estudiantes de las cohortes respectivas.",
+							"Debe establecer claramente métricas e indicadores de avance que permitan realizar el análisis y posterior diagnóstico.",
+							"Análisis debe estar basado integralmente en aspectos declarados en el Modelo Educativo, incluyendo conceptos asociados al diseño curricular y antecedentes curriculares de los estudiantes (RdA, Matriz de consistencia, indicadores de progresión, etc.)",
+							"Diagnóstico debe indicar logros y desafíos identificados en el cumplimiento del perfil de egreso, de forma coherente al avance esperado de la cohorte respectiva.",
+							"Informes debe entregar recomendaciones sobre posibles ajustes curriculares y/o diseño de programas de curso respecto a la carrera respectiva, de manera que se puedan abordar los desafíos identificados."
+						]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", 
 				"desc": "Proponer y desarrollar ajustes a los diseños curriculares.",
 				"actores": [
 					{
@@ -2949,27 +3330,25 @@
 						"cai": "DAC-SA", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}	
-				]
-			},
-			{
-				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Monitorear la implementación del Modelo Educativo en el desarrollo de los planes formativos.",
-				"actores": [
+				],
+				"ios":[
 					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-curricular", "curricular" ]
-					},
+						"nombre": "Propuesta de ajuste curriculares a programas de pregrado", 
+						"formula": "Número de programas de pregrado a los cuales se presentan propuestas de ajuste curricular.",
+						"meta": "2"
+					}
+				],
+				"verificadores": [
 					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "DAC-SA", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
+						"nombre": "Rediseños curriculares propuestos a programas de pregrado",
+						"estandar": [
+							"Informes, reportes, u otro tipo de documento de trabajo, en donde cada uno presenta una propuesta técnica y detallada sobre ajustes al diseño curricular de un programa de pregrado.",
+							"Basado en información cualitativa y cuantitatva recopilada y analizada desde otras tácticas de esta acción.",
+							"Debe entregar una serie de recomendaciones de ajustes, basados en criterios técnicos y disciplinares, sobre los diversos componentes que forman parte del diseño curricular de la carrera respectiva (objetivos, sello, itinerario, etc.)",
+							"Deben ser claramente establecidos los propósitos y los alcances de los rediseños propuestos en cada informe.",
+							"Se debe entregar un cronograma tentativo de actividades, plazos y responsabilidades asociadas a la implementación de los ajustes propuestos.",
+							"Deben se trabajados y validados con Jefaturas de Carrera respectivas."
+						]
 					}
 				]
 			}
@@ -3002,6 +3381,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Bibliografía de programas de asignatura gestionada", 
+						"formula": "Número de programas de asignatura cuya bibliografía ha sido registrada y procesada.",
+						"meta": "400"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de gestión biblográfica de programas de asignatura",
+						"estandar": [
+							"Registro estructurado respecto a programas de asignatura cuya bibliografía ha sido sometida a procesamiento con propósitos de su provisión.",
+							"Registro debe ser cuantificable en términos de cantidad de programas de asignatura cuya bibliografía es procesada.",
+							"Registro debe dar cuenta de carreras, asignaturas, sus periodos en malla, estado de provisión, bibliografía específica requerida y mecanismos de adquisición asociados.",
+							"Se debe registrar periodo en los cuales se registra y procesa la bibliografía respectiva",
+							"Presentado en formato que permita análisis de su información (ej: excel)."
+						]
+					}
 				]
 			},
 			{
@@ -3024,6 +3422,24 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Usuarios con acceso a bases de datos", 
+						"formula": "Número de personas en la comunidad universitaria que reciben acceso nuevo o actualización) a bases de datos suscritas de forma institucional.",
+						"meta": "500"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de registro y provisión de acceso a bases de datos institucionales",
+						"estandar": [
+							"Registro estructurado respecto a accesos de usuarios (estudiantes y docentes) sobre bases de datos que han sido suscritas a nivel institucional.",
+							"Registro debe ser cuantificable en términos de accesos entregados a los distintos usuarios.",
+							"Registro debe dar cuenta de usuarios específicos, carreras, bases de datos habilitadas, estado de provisión, entre otros datos pertinentes para registro.",
+							"Presentado en formato que permita análisis de su información (ej: excel)."
+						]
+					}
 				]
 			},
 			{
@@ -3041,6 +3457,24 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Utilización de sistemas de biblioteca", 
+						"formula": "Número de reportes periódicos emitidos con el detalle de uso de los sistemas de biblioteca.",
+						"meta": "2"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes periódicos sobre uso de sistemas de biblioteca.",
+						"estandar": [
+							"Reportes de naturaleza semestral con diagnóstico cualitativo y cuantitativo respecto al uso de los sistemas de biblioteca, en términos de volumen de datos existentes y transacciones realizadas.",
+							"Diagnóstico debe estar orientado al uso de los sistemas y de los servicios de biblioteca por los usuarios de la Institución, usando variables de clasificación como estamento, carrera, tipo de recurso, tipo de transacción, entre otras que sean pertinentes.",
+							"El análisis debe dar cuenta de la utilización o subutilización de recursos de biblioteca disponibles, identificando logros y desafíos en la materia.",
+							"Reporte debe establecer estrategias de corto plazo para abordar los desafíos identificados."
+						]
 					}
 				]
 			}
@@ -3065,6 +3499,24 @@
 						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "soporte" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Sistematización de transacciones asociadas a biblioteca", 
+						"formula": "Número de transacciones realizadas y sistematizadas a través del sistema de biblioteca.",
+						"meta": "80"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de transacciones asociadas a biblioteca",
+						"estandar": [
+							"Registro estructurado respecto a las distintas transacciones que se realizan para solicitudes de recursos a biblioteca.",
+							"Debe ser cuantificable en número de transacciones realizadas.",
+							"Cada transacciones debe registrar beneficiario(a), tipo de transacción, su estado, objetos de la transacción (ej.: bibliografía facilitada), fechas, entre otros datos pertinentes para el registro.",
+							"Entregado en formato que permita análisis de datos (ej: excel), en compatibilidad a sistemas de información utilizados."
+						]
+					}
 				]
 			},
 			{
@@ -3078,6 +3530,30 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Capacitación a usuarios de recursos bibliográficos", 
+						"formula": "Número de sesiones de capacitación realizadas a grupos de usuarios respecto a serviciso disponibles de biblioteca.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de capacitación con usuarios",
+						"estandar": [
+							"Un acta por sesión de capacitación.",
+							"Considerar al menos tres sesiones semestrales con grupos específicos de usuarios.",
+							"Se debe indicar las características del grupo que es capacitado y registrar listado de asistencia.",
+							"Acta debe indicar contenidos reforzados."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"estandar": [
+							"PPT, documento u otro que explique el proceso y sus detalles."
+						]
 					}
 				]
 			},
@@ -3096,6 +3572,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Difusión de servicios de biblioteca", 
+						"formula": "Número de recursos de difusión (publicaciones, material, reportajes, etc.) sobre los servicios que ofrece biblioteca.",
+						"meta": "8"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Material debe entregar orientaciones a los usuarios respecto a cómo pueden acceder a los recursos.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
 					}
 				]
 			}
@@ -3120,6 +3614,24 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Gestión de beneficios estudiantiles", 
+						"formula": "Número de procesos de beneficios (becas, asignaciones, etc.) que son gestionados y a los cuales tienen acceso los estudiantes.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de gestión de beneficios",
+						"estandar": [
+							"Reportes simples respecto a los insumos, el desarrollo y resultado de los procesos asociados a la gestión de cada beneficio disponible para el estamento estudiantil.",
+							"Se debe generar un reporte por cada beneficio disponible y que esté sometido a postulación y adjudicación de estudiantes.",
+							"Los reportes deben dar cuenta de los beneficios específicos que se proveen y la sinergia con otros beneficios relacionados.",
+							"Se deben entregar datos detallados y agregados respecto a los resultados del proceso (postulantes, adjudicaciones, etc.)."
+						]
+					}
 				]
 			},
 			{
@@ -3138,6 +3650,31 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Difusión de beneficios estudiantiles", 
+						"formula": "Número de instancias de difusión de beneficios (becas, asignaciones, etc.) a los cuales tienen acceso los estudiantes.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con estudiantes",
+						"estandar": [
+							"Un acta por sesión de difusión.",
+							"Considerar al menos tres sesiones semestrales con grupos específicos de estudiantes.",
+							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
+							"Acta debe indicar contenidos tratados en la sesión."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"estandar": [
+							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias."
+						]
+					}
 				]
 			}
 		]
@@ -3151,7 +3688,7 @@
 		"tacticas": [
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana",
-				"desc": "Implementar y promover actividades extra programáticas en el ámbito del deporte, la recreación, el arte y la cultura.",
+				"desc": "Implementar y promover actividades extraprogramáticas en el ámbito del deporte, la recreación, el arte y la cultura.",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -3170,8 +3707,47 @@
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Actividades extraprogramáticas con estudiantes", 
+						"formula": "Número de actividades extraprogramáticas realizadas con estudiantes para la difusión del deporte, la recreación, el arte y la cultura.",
+						"meta": "8"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Programas de actividades realizadas",
+						"estandar": [
+							"Documento simple que detalla programa de realización de una actividad específica.",
+							"Considerar un programa por cada actividad realizada.",
+							"Se deben indicar objetivos de la actividad, públicos objetivos (considerando eventualmente caracterización de estudiantes), pauta de realización, material de soporte, entre otros que sean pertinentes.",
+							"Acompañar de cronograma de tareas, incluyendo logística requerida, responsabilidades y fechas importantes."
+						]
+					},
+					{
+						"nombre": "Material de apoyo",
+						"estandar": [
+							"PPT, documentos u otros que puedan haber sido usados en las actividades.",
+							"Incorporar registro visual de las instancias."
+						]
+					},
+					{
+						"nombre": "Encuestas de satisfacción",
+						"estandar": [
+							"Estructura y resultados de encuestas aplicadas a posterior de las actividades.",
+							"Debe considerarse una encuesta por cada actividad realizada.",
+							"Estructura debe dar cuenta de nivel de logro de objetivos, percepción de estudiantes respecto a actividad, impacto en su vida universitaria, entre otros relevantes.",
+							"Estructura debe ser retroalimentada por DPAC-GC.",
+							"Proveer en formato que permita análisis de datos (ej: excel)."
+						]
 					}
 				]
 			},
@@ -3190,6 +3766,30 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Actividades de difusión de autocuidado", 
+						"formula": "Número de actividades realizadas con estudiantes para la difusión del autocuidado en todas sus formas.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con estudiantes",
+						"estandar": [
+							"Un acta por sesión de difusión.",
+							"Considerar al menos tres sesiones semestrales con grupos específicos de estudiantes.",
+							"Se debe indicar las características del grupo asistente y registrar listado de asistencia.",
+							"Acta debe indicar contenidos que son objeto de la difusión."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"estandar": [
+							"PPT, documentos u otros asociados a los objetos de la difusión."
+						]
 					}
 				]
 			},
@@ -3216,6 +3816,31 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Diseño de proyectos concursables estudiantiles", 
+						"formula": "Número de proyectos concursables, de diversa naturaleza y procedencia, construidos y postulados por estudiantes de la Universidad, y apoyados por la misma.",
+						"meta": "3"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Proyectos diseñados",
+						"estandar": [
+							"Pueden corresponder a distintas fuentes y propósitos (innovación, regionales, etc.).",
+							"Objetivos de la postulación deben tener directa relación con apoyo a acciones estudiantiles en el marco de su vida universitaria.",
+							"Proyectos deben indicar principales productos esperados, en beneficio de los estudiantes de la Universidad, actividades, plazos y montos postulados."
+						]
+					},
+					{
+						"nombre": "Validadores de postulación",
+						"estandar": [
+							"Un validador por cada proyecto postulado.",
+							"Emitido desde fuente de financiamiento o similar.",
+							"Cuando no hay un portal o medio de postulación formal, considerar comunicaciones utilizadas (ej.: correos electrónicos)."
+						]
 					}
 				]
 			}
@@ -3244,6 +3869,24 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Seguimiento de estudiantes de educación continua", 
+						"formula": "Número de estudiantes de educación continua a los que se realiza seguimiento y se atienden necesidades emergentes.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de seguimiento de estudiantes de educación continua",
+						"estandar": [
+							"Registro estructurado de estudiantes que están cursando programas de educación continua, con detalle respecto a seguimiento que se realiza sobre sus actividades y sobre los requerimientos.",
+							"Debe ser cuantificable en la cantidad de estudiantes incorporados en la bitácora.",
+							"Debe considera información de seguimiento y atención de cada estudiantes, como es asistencia, número de contactos realizados, actividad académica, requerimientos específicos realizados, etc.",
+							"Considerar formato que permita análisis de datos (ej.: excel)."
+						]
+					}
 				]
 			},
 			{
@@ -3259,12 +3902,31 @@
 						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Evaluación de satisfacción de estudiantes de educación continua", 
+						"formula": "Número de estudiantes de educación continua a los que se aplican encuestas de satisfacción.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Encuestas de satisfacción de educación continua",
+						"estandar": [
+							"Considera tanto estructura de encuesta como datos sobre respuestas.",
+							"Incorporar validador(es) de entrega de encuesta a los estudiantes que son objeto.",
+							"Diseño de estructura debe retroalimentado por DPAC-GC.",
+							"Estructura debe dar cuenta de percepción de estudiantes sobre aspectos académicos (expositores, contenidos, aportes a la formación, etc.) y de calidad de servicio de los programas realizados.",
+							"Considerar formato que permita análisis de datos (ej.: excel)."
+						]
 					}
 				]
 			},
@@ -3296,6 +3958,23 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Comunicación con estudiantes de pregrado para continuidad de estudios", 
+						"formula": "Número de estudiantes de pregrado con los cuales se realizan entrevistas para transmitir oportunidades de continuidad de estudios.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de entrevistas con estudiantes de pregrado",
+						"estandar": [
+							"Debe considerarse un acta por entrevista realizada, indicando estudiante que es contactado/a.",
+							"Debe dar cuenta de antecedentes e información entregada estudiante respecto a oportunidades de continuidad de estudios.",
+							"Debe incorporar observaciones, intereses y apreciaciones explicitadas por estudiante respecto a oportunidades identificadas."
+						]
+					}
 				]
 			},
 			{
@@ -3318,6 +3997,23 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Comunicación con estudiantes de educación continua para continuidad de estudios", 
+						"formula": "Número de estudiantes de educación continua con los cuales se realizan entrevistas para transmitir nuevas oportunidades de continuidad de estudios.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de entrevistas con estudiantes de educación continua",
+						"estandar": [
+							"Debe considerarse un acta por entrevista realizada, indicando estudiante que es contactado/a.",
+							"Debe dar cuenta de antecedentes e información entregada estudiante respecto a oportunidades de continuidad de estudios.",
+							"Debe incorporar observaciones, intereses y apreciaciones explicitadas por estudiante respecto a oportunidades identificadas."
+						]
+					}
 				]
 			}
 		]
@@ -3325,7 +4021,7 @@
 	{
 		"id": "17", "area": "DAC",
 		"titulo": "Evaluación y mejoramiento de la calidad docente",
-		"objetivo": "Revisar mejorar los mecanismos a través de los cuales se evalua la actividad docente, fomentando un uso sistemático e integral de la información.",
+		"objetivo": "Revisar mejorar los mecanismos a través de los cuales se evalúa la actividad docente, fomentando un uso sistemático e integral de la información.",
 		"responsable": "DAC-EPRE",
 		"tipo": "Desarrollo",
 		"tacticas": [
@@ -3352,6 +4048,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documento de trabajo con propuesta de modelo",
+						"plazo": "may",
+						"estandar": [
+							"Documento detallado que propone y detalla dimensiones necesarias de evaluación para el cuerpo docente, considerando variables académicas, pedagógicas, éticas, de calidad de servicio y otras pertinentes al Modelo Educativo.",
+							"Propuesta debe confeccionarse de forma comparativa con mecanismos actuales de evaluación, estableciendo puntos de mejora abordados y estrategias de implementación de la evaluación.",
+							"Propuesta debe considerar integralmente aspectos de evaluación de la calificación académica y lo señalado en el Reglamento General Académico.",
+							"En formato y estándares definidos por DAC."
+						]
 					}
 				]
 			},
@@ -3387,6 +4095,17 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "jun",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -3417,6 +4136,17 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reglamento decretado.",
+						"plazo": "sep",
+						"estandar": [
+							"Reglamento debe ser consistente y dar cuenta de los procesos normalizados previamente.",
+							"Reglamento debe ser coherente con modelo diseñado previamente y con definiciones del Modelo Educativo.",
+							"Reglamento debe considerar coherencia con aspectos de evaluación del cuerpo académico (Reglamento General Académico)."
+						]
+					}
 				]
 			},
 			{
@@ -3433,11 +4163,22 @@
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},					
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de mecanismo tecnológico implementado.",
+						"plazo": "nov",
+						"estandar": [
+							"Manuales de usuario, documentación técnica u otro que de cuenta de la implementación tecnológica que permita operacionalizar la evaluación docente.",
+							"Debe ser coherente con nueva normativa generada en hitos anteriores.",
+							"En caso de no ser soportada directamente por TGI, debe establecer parámetros de mantención del servicio para asegurar su disponibilidad."
+						]
 					}
 				]
 			},
@@ -3469,6 +4210,35 @@
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe institucional de evaluación docente.",
+						"plazo": "ene",
+						"estandar": [
+							"Documento detallado que resume a nivel institucional los resultados de la evaluación docente.",
+							"Debe dar cuenta de las dimensiones evaluadas en la normativa respectiva.",
+							"Debe incorporar un análisis cualitativo y cuantitativo de los resultados de la encuesta en función a objetivos y propósitos definidos, y su contribución a aspectos medulares del Modelo Educativo y el Reglamento General Académico.",
+							"Debe establecer logros y desafíos que fueron identificados en el desarrollo del proceso.",
+							"Debe incorporar una estrategia de replicabilidad para próximos periodos y de mejora ante los desafíos identificados."
+						]
+					},
+					{
+						"nombre": "Validadores de entrega a cuerpo docente.",
+						"plazo": "ene",
+						"estandar": [
+							"Validador que de cuenta de la entrega de resultados específicos y orientados a cada docente en la Institución.",
+							"Puede considerar medios dirigidos (ej.: correo electrónico) o funcionalidades de sistemas asociados."
+						]
+					},
+					{
+						"nombre": "Base de datos de evaluación docente.",
+						"plazo": "ene",
+						"estandar": [
+							"Datos utilizados para la generación del informe institucional.",
+							"Entregado en formatos que permitan su análisis y manipulación (ej: excel, csv, etc.)."
+						]
+					}
 				]
 			},
 			{
@@ -3498,6 +4268,18 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estrategia de perfeccionamiento.",
+						"plazo": "dic",
+						"estandar": [
+							"Propuesta de pilotaje y operacionalización de plan de perfeccionamiento para el cuerpo docente en el mediano y largo plazo.",
+							"Debe considerar integralmente aspectos de la nueva normativa de evaluación diseñada y resultados preliminares de su pilotaje",
+							"Debe establecer grandes objetivos, proyección temporal, responsabilidades, hitos y otros componentes que permitan su posterior planificación a largo plazo.",
+							"Debe ser coherente con otras estrategias de perfeccionamiento establecidas para el cuerpo académico desde DAC-DA."
+						]
 					}
 				]
 			}
