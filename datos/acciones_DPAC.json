@@ -1648,7 +1648,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Compilación estructura de procesos sujetos a automatización.",
+						"nombre": "Compilación estructurada de procesos sujetos a automatización.",
 						"plazo": "may",
 						"estandar": [
 							"Basado en Mapa de Procesos que la institución tenga actualizado a la fecha.",

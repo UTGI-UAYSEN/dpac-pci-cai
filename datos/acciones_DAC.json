@@ -6436,6 +6436,17 @@
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
 					}				
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos",
+						"plazo": "may",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -6462,6 +6473,17 @@
 						"cai": "DPAC-GC", "rol": "Informado",
 						"capacidades": [ "coordinacion-general" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de sistema.",
+						"plazo": "ago",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para herramienta requerida.",
+							"Debe tener coherencia con evaluación de procesos en H01.",
+							"Aproximación incremental: debe entenderse como una primera etapa de implementación."				
+						]
+					}
 				]
 			},
 			{
@@ -6483,6 +6505,18 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "oct",
+						"estandar": [
+							"Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
+							"Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
+							"Desarrollo debe ser coherente con estándares TGI definidos.",
+							"Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+						]
 					}
 				]
 			},
@@ -6513,6 +6547,18 @@
 					{
 						"cai": "DPAC-GC", "rol": "Informado",
 						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de despliegue de módulos.",
+						"plazo": "ene",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de requerimientos levantados.",
+							"Debe dar cuenta de percepción de usuarios respecto a módulos implementados.",
+							"Debe entregar antecedentes cuantitativos y cualitativos de uso de los módulos.",
+							"Debe establecer diagnóstico sobre principales logros, mejoras necesarias y estrategia de perfeccionamiento de la implementación."
+						]
 					}
 				]
 			}
@@ -6553,6 +6599,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}	
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructurada de iniciativas realizadas.",
+						"plazo": "abr",
+						"estandar": [
+							"Detalle estructurado de actividades que han sido realizadas históricamente en materia de acompañamiento y nivelación estudiantil.",
+							"Debe incorporar análisis que permita clasificar actividades compiladas según su naturaleza, contribución a mejoramiento de indicadores de progresión, impacto identificado y verificable en términos cuantitativos, percepción estudiantil y otras variables que sean pertinentes al tema.",
+							"Se debe diagnósticar la organización sistémica de las actividades, estableciendo en que circunstancias existe una vinculación explícita, institucionalizada y verificable entre ellas, y cuando estas vinculaciones están ausentes o no obedecen a un diseño intencionado.",
+							"Se debe identificar los componentes de datos e información que se gestionan desde las actividades, explicitando insumos y salidas de las actividades en materia de información, y explicitando (si corresponde) los usos que se da a esta información en los procesos de toma de decisión asociados a iniciativas de acompañamiento y nivelación estudiantil.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar una revisión del diseño integrado de los diferentes mecanismos con visión sistémica, en coherencia al Modelo Educativo Institucional y fundamentado en el desarrollo de un perfil de ingreso esperado del estudiante UAysén.",
+							"Presentado en formato de informe y/o compilación de datos según conveniencia."
+						]
+					}
 				]
 			},
 			{
@@ -6591,6 +6651,19 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de perfil de ingreso institucional.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe responder integralmente a brechas y requerimientos identificados en el diagnóstico de H01 y a las necesidades de fortalecimiento en aspectos de acompañamiento y nivelación.",
+							"Debe responder a un análisis específico de información asociada a la caracterización de estudiantes de primer año compilada desde el historial de periodos anteriores.",
+							"Debe estructurarse bajo conceptos y definiciones que sean coherentes con el Modelo Educativo Institucional.",
+							"Debe recoger antecedentes académicos y técnicos, basados en retroalimentación de actores académicos y de la gestión universitaria pertinentes.",
+							"Debe entenderse como una versión inicial que podrá evolucionar en el tiempo, para lo cual la propuesta se debe acompañar de una estrategia metodológica de actualización."
+						]
+					}
 				]
 			},
 			{
@@ -6624,6 +6697,35 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Marco conceptual sobre acompañamiento, nivelación y progresión académica.",
+						"plazo": "jun",
+						"estandar": [
+							"Considera aspectos teóricos y conceptuales para la implementación de procesos asociados al acompañamiento, nivelación y progresión académica, basados en las diversas etapas del proceso formativo, sus interfaces, insumos, resultados e interacciones relevantes.",
+							"Debe establecer el alcance de los diferentes mecanismos institucionales para propiciar la progresión académica bajo estándares de calidad y en coherencia al Modelo Educativo.",
+							"Debe confirmar los grupos de datos e información que son necesarios para caracterizar los conceptos fundamentales del proceso formativo que permitan orientar y evaluar mecanismos de acompañamiento.",
+							"Debe establecer los principales mecanismos de evaluación y retroalimentación de iniciativas de acompañamiento académico, que permitan la mejora continua en su diseño, implementación y operacionalización.",
+							"Debe esbozar un modelo de gestión para el acompañamiento académico, que identifique los flujos de coordinación entre el área y otras vinculadas estrechamente en la gestión del proceso formativo (desarrollo estudiantil, gestión curricular, etc.), incluyendo la interacción con actores académicos relevantes (ej.: Jefaturas de Carrera).",
+							"Define los principales mecanismos para la implementación y operacionalización del marco."
+						]
+					},
+					{
+						"nombre": "Actas de validación y difusión de marco de trabajo con actores clave.",
+						"plazo": "jul",
+						"estandar": [
+							"Considera la presentación y evaluación de actores estratégicos que adoptarán responsabilidades en la implementación del sistema.",
+							"Acompañado de material que explica los elementos críticos del sistema."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza marco de trabajo.",
+						"plazo": "ago",
+						"estandar": [
+							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."
+						]
 					}
 				]
 			},
@@ -6667,48 +6769,31 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Diseñada y evaluada una propuesta de mecanismo institucional que, al alero del modelo conceptual y del perfil de ingreso esperado, promueva la nivelación y retención de estudiantes (ej.: propedeutico).",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DAC", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
+						"nombre": "Índice de mecanismos para operacionalizar el marco conceptual",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
 					},
 					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general" ]
+						"nombre": "Mecanismos diseñados",
+						"plazo": "nov",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
 			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Diseñados y evaluados mecanismos que, al alero del modelo conceptual y del perfil de ingreso esperado, permitan medir objetivamente el impacto de las iniciativas de acompañamiento y soporte a la progresión académica.",
 				"actores": [
 					{
@@ -6743,10 +6828,31 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar el marco conceptual",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "nov",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
-				"id": "H07", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Implementados, piloteados y evaluados mecanismos críticos que se hayan levantado como parte del sistema.",
 				"actores": [
 					{
@@ -6768,6 +6874,70 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al marco conceptual y su pilotaje.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el marco conceptual como de sus mecanismos derivados.",
+							"Debe establecer plan de trabajo para su consolidación en el tiempo y estrategia de desarrollo en el largo plazo."
+						]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñada una propuesta de propedéutico como mecanismo institucional que, al alero del modelo conceptual y del perfil de ingreso esperado, promueva la nivelación y retención de estudiantes.",
+				"actores": [
+					{
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-admision-matricula", "coordinacion-curricular", "admision-matricula", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documento propuesta de propedéutico",
+						"plazo": "ene",
+						"estandar": [
+							"Informe detallado que entrega antecedentes necesarios para avanzar en decisiones institucionales asociadas a la implementación y operacionalización del mecanismo.",
+							"Debe ser coherente e integrarse con el diseño del sistema asociado a esta acción.",
+							"Debe dar cuenta de la metodología para desarrollar la propuesta, estableciendo alternativas comparadas, actividades de recopilación de antecedentes realizadas, datos e información utilizados como insumo y alcance de desarrollo del mecanismo.",
+							"Debe proveer una recomendación fundada respecto a la oportunidad y conveniencia de avanzar en la implementación del mecanismo, considerando variables organizacionales, de financiamiento, capacidades institucionales requeridas y de su sostenibilidad en el tiempo.",
+							"Debe dar cuenta de impactos esperados en el mediano y largo plazo respecto a la implementación del mecanismos, la vinculación de esto con la realidad regional en los próximos periodos y otros factores contextuales que sean pertinentes para el análisis."
+						]
 					}
 				]
 			}
