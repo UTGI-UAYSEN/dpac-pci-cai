@@ -4301,16 +4301,34 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-GC", "rol": "Consultado",
+						"cai": "DPAC-GC", "rol": "Consultado", "participación": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
+					},
 					{
-						"cai": "multiple", "rol": "Consultado",
+						"cai": "SG-JUR", "rol": "Consultado", "participación": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participación": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					},
 					{
-						"cai": "multiple", "rol": "Informado",
+						"cai": "multiple", "rol": "Informado", "participación": "Esporádica",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de propuesta sobre definiciones normativas para funcionamiento interno de los departamentos.",
+						"plazo": "jun",
+						"estandar": [
+							"Documento simple que establece propuesta de construcción de mecanismos normativos y procedimientales necesarios para establecer un marco regulatorio y funcionar para los departamentos.",
+							"Propuesta debe considerar perspectivas de regulación a nivel institucional, y al mismo tiempo abordar autonomía necesaria que requieren los departamentos para su organización interna.",
+							"Se deben considerar criterios de aseguramiento de calidad relevantes (ej.: CNA, normativa interna, etc.).",
+							"Debe considerar aspectos de regulación centrada en funciones misionales (docencia, investigación, VcM).",
+							"Debe ser retroalimentado con departamentos según corresponda.",
+							"Debe incorporar cronograma de implementación (en coherencia a proyecto URY), actividades, roles y responsabilidades pertinentes"
+						]
 					}
 				]
 			},
@@ -4330,6 +4348,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Borrador de decreto de reglamento.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe tener consistencia con propuesta desarrollada en H01.",
+							"Debe establecer elementos fundamentales para la gestión de funciones internas de los departamentos, como es la definición de cargos, roles, responsabilidades, procesos fundamentales, alcances de acción, entre otros pertinentes.",
+							"Reglamento debe expresarse como un documento marco, estableciendo la necesidad de que cada departamento defina un reglamento específico y amparado en la normativa institucional.",
+							"Debe ser retroalimentado con departamentos según corresponda."
+						]
+					}
 				]
 			}
 		]
@@ -4343,7 +4373,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñar mecanismos de comunicación interna que favorezcan la difusión de los instrumentos y directrices escenciales para el desarrollo de la docencia en la institución.",
+				"desc": "Diseñar mecanismos de comunicación interna que favorezcan la difusión de los instrumentos y directrices esenciales para el desarrollo de la docencia en la institución.",
 				"actores": [
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
@@ -4360,6 +4390,18 @@
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Procedimientos de difusión de instrumentos y directrices para la docencia.",
+						"plazo": "jul",
+						"estandar": [
+							"Documento simple que establece las orientaciones comunicacionales necesarias para hacer difusión de instrumentos y directrices para el desarrollo de la docencia, orientado hacia su implementación en los programas de pregrado.",
+							"Debe establecer mecanismos que sean operacionalizables tanto por el cuerpo académico que coordina los respectivos programas, como por los equipos técnicos de comunicaciones en la institución.",
+							"Debe orientar la difusión de aspectos institucionales (ej.: Modelo Educativo) y de elementos específicos del diseño curricular de las carreras (ej.: perfil de egreso).",
+							"Debe establecer tareas y actividades periódicas que permitan que la difusión se instale como un mecanismo permanente."
+						]
 					}
 				]
 			},
@@ -4383,6 +4425,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de despliegue y evaluación de mecanismos de difusión desarrollados.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe sistematizar antecedentes entregados por actores claves de la docencia que son beneficiados/as por las acciones de difusión.",
+							"Debe indicar aspectos de la implementación que resultan exitosos.",
+							"Debe indicar aspectos de la implementación que no se lograron según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto desde la perspectiva procedimental como técnica en materia de comunicación."
+						]
+					},
+					{
+						"nombre": "Material de difusión usado en pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
+					}
 				]
 			}
 		]
@@ -4403,7 +4466,7 @@
 						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
 					},					
 					{
-						"cai": "DPAC-AI", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},	
 					{
@@ -4414,6 +4477,29 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Metodología de desarrollo de estudio de campo laboral.",
+						"plazo": "mar",
+						"estandar": [
+							"Debe establecer objetivos de estudio, fuentes de datos, recursos requeridos y otros elementos pertinentes a su implementación.",
+							"Al menos debe considerar alcance regional, y elementos específicos de alcance nacional.",
+							"Debe establecer cronograma de desarrollo, con plazos, roles y responsabilidades asociadas.",
+							"Retroalimentado con DPAC-AI"
+						]
+					},
+					{
+						"nombre": "Estudio de campo laboral.",
+						"plazo": "may",
+						"estandar": [
+							"Consistente con metodología diseñada.",
+							"Debe entregar un análisis cuantitativo y cualitativo de aspectos del campo laboral según alcances establecidos.",
+							"Debe detallarse tanto en el contexto de cada carrera que tendrá egresados, como en el contexto institucional.",
+							"Debe sistematizar potenciales empleadores según las orientaciones de cada carrera involucrada.",
+							"Debe establecer recomendaciones y estrategias de acción para orientar actividades de acompañamiento en función a los resultados obtenidos y en consistencia a la situación institucional de los estudiantes."
+						]
+					}
 				]
 			},
 			{
@@ -4421,20 +4507,38 @@
 				"desc": "Diseñadas y desarrolladas actividades de difusión de programas formativos que entran en régimen con potenciales empleadores.",
 				"actores": [
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
 						"cai": "DAC-SA", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},	
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
-					},
+					},					
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con potenciales empleadores",
+						"plazo": "ago",
+						"estandar": [
+							"Considerar un acta por sesión realizada, indicando carreras en las cuales se contextualiza la difusión y empleadores a los cuales se dirige.",
+							"Considera lista de asistentes, temáticas tratadas y otros elementos que sean pertinentes a la difusión."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "ago",
+						"estandar": [
+							"PPT, documentos u otros asociado al objeto de la difusión.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
+						]
 					}
 				]
 			},
@@ -4457,6 +4561,24 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con estudiantes prontos a titulación",
+						"plazo": "oct",
+						"estandar": [
+							"Considerar un acta por sesión realizada, indicando carreras en las cuales se contextualiza la difusión.",
+							"Considera lista de asistentes, oportunidades difundidas y otros elementos que sean pertinentes a la difusión."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "oct",
+						"estandar": [
+							"PPT, documentos u otros asociado al objeto de la difusión.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
+						]
 					}
 				]
 			},
@@ -4484,6 +4606,19 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de propuesta sobre orgánica institucional en la materia",
+						"plazo": "ago",
+						"estandar": [
+							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para la institución en materia de títulos y grados.",
+							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+							"Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
+							"Debe dar cuenta de un diálogo con actores estratégicos de la institución y coherencia con el contexto normativo que influye.",
+							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+						]
+					}
 				]
 			},
 			{
@@ -4510,6 +4645,26 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para promover la titulación oportuna.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados.",
+						"plazo": "oct",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Coherentes con el índice que los específica.",
+							"Registro ordenado de documentos que compilan los mecanismos diseñados."
+						]
+					}
 				]
 			},
 			{
@@ -4527,6 +4682,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a las necesidades del área de títulos y grados.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
+						]
 					}
 				]
 			}
@@ -4567,6 +4734,20 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documento de trabajo que describe el modelo",
+						"plazo": "jun",
+						"estandar": [
+							"Documento detallado que especifica principales conceptos, datos y elementos procedimentales relevantes para el seguimiento y evaluación del perfil de egreso de los programas, en coherencia a Modelo Educativo.",
+							"Debe establecer definiciones sistémicas, estableciendo cuales son los principales insumos para estos procesos, y sus respectivas salidas.",
+							"Debe tener pertinencia y ser coherente con definiciones externas en materia de aseguramiento de la calidad, por lo que debe ser retroalimentado por DPAC-GC",
+							"Debe dar cuenta de grandes interrogantes en materias estratégicas que el modelo debe resolver, y entregar directrices respecto a la información que permitirá resolverlas.",
+							"Debe entregar referencias preliminares respecto a los principales mecanismos que permitirán operacionalizar el modelo, lo que servirá de pauta para su futura implementación.",
+							"Visado por Director DAC."
+						]
+					}
 				]
 			},
 			{
@@ -4597,6 +4778,18 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "sep",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Debe ser coherente con modelo diseñado.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -4612,12 +4805,23 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},			
 					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
+						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},	
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos tecnológicos.",
+						"plazo": "ene",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
+							"Debe tener coherencia con evaluación de procesos en H02.",
+							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones."
+						]
 					}
 				]
 			}
@@ -4632,7 +4836,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantado y socializado un diagnóstico institucional respecto a las iniciativas que se han desarrollado en materia de formación continua, para generar una línea base del área.",
+				"desc": "Levantado y socializado un diagnóstico institucional respecto a las iniciativas que se han desarrollado en materia de formación transversal, para generar una línea base del área.",
 				"actores": [
 					{
 						"cai": "DAC", "rol": "Aprobador",
@@ -4658,40 +4862,23 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñar, validar y pilotear acciones formativas de carácter institucional que permitan profundizar en la formación transversal.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DAC", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-gestion-academica" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
-						"capacidades": [ "todos-estrategicos" ]
+						"nombre": "Informe de diagnóstico sobre iniciativas de formación transversal.",
+						"plazo": "may",
+						"estandar": [
+							"Informe simple que compila antecedentes cuantitativos y cualitativos respecto a actividades docentes y de gestión desarrolladas en la Institución y vinculadas a formación transversal.",
+							"Revela avances y desafíos en la materia.",
+							"Debe considerar análisis comparativo con estándares y otros elementos asociados a aseguramiento de la calidad desde referencias externas (ej: CNA).",
+							"Debe establecer un estado del arte respecto al tema de formación transversal en la institución y propuestas de mejora en función al diagnóstico realizado.",
+							"Visado por Director DAC."
+						]
 					}
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñadas y piloteadas acciones de formación docente conducentes a incorporar prácticas asociadas a la formación transversal.",
 				"actores": [
 					{
@@ -4710,10 +4897,39 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Metodología para capacitación de cuerpo docente en materia de formación transversal",
+						"plazo": "jul",
+						"estandar": [
+							"Debe considerar integralmente aspectos medulares identificados en el diagnóstico levantado en H01.",
+							"Debe explicitar objetivos de formación y alcances del proceso para el periodo.",
+							"Debe establecer grupos de docente a capacitar según su caracterización, prioridades, metodologías específicas de trabajo, material relevante y otros aspectos metodológicos pertinentes.",
+							"Debe establecer principales actividades, roles, responsabilidades, hitos y calendario asociado."
+						]
+					},
+					{
+						"nombre": "Actas de capacitación con cuerpo docente en materia de formación transversal",
+						"plazo": "nov",
+						"estandar": [
+							"Un acta por sesión de capacitación / grupo capacitado.",
+							"Se debe indicar el grupo que es capacitado, su caracterización y listado de asistencia.",
+							"Acta debe indicar contenidos de capacitación y metodologías específicas aplicadas para ello."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "nov",
+						"estandar": [
+							"PPT, documentos u otros asociado al objeto de la difusión.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
+						]
+					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Levantada estrategia para la instalación de nuevas capacidades que permitan dar soporte al área de formación transversal.",
 				"actores": [
 					{
@@ -4740,6 +4956,19 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de propuesta sobre orgánica institucional en la materia",
+						"plazo": "jul",
+						"estandar": [
+							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para la institución en materia de formación transversal, y en coherencia al Modelo Educativo.",
+							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+							"Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
+							"Debe dar cuenta de un diálogo con actores estratégicos de la institución y coherencia con el contexto normativo que influye.",
+							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+						]
+					}
 				]
 			}
 		]			
@@ -4753,15 +4982,19 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantado y socializado un diagnóstico institucional respecto a las iniciativas que vinculen los procesos formativos con el medio de interés.",
+				"desc": "Levantado y socializado un diagnóstico institucional respecto a las iniciativas que vinculan procesos formativos con el medio de interés.",
 				"actores": [
 					{
-						"cai": "DVcM-TE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"cai": "DAC", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
 					},
 					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "DAC-SA", "rol": "Consultado",
@@ -4774,6 +5007,19 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de diagnóstico sobre iniciativas de docencia universitaria que establezcan vinculación con el medio.",
+						"plazo": "jun",
+						"estandar": [
+							"Informe simple que compila antecedentes cuantitativos y cualitativos respecto a actividades docentes que generan vinculación con el medio regional, nacional e internacional.",
+							"Revela avances y desafíos en la materia.",
+							"Debe considerar análisis comparativo con estándares y otros elementos asociados a aseguramiento de la calidad desde referencias externas (ej: CNA).",
+							"Debe establecer un estado del arte respecto al tema de la vinculación con el medio en la docencia universitaria y propuestas de mejora en función al diagnóstico realizado.",
+							"Visado por Director DAC."
+						]
 					}
 				]
 			},
@@ -4809,6 +5055,28 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para la definición de convenios",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad.",
+							"Debe ser coherente con definición de mecanismos de registro de convenios institucionales (SG-06)."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "oct",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -4826,6 +5094,25 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con cuerpo docente",
+						"plazo": "nov",
+						"estandar": [
+							"Un acta por sesión de capacitación.",
+							"Se debe indicar el grupo que es capacitado y registrar listado de asistencia.",
+							"Acta debe indicar mecanismos socializados."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "nov",
+						"estandar": [
+							"PPT, documento u otro sobre el objeto de difusión.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones y/o material comunicacional anexo (si aplica)."
+						]
 					}
 				]
 			},
@@ -4857,6 +5144,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para la definición de convenios",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ago",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -4879,20 +5187,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a las necesidades de institucional la vinculación con el medio para la docencia.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
+						]
+					}
 				]
 			}
 		]
 	},
 	{
 		"id": "24", "area": "DAC",
-		"titulo": "Capacidades institucionales instaladas para valorizar la implementación de los programas de pregrado.",
+		"titulo": "Instalación de capacidades institucionales para valorizar la implementación de los programas de pregrado.",
 		"objetivo": "Aplicar, retroalimentar y mejorar mecanismos institucionales implementados en periodos anteriores para valorizar programas en el contexto de nueva oferta.",
 		"responsable": "DAC-EPRE",
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Aplicados mecanismos instalados de valorización de costos e inversión sobre oferta nueva (INF).",
+				"desc": "Aplicados mecanismos instalados de valorización de costos y proyección de inversión sobre oferta nueva.",
 				"actores": [					
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -4913,6 +5233,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Costeo y proyección financiera de nueva oferta",
+						"plazo": "jun",
+						"estandar": [
+							"Documentación y artefactos de costeo acorde a metodologías institucionales actualmente instaladas.",
+							"Acompañado de datos e información usada para su generación.",
+							"Debe especificar supuestos y otros elementos aplicados en la proyección en función a implementación incipiente de nueva oferta y/o carencia de datos necesarios."
+						]
 					}
 				]
 			},
@@ -4939,6 +5270,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diagnóstico sobre mecanismos de costeo y valorización",
+						"plazo": "ago",
+						"estandar": [
+							"Documento simple que resume observaciones descriptivas y técnicas asociadas a la aplicación de las metodologías de costeo y valorización existentes.",
+							"Debe describir en detalle fortalezas y debilidades observadas en la aplicación de los métodos, desde la perspectiva procedimental, de gestión de datos, información e instrumentos utilizados.",
+							"Debe considerar integralmente aspectos de aseguramiento de la calidad desde definiciones externas (ej.: CNA).",
+							"Debe establecer un plan de ajuste de corto plazo a las metodologías, que permitan su aplicación mejorada en futura oferta que se instale."
+						]
+					},
+					{
+						"nombre": "Metodologías actualizada",
+						"plazo": "dic",
+						"estandar": [
+							"Debe responder integralmente a diagnostico levantado anteriormente y mejoradas en función a experiencias de aplicación previas.",
+							"Ajustes deben ser retroalimentados por DPAC-GC y actores académicos pertinentes.",
+							"Se debe establecer proyección de aplicación en oferta nueva proyectada para próximos periodos."
+						]
 					}
 				]
 			}
@@ -4983,6 +5335,18 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Metodología propuesta para conformación de instancias de gobernanza.",
+						"plazo": "abr",
+						"estandar": [
+							"Documento que detalla estrategia de trabajo con los estudiantes para diseñar y formalizar instancias claves de gobernanza estudiantil, como son la Federación, CEE, etc.",
+							"Debe considerar aspectos comunicacionales con estamento estudiantil, normativos y de aseguramiento de calidad desde entidades externas (ej.: CNA).",
+							"Debe ser coherente con normativa interna actual de la institución asociada al estamento estudiantil.",
+							"Debe establecer principales actividades, productos, hitos, calendario, roles y responsabilidades asociadas."
+						]
+					}
 				]
 			},
 			{
@@ -5008,6 +5372,26 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza Federación",
+						"plazo": "oct",
+						"estandar": [
+							"Debe responder a elementos definidos en la metodología respectiva.",
+							"Debe establecer las funciones de la Federación, el modelo de gestión con el cual se vinculará con la gestión universitaria y académica, las responsabilidades y los mecanismos de coordinación asociados.",
+							"Debe establecer elementos transitorios que apunten a la implementación de la Federación y su operacionalización en el corto plazo, incluyendo mecanismos de elección de representantes, si aplica."
+						]
+					},
+					{
+						"nombre": "Actas de reuniones sobre proceso de conformación de Federación",
+						"plazo": "oct",
+						"estandar": [
+							"Actas que den cuenta de reuniones claves asociadas a diseño y validación de propuesta de Federación.",
+							"Debe explicitarse la participación estudiantil en las acciones y la metodología de trabajo asociada.",
+							"Actas deben detallar participantes, principales acuerdos y deben dar cuenta de la evolución en el proceso de conformación."
+						]
 					}
 				]
 			},
@@ -5038,6 +5422,26 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan de trabajo para conformación de Comité",
+						"plazo": "abr",
+						"estandar": [
+							"Debe dar cuenta de principales actividades, hitos, productos, roles y responsabilidades asociadas a la conformación del Comité.",
+							"Debe dar cuenta de la sinergia en su conformación con la instalación de otros mecanismos de gobernanza del estamento estudiantil (ej.: Federación).",
+							"Debe establecer calendario y fechas asociadas al de plan de trabajo."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza Comité",
+						"plazo": "sep",
+						"estandar": [
+							"Debe especificar su objetivos, su conformación, funciones asociadas, y mecanismos de funcionamiento.",
+							"Debe establecer actividades periódicas que serán revisadas y abordadas por el Comité en materia de desarrollo estudiantil.",
+							"Debe establecer artículos transitorios asociados a la instalación del Comité en el corto plazo y de la implementación de los mecanismos que lo operacionalizan."
+						]
 					}
 				]
 			},
@@ -5073,6 +5477,18 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Marco de trabajo para conformación de CEEs",
+						"plazo": "ago",
+						"estandar": [
+							"Documento simple que define alcance y establece orientaciones procedimentales para la conformación de los CEE.",
+							"Debe dar cuenta de las responsabilidades de apoyo institucional asociadas y de las responsabilidades específicas que deben cumplir los estudiantes en su conformación.",
+							"Debe establecer los mecanismos de coordinación que deben ser propiciados para su coordinación con la Federación.",
+							"Debe establecer cuáles son los mecanismos fundamentales que deben ser elaborados para permitir la conformación apropiada de un CEE (incluyendo decreto que formalice y sus características), aludiendo a elementos de aseguramiento de calidad que sean relevantes."
+						]
+					}
 				]
 			},
 			{
@@ -5098,6 +5514,26 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decretos que formalizan conformación de CEEs",
+						"plazo": "ene",
+						"estandar": [
+							"Deben responder integralmente a marco de trabajo definido previamente.",
+							"Deben establecer mecanismos específicos para cada cada CEE según necesidades específicas de coordinación y organización, sin perjuicio de que dichos mecanismos deben tributar a las definiciones institucionales.",
+							"Considerar decretos individuales por carrera."
+						]
+					},
+					{
+						"nombre": "Actas de reuniones sobre proceso de conformación de CEEs",
+						"plazo": "oct",
+						"estandar": [
+							"Actas que den cuenta de reuniones claves asociadas a diseño y validación de propuesta de Federación.",
+							"Debe explicitarse la participación estudiantil en las acciones y la metodología de trabajo asociada.",
+							"Actas deben detallar participantes, principales acuerdos y deben dar cuenta de la evolución en el proceso de conformación."
+						]
 					}
 				]
 			}
@@ -5138,6 +5574,27 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para regular prácticas profesionales",
+						"plazo": "mar",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "may",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -5164,6 +5621,25 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con gestión de carreras",
+						"plazo": "jun",
+						"estandar": [
+							"Un acta por carrera con la cual se realiza capacitación.",
+							"Se debe indicar participantes de la gestión de la carrera (inc. Jefatura de Carrera) y registrar listado de asistencia.",
+							"Acta debe indicar mecanismos socializados."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "jun",
+						"estandar": [
+							"PPT, documento u otro sobre el objeto de difusión.",
+							"Opcionalmente acompañadas de grabaciones de presentaciones y/o material comunicacional anexo (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -5181,6 +5657,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "dic",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos diseñados en coherencia a actividades de prácticas desarrolladas por estudiantes durante el periodo.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo."
+						]
 					}
 				]
 			}
@@ -5225,11 +5713,24 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto sobre reglamento de Escuela de Tutores Pares",
+						"plazo": "abr",
+						"estandar": [
+							"Debe establecer roles, responsabilidades y funciones asociadas a la escuela, incluyendo cargos de coordinación, soporte desde la gestión universitaria, participación y mecanismos de continuidad de tutores pares.",
+							"Debe formalizar mecanismos de evaluación de los tutores y requerimientos de información requeridos como insumo.",
+							"Debe establecer procedimientos asociados al funcionamiento de la Escuela, incluyendo la selección, operación y evaluación de tutores.",
+							"Debe establecer alcances de apoyo de los tutores e interfaces de funcionamiento con capacidades de acompañamiento académico en la gestión universitaria.",
+							"Debe establecer artículos transitorios que apunten a instalar mecanismos claves y operacionalizar la escuela en el corto plazo."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Piloteados los mecanismos que permitan avanzar en el despliegue de la escuela.",
+				"desc": "Diseñados y piloteados los mecanismos que permitan avanzar en el despliegue de la escuela.",
 				"actores": [
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
@@ -5244,8 +5745,34 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar el seguimiento sistemático de convenios",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad.",
+							"Deben tener coherencia con los estándares de planificación institucional."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ago",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -5272,6 +5799,28 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Encuestas de satisfacción",
+						"plazo": "dic",
+						"estandar": [
+							"Información cuantitativa y cualitativa de percepción de estudiantes respecto al impacto del funcionamiento de la escuela en su rendimiento académico.",
+							"Debe considerar tanto diseño de la encuesta en función a parámetros académicos y de calidad de servicio, como los datos recopilados desde las encuestas.",
+							"Debe dar cuenta del universo de estudiantes objetivos de la encuesta, validadores de envío de encuesta y universo de respuestas."							
+						]
+					},
+					{
+						"nombre": "Informe de resultados de implementación",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la implementación de la Escuela.",
+							"Debe considerar antecedentes recopilados desde las encuestas, tanto casuística (datos específicos de ejemplo) como resúmenes e información agregada de sus resultados.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre mecanismos de registro como de seguimiento."
+						]
 					}
 				]
 			}
@@ -5312,18 +5861,29 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "jul",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Caracterizados los requerimientos de información que permitan mejorar los indicadores de cobertura bibliográfica.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-AI", "rol": "Responsable",
+						"cai": "DAC-BRA", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DAC-BRA", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -5334,22 +5894,33 @@
 						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Caracterización de requerimientos de información.",
+						"plazo": "oct",
+						"estandar": [
+							"Compilación estructurada de datos e información relevante para los procesos asociados al protocolo.",
+							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mediana",
 				"desc": "Identificadas y aplicadas mejoras a mecanismos tecnológicos que permitan el acceso de los usuarios y la sistematización de recursos bibliográficos.",
-				"actores": [					
+				"actores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
-					{
-						"cai": "DAC-BRA", "rol": "Soporte",
+						"cai": "DAC-BRA", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "plataforma" ]
 					},
 					{
@@ -5359,6 +5930,37 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Evaluación de requerimientos tecnológicos",
+						"plazo": "ago",
+						"estandar": [
+							"Documento simple que sintetiza necesidades funcionales y procedimentales respecto a la modernización tecnológica de recursos bibliográficos.",
+							"Incorpora diagnóstico y evaluación de alternativas, considerando externalización.",
+							"Incorpora miradas desde la perspectiva de aseguramiento de calidad del área TGI.",
+							"Propone criterios para escoger alternativas y formas de implementación."
+						]
+					},
+					{
+						"nombre": "Términos de referencia",
+						"plazo": "sep",
+						"estandar": [
+							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
+							"En coherencia con evaluación realizada.",
+							"Establece productos, plazos esperados, roles y responsabilidades.",
+							"Considera asesoría general de DPAC-TGI"
+						]
+					},
+					{
+						"nombre": "Validadores de mecanismos tecnológicos incorporados",
+						"plazo": "ene",
+						"estandar": [
+							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
+							"Coherente con TdRs desarrollados.",
+							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
+						]
 					}
 				]
 			}
@@ -5399,6 +6001,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos",
+						"plazo": "may",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -5437,6 +6050,28 @@
 						"cai": "DPAC-TGI", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para gestionar becas y beneficios",
+						"plazo": "jun",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe ser coherente con procesos normalizados en el ámbito.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "oct",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -5470,6 +6105,18 @@
 					{
 						"cai": "DPAC-TGI", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de implementación de mecanismos",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a los procesos normalizados.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
+						]
 					}
 				]
 			}
@@ -5507,6 +6154,17 @@
 						"cai": "DPAC-GC", "rol": "Informado",
 						"capacidades": [ "coordinacion-general" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de sistema.",
+						"plazo": "jul",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para herramienta requerida.",
+							"Debe tener coherencia con evaluación de procesos en DAC-19.",
+							"Aproximación incremental: debe entenderse como una primera etapa de implementación."								
+						]
+					}
 				]
 			},
 			{
@@ -5528,6 +6186,18 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "nov",
+						"estandar": [
+							"Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
+							"Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
+							"Desarrollo debe ser coherente con estándares TGI definidos.",
+							"Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+						]
 					}
 				]
 			},
@@ -5558,6 +6228,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de despliegue de módulos.",
+						"plazo": "ene",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de requerimientos levantados.",
+							"Debe dar cuenta de percepción de usuarios respecto a módulos implementados.",
+							"Debe entregar antecedentes cuantitativos y cualitativos de uso de los módulos.",
+							"Debe establecer diagnóstico sobre principales logros, mejoras necesarias y estrategia de perfeccionamiento de la implementación."
+						]
 					}
 				]
 			}
@@ -5595,6 +6277,17 @@
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos",
+						"plazo": "may",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -5621,6 +6314,17 @@
 						"cai": "DPAC-GC", "rol": "Informado",
 						"capacidades": [ "coordinacion-general" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos de sistema.",
+						"plazo": "ago",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para herramienta requerida.",
+							"Debe tener coherencia con evaluación de procesos en H01.",
+							"Aproximación incremental: debe entenderse como una primera etapa de implementación."								
+						]
+					}
 				]
 			},
 			{
@@ -5642,6 +6346,18 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "oct",
+						"estandar": [
+							"Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
+							"Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
+							"Desarrollo debe ser coherente con estándares TGI definidos.",
+							"Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+						]
 					}
 				]
 			},
@@ -5672,6 +6388,18 @@
 					{
 						"cai": "DPAC-GC", "rol": "Informado",
 						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de despliegue de módulos.",
+						"plazo": "ene",
+						"estandar": [
+							"Considera la implementación inicial de sistema según alcance de requerimientos levantados.",
+							"Debe dar cuenta de percepción de usuarios respecto a módulos implementados.",
+							"Debe entregar antecedentes cuantitativos y cualitativos de uso de los módulos.",
+							"Debe establecer diagnóstico sobre principales logros, mejoras necesarias y estrategia de perfeccionamiento de la implementación."
+						]
 					}
 				]
 			}
