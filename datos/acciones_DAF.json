@@ -26,6 +26,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan de contrataciones del periodo",
+						"plazo": "mar",
+						"estandar": [
+							"Debe considerar contrataciones en las diversas calidades (contrata, honorarios, etc.).",
+							"Debe establecer plazos estimados (en meses) para realizar las distintas contrataciones, que permitan organizar los esfuerzos necesarios y la preparación oportuna de bases.",
+							"Debe ser consistente con la planificación del periodo, el presupuesto definido y las capacidades asociadas."
+						]
+					}
 				]
 			},
 			{
@@ -47,6 +58,38 @@
 					{
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de selección de personal de colaboración", 
+						"formula": "Número de procesos de selección del personal de colaboración en calidad contrata realizados y completados.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bases de concursos públicos",
+						"estandar": [
+							"Considerar un documento de bases por proceso realizado.",
+							"Debe ser coherente con requerimientos levantados desde la planificación institucional y canalizados en el presupuesto institucional.",
+							"Deben ser coherentes con los formatos y estándares definidos en DAF-DP."
+						]
+					},
+					{
+						"nombre": "Actas finales de concursos públicos",
+						"estandar": [
+							"Considerar un acta por proceso realizado.",
+							"Deben ser coherentes y responder a las bases diseñadas."
+						]
+					},
+					{
+						"nombre": "Registro del personal universitario",
+						"estandar": [
+							"Registro estructurado y sistemático de la información del personal universitario.",
+							"Debe considerar información detallada y actualizada de cada funcionario/a de la institución, incluyendo al menos información personal, datos de formación académica, datos de experiencia laboral y situación contractual en la institución.",
+							"Debe ser entregado en formato que permita el análisis de datos (ej.: excel)."
+						]
 					}
 				]
 			},
@@ -70,6 +113,37 @@
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de selección de personal académico", 
+						"formula": "Número de procesos de selección del personal académico realizados y completados.",
+						"meta": "3"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bases de concursos públicos",
+						"estandar": [
+							"Considerar un documento de bases por proceso realizado.",
+							"Debe ser coherente con requerimientos levantados desde la planificación institucional y canalizados en el presupuesto institucional.",
+							"Deben ser coherentes con los formatos y estándares definidos en DAF-DP.",
+							"Deben ser diseñados y retroalimentados en conjunto a DAC y DI."
+						]
+					},
+					{
+						"nombre": "Actas finales de concursos públicos",
+						"estandar": [
+							"Considerar un acta por proceso realizado.",
+							"Deben ser coherentes y responder a las bases diseñadas."
+						]
+					},
+					{
+						"nombre": "Registro del personal universitario",
+						"estandar": [
+							"Equivalente al registro de F01 (puede ser combinado con este verificador)."
+						]
+					}
 				]
 			},
 			{
@@ -91,6 +165,37 @@
 					{
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de contratación de personal a honorarios por producto", 
+						"formula": "Número de procesos de contratación del personal a honorarios gestionados y completados.",
+						"meta": "150"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Formularios de solicitud de contratación a honorarios",
+						"estandar": [
+							"Considerar un formulario por persona a contratar.",
+							"Debe incorporar requerimientos levantados desde la planificación institucional, docentes colaborados y otros asociados a proyectos de investigación.",
+							"Deben ser coherentes con los formatos y estándares definidos en DAF-DP.",
+							"Contenidos de los formularios deben explicitar y ser concordantes con la modalidad a productos que exige la calidad a honorarios en la institución."
+						]
+					},
+					{
+						"nombre": "Convenios a honorarios",
+						"estandar": [
+							"Considerar un convenio por contratación gestionada.",
+							"Deben ser coherentes y responder a las necesidades de los formularios emitidos."
+						]
+					},
+					{
+						"nombre": "Registro del personal universitario",
+						"estandar": [
+							"Equivalente al registro de F01 (puede ser combinado con este verificador)."
+						]
 					}
 				]
 			}
@@ -123,6 +228,23 @@
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de pago de remuneraciones del personal a contrata de la Institución", 
+						"formula": "Número de procesos de pago de remuneraciones del personal a contrata gestionados y completados.",
+						"meta": "1000"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Liquidaciones mensuales de sueldo",
+						"estandar": [
+							"Registro estructurado y ordenado con los verificadores de pagos emitidos hacia el personal a contrata.",
+							"Implementado a través de un sistema de archivos, ordenado por mes de remuneración y personal respectivo, que permita su seguimiento y contabilización.",
+							"Coherente con las contrataciones existentes y con el presupuesto definido para la institución."
+						]
+					}
 				]
 			},
 			{
@@ -144,6 +266,23 @@
 					{
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de pago de remuneraciones del personal a honorarios de la Institución", 
+						"formula": "Número de procesos de pago de remuneraciones del personal a honorarios gestionados y completados.",
+						"meta": "1600"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Comprobantes de remuneración pagada",
+						"estandar": [
+							"Registro estructurado y ordenado con los verificadores de pagos emitidos hacia el personal a honorarios.",
+							"Implementado a través de un sistema de archivos, ordenado por mes de remuneración y personal respectivo, que permita su seguimiento y contabilización.",
+							"Coherente con las contrataciones existentes y con el presupuesto definido para la institución."
+						]
 					}
 				]
 			}
@@ -172,6 +311,26 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con personal de colaboración",
+						"plazo": "abr",
+						"estandar": [
+							"Un acta por sesión de difusión / grupo de funcionarios/as.",
+							"Contenidos deben ser difundidos acorde al Reglamento de Evaluación de Desempeño vigente.",
+							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
+							"Se debe explicitar en el acta que, en la difusión realizada, se ha explicitado que el proceso de evaluación de desempeño tendrá como insumo central los avances y logros del POA del periodo, y que los resultados de la evaluación dependerán del éxito de estos compromisos.",
+							"Acta debe indicar contenidos a los cuales se les hace difusión respecto al proceso."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"estandar": [
+							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias."
+						]
+					}
 				]
 			},
 			{
@@ -185,6 +344,15 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de conformación de la Junta Calificadora",
+						"plazo": "oct",
+						"estandar": [
+							"Conformación debe ser coherente con Reglamento de Evaluación de Desempeño aprobado."
+						]
 					}
 				]
 			},
@@ -204,6 +372,33 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de entrega de Informes de Desempeño",
+						"plazo": "may",
+						"estandar": [
+							"Registro estructurado y ordenado que permita evidenciar la entrega de los Informes de Desempeño que correspondan.",
+							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
+						]
+					},
+					{
+						"nombre": "Validadores de entrega de Hojas de Vida del personal a jefaturas respectivas",
+						"plazo": "sep",
+						"estandar": [
+							"Registro estructurado y ordenado que permita evidenciar la entrega de las Hojas de Vida que correspondan.",
+							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
+						]
+					},
+					{
+						"nombre": "Validadores de entrega de Precalificaciones",
+						"plazo": "oct",
+						"estandar": [
+							"Registro estructurado y ordenado que permita evidenciar la entrega de las Precalificaciones que correspondan.",
+							"basado en formatos y estándares definidos por DAF-DP.",
+							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
+						]
+					}
 				]
 			},
 			{
@@ -221,6 +416,17 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de entrega de Calificaciones",
+						"plazo": "nov",
+						"estandar": [
+							"Registro estructurado y ordenado que permita evidenciar la entrega de las Calificaciones por parte de la Junta Calificadora.",
+							"basado en formatos y estándares definidos por DAF-DP.",
+							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
+						]
 					}
 				]
 			},
@@ -240,6 +446,17 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de entrega de fallos de apelaciones",
+						"plazo": "dic",
+						"estandar": [
+							"Registro estructurado y ordenado que permita evidenciar la entrega de los fallos de las apelaciones que fuesen presentadas.",
+							"basado en formatos y estándares definidos por DAF-DP.",
+							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
+						]
+					}
 				]
 			},
 			{
@@ -257,6 +474,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de evaluación del proceso.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe sistematizar antecedentes entregados por actores claves respecto al desarrollo y resultados del proceso.",
+							"Debe indicar aspectos de la implementación que resultan exitosos.",
+							"Debe indicar aspectos de la implementación que no se lograron según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto desde la perspectiva procedimental como técnica en materia de comunicación."
+						]
 					}
 				]
 			}
@@ -297,6 +526,39 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Cometidos tramitados y procesados", 
+						"formula": "Número de cometidos del personal gestionados y completados.",
+						"meta": "500"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de solicitudes de cometidos",
+						"estandar": [
+							"Registro estructurado y ordenado con los verificadores de solicitudes de cometido emitidos por el personal.",
+							"Implementado a través de un sistema de archivos, ordenado por mes de solicitud y personal respectivo, que permita su seguimiento y contabilización.",
+							"Coherente con las contrataciones existentes."
+						]
+					},
+					{
+						"nombre": "Validador de pago de cometidos",
+						"estandar": [
+							"Registro estructurado y ordenado con los verificadores formales de pagos de cometidos emitidos hacia el personal a honorarios.",
+							"Implementado a través de un sistema de archivos, ordenado por mes de solicitud de cometido respectivo y personal respectivo, que permita su seguimiento y contabilización.",
+							"Coherente con las contrataciones existentes."
+						]
+					},
+					{
+						"nombre": "Bitácora de cometidos",
+						"estandar": [
+							"Registro que sintetiza y compila información estructurada de la gestión de cometidos.",
+							"Cada elemento en el registro debe dar cuenta de la información de un cometido emitido, incluyendo propósitos, montos solicitados, solicitante, fecha de solicitud, fecha de tramitación, fecha de pago, estado de cometido, entre otros que sean pertinentes.",
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+						]
+					}
 				]
 			},
 			{
@@ -318,6 +580,33 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de solicitudes de permisos",
+						"estandar": [
+							"Registro estructurado y ordenado con los verificadores de solicitudes de permiso emitidos por el personal.",
+							"Implementado a través de un sistema de archivos, ordenado por mes de solicitud, tipo de permiso y personal respectivo, que permita su seguimiento y contabilización.",
+							"Coherente con las contrataciones existentes."
+						]
+					},
+					{
+						"nombre": "Bitácora de permisos del personal",
+						"estandar": [
+							"Registro que sintetiza y compila información estructurada de la gestión de cometidos.",
+							"Cada elemento en el registro debe dar cuenta de un permiso solicitado, incluyendo su tipo, solicitante, fecha de solicitud, fecha de tramitación, fecha de aceptación / validación, estado de permiso, entre otros que sean pertinentes.",
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+						]
+					},
+					{
+						"nombre": "Bitácora de asistencia del personal",
+						"estandar": [
+							"Registro que sintetiza y compila información estructurada de la asistencia del personal.",
+							"Cada elemento en el registro debe dar cuenta de la información de asistencia de las personas, incluyendo fecha, persona, estado de asistencia, posibles permisos emitidos para el día, etc.",
+							"Podría combinarse con bitácora de permisos del personal.",
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+						]
 					}
 				]
 			}
@@ -350,11 +639,22 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Detalle de Plan de compras",
+						"plazo": "abr",
+						"estandar": [
+							"Registro estructurado y ordenado con la información de las compras programadas para el periodo.",
+							"Debe dar cuenta de los requerimientos de las diversas direcciones según las necesidades de planificación y presupuesto respectivas.",
+							"El registro debe entregar información respecto a las necesidades, incluyendo tipo de compra a realizar, elementos a adquirir, costos aproximados, fechas requeridas, entre otros datos pertinentes."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantada la información específica para la construcción del Plan de Compras 2022, desde los insumos de la Planificación Institucional 2022 y Prespuesto Institucional 2022, y acorde a la normativa vigente.",
+				"desc": "Levantada la información específica para la construcción del Plan de Compras 2022, desde los insumos de la Planificación Institucional 2022 y Presupuesto Institucional 2022, y acorde a la normativa vigente.",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -367,6 +667,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Sistematización preliminar de Plan de Compras 2022",
+						"plazo": "dic",
+						"estandar": [
+							"Registro estructurado y ordenado con la información de las compras programadas para el siguiente periodo.",
+							"En formatos y estándares establecidos por DAF-ADQ.",
+							"Debe responder integralmente a información de planificación institucional priorizada para el periodo respectivo (ver DPAC-03)."
+						]
 					}
 				]
 			},
@@ -390,6 +701,15 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza Plan de Compras 2022",
+						"plazo": "ene",
+						"estandar": [
+							"Definido en consistencia con propuesta de sistematización generada y retroalimentada según corresponda."
+						]
+					}
 				]
 			},
 			{
@@ -403,6 +723,31 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Compras a través de convenio marco y/o compra ágil", 
+						"formula": "Número de compras gestionada y completadas a través de convenio marco y/o compra ágil.",
+						"meta": "400"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de compras institucionales",
+						"estandar": [
+							"Registro estructurado y ordenado con los verificadores de solicitud y recepción conforme de las compras realizadas en la Institución.",
+							"Implementado a través de un sistema de archivos, ordenado por tipo de compra, mes de solicitud, área solicitante, entre otros que sean pertinentes, para su seguimiento y contabilización.",
+							"Coherente con Plan de Compras definido."
+						]
+					},
+					{
+						"nombre": "Bitácora de adquisiciones",
+						"estandar": [
+							"Registro que sintetiza y compila datos estructurados respecto a las adquisiciones en la Institución.",
+							"Cada elemento en el registro debe dar cuenta de la información de una compra, incluyendo solicitante (persona y área), fecha de solicitud, fecha de tramitación, fecha de recepción y confirmación, estado de compra, contenido de compra, tipo, etc.",
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+						]
 					}
 				]
 			},
@@ -418,6 +763,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}					
+				],
+				"ios":[
+					{ 
+						"nombre": "Compras a través de trato directo", 
+						"formula": "Número de compras gestionadas y completadas a través de trato directo.",
+						"meta": "100"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de compras institucionales",
+						"estandar": [
+							"Equivalente al indicado en F01 (pueden unirse como registro único)."
+						]
+					},
+					{
+						"nombre": "Bitácora de adquisiciones",
+						"estandar": [
+							"Equivalente al indicado en F01 (pueden unirse como bitácora única)."
+						]
+					}
 				]
 			},
 			{
@@ -432,6 +798,31 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}						
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de licitación de baja envergadura", 
+						"formula": "Número de procesos de licitación de baja envergadura gestionados y completados.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de licitaciones institucionales",
+						"estandar": [
+							"Registro estructurado y ordenado con los verificadores asociados a las licitaciones realizadas en la Institución.",
+							"Se debe incorporar documentación como bases, documentación de ofertas, validadores de selección y otros documentos formales pertinentes.",
+							"Implementado a través de un sistema de archivos, ordenado por tipo de licitación, mes de realización, área solicitante, entre otros que sean pertinentes, para su seguimiento y contabilización.",
+							"Coherente con Plan de Compras definido."
+						]
+					},
+					{
+						"nombre": "Bitácora de adquisiciones",
+						"estandar": [
+							"Equivalente al indicado en F01 (pueden unirse como bitácora única).",
+							"Se pueden incorporar clasificadores específicos para las licitaciones en la bitácora (ej.: tamaño de la bitácora)."
+						]
+					}
 				]
 			},
 			{
@@ -446,11 +837,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}	
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de licitación de alta envergadura", 
+						"formula": "Número de procesos de licitación de alta envergadura gestionados y completados.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de licitaciones institucionales",
+						"estandar": [
+							"Equivalente al de F03 (pueden unirse como registro único)."
+						]
+					},
+					{
+						"nombre": "Bitácora de adquisiciones",
+						"estandar": [
+							"Equivalente al de F03 (pueden unirse como bitácora única)."
+						]
+					}
 				]
 			},
 			{
 				"id": "F05", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Apoyar y orientar la busqueda de opciones de compra según normativa a las unidades requirentes y de forma articulada con proveedores.",
+				"desc": "Apoyar y orientar la búsqueda de opciones de compra según normativa a las unidades requirentes y de forma articulada con proveedores.",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -459,6 +871,22 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Procesos de búsqueda de proveedores apoyados", 
+						"formula": "Número de compras en donde se ha apoyado y gestionada la búsqueda de proveedores idóneos.",
+						"meta": "200"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de compras institucionales",
+						"estandar": [
+							"Equivalente al de F01 (pueden unirse como registro único).",
+							"Para efectos de esta táctica, es relevante agregar validadores asociados a la búsqueda y recomendación de proveedores específicos en Mercado Público (pantallazos de sistema, correos de aprobación de solicitantes, entre otros)."
+						]
 					}
 				]
 			}
@@ -487,6 +915,22 @@
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}					
+				],
+				"ios":[
+					{ 
+						"nombre": "Actos administrativos asociados a compras", 
+						"formula": "Número de actos administrativos de compras emitidos y formalizados en la Institución.",
+						"meta": "500"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de compras institucionales",
+						"estandar": [
+							"Equivalente al de F01 en DAF-05 (pueden unirse como registro único).",
+							"Para efectos de esta táctica, el registro debe incluir también los decretos formalizados respecto a las compras realizadas."
+						]
+					}
 				]
 			},
 			{
@@ -501,6 +945,29 @@
 						"cai": "DAF-FIN", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Pagos a proveedores", 
+						"formula": "Número de pagos realizados y formalizados a proveedores con los cuales se han tramitado adquisiciones.",
+						"meta": "500"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de compras institucionales",
+						"estandar": [
+							"Equivalente al de F01 en DAF-05 (pueden unirse como registro único).",
+							"Para efectos de esta táctica, el registro debe incluir también los documentos formales que acreditan el pago a los proveedores."
+						]
+					},
+					{
+						"nombre": "Bitácora de adquisiciones",
+						"estandar": [
+							"Equivalente al de F01 en DAF-05 (pueden unirse como bitácora única).",
+							"Para efectos de esta táctica, se pueden incorporar fechas vinculadas a los procesos de pago de los proveedores, que permitan cuantificar tiempos y oportunidad en la ejecución del pago."
+						]
+					}
 				]
 			},
 			{
@@ -514,6 +981,22 @@
 					{
 						"cai": "DAF-INSG", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Seguros contratados sobre adquisiciones", 
+						"formula": "Número de seguros gestionados y contratados para recursos físicos y materiales de la institución.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de adquisición de seguros",
+						"estandar": [
+							"Documentos formales que acrediten los contratos y/o adquisiciones de los seguros respectivos.",
+							"Deben explicitan los objetos del seguro y quienes actúan como contrapartes de los bienes asegurados."
+						]
 					}
 				]
 			}
@@ -538,6 +1021,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de inventario y bienes",
+						"plazo": "jun",
+						"estandar": [
+							"Registro estructurado y sistemático de los diversos bienes de uso pertenecientes a la institución.",
+							"Debe permitir contabilizar y hacer seguimiento detallado de cada bien en la Institución de acuerdo a los diversos estándares planteados desde Contraloría General, CNA, Normativa sobre bienes muebles (decreto 180, decreto 577, etc.), Política de Finanzas y manuales de procedimientos generados desde la institución.",
+							"Debe considerar recomendaciones de sistematización y datos entregadas en Minuta 5 DPAC hacia Director DAF en correo del 15 de enero del 2021.",
+							"Debe dar cuenta del uso de sistemas de información institucionales para efectos de la sistematización respectiva."
+						]
+					}
 				]
 			},
 			{
@@ -556,6 +1051,24 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades administrativas de bienes muebles.", 
+						"formula": "Número de actividades administrativas asociadas a bienes muebles que han sido gestionadas, tramitadas y sistematizadas.",
+						"meta": "500"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de actividades administrativas sobre bienes muebles",
+						"estandar": [
+							"Registro estructurado que detalla altas, bajas, donaciones y traslados de bienes muebles en la institución.",
+							"Eventualmente podría complementar y/o unirse con registro establecido en H01.",
+							"Debe especificar el detalle de cada acción y/o transacción realizada sobre un bien mueble en la Institución, detallando los datos que identifican el bien, tipo de transacción, estado de la transacción, fechas, responsables y otros elementos pertinentes que permitan su seguimiento integral.",
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+						]
+					}
 				]
 			},
 			{
@@ -570,6 +1083,31 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Revisión periódica de estado de bienes.", 
+						"formula": "Número procesos de inspección / auditoria de bienes, materiales y otros para efectos de la evaluación de su estado.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes periódicos de inspección auditoria de bienes y materiales",
+						"estandar": [
+							"Documentos simples que resumen resultados de inspección sobre bienes y materiales para detectar estados de desuso u otros que ameriten dar de baja.",
+							"Deben dar cuenta de metodología de selección, inspección, evaluación y auditoria de los bienes y materiales que deriven en recomendaciones que apunten a darlos de baja.",
+							"Deben informar información cuantitativa y cualitativa respecto a los bienes y materiales inspeccionados, entregando métricas generales para dimensionar y evaluar estado de los bienes y materiales a nivel institucional.",
+							"Deben entregar un resumen con recomendaciones respecto a bienes y materiales específicos que puedan requerir ser dados de bajas, para que los actores que toman decisiones al respecto puedan actuar.",
+							"Considerar informes mensuales sobre muestras específicas de bienes y materiales (según metodología establecida)."
+						]
+					},
+					{
+						"nombre": "Validadores de entrega de informes",
+						"estandar": [
+							"Validadores comunicacionales (ej.: correo electrónic) que den cuenta de la entrega de las recomendaciones generadas a los actores pertinentes en la toma de decisiones."
+						]
+					}
 				]
 			},
 			{
@@ -579,6 +1117,22 @@
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "inventario" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Registro de inventario activo fijo.", 
+						"formula": "Número de ítems de inventario activo fijo ingresados en los sistemas institucionales.",
+						"meta": "500"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de inventario y bienes",
+						"estandar": [
+							"Equivalente al indicado en H01 (pueden unirse en un solo registro).",
+							"Debe dar cuenta del registro de los bienes respectivos a través de identificadores utilizados en los sistemas de información respectivos."
+						]
 					}
 				]
 			},
@@ -593,6 +1147,14 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de compras institucionales",
+						"estandar": [
+							"Equivalente al de F01 en DAF-05 (pueden unirse como registro único)."
+						]
 					}
 				]
 			}
@@ -617,6 +1179,24 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Registro financiero-contable periódico.", 
+						"formula": "Número de reportes periódicos generados con información financiera-contable de la Institución.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes financiero-contables periódicos",
+						"estandar": [
+							"Reportes operativos que contienen la información institucional sobre registros contables sistematizados (egresos e ingresos) e información agregada relevante.",
+							"Generados de forma mensual y apoyados desde sistemas de información institucionales.",
+							"Deben entregar detalle completo de registros como evidencia, además de análisis general de la información a través de métricas definidas por estándares técnicos de DAF-FIN.",
+							"Cada informe debe incorporar un apartado de resumen y observaciones en caso de detectar problemas y/o elementos de observación en la operación contable mensual."
+						]
+					}
 				]
 			},
 			{
@@ -630,6 +1210,15 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes contables periódicos",
+						"estandar": [
+							"Equivalente a los especificados en F01.",
+							"Se debe incorporar además información que de cuenta y/o resuma sobre los cierres contables mensuales."
+						]
 					}
 				]
 			},
@@ -645,6 +1234,24 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Gestión periódica de fondos.", 
+						"formula": "Número de fondos por rendir y/o fijos que son gestionados mensualmente en la institución.",
+						"meta": "50"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de fondos por rendir y fondos fijos",
+						"estandar": [
+							"Registro estructurado respecto a este tipo de fondos en la Institución.",
+							"Debe establecer características de los fondos sistematizados y considerar el registro de transacciones sobre ellos.",
+							"Se debe dar cuenta de información de seguimiento de las transacciones, como las fechas de ejecución, montos, solicitantes, entre otros que sean pertinentes.",
+							"Si aplica, se puede combinar con reportes contables especificados en F01."
+						]
+					}
 				]
 			},
 			{
@@ -658,6 +1265,22 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Decretos de respaldo de información financiera.", 
+						"formula": "Número de decretos emitidos para efectos de respaldo de registro y control.",
+						"meta": "200"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de decretos emitidos",
+						"estandar": [
+							"Registro estructurado y ordenado con los decretos de respaldo emitidos.",
+							"Implementado a través de un sistema de archivos, ordenado por naturaleza de decreto, fechas de generación, entre otros que sean pertinentes, para su seguimiento y contabilización."
+						]
 					}
 				]
 			},
@@ -673,6 +1296,22 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Elementos contables administrados.", 
+						"formula": "Número de elementos contables variados (impuestos, conciliaciones, etc.) sujetos a gestión.",
+						"meta": "130"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de elementos contables gestionados",
+						"estandar": [
+							"Registro estructurado y ordenado con validadores formales de elementos contables que sean gestionados por la Institución.",
+							"Organizados de forma que permita su contabilización y seguimiento."
+						]
+					}
 				]
 			},
 			{
@@ -686,6 +1325,22 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Rendición de cuentas.", 
+						"formula": "Número de cuentas rendidas de forma mensual por la Institución.",
+						"meta": "100"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de rendición de cuentas",
+						"estandar": [
+							"Registro estructurado y ordenado con validadores formales de cuentas que son rendidas por la Institución.",
+							"Organizados de forma que permita su contabilización y seguimiento."
+						]
 					}
 				]
 			}
@@ -710,6 +1365,22 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "contabilidad" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Registro financiero-contable periódico.", 
+						"formula": "Número de reportes periódicos generados con información financiera-contable de la Institución.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes financiero-contables periódicos",
+						"estandar": [
+							"Equivalente al definido en F01 de DAF-08.",
+							"Considerar datos específicos que den cuenta de las fechas de registro de la información."
+						]
+					}
 				]
 			},
 			{
@@ -732,6 +1403,21 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Informes financiero-contables emitidos hacia entidades externas.", 
+						"formula": "Número de reportes financiero-contables emitidos hacia entidades externas por la Institución.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes emitidos",
+						"estandar": [
+							"Deben ser acompañados también de validadores de entrega (correo electrónico, certificado de portal, etc.)."
+						]
+					}
 				]
 			},			
 			{
@@ -749,6 +1435,23 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Informes financiero-contables emitidos hacia actores internos.", 
+						"formula": "Número de reportes financiero-contables emitidos hacia entidades externas por la Institución.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes emitidos",
+						"estandar": [
+							"Deben responder a formatos estandarizados definidos desde DAF-FIN",
+							"Cada informa debe especificar objetivos y propósitos según los requerimientos de información generados desde los actores solicitantes",
+							"Deben ser acompañados también de validadores de entrega (ej.: correo electrónico)."
+						]
 					}
 				]
 			},
@@ -768,6 +1471,21 @@
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Informes financiero-contables emitidos hacia redes externas.", 
+						"formula": "Número de reportes financiero-contables emitidos hacia redes externas por la Institución.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes emitidos",
+						"estandar": [
+							"Deben ser acompañados también de validadores de solicitud de requerimiento y de entrega (correo electrónico, certificado de portal, etc.)."
+						]
+					}
 				]
 			},
 			{
@@ -786,6 +1504,30 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Inspección periódica de imputación de gastos e ingresos.", 
+						"formula": "Número de reportes emitidos periódicamente para identificar la validez de la imputación de gastos e ingresos.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes sobre inspección de imputación de gastos e ingresos.",
+						"estandar": [
+							"Emitidos periódicamente (bimensual) hacia actores a los cuales sea relevante informar respecto a normalidad y/o anomalías detectadas en las inspecciones.",
+							"Deben dar cuenta del universo de registros inspeccionados, entregando un análisis agregado respecto a la validez de las imputaciones.",
+							"Deben entregar conclusiones respecto a problemas y/o anomalías detectadas, causas identificadas yo supuestas, y propuestas de cursos de acción para su corrección.",
+							"Deben anexar datos utilizados para el análisis respectivo."
+						]
+					},
+					{
+						"nombre": "Validadores de entrega de reportes.",
+						"estandar": [
+							"Particularmente necesarios cuando se detecten problemas y sea necesario informar a los actores clave."
+						]
+					}
 				]
 			},
 			{
@@ -799,6 +1541,30 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Reporte periódico de gastos e ingresos.", 
+						"formula": "Número de reportes emitidos periódicamente para informar y controlar gastos e ingresos.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Balances mensuales de gastos e ingresos.",
+						"estandar": [
+							"Emitidos periódicamente (mensual) hacia actores a los cuales sea relevante informar respecto a las cuentas de gasto e ingreso respectivas.",
+							"Deben dar cuenta del universo de datos inspeccionados, entregando un análisis agregado respecto a sus características.",
+							"Deben entregar conclusiones respecto a problemas y/o anomalías detectadas, causas identificadas yo supuestas, y propuestas de cursos de acción para su corrección.",
+							"Deben anexar datos utilizados para el análisis respectivo."
+						]
+					},
+					{
+						"nombre": "Validadores de entrega de reportes.",
+						"estandar": [
+							"Particularmente necesarios cuando se detecten problemas y sea necesario informar a los actores clave."
+						]
 					}
 				]
 			},
@@ -818,6 +1584,16 @@
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe emitido.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe cumplir con los criterios establecidos en el Decreto 180.",
+							"Confeccionado desde fuentes oficiales institucionales"
+						]
+					}
 				]
 			},
 			{
@@ -835,6 +1611,16 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe emitido.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe cumplir con los criterios establecidos en el Decreto 180.",
+							"Confeccionado desde fuentes oficiales institucionales"
+						]
 					}
 				]
 			}
@@ -867,6 +1653,24 @@
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-admision-matricula", "admision-matricula" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Transacciones por asuntos estudiantiles.", 
+						"formula": "Número de transacciones registradas y gestionadas a través de caja única por asuntos estudiantiles.",
+						"meta": "100"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de transacciones vía caja única.",
+						"estandar": [
+							"Registro estructurado y ordenado de transacciones realizadas a través de caja única.",
+							"Cuantificable en base a la cantidad de transacciones registradas.",
+							"Se debe especificar información general de cada transacción, como fecha, naturaleza (ej.: asuntos estudiantiles), montos, emisores, etc.",
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+						]
+					}
 				]
 			},
 			{
@@ -880,6 +1684,22 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "contabilidad", "tesoreria" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Gestión de incumplimiento en cobranzas de estudiantes.", 
+						"formula": "Número de casos de estudiantes asociados a cobranza revisados y gestionados.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de gestión de casos de cobranza.",
+						"estandar": [
+							"Documentos que permitan verificar la gestión integral de los casos, desde las comunicaciones hasta la formalización de definiciones asociadas a la cobranza de los estudiantes.",
+							"Considerar diversos tipos de validadores según la naturaleza de cada caso (correos electrónicos, decretos, documentos formales, respaldos de pagarés, etc.)."
+						]
 					}
 				]
 			},
@@ -899,6 +1719,22 @@
 						"cai": "DAC-DE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}				
+				],
+				"ios":[
+					{
+						"nombre": "Gestión de beneficios estudiantiles", 
+						"formula": "Número de procesos de beneficios (becas, asignaciones, etc.) que son gestionados desde la perspectiva financiera.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de gestión de beneficios",
+						"estandar": [
+							"Equivalentes en términos de estándares a los definidos en F01 de DAC-14.",
+							"Considerar combinación de estos informes, y generación de anexos con información financiera pertinente."
+						]
+					}
 				]
 			},
 			{
@@ -912,6 +1748,24 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "contabilidad", "tesoreria" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Control administrativo del CAE", 
+						"formula": "Número de procesos de control administrativo del CAE emitidos desde la Institución.",
+						"meta": "2"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de administración del CAE",
+						"estandar": [
+							"Documentación simple que resume aspectos de gestión administrativa sobre el CAE que es realizada por la Institución.",
+							"Debe incorporar información cuantitativa y cualitativa respecto a registros contables y/o financieros asociados al CAE, gestiones realizadas con el crédito respectivo, transacciones pertinentes, alcance de las gestiones, universo de estudiantes y sus características para los cuales el CAE es administrado.",
+							"Considerar la emisión de reportes semestrales.",
+							"Los reportes deben entregar un análisis respecto a problemáticas, brechas u otros elementos que requieran revisión respecto a la gestión periódica de CAE, para la realización de las gestiones que sean pertinentes."
+						]
 					}
 				]
 			}
@@ -936,6 +1790,23 @@
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "finanzas", "tesoreria" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Conciliación de información contable sobre proyectos institucionales", 
+						"formula": "Número de conciliaciones gestionadas y desarrolladas respecto a proyectos institucionales.",
+						"meta": "200"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Rendiciones de proyectos institucionales",
+						"estandar": [
+							"Información detallada sobre rendiciones de proyectos institucionales que se realizan periódicamente.",
+							"Debe incorporar toda la información y validadores solicitados por las contrapartes para la rendición apropiada (informes, conciliaciones, certificados, etc.).",
+							"Entregar como registro ordenado según periodicidad establecida."
+						]
+					}
 				]
 			},
 			{
@@ -957,6 +1828,23 @@
 					{
 						"cai": "DPAC-PCI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Requerimientos de gestión financiera de proyectos institucionales", 
+						"formula": "Número de solicitudes atendidas y gestionadas sobre requerimientos de proyectos institucionales.",
+						"meta": "50"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de gestión de requerimientos sobre proyectos",
+						"estandar": [
+							"Documentación de respaldo sobre gestiones realizadas sobre los proyectos institucionales.",
+							"Puede ser entregado a través de cualquier verificador comunicacional o formal (correo electrónico, documentación, decretos, etc.)",
+							"Deben dar cuenta de la recepción de solicitudes, su procesamiento y notificación de gestiones realizadas con contrapartes solicitantes."
+						]
 					}
 				]
 			},
@@ -988,11 +1876,28 @@
 						"cai": "CI-LCJ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Gestión periódica de información de gastos e ingresos sobre proyectos", 
+						"formula": "Número de compilaciones de información sobre proyectos para los cuales se respaldan gastos e ingresos de forma periódica.",
+						"meta": "300"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de respaldos financiero-contables de proyectos",
+						"estandar": [
+							"Documentación de respaldo sobre gestiones realizadas sobre los proyectos institucionales, organizada de manera estructurada y ordenada de forma mensual.",
+							"Se debe incorporar documentación como validadores financieros, de transacciones, documentos de respaldo, entre otros que sean pertinentes para la validación.",
+							"Implementado a través de un sistema de archivos, ordenado por mes de gestión realizada, proyecto gestionado, tipo de documentación registrada, entre otros clasificadores pertinentes."
+						]
+					}
 				]
 			},
 			{
 				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Elaborar y validar periodicamente rendiciones de proyectos institucionales para su presentación a Mineduc",
+				"desc": "Elaborar y validar periódicamente rendiciones de proyectos institucionales para su presentación a Mineduc",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1006,6 +1911,21 @@
 						"cai": "DPAC-PCI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion" ]
 					}				
+				],
+				"ios":[
+					{
+						"nombre": "Rendiciones de proyectos institucionales", 
+						"formula": "Número de rendiciones de proyectos institucionales desarrolladas periódicamente.",
+						"meta": "200"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Rendiciones de proyectos institucionales",
+						"estandar": [
+							"Equivalente a lo definido en F01 (se pueden presentar de forma combinada)."
+						]
+					}
 				]
 			}
 		]
