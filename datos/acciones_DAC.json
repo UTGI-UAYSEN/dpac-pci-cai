@@ -561,7 +561,7 @@
 							"Especificación general (documento simple) con el detalle de los datos requeridos para seguimiento del proceso.",
 							"Emitido desde mandante (DAC_EPRE).",
 							"Debe especificar en detalle fechas, periodicidad y otros detalles que sean necesarios para las entregas.",
-							"Debe indicar usos que se daran a los datos que se entregarán (difusión, análisis interno, reportería, etc.)."
+							"Debe indicar usos que se darán a los datos que se entregarán (difusión, análisis interno, reportería, etc.)."
 						]
 					},
 					{
@@ -6566,7 +6566,7 @@
 	},
 	{
 		"id": "33", "area": "DAC",
-		"titulo": "Despliegue de sistema de gestión integral para la progresión académica de los estudiantes",
+		"titulo": "Despliegue de sistema de gestión para la progresión académica de los estudiantes",
 		"objetivo": "Implementar los primeros pasos de un modelo de gestión integral y los mecanismos que permitan hacer un seguimiento sistemático de la progresión académica, y desplegando desde ello procesos que favorezcan su nivelación y retención.",
 		"responsable": "DAC-EPRE",
 		"tipo": "Desarrollo",
@@ -6605,7 +6605,7 @@
 						"nombre": "Compilación estructurada de iniciativas realizadas.",
 						"plazo": "abr",
 						"estandar": [
-							"Detalle estructurado de actividades que han sido realizadas históricamente en materia de acompañamiento y nivelación estudiantil.",
+							"Detalle estructurado de actividades que han sido realizadas históricamente en materia de acompañamiento y nivelación estudiantil en la Institución.",
 							"Debe incorporar análisis que permita clasificar actividades compiladas según su naturaleza, contribución a mejoramiento de indicadores de progresión, impacto identificado y verificable en términos cuantitativos, percepción estudiantil y otras variables que sean pertinentes al tema.",
 							"Se debe diagnósticar la organización sistémica de las actividades, estableciendo en que circunstancias existe una vinculación explícita, institucionalizada y verificable entre ellas, y cuando estas vinculaciones están ausentes o no obedecen a un diseño intencionado.",
 							"Se debe identificar los componentes de datos e información que se gestionan desde las actividades, explicitando insumos y salidas de las actividades en materia de información, y explicitando (si corresponde) los usos que se da a esta información en los procesos de toma de decisión asociados a iniciativas de acompañamiento y nivelación estudiantil.",
@@ -6657,7 +6657,7 @@
 						"nombre": "Diseño de perfil de ingreso institucional.",
 						"plazo": "jun",
 						"estandar": [
-							"Debe responder integralmente a brechas y requerimientos identificados en el diagnóstico de H01 y a las necesidades de fortalecimiento en aspectos de acompañamiento y nivelación.",
+							"Debe responder integralmente a necesidades que sean identificadas en el diagnóstico de H01 y a las necesidades de fortalecimiento en aspectos de acompañamiento y nivelación.",
 							"Debe responder a un análisis específico de información asociada a la caracterización de estudiantes de primer año compilada desde el historial de periodos anteriores.",
 							"Debe estructurarse bajo conceptos y definiciones que sean coherentes con el Modelo Educativo Institucional.",
 							"Debe recoger antecedentes académicos y técnicos, basados en retroalimentación de actores académicos y de la gestión universitaria pertinentes.",
@@ -6706,7 +6706,7 @@
 						"estandar": [
 							"Considera aspectos teóricos y conceptuales para la implementación de procesos asociados al acompañamiento, nivelación y progresión académica, basados en las diversas etapas del proceso formativo, sus interfaces, insumos, resultados e interacciones relevantes.",
 							"Debe establecer el alcance de los diferentes mecanismos institucionales para propiciar la progresión académica bajo estándares de calidad y en coherencia al Modelo Educativo.",
-							"Debe confirmar los grupos de datos e información que son necesarios para caracterizar los conceptos fundamentales del proceso formativo que permitan orientar y evaluar mecanismos de acompañamiento.",
+							"Debe establecer los grupos de datos e información que son necesarios para caracterizar los conceptos fundamentales del proceso formativo que permitan orientar y evaluar mecanismos de acompañamiento.",
 							"Debe establecer los principales mecanismos de evaluación y retroalimentación de iniciativas de acompañamiento académico, que permitan la mejora continua en su diseño, implementación y operacionalización.",
 							"Debe esbozar un modelo de gestión para el acompañamiento académico, que identifique los flujos de coordinación entre el área y otras vinculadas estrechamente en la gestión del proceso formativo (desarrollo estudiantil, gestión curricular, etc.), incluyendo la interacción con actores académicos relevantes (ej.: Jefaturas de Carrera).",
 							"Define los principales mecanismos para la implementación y operacionalización del marco."
@@ -6936,7 +6936,7 @@
 							"Debe ser coherente e integrarse con el diseño del sistema asociado a esta acción.",
 							"Debe dar cuenta de la metodología para desarrollar la propuesta, estableciendo alternativas comparadas, actividades de recopilación de antecedentes realizadas, datos e información utilizados como insumo y alcance de desarrollo del mecanismo.",
 							"Debe proveer una recomendación fundada respecto a la oportunidad y conveniencia de avanzar en la implementación del mecanismo, considerando variables organizacionales, de financiamiento, capacidades institucionales requeridas y de su sostenibilidad en el tiempo.",
-							"Debe dar cuenta de impactos esperados en el mediano y largo plazo respecto a la implementación del mecanismos, la vinculación de esto con la realidad regional en los próximos periodos y otros factores contextuales que sean pertinentes para el análisis."
+							"Debe dar cuenta de impactos esperados en el mediano y largo plazo respecto a la implementación del mecanismos de soporte, la vinculación con la realidad regional en los próximos periodos y otros factores contextuales que sean pertinentes para el análisis."
 						]
 					}
 				]
@@ -6990,10 +6990,39 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Marco conceptual de actividades y desarrollo académico.",
+						"plazo": "jul",
+						"estandar": [
+							"Considera aspectos teóricos y conceptuales para la identificación, caracterización, clasificación, evaluación y seguimiento de actividades académicas, en el marco de todas las funciones misionales.",
+							"Debe entregar orientaciones para caracterizar la multidimensionalidad de las actividades académicas en la institución, dando orientaciones respecto a cómo es posible describir cada actividad realizada en la institución desde la perspectiva de su contribución a la docencia e investigación, y cómo se caracteriza la vinculación con el medio externo que produce cada actividad en dicho contexto.",
+							"Debe establecer los grupos de datos e información que son relevantes para describir cada actividad académica que la Institución desde la perspectiva de cada función misional, considerando métricas estándarizadas para medición (ej.: JCE) y orientando su aplicación hacia los procesos de planificación, calificación y jerarquización asociados al Reglamento General Académico.",
+							"Debe establecer los insumos que se generan desde la caracterización señalada hacia las necesidades de perfeccionamiento académico en las diversas funciones que formar parte de los procesos de desarrollo académico.",
+							"Su diseño debe nacer de una discusión de naturaleza académica, sometiéndose a retroalimentación de los actores académicos clave en la Institución.",
+							"Define los principales mecanismos para la implementación y operacionalización del marco."
+						]
+					},
+					{
+						"nombre": "Actas de validación y difusión de marco conceptual con actores clave.",
+						"plazo": "jul",
+						"estandar": [
+							"Considera la presentación y evaluación de actores estratégicos que adoptarán responsabilidades en la implementación del sistema.",
+							"Acompañado de material que explica los elementos críticos del sistema."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza marco conceptual.",
+						"plazo": "ago",
+						"estandar": [
+							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."
+						]
+					}
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Revisados y actualizados los mecanismos normativos vigentes asociados a desarrollo académico (ej.: Reglamento General Académico) acorde a modelo diseñado.",
 				"actores": [
 					{
@@ -7028,6 +7057,23 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto actualizado de Reglamento General Académico.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe responder integralmente a las definiciones del marco conceptual elaborado en H01.",
+							"Debe incorporar estrategia de implementación y ajuste en el corto y mediano plazo para su adaptación desde versiones anteriores."
+						]
+					},
+					{
+						"nombre": "Decretos de otra normativa relevante actualizados.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe considerar todo el cuerpo normativo que se relaciona y/o desprende del Reglamento General Académico, y que esté asociado con la gestión de actividades académicas en la Institución."
+						]
+					}
 				]
 			},
 			{
@@ -7057,6 +7103,20 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Proyección sistemática del cuerpo académico a largo plazo.",
+						"plazo": "dic",
+						"estandar": [
+							"Instrumento formal que especifica la proyección y su articulación con las funciones de docencia e investigación en los departamentos académicos, objetivando en base a cuantificación de JCE.",
+							"Debe ser coherente con marco conceptual elaborado en H01.",
+							"Debe considerar una proyección en el marco del Plan de Fortalecimiento Institucional, estableciendo lineamientos para la canalización de los recursos asociados en el fortalecimiento del cuerpo académico con horizonte de 10 años.",
+							"Debe estar sustentada en criterios de aseguramiento de la calidad para la consolidación del cuerpo académico y de claustros académicos según estándares de acreditación (CNA).",
+							"Propuesto y retroalimentado en coordinación con departamentos académicos.",
+							"Entregado en formato que facilite la manipulación de sus datos (ej.: excel)."
+						]
 					}
 				]
 			},
@@ -7096,6 +7156,17 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "sep",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -7134,11 +7205,22 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Caracterización de requerimientos de información.",
+						"plazo": "nov",
+						"estandar": [
+							"Compilación estructurada de datos e información relevante para los procesos asociados al protocolo.",
+							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales que define Análisis Institucional.",
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+						]
+					}
 				]
 			},
 			{
 				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementados, piloteados y evaluados mecanismos críticos del sistema desarrollado.",
+				"desc": "Implementados, piloteados y evaluados mecanismos complementarios del sistema desarrollado.",
 				"actores": [
 					{
 						"cai": "DAC-DA", "rol": "Responsable",
@@ -7164,6 +7246,36 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos",
+						"plazo": "ago",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para operacionalizar el modelo y complementar ajustes en desarrollo sobre normativa central (ej.: Reglamento General Académico).",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados.",
+						"plazo": "oct",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Coherentes con el índice que los específica.",
+							"Registro ordenado de documentos que compilan los mecanismos diseñados."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de aplicación de mecanismos",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación del modelo desarrollado y sus mecanismos.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el modelo mismo como de sus mecanismos derivados."
+						]
+					}
 				]
 			}
 		]
@@ -7177,7 +7289,7 @@
 		"tacticas": [			
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñada y validada la normativa de postgrado y sobre la participación de sus actores claves (académicos, estudiantes, etc.).",
+				"desc": "Diseñada y validada la normativa de postgrado relevante para la participación de sus actores claves (académicos, estudiantes, etc.).",
 				"actores": [					
 					{
 						"cai": "DAC-EPYEC", "rol": "Responsable",
@@ -7210,6 +7322,27 @@
 					{
 						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto del Reglamento General de Estudios de Postgrado.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe entregar orientaciones fundamentales para la operacionalización del postgrado en la institución, considerando aspectos como generación de oferta, matrículas, progresión, titulación, etc.",
+							"Debe responder integralmente al Modelo Educativo Institucional.",
+							"Debe establecer una pauta sobre los mecanismos complementarios que son necesarios para el funcionamiento del área, y los procedimientos que permiten su operacionalización.",
+							"Debe entregar lineamientos generales y extensibles sobre la articulación entre pregrado y postgrado, además de entregar un marco para la definición de mecanismos que articulen el postgrado con la investigación.",
+							"Debe incorporar lineamientos explícitos respecto a la incorporación de perspectivas de interdisciplinariedad en la oferta.",
+							"Debe ser coherente y considerar integralmente lineamientos de aseguramiento de la calidad desde entidades externas (CNA)."
+						]
+					},
+					{
+						"nombre": "Decretos de otra normativa relevante.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe considerar todo el cuerpo normativo que se relaciona y/o desprende del Reglamento General de Estudios de Postgrado, y que esté asociado con la gestión de actividades de postgrado en la Institución."
+						]
 					}
 				]
 			},			
@@ -7253,6 +7386,19 @@
 						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de priorización de programas de postgrado.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe ser coherente con estudio de demanda levantado en DAC-02, obedeciendo a un análisis cuantitativo y cualitativo de información relevante.",
+							"Debe obedecer a una discusión académica y con mirada externa respecto a oportunidades en el medio regional y nacional, con mirada interdisciplinaria, articulación con otras IES, además de la coherencia con la oferta de pregrado y la investigación realizada en la Institución por los departamentos académicos.",
+							"Debe considerar una aproximación incremental en la complejidad de la implementación de programas según nivel formativo (magíster, doctorado, etc.).",
+							"Debe estar sustentada en perspectivas de sostenibilidad, coherencia con estándares de aseguramiento de calidad y coherencia con capacidades institucionales que puedan ser abordadas en el mediano y largo plazo, especialmente del cuerpo académico.",
+							"Debe establecer orientaciones respecto a las proyecciones temporales de implementación de las alternativas analizadas, estableciendo una hoja de ruta que permita operacionalizar la priorización, y que sea coherente con la planificación estratégica de la Institución."
+						]
+					}
 				]
 			},
 			{
@@ -7283,6 +7429,17 @@
 						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta inicial de diseño de programa de postgrado.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe ser coherente con la priorización diseñada.",
+							"Debe seguir los estándares de diseño de programas establecidos en DAC y en coherencia al Modelo Educativo Institucional.",
+							"Debe considerarse como un avance a complementar y madurar en periodo siguiente."
+						]
+					}
 				]
 			}
 		]
@@ -7295,8 +7452,8 @@
 		"tipo": "Desarrollo",
 		"tacticas": [					
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñada y validada la normativa de educación continua y sobre la participación de sus actores claves (académicos, estudiantes, etc.).",
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada la normativa de educación continua para la participación de sus actores claves (académicos, estudiantes, etc.).",
 				"actores": [					
 					{
 						"cai": "DAC-EPYEC", "rol": "Responsable",
@@ -7325,6 +7482,26 @@
 					{
 						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto del Reglamento General de Educación Continua.",
+						"plazo": "may",
+						"estandar": [
+							"Debe entregar orientaciones fundamentales para la operacionalización de la educación continua en la institución, considerando aspectos como generación de oferta, matrículas, egreso, continuidad, etc.",
+							"Debe responder integralmente al Modelo Educativo Institucional.",
+							"Debe establecer una pauta sobre los mecanismos complementarios que son necesarios para el funcionamiento del área, y los procedimientos que permiten su operacionalización.",
+							"Debe entregar lineamientos generales y extensibles sobre la articulación de la educación continua con el pregrado y el postgrado, además de entregar un marco para la definición de mecanismos que articulen la educación y la formación continua.",
+							"Debe ser coherente y considerar integralmente lineamientos de aseguramiento de la calidad desde entidades externas (CNA)."
+						]
+					},
+					{
+						"nombre": "Decretos de otra normativa relevante.",
+						"plazo": "may",
+						"estandar": [
+							"Debe considerar todo el cuerpo normativo que se relaciona y/o desprende del Reglamento General de Educación Continua, y que esté asociado con la gestión de actividades de educación continua en la Institución."
+						]
 					}
 				]
 			},
@@ -7364,10 +7541,23 @@
 						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de priorización de programas de educación continua.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe ser coherente con estudio de demanda levantado en DAC-02, obedeciendo a un análisis cuantitativo y cualitativo de información relevante.",
+							"Debe obedecer a una discusión académica y con mirada externa respecto a oportunidades en el medio regional y nacional, articulación con otras IES, además de la coherencia con la oferta de pregrado y la investigación realizada en la Institución por los departamentos académicos.",
+							"Debe considerar una aproximación incremental en la complejidad de la implementación de programas según tipos de programa (cursos, diplomados, etc.).",
+							"Debe estar sustentada en perspectivas de sostenibilidad, coherencia con estándares de aseguramiento de calidad y coherencia con capacidades institucionales que puedan ser abordadas en el mediano y largo plazo, especialmente del cuerpo académico.",
+							"Debe establecer orientaciones respecto a las proyecciones temporales de implementación de las alternativas analizadas, estableciendo una hoja de ruta que permita operacionalizar la priorización, y que sea coherente con la planificación estratégica de la Institución."
+						]
+					}
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñados programas piloto de educación continua bajo lineamientos institucionales diseñados.",
 				"actores": [
 					{
@@ -7390,10 +7580,20 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de diseño de programas de educación continua.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe ser coherente con la priorización diseñada.",
+							"Debe seguir los estándares de diseño de programas establecidos en DAC y en coherencia al Modelo Educativo Institucional.",
+							"Considerar un documento por programa a proponer."
+						]
+					}
 				]
 			},
-			{				
-
+			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Avanzada la implementación de programas piloto de educación continua bajo lineamientos institucionales diseñados.",
 				"actores": [
@@ -7422,12 +7622,42 @@
 						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
 					},
 					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},
+					{
 						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentos de trabajo sobre programas implementados.",
+						"plazo": "ene",
+						"estandar": [
+							"Documentos bajo estándares DAC que den cuenta de la implementación de los programas priorizados.",
+							"Puede incorporar elementos como: orientaciones de desarrollo de cursos, programas y/o calendarios de curso, material de estudios, listas de inscripciones, etc."
+						]
+					},
+					{
+						"nombre": "Normativa específica sobre programas implementados.",
+						"plazo": "ene",
+						"estandar": [
+							"Decretos u otros validadores que den cuenta de la formalización de normativa específica de los programas implementados.",
+							"Debe ser coherente con normativa marco institucional."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "ene",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos asociados a programas de educación continua en implementación.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de los programas."
+						]
 					}
 				]
 			}
@@ -7441,7 +7671,7 @@
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Identificados y normalizados los procesos críticos para la implementación de programas de postgrado y educación continua.",
 				"actores": [
 					{
@@ -7484,11 +7714,22 @@
 						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos",
+						"plazo": "may",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñada y validada la normativa para la implementación de programas de postgrado y educación continua en coherencia al Modelo Educativo.",
+				"desc": "Diseñados e implementados mecanismos operativos de soporte para la implementación de programas de postgrado y educación continua.",
 				"actores": [					
 					{
 						"cai": "DAC-EPYEC", "rol": "Responsable",
@@ -7526,6 +7767,27 @@
 						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar la gestión documental",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "jul",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -7533,12 +7795,12 @@
 				"desc": "Levantados requerimientos de modernización tecnológica para dar soporte a la implementación de programas de postgrado y educación continua.",
 				"actores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},				
-					{
-						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"cai": "DAC-EPYEC", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "educacion-continua" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
@@ -7568,24 +7830,43 @@
 						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Evaluación de requerimientos tecnológicos",
+						"plazo": "ago",
+						"estandar": [
+							"Documento simple que sintetiza necesidades funcionales y procedimentales respecto al soporte tecnológico que requiere educación continua y postgrado.",
+							"Debe considerar integralmente aspectos de procesos levantados desde H01.",
+							"Incorpora diagnóstico y evaluación de alternativas, considerando externalización.",
+							"Incorpora miradas desde la perspectiva de aseguramiento de calidad del área TGI.",
+							"Propone criterios para escoger alternativas y formas de implementación."
+						]
+					},
+					{
+						"nombre": "Términos de referencia de servicios externos",
+						"plazo": "ago",
+						"estandar": [
+							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
+							"En coherencia con evaluación realizada.",
+							"Establece productos, plazos esperados, roles y responsabilidades.",
+							"Considera asesoría de DPAC-TGI."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Ajustadas las herramientas tecnológicas existentes para dar soporte a requerimientos críticos en la implementación de postgrado y educación continua.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "plataforma" ]
-					},
-					{
-						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"cai": "DAC-EPYEC", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado", "educacion-continua" ]
-					},					
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "desarrollo", "plataforma" ]
+					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
@@ -7602,6 +7883,17 @@
 						"cai": "DAC-SA", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Validadores de mecanismos tecnológicos incorporados",
+						"plazo": "dic",
+						"estandar": [
+							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
+							"Coherente con TdRs desarrollados.",
+							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
+						]
+					}
 				]
 			}
 		]
@@ -7609,7 +7901,7 @@
 	{
 		"id": "38", "area": "DAC",
 		"titulo": "Despliegue de mecanismos de coordinación interna y externa para postgrado y educación continua.",
-		"objetivo": "Desarrollar gestiones para coordinar mediante mecanismos institucionalizados el área de postgrado y educacción continua con actores internos y externos, para su retroalimentación y desarrollo integrado.",
+		"objetivo": "Desarrollar gestiones para coordinar mediante mecanismos institucionalizados el área de postgrado y educación continua con actores internos y externos, para su retroalimentación y desarrollo integrado.",
 		"responsable": "DAC-EPYEC",
 		"tipo": "Desarrollo",
 		"tacticas": [
@@ -7653,6 +7945,20 @@
 						"cai": "DPAC", "rol": "Consultado",
 						"capacidades": [ "direccion" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de propuesta sobre orgánica institucional en la materia",
+						"plazo": "may",
+						"estandar": [
+							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para la institución para la coordinación interna y externa de postgrado y educación continua.",
+							"Debe incorporar elementos de coordinación con el Consejo Social e instancias relacionadas.",
+							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+							"Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
+							"Debe dar cuenta de un diálogo con actores estratégicos de la institución y coherencia con el contexto normativo que influye.",
+							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+						]
+					}
 				]
 			},
 			{
@@ -7683,6 +7989,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenios formalizados",
+						"plazo": "sep",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
+					}
 				]
 			},
 			{
@@ -7705,6 +8023,16 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de actividades desarrolladas",
+						"plazo": "ene",
+						"estandar": [
+							"Debe responder integralmente a compromisos establecidos en los convenios respectivos para el periodo.",
+							"Debe incorporar evidencias adicionales respecto a realización de actividades (programas, difusión, datos, etc.)"
+						]
+					}
 				]
 			},
 			{
@@ -7718,6 +8046,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validador de incorporación",
+						"plazo": "may",
+						"estandar": [
+							"Evidencia escrita (correo, documento firmado, etc.) que permita dar cuenta de la incorporación de la Universidad en la red."
+						]
+					},
+					{
+						"nombre": "Minutas de participación en redes",
+						"plazo": "dic",
+						"estandar": [
+							"Resúmenes sobre actividades realizadas en el contexto de las redes de colaboraciones en las cuales el equipo EPYEC haya participado.",
+							"Pueden servir actas emitidas por las redes respectivas, idealmente explicitando la participación de la Institución en ellas",
+							"Debe agregar antecedentes y orientaciones respecto a como la participación del equipo EPYEC se retroalimenta con las actividades realizadas en las redes respectivas."
+						]
 					}
 				]
 			}
@@ -7762,6 +8108,21 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta metodológica",
+						"plazo": "mar",
+						"estandar": [
+							"Debe especificar principales actividades, etapas y productos asociados al proceso.",
+							"Debe detallar sobre los criterios que aplicarán en las definiciones clave, clasificándolos en términos académicos, financieros, contexto regional, oportunidad regional y nacional, capacidades instaladas y otros que sean pertinentes.",
+							"Debe indicar información y fuentes necesarias para realizar los análisis respectivos.",
+							"Debe establecer modelo de gestión tanto con actores internos de la Universidad como con actores externos para la definición de las directrices que permitirán establecer la oferta propuesta.",
+							"Debe proponer cronograma de realización en el contexto del periodo en curso.",
+							"Retroalimentado por actores estratégicos y académicos relevantes.",
+							"Formato de documento según estándares DAC."
+						]
+					}
 				]
 			},
 			{
@@ -7784,19 +8145,33 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentos de diseño actualizados",
+						"plazo": "may",
+						"estandar": [
+							"Considerar un documento de trabajo por cada programa a revisar.",
+							"Deben dar cuenta de los ajustes incorporados en función al contexto actual.",
+							"Según corresponda, deben establecer insumos pendientes o necesarios de levantar para un diseño integral y que no hayan sido considerados en procesos anteriores.",
+							"Deben incorporar una actualización de actores claves en el proceso de diseño e implementación, sus roles y responsabilidades.",
+							"Debe incorporar  propuesta de planificación para la implementación proyectada a hitos del periodo en que la Institución debe reportar su oferta para el periodo siguiente.",
+							"Basados en estándares de documentación DAC."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Aplicada una valorización y costeo preliminar de la oferta de pregrado diseñada en los periodos anteriores por medio de mecanismos institucionales.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
 					},
 					{
-						"cai": "DAF-FIN", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
+						"cai": "DAC-EPRE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
@@ -7805,6 +8180,17 @@
 					{
 						"cai": "DAC-SA", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Costeo y proyección financiera de oferta",
+						"plazo": "ago",
+						"estandar": [
+							"Documentación y artefactos de costeo acorde a metodologías institucionales actualmente instaladas y/o en desarrollo (ver DAC-24).",
+							"Acompañado de datos e información usada para su generación.",
+							"Debe especificar supuestos y otros elementos aplicados en la proyección en función a implementación incipiente de nueva oferta y/o carencia de datos necesarios."
+						]
 					}
 				]
 			},			
@@ -7836,6 +8222,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acta de definición",
+						"plazo": "jun",
+						"estandar": [
+							"Debe dar cuenta de decisiones tomadas respecto a nueva oferta que se proveerá en próximo periodo.",
+							"Debe incorporar aspectos tratados, insumos de definición, asistentes a la definición y decisiones finales.",
+							"Participantes deben incorporar actores estratégicos y académicos relevantes.",
+							"Acompañar de documentación e insumos entregados en las definiciones."
+						]
+					}
 				]
 			},
 			{
@@ -7847,7 +8245,7 @@
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -7861,6 +8259,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Términos de referencia sobre estudio.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe considerar necesidades institucionales en la materia y diagnósticos requeridos.",
+							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Debe establecer productos esperados, plazos y condiciones generales."
+						]
+					},
+					{
+						"nombre": "Estudio desarrollado y plan de uso.",
+						"plazo": "sep",
+						"estandar": [
+							"Debe ser coherente con TdRs establecidos.",
+							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional."
+						]
 					}
 				]
 			},
@@ -7891,6 +8310,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de priorización para diseño de nuevos programas de pregrado.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe ser coherente con estudio de demanda levantado en H05, obedeciendo a un análisis cuantitativo y cualitativo de información relevante.",
+							"Debe obedecer a una discusión académica y con mirada externa respecto a oportunidades en el medio regional y nacional, articulación con otras IES, además de la coherencia con la oferta de pregrado existente y la investigación realizada en la Institución por los departamentos académicos.",
+							"Debe estar sustentada en perspectivas de sostenibilidad, coherencia con estándares de aseguramiento de calidad y coherencia con capacidades institucionales que puedan ser abordadas en el mediano y largo plazo, especialmente del cuerpo académico.",
+							"Debe establecer orientaciones respecto a las proyecciones temporales de implementación de las alternativas analizadas, estableciendo una hoja de ruta que permita operacionalizar la priorización, y que sea coherente con la planificación estratégica de la Institución."
+						]
 					}
 				]
 			},
@@ -7925,6 +8356,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acta de definición",
+						"plazo": "ene",
+						"estandar": [
+							"Debe dar cuenta de decisiones tomadas respecto a nueva oferta que se diseñará en próximo periodo.",
+							"Debe incorporar aspectos tratados, insumos de definición, asistentes a la definición y decisiones finales.",
+							"Participantes deben incorporar actores estratégicos y académicos relevantes.",
+							"Acompañar de documentación e insumos entregados en las definiciones."
+						]
 					}
 				]
 			}
@@ -7969,6 +8412,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructurada de iniciativas realizadas.",
+						"plazo": "abr",
+						"estandar": [
+							"Detalle estructurado de actividades que han sido realizadas históricamente en el contexto de la docencia y que se articulen con la investigación.",
+							"Debe incorporar análisis que permita clasificar actividades compiladas según su naturaleza, contribución a mejoramiento de indicadores de docencia y de investigación, participación estudiantil y del cuerpo académico, entre otras variables que sean pertinentes al tema.",
+							"Se debe diagnósticar el nivel de formalización e institucionalización de las actividades compiladas, la verificabilidad de aquello, estableciendo cuando obedece o no a un diseño intencionado.",
+							"Se debe identificar los componentes de datos e información que se gestionan desde las actividades, explicitando insumos y salidas de las actividades en materia de información, y explicitando (si corresponde) los usos que se da a esta información en los procesos asociados a docencia e investigación.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar una revisión, propuesta y diseño de mecanismos en la materia.",
+							"Presentado en formato de informe y/o compilación de datos según conveniencia."
+						]
+					}
 				]
 			},
 			{
@@ -7994,6 +8451,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decretos que regulan instancias de coordinación.",
+						"plazo": "may",
+						"estandar": [
+							"Debe dar cuenta de objetivos de la instancia de coordinación y como tributan a la articulación esperada.",
+							"Deben explicitar mecanismos internos de gestión, coordinación y funcionamiento, tanto para necesidades emergentes como para actividades periódicas.",
+							"Se debe considerar al menos roles asociados, sus responsabilidades, mecanismos de elección, mecanismos para la toma de decisiones y productos que se deben generar desde las instancias de coordinación."
+						]
 					}
 				]
 			},
@@ -8037,6 +8505,26 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos operativos",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos asociados a la promoción y operacionalización de la articulación entre la docencia e investigación.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ago",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -8066,6 +8554,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los mecanismos normativos como operativos."
+						]
 					}
 				]
 			}
@@ -8106,6 +8606,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructurada de iniciativas realizadas.",
+						"plazo": "may",
+						"estandar": [
+							"Detalle estructurado de actividades que han sido realizadas históricamente en el contexto de la movilidad estudiantil.",
+							"Debe incorporar análisis que permita clasificar actividades compiladas según su naturaleza, contribución a mejoramiento de indicadores de progresión, participación estudiantil y del cuerpo académico, datos sobre percepción de experiencias, aporte al proceso formativo, entre otras variables que sean pertinentes al tema.",
+							"Se debe diagnósticar el nivel de formalización e institucionalización de las actividades compiladas, la verificabilidad de aquello, estableciendo cuando obedece o no a un diseño intencionado.",
+							"Se debe identificar los componentes de datos e información que se gestionan desde las actividades, explicitando insumos y salidas de las actividades en materia de información, y explicitando (si corresponde) los usos que se da a esta información en los procesos asociados a docencia.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar una revisión, propuesta y diseño de mecanismos en la materia.",
+							"Presentado en formato de informe y/o compilación de datos según conveniencia."
+						]
+					}
 				]
 			},
 			{
@@ -8119,6 +8633,19 @@
 					{
 						"cai": "DAC-SA", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructurada de oportunidades.",
+						"plazo": "jun",
+						"estandar": [
+							"Puede complementar productos de H01.",
+							"Debe considerar iniciativas asociadas al fortalecimiento mediante proyectos institucionales.",
+							"Debe considerar clasificación de otras Instituciones según su naturaleza (estatal, regional, tamaño de estudiantes, zona extrema, etc.).",
+							"Debe clasificar según características de las actividades que se pueden realizar (docencia, investigación, pasantías, visitas, trabajos de tesis, prácticas, etc.).",
+							"Debe incorporar un análisis de la información presentada y establecer propuestas de corto y mediano plazo en función a la realidad Institucional."
+						]
 					}
 				]
 			},			
@@ -8158,6 +8685,26 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para movilidad estudiantil",
+						"plazo": "jun",
+						"estandar": [
+							"Listado simple de mecanismos asociados a la promoción y operacionalización de la movilidad estudiantil a nivel nacional e internacional.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ago",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -8188,6 +8735,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenios formalizados",
+						"plazo": "sep",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
+					}
 				]
 			},
 			{
@@ -8217,6 +8776,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los mecanismos normativos como operativos."
+						]
 					}
 				]
 			}
