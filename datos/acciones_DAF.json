@@ -1949,6 +1949,32 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Traslado de bienes de uso", 
+						"formula": "Número de traslados de bienes de uso realizados en sedes universitarias.",
+						"meta": "120"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de servicios generales",
+						"estandar": [
+							"Registro estructurado y ordenado de servicios generales realizados en la institución.",
+							"Debe ser cuantificable en número de servicios realizados para el personal de colaboración y académico.",
+							"Cada servicio registrado debe ser caracterizado según sus características, considerando tipo de servicio (traslado de equipamiento, traslado en vehículo, reparación, trámite, compra, etc.), fecha de realización, encargado, solicitante, fecha de solicitud, fecha de atención, fecha de completitud, estado, entre otros que sean pertinentes para su seguimiento y gestión.",
+							"Debe ser entregado en formato que permita el análisis de datos (ej.: excel)."
+						]
+					},
+					{
+						"nombre": "Verificadores de servicios efectuados",
+						"estandar": [
+							"Cualquier tipo de validador comunicacional que de cuenta de la completitud y acuso de servicio general efectuado.",
+							"Debe dar cuenta de la aprobación de persona que recibe servicio respectivo (ej.: correo electrónico confirmando servicio realizado).",
+							"Validadores deben estar asociados y ser consistentes con información de la bitácora respectiva."
+						]
+					}
 				]
 			},
 			{
@@ -1963,6 +1989,27 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Tramites externos", 
+						"formula": "Número de trámites externos realizados en apoyo al personal de colaboración.",
+						"meta": "80"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de servicios generales",
+						"estandar": [
+							"Equivalente al definido en F01 (pueden trabajarse en conjunto)."
+						]
+					},
+					{
+						"nombre": "Verificadores de servicios efectuados",
+						"estandar": [
+							"Equivalente al definido en F01 (pueden trabajarse en conjunto)."
+						]
+					}
 				]
 			},
 			{
@@ -1976,6 +2023,34 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Satisfacción con servicios generales realizados", 
+						"formula": "Porcentaje de encuestas de percepción sobre servicios generales efectuados que tienen resultados satisfactorios.",
+						"meta": "90%"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseños de encuestas de satisfacción de servicios generales",
+						"estandar": [
+							"Estructura de encuesta que de cuenta de recopilación de percepción desde personal de la institución respecto a servicios generales proporcionados.",
+							"Puede ser uno o varios diseños de encuesta, según estos se vayan ajustando en el tiempo.",
+							"Encuestas deben ser diseñadas pensando en su aplicación semestral, para su envío al personal de colaboración y académico de la Institución.",
+							"Diseños deben ser retroalimentados con DPAC-GC."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de encuestas de satisfacción de servicios generales",
+						"estandar": [
+							"Documento simple que de cuenta de los principales resultados agregados de las encuestas de satisfacción.",
+							"Considerar la emisión de informes semestrales, abordando la información recopilada de los meses respectivos.",
+							"Deben considerarse métricas que apunten a la eficiencia en la entrega de los servicios (ej.: tiempos de resolución) y calidad del servicio entregado (opinión de personal).",
+							"Se debe proporcionar un análisis cualitativo y cuantitativo de la información, establecimiento principales logros y brechas identificadas desde los datos.",
+							"Se debe plantear un plan de mejora respecto a las brechas identificadas de cara al informe siguiente que se generará."
+						]
 					}
 				]
 			}
@@ -2000,6 +2075,30 @@
 						"cai": "DAF-INSG", "rol": "Consultado",
 						"capacidades": [ "infraestructura", "riesgos" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Reparaciones menores efectuadas", 
+						"formula": "Número de reparaciones menores efectuadas a las instalaciones universitarias.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de servicios generales",
+						"estandar": [
+							"Equivalente al definido en F01 de DAF-12 (pueden trabajarse en conjunto).",
+							"Se puede clasificar las reparaciones menores según su tipo (canaletas, pintura, etc.)"
+						]
+					},
+					{
+						"nombre": "Minutas de reparaciones efectuadas",
+						"estandar": [
+							"Reporte breve y simple en donde se incorpora el detalle de las reparaciones efectuadas.",
+							"Debe indicar objeto de la reparación, estado previo y estado final post-reparación.",
+							"Reporte debe adjuntar evidencia visual de los ajustes (ej.: fotografías del antes y después)."
+						]
+					}
 				]
 			},
 			{
@@ -2014,6 +2113,30 @@
 						"cai": "DAF-INSG", "rol": "Consultado",
 						"capacidades": [ "infraestructura", "riesgos" ]
 					}
+				],
+				"ios":[
+					{
+						"nombre": "Reparaciones mayores efectuadas", 
+						"formula": "Número de reparaciones mayores efectuadas a las instalaciones universitarias.",
+						"meta": "2"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de servicios generales",
+						"estandar": [
+							"Equivalente al definido en F01 de DAF-12 (pueden trabajarse en conjunto).",
+							"Se puede clasificar las reparaciones mayores según su tipo (canaletas, pintura, etc.)"
+						]
+					},
+					{
+						"nombre": "Minutas de reparaciones efectuadas",
+						"estandar": [
+							"Reporte detallado en donde se incorpora toda la información respecto a las reparaciones efectuadas.",
+							"Debe indicar objeto de la reparación, estado previo y estado final post-reparación, servicios contratados (si corresponde), materiales y otros elementos adquiridos, costos, plan de trabajo (si aplica), entre otros antecedentes pertinentes.",
+							"Reporte debe adjuntar evidencia visual de los ajustes (ej.: fotografías del antes y después)."
+						]
+					}
 				]
 			},
 			{
@@ -2027,6 +2150,31 @@
 					{
 						"cai": "DAF-INSG", "rol": "Consultado",
 						"capacidades": [ "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Inspecciones sobre condiciones sanitarias ambientales", 
+						"formula": "Número de inspecciones sobre condiciones sanitarias ambientales realizadas en las instalaciones universitarias.",
+						"meta": "2"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de inspecciones sanitarias ambientales",
+						"estandar": [
+							"Informes que detallan aspectos metodológicos, de aplicación y resultados sobre inspecciones de condiciones sanitarias ambientales en los distintos campus de la Universidad.",
+							"Considerar la emisión de un informe semestral.",
+							"Debe entregar un detalle de las inspecciones para cada recinto relevante.",
+							"Detalle de las inspecciones debe responder integralmente a lo explicitado en el Decreto supremo 594.",
+							"Se deben entregar antecedentes cuantitativos y cualitativos respecto a los resultados obtenidos, indicando logros y brechas identificadas.",
+							"Se debe entregar un plan de mejora en función a las brechas identificadas.",
+							"Acompañar de validadores de entrega de informes hacia actores estratégicos pertinentes."
+						]
 					}
 				]
 			},
@@ -2049,6 +2197,22 @@
 					{
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Gestión de estados de pagos", 
+						"formula": "Número de estados de pago cursados para efecto de diseño, construcción y mantención de instalación.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de estados de pagos",
+						"estandar": [
+							"Validadores formales que den cuenta de que se han cursado los distintos estados de pago para los fines correspondientes.",
+							"Debe rendirse un validador por cada estado de pago cursado."
+						]
 					}
 				]
 			},
@@ -2075,6 +2239,16 @@
 					{
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Minuta de reparación efectuada",
+						"plazo": "ene",
+						"estandar": [
+							"Equivalente o parte de las minutas definidas en F02.",
+							"Como parte de la minuta, debe darse cuenta de que las reparaciones y mantenciones deben permitir entregar las instalaciones según fueron recepcionadas, para lo cual debe además entregarse el detalle de los estándares con los cuales dichas instalaciones fueron recibidas."
+						]
 					}
 				]
 			},
@@ -2106,6 +2280,16 @@
 						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Minuta de reparación efectuada",
+						"plazo": "dic",
+						"estandar": [
+							"Equivalente o parte de las minutas definidas en F02.",
+							"Como parte de la minuta, debe darse cuenta de como las reparaciones tributan al uso de las instalaciones según los requerimientos emitidos desde DI."
+						]
+					}
 				]
 			}
 		]
@@ -2119,28 +2303,6 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantado el macroproceso sobre gestión de personas con sus elementos prioritarios.",
-				"actores": [
-					{
-						"cai": "DPAC-GC", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Normalizados los procesos prioritarios asociados a aspectos administrativos de la gestión de personas.",
 				"actores": [
 					{
@@ -2171,10 +2333,21 @@
 						"cai": "CI-LCJ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "may",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Normalizados los procesos prioritarios asociados a la evaluación y capacitación de personas.",
 				"actores": [
 					{
@@ -2197,11 +2370,22 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "jun",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Normalizados los procesos prioritarios a la incorporación, promoción y desvinculacion de personas.",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Normalizados los procesos prioritarios a la incorporación, promoción y desvinculación de personas.",
 				"actores": [
 					{
 						"cai": "DPAC", "rol": "Aprobador",
@@ -2223,10 +2407,21 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "jul",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñada y validada propuesta de diseño de mecanismos críticos en apoyo a procesos consolidados en gestión de personas.",
 				"actores": [					
 					{
@@ -2245,6 +2440,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar los procesos de desarrollo de personas",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "oct",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			}
 		]		
@@ -2261,38 +2477,52 @@
 				"desc": "Identificados y sistematizados los requerimientos para dar soporte tecnológico a los procesos administrativos de gestión de persona.",
 				"actores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "plataforma" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Consultado",
+						"cai": "DAF-DP", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},					
+					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos tecnológicos.",
+						"plazo": "jul",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
+							"Debe tener coherencia con evaluación de procesos en DAF-14.",
+							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones."
+						]
+					},
+					{
+						"nombre": "Términos de referencia",
+						"plazo": "ago",
+						"estandar": [
+							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
+							"En coherencia con evaluación realizada.",
+							"Establece productos, plazos esperados, roles y responsabilidades.",
+							"Debe incorporar aspectos de integraciones técnicas con sistemas institucionales que existan en la institución (ver H02).",
+							"Considera asesoría general de DPAC-TGI."
+						]
 					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Evaluadas integraciones técnicas entre sistemas (ej.: SIAPER) que apoyen la gestión de información asociada a procesos de gestión de personas.",
+				"desc": "Evaluadas integraciones técnicas entre sistemas (ej.: SIAPER, FIN700) que apoyen la gestión de información asociada a procesos de gestión de personas.",
 				"actores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "plataforma" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Consultado",
+						"cai": "DAF-DP", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "SG-JUR", "rol": "Consultado",
@@ -2302,23 +2532,41 @@
 						"cai": "CI-LCJ", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación técnica de integración.",
+						"plazo": "oct",
+						"estandar": [
+							"Basa en estándares técnicos y TdRs en H01.",
+							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementadas y evaluadas las mejoras técnológicas que apoyen los procesos de gestión de personas.",
+				"desc": "Implementadas y evaluadas las mejoras tecnológicas que apoyen los procesos de gestión de personas.",
 				"actores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "plataforma" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Consultado",
+						"cai": "DAF-DP", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Validadores de mecanismos tecnológicos incorporados",
+						"plazo": "dic",
+						"estandar": [
+							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
+							"Coherente con TdRs desarrollados.",
+							"Debe dar cuenta de implementación de integraciones requeridas según elementos definidos en H02.",
+							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
+						]
 					}
 				]
 			}
@@ -2347,6 +2595,36 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Propuesta de metodología",
+						"plazo": "mar",
+						"estandar": [
+							"Documento que presenta aspectos metodológicos y operativos de la sistematización de perfiles de cargo.",
+							"Debe establecer principales etapas, roles, participaciones, responsables, calendario y otros pertinentes a la metodología.",
+							"Debe explicitar productos a generar e impacto en los procesos de gestión de personas que tendrán.",
+							"Debe dar cuenta de un plan de trabajo y uso de los productos de forma posterior a la sistematización de los perfiles, basado en procesos de contratación, análisis de capacidades y perfeccionamiento, entre otros.",
+							"Metodología independiente de aplicación interna o externalización."
+						]
+					},
+					{
+						"nombre": "Actas de difusión con personal de colaboración",
+						"plazo": "abr",
+						"estandar": [
+							"Un acta por sesión de difusión y/o grupo de funcionarios/as.",
+							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
+							"Acta debe indicar contenidos difundidos y observaciones recopiladas."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "abr",
+						"estandar": [
+							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias."
+						]
+					}
 				]
 			},
 			{
@@ -2365,6 +2643,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Mecanismos específicos asociados a la aplicación de la metodología.",
+						"plazo": "ago",
+						"estandar": [
+							"Considera productos específicos asociados al proceso de levantamiento de perfiles que sirvan a la vez de insumo para su confección.",
+							"Debe responder integralmente a lo indicado en la metodología respectiva.",
+							"Considera elementos como Diccionario de competencias, Mapa de Cargos críticos, entre otros."
+						]
+					}
 				]
 			},
 			{
@@ -2378,6 +2667,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Perfiles de cargo sistematizados.",
+						"plazo": "sep",
+						"estandar": [
+							"Registro estructurado y ordenado de los documentos de perfiles de cargo",
+							"Un documento detallado por cada perfil sistematizado de la institución.",
+							"Deben responder integralmente a la metodología aplicada y deben ser coherentes con los mecanismos específicos establecidos en H02.",
+							"Se debe explicitar el universo de perfiles que fue abordado en la Institución, y eventualmente cuales requerirán ser trabajados en el futuro."
+						]
 					}
 				]
 			},
@@ -2397,6 +2698,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Plan de uso y actualización de perfiles de cargo.",
+						"plazo": "nov",
+						"estandar": [
+							"Documento detallado que especifica estrategia de actualización periódica y uso de los perfiles levantados.",
+							"Debe dar cuenta de la aplicación sistemática de los perfiles en los procesos y otros mecanismos levantados de DAF-14.",
+							"Debe explicitar actividades periódicas (anuales) para actualizar y/o extender los perfiles existentes, y en función de eso, replicar y perfeccionar la metodología respectiva.",
+							"Debe establecer plan de trabajo anual para estos fines, con fechas, hitos y productos, de forma que pueda ser entregado de insumo a los procesos de planificación anual."
+						]
+					}
 				]
 			}
 		]
@@ -2404,7 +2717,7 @@
 	{
 		"id": "17", "area": "DAF",
 		"titulo": "Despliegue de mecanismos para el perfeccionamiento del personal universitario.",
-		"objetivo": "Implementar mecanismos, desde las definciones de procesos debidamente sistematizados, que permitan identificar necesidades de capacitación y perfeccionamiento del personal de colaboración universitario.",
+		"objetivo": "Implementar mecanismos, desde las definiciones de procesos debidamente sistematizados, que permitan identificar necesidades de capacitación y perfeccionamiento del personal de colaboración universitario.",
 		"responsable": "DAF-DP",
 		"tipo": "Desarrollo",
 		"tacticas": [
@@ -2427,6 +2740,29 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos"  ]
+					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Orientaciones estratégicas para perfeccionamiento del personal.",
+						"plazo": "may",
+						"estandar": [
+							"Documento detallado que entrega orientaciones respecto a objetivos, necesidades y mecanismos de priorización respecto a procesos de perfeccionamiento del personal de colaboración.",
+							"Elaborado desde criterios técnicos (detallados en el documento) para su validación a nivel estratégico.",
+							"Debe recoger la visión estratégica de los actores pertinentes, de forma que complemente y oriente los criterios técnicos establecidos.",
+							"Debe explicitar la incorporación de criterios académicos en el perfeccionamiento, desde la perspectiva de como el personal de colaboración de la institución se especializa desde experiencias asociadas a la gestión de Instituciones de Educación Superior Estatales y con pertinencia regional.",
+							"Debe consolidarse en coherencia los procesos en desarrollo en DAF-14.",
+							"Debe establecer a priori una estrategia de actualización e integración con el trabajo de perfiles de cargo se se hará en el periodo desde DAF-16."
+						]
+					},
+					{
+						"nombre": "Acta de validación de orientaciones estratégicas.",
+						"plazo": "may",
+						"estandar": [
+							"Debe dar cuenta de presentación de orientaciones diseñadas hacia actores estratégicos y aprobación de las mismas.",
+							"Especifica participantes, temás y observaciones recogidas desde sesiones realizadas.",
+							"Acompañado de material u otros elementos de apoyo usados en las presentaciones."
+						]
 					}
 				]
 			},
@@ -2454,6 +2790,16 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Decreto de reglamento de perfeccionamiento del personal.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe responder integralmente a las orientaciones estratégicas levantadas y a los procesos normalizados en DAF-14.",
+							"Debe establecer roles y responsabilidades del reglamento, mecanismos de apoyo, procedimientos periódicos, su calendario anual y otros elementos pertinentes para la operacionalización del tema."
+						]
+					}
 				]
 			},
 			{
@@ -2472,11 +2818,23 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Plan de perfeccionamiento piloto.",
+						"plazo": "ago",
+						"estandar": [
+							"Plan de corto plazo para implementar un conjunto de iniciativas de perfeccionamiento a modo de evaluación de procesos y normativas asociada.",
+							"Debe tomar prioridades generales levantadas desde las orientaciones estratégicas en H01.",
+							"Plan debe responder integralmente a los elementos descritos en el reglamento de H02, incluyendo plazos, proceso y productos.",
+							"Debe incluir cronograma de actividades, roles, responsables y otros elementos de planificación que sean pertinentes."
+						]
+					}
 				]
 			},
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementado y evaluado el plan de perfeccionamiento de forma inicial.",
+				"desc": "Implementado y evaluado el plan de perfeccionamiento piloto de forma inicial.",
 				"actores": [
 					{
 						"cai": "DAF-DP", "rol": "Responsable",
@@ -2486,11 +2844,23 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados del piloto de perfeccionamiento para el personal de colaboración.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto en la parte normativa como en la implementación."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Diseñada y aplicada un plan general de capacitación del personal de colaboración en competencias digitales.",
+				"desc": "Diseñado y aplicado un plan general de capacitación del personal de colaboración en competencias digitales.",
 				"actores": [
 					{
 						"cai": "DAF-DP", "rol": "Responsable",
@@ -2504,6 +2874,30 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Plan de perfeccionamiento en competencias digitales.",
+						"plazo": "ago",
+						"estandar": [
+							"Plan de corto mediano plazo para reforzar capacidades digitales del personal de colaboración.",
+							"Plan debe presentar principales objetivos, resultados esperados, estrategias metodológicas y de priorización del personal beneficiado, entre otros elementos que sean relevantes para su implementación.",
+							"Diseñado en coherencia al reglamento establecido en H02.",
+							"Establece cronograma de aplicación de corto plazo (en el periodo), roles, responsabilidades y principales actividades.",
+							"Retroalimentado desde DPAC-TGI, pensando en el manejo de sistemas y gestión de datos e información relevante para los funcionarios."							
+						]
+					},
+					{
+						"nombre": "Informe de implementación de plan",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación del plan de perfeccionamiento en competencias digitales.",
+							"Debe evidenciar que tipo de competencias se logran reforzar en el personal, como ellas apoyan sus funciones y validadores de los resultados obtenidos.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar una estrategia de replicabilidad para extender y/o profundizar el alcance del plan."
+						]
+					}
 				]
 			}
 		]
@@ -2511,7 +2905,7 @@
 	{
 		"id": "18", "area": "DAF",
 		"titulo": "Rediseño de la estructura salarial de la Universidad.",
-		"objetivo": "Evaluar, ajustar y desplegar un nuevo diseño para la estructura salarial de la institución, tanto en lo que respecta al personal de colaboración como al personal académico, considerando la modifiación de la escala de grados y las asignaciones institucionales.",
+		"objetivo": "Evaluar, ajustar y desplegar un nuevo diseño para la estructura salarial de la institución, tanto en lo que respecta al personal de colaboración como al personal académico, considerando la modificación de la escala de grados y las asignaciones institucionales.",
 		"responsable": "DAF-DP",
 		"tipo": "Desarrollo",
 		"tacticas": [
@@ -2524,27 +2918,46 @@
 						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DVcM-COM", "rol": "Soporte",
+						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Términos de referencia sobre estudio.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe considerar el levantamiento de grupos de información que permitan hacer un análisis cuantitativo de impacto que genera el ajuste tanto de grados como de asignaciones en la institución.",
+							"Debe considerar la sistematización y consolidación de información detallada del CV actualizado del personal de colaboración y académico de la Institución, de forma que tanto la escala de grados como las asignaciones puedan ser definidas con criterios estructurados y dependientes de dichos datos.",
+							"Debe considerar la entrega tanto de un reporte con información consolidada, agregada y analizada respecto a l caracterización del personal, como de un instrumento de evaluación de impacto en el ajuste de grados y asignaciones, que permita dimensionar el efecto de los ajustes sobre estos mecanismos.",
+							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Debe establecer productos esperados, plazos y condiciones generales."
+						]
+					},
+					{
+						"nombre": "Estudio desarrollado y plan de uso.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe ser coherente con TdRs establecidos.",
+							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional y a las necesidades de corto plazo de ajuste a la estructura salarial."
+						]
 					}
 				]
 			},
 			{
 
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñada y validada una nueva estructura de grados para el personal de colaboración, en base a criterios de experiencia, formacion y sostenibilidad económica de la institución.",
+				"desc": "Diseñada y validada una nueva estructura de grados para el personal de colaboración, en base a criterios de experiencia, formación académica y sostenibilidad económica de la institución.",
 				"actores": [
 					{
 						"cai": "Rectoria", "rol": "Aprobador",
@@ -2569,6 +2982,20 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Rediseño propuesto de estructura de grados para el personal de colaboración.",
+						"plazo": "sep",
+						"estandar": [
+							"Debe ser implementado a través de una definición de criterios que asigne grados de la estructura salarial en función a la experiencia profesional y formación académica de las personas.",
+							"En función a los mecanismos generados desde H01, la propuesta de nueva estructura debe presentarse de forma comparativa con la situación actual de grados del personal de colaboración, estableciendo distintos escenarios de implementación que permitan visualizar los ajustes que sufrirían las remuneraciones en el tiempo, tanto de forma individual como de forma agregada.",
+							"La propuesta debe aportar a la sostenibilidad económica de la institución, avanzando en una reducción gradual y controlada del gasto en personal a nivel institucional, que permita reducir la carga en el presupuesto institucional y beneficiar la incorporación sostenida de nuevas capacidades en el largo plazo.",
+							"La propuesta debe privilegiar que la bonificación de remuneraciones por cargos de responsabilidad se defina a través de asignaciones, y no a través de los grados, para avanzar en su flexibilidad.",
+							"El análisis que se pueda realizar desde este mecanismo no se puede desconectar de la estructura de asignaciones que se proponga en paralelo.",
+							"Debe presentarse en un formato que facilite el análisis de los datos (ej.: excel)."
+						]
 					}
 				]
 			},
@@ -2605,6 +3032,15 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Rediseño propuesto de estructura de grados para el personal académico.",
+						"plazo": "sep",
+						"estandar": [
+							"Aplican mismos criterios que el rediseño de H02, en el ámbito de la experiencia y formación académica."
+						]
+					}
 				]
 			},
 			{
@@ -2636,12 +3072,26 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Rediseño propuesto de estructura de asignaciones.",
+						"plazo": "sep",
+						"estandar": [
+							"Debe ser implementado a través de una definición de criterios que establezcan asignaciones de la estructura salarial en función a grados de responsabilidad, necesidades específicas del personal, resultados de evaluación, entre otros que sean pertinentes.",
+							"Es crítico que este mecanismo proponga un reemplazo completo e integral de la asignación de implementación actualmente existente en la Institución.",
+							"En función a los mecanismos generados desde H01, la propuesta de nueva estructura debe presentarse de forma comparativa con la situación actual de asignaciones del personal, estableciendo distintos escenarios de implementación que permitan visualizar los ajustes que sufrirían las remuneraciones en el tiempo, tanto de forma individual como de forma agregada.",
+							"La propuesta debe aportar a la sostenibilidad económica de la institución, avanzando en una reducción gradual y controlada del gasto en personal a nivel institucional, que permita reducir la carga en el presupuesto institucional y beneficiar la incorporación sostenida de nuevas capacidades en el largo plazo.",
+							"El análisis que se pueda realizar desde este mecanismo no se puede desconectar de la estructura de grados que se proponga en paralelo.",
+							"Debe presentarse en un formato que facilite el análisis de los datos (ej.: excel)."
+						]
+					}
 				]
 			},
 			{
 
 				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y validado una plan de implementación gradual para los nuevos diseños para los próximos periodos, que contemplen el ajuste remuneracional y un ajuste al diseño inicial de la planta institucional.",
+				"desc": "Diseñado y validado una plan de implementación gradual para los nuevos diseños para los próximos periodos, que contemplen el ajuste de remuneraciones y un ajuste al diseño inicial de la planta institucional.",
 				"actores": [
 					{
 						"cai": "Rectoria", "rol": "Aprobador",
@@ -2656,12 +3106,33 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de socialización de propuesta.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe dar cuenta de la comunicación de la propuesta y su plan de implementación gradual de largo plazo con actores clave (ej.: AFUA).",
+							"Debe explicitarse tanto la comunicación de aspectos de la estructura salarial, la asignación de implementación y de futuras modificaciones a la planta que serán necesarias.",
+							"Debe indicar actores asistentes y principales acuerdos."
+						]
+					},
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la necesidad de evolucionar gradualmente en la implementación de los ajustes propuestos a la estructura salarial, de forma que se refleje periodo a periodo una reducción del gasto en personal en el presupuesto institucional (ej: p1 - 5%, p2 - 10%, p3 - 15%, etc.).",
+							"Debe incorporar acciones que expliciten un ajuste a la planta institucional en función a la normalización de la estructura salarial en el tiempo.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
 					}
 				]
 			}
