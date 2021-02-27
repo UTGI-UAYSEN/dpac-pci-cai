@@ -5,10 +5,51 @@
 		"objetivo": "Sistematizar y modernizar procesos que permitan gestionar la información de los diversos productos asociados a la investigación.",
 		"responsable": "DI-DINV",
 		"tipo": "Desarrollo",
-		"tacticas": [
+		"tacticas": [			
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantado un marco conceptual para la sistematización de información sobre productos de investigación, al alero de mecanismos conceptuales del área.",
+				"desc": "Identificados y normalizados procesos asociados a la sistematización de información sobre productos de investigación.",
+				"actores": [					
+					{
+						"cai": "DI-DINV", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DI-ITT", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "abr",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Caracterizados los requerimientos de información que dan soporte a la gestión de productos de investigación.",
 				"actores": [
 					{
 						"cai": "DI", "rol": "Aprobador",
@@ -34,46 +75,19 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Normalizados procesos asociados a la sistematización de información sobre productos de investigación.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DPAC", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DI", "rol": "Consultado",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-ITT", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-DA", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+						"nombre": "Caracterización de requerimientos de información.",
+						"plazo": "jun",
+						"estandar": [
+							"Compilación estructurada de datos e información relevante para los procesos asociados a la gestión de productos de investigación.",
+							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+						]
 					}
 				]
-			},
+			},			
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
 				"desc": "Adquirida una herramienta de apoyo a la gestión de información de productos de investigación (ej.: Isotope)",
@@ -91,56 +105,47 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Informado",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Implementada la herramienta de apoyo a la gestión de información de productos de investigación",
-				"actores": [
-					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
+						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos tecnológicos.",
+						"plazo": "abr",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
+							"Debe tener coherencia con evaluación de procesos en H01.",
+							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones."
+						]
 					},
 					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"nombre": "Términos de referencia",
+						"plazo": "abr",
+						"estandar": [
+							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
+							"En coherencia con evaluación realizada.",
+							"Establece productos, plazos esperados, roles y responsabilidades.",
+							"Considera asesoría general de DPAC-TGI."
+						]
 					}
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Desplegada y validada la herramienta de apoyo a la gestión de información de productos de investigación",
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Implementada y validada la herramienta de apoyo a la gestión de información de productos de investigación",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},
-					{
 						"cai": "DI-ITT", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
@@ -158,6 +163,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Validadores de mecanismos tecnológicos incorporados",
+						"plazo": "oct",
+						"estandar": [
+							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
+							"Coherente con TdRs desarrollados.",
+							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
+						]
+					}
 				]
 			}
 		]
@@ -171,24 +187,16 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Normalizados los procesos iniciales del ciclo de vida de los proyectos de investigación.",
+				"desc": "Identificados y normalizados los procesos iniciales del ciclo de vida de los proyectos de investigación.",
 				"actores": [
 					{
-						"cai": "DPAC", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DI", "rol": "Informado",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Soporte",
+						"cai": "DI-DINV", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
+					{
+						"cai": "DPAC-GC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},					
 					{
 						"cai": "DI-ITT", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
@@ -204,6 +212,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "abr",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
 					}
 				]
 			},
@@ -230,6 +249,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para gestión de proyectos de investigación",
+						"plazo": "abr",
+						"estandar": [
+							"Listado simple de mecanismos que permiten la operacionalización de la gestión de proyectos de investigación.",
+							"Mecanismos deben ser coherentes con procesos normalizados en H01.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "sep",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -261,6 +301,28 @@
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Evaluación de requerimientos tecnológicos",
+						"plazo": "jun",
+						"estandar": [
+							"Documento simple que sintetiza necesidades funcionales y procedimentales respecto al soporte tecnológico que requiere la gestión de proyectos de investigación.",
+							"Incorpora diagnóstico y evaluación de alternativas, considerando externalización.",
+							"Incorpora miradas desde la perspectiva de aseguramiento de calidad del área TGI.",
+							"Propone criterios para escoger alternativas y formas de implementación."
+						]
+					},
+					{
+						"nombre": "Términos de referencia de servicios externos",
+						"plazo": "jul",
+						"estandar": [
+							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
+							"En coherencia con evaluación realizada.",
+							"Establece productos, plazos esperados, roles y responsabilidades.",
+							"Considera asesoría de DPAC-TGI."
+						]
+					}
 				]
 			},
 			{
@@ -291,6 +353,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Validadores de mecanismos tecnológicos incorporados",
+						"plazo": "nov",
+						"estandar": [
+							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
+							"Coherente con TdRs desarrollados.",
+							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
+						]
+					}
 				]
 			}
 		]
@@ -318,6 +391,27 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con cuerpo académico",
+						"plazo": "abr",
+						"estandar": [
+							"Un acta por sesión de difusión / grupo.",
+							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
+							"Acta debe indicar contenidos a los cuales se hace difusión en la sesión."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "abr",
+						"estandar": [
+							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias.",
+							"Incluye comunicaciones por canales oficiales y medios gráficos asociados al objeto de la difusión.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes."
+						]
+					}
 				]
 			},
 			{
@@ -336,6 +430,27 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión con cuerpo académico",
+						"plazo": "ago",
+						"estandar": [
+							"Un acta por sesión de difusión / grupo.",
+							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
+							"Acta debe indicar contenidos a los cuales se hace difusión en la sesión."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "ago",
+						"estandar": [
+							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias.",
+							"Incluye comunicaciones por canales oficiales y medios gráficos asociados al objeto de la difusión.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes."
+						]
+					}
 				]
 			},
 			{
@@ -349,6 +464,31 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Seguimiento de postulación a fondos de investigación", 
+						"formula": "Número de fondos de investigación a los cuales la Institución ha hecho seguimiento respecto a la participación de sus académicos.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Boletines periódicos de procesos de fondos de investigación.",
+						"estandar": [
+							"Documentos simples que detallan información respecto al desarrollo de diversos fondos de investigación, en lo que respecta a sus fechas críticas, etapas, documentación y trámites, personal académico que postula, personal académico que avanza en etapas, personal académico que adjudica, entre otros que sean relevante para un seguimiento tanto individual como institucional.",
+							"Debe considerarse un boletín por cada fondo y/o concurso que se gestiona y hace seguimiento desde la Institución.",
+							"Boletines son incrementales: se van actualizando en la medida que los procesos avanzan, ante lo cual se van comunicando de forma apropiada.",
+							"Formato abierto según estándares DI."
+						]
+					},
+					{						
+						"nombre": "Validadores de difusión",
+						"estandar": [
+							"Cualquier tipo de evidencia (correos electrónicos, publicaciones, etc.) que de cuenta de la difusión de los distintos boletines hacia el cuerpo académico y otros actores clave.",
+							"Se deben presentar y organizar de forma de entregar distintos verificadores de difusión por cada boletín / concurso que se gestione."
+						]
 					}
 				]
 			},
@@ -372,6 +512,24 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Seguimiento de fondos de investigación adjudicados", 
+						"formula": "Número de postulaciones a fondos de investigación que son adjudicadas por el cuerpo académico y a las cuales se hace seguimiento periódico para su gestión.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de control de fondos de investigación adjudicados.",
+						"estandar": [
+							"Cualquier colección de documentos asociados a la postulación y adjudicación de un concurso o fondo por algún miembro del cuerpo académico y al cual se hará seguimiento.",
+							"Documentación debe ser presentada a través de sistema de archivos u otros medios digitales, organizándola de forma que toda la documentación se clasifique y se ordene en función a adjudicaciones y proyectos individuales (ej.: una carpeta por proyecto).",
+							"Documentación debe incorporar validadores asociadas al ciclo de vida de los fondos, incluyendo trámites internos para gestión de los fondos, seguimiento periódico de ejecución, productos intermedios, decretos, oficios, certificados u otra documentación relevante asociada a cada proyecto, entre otros que sean pertinentes para su gestión.",
+							"Información debe ser actualizada de forma periódica en función al avance de los proyectos respectivos."
+						]
+					}
 				]
 			},
 			{
@@ -390,6 +548,40 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Soporte para la postulación a fondos de investigación", 
+						"formula": "Número de fondos de investigación para los cuales la Institución ha dado soporte al cuerpo académico para su acceso y postulación.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de difusión sobre fondos específicos con cuerpo académico",
+						"estandar": [
+							"Un acta por sesión de difusión / grupo, en donde se pueden presentar uno o varios fondos y los detalles logísticos asociados a su postulación.",
+							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
+							"Acta debe indicar contenidos a los cuales se hace difusión en la sesión."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"estandar": [
+							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias.",
+							"Incluye comunicaciones por canales oficiales y medios gráficos asociados al objeto de la difusión.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes."
+						]
+					},
+					{
+						"nombre": "Manuales específicos de postulación",
+						"estandar": [
+							"Documento simple en donde se entregan instrucciones pertinentes a la postulación de algún fondo de investigación, dirigidos al cuerpo académicos.",
+							"Particularmente necesarios cuando los procesos de algún fondo específico requiere logística específica asociada a la Institución (ej.: Fondecyt iniciación y fechas internas de desarrollo).",
+							"Considerar un manual por cada fondo específico."
+						]
+					}
 				]
 			},
 			{
@@ -407,6 +599,22 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Seguimiento de fondos de investigación Tutoría UCH ventanilla abierta", 
+						"formula": "Número de fondos de investigación Tutoría UCH ventanilla abierta que son gestionados por la Institución.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de control de fondos de investigación adjudicados.",
+						"estandar": [
+							"Equivalente al indicado en F02 (se pueden trabajar como uno solo).",
+							"Debe incluir proyectos Tutoría UCH ventanilla abierta específicos."
+						]
 					}
 				]
 			}
@@ -435,6 +643,19 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de seguimiento de proyectos de investigación.",
+						"plazo": "ago",
+						"estandar": [
+							"Documento detallado que entrega datos, información y análisis cuantitativo y cualitativo respecto al estado de seguimiento de proyectos de investigación en la Institución, tanto en lo específico como de forma agregada.",
+							"Debe entregar un análisis descriptivo de la situación al día de los proyectos, indicando niveles de avance, atraso, postulación, adjudicación, gasto, saldo, entre otros que sean pertinentes al control.",
+							"Debe proveer un diagnóstico general de la situación de los proyectos, sustentado en métricas e indicadores asociados a los proyectos, indicando logros y brechas detectadas.",
+							"Debe entregar un plan de contingencia respecto a las brechas identificados, considerando plazos asociados a la entrega de los informes siguientes.",
+							"Formato basado en estándares DI."
+						]
+					}
 				]
 			},
 			{
@@ -453,6 +674,15 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}					
+				],
+				"verificadores": [
+					{
+						"nombre": "Reporte de seguimiento de proyectos de investigación.",
+						"plazo": "ene",
+						"estandar": [
+							"Equivalente al de H01 para el periodo respectivo."
+						]
+					}
 				]
 			},
 			{
@@ -475,11 +705,30 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Seguimiento de proyectos FIC", 
+						"formula": "Número de instancias de monitoreo y revisión periódicas del estado de avance de proyectos GORE.",
+						"meta": "36"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes de seguimiento individual de proyectos de investigación.",
+						"estandar": [
+							"Documentos simples y ejecutivos que comunican el estado actualizado de avance de los distintos proyectos de investigación en desarrollo.",
+							"Considerar un documento por cada proyecto de investigación en desarrollo, emitido de forma bimensual y dirigido a los actores que coordinan cada proyecto (ej.: académicos/as).",
+							"El reporte debe entregar un diagnóstico realizado desde DI respecto al avance del proyecto y acorde a información de control disponible a la fecha, entregando recomendaciones para abordar posibles brechas de avance.",
+							"Se puede acompañar de anexos u otro tipo de información complementaria.",
+							"Se debe acompañar también de validador de entrega a responsable (ej.: correo electrónico)."
+						]
+					}
 				]
 			},
 			{
 				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Monitorear los avances de los proyectos de investigación ANID en donde la Institución sea el beneficiario principal y/o secundario.",
+				"desc": "Monitorear los avances de los proyectos de investigación ANID en donde la Institución y/o cuerpo académico sea el beneficiario principal y/o secundario.",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
@@ -497,24 +746,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica",
-				"desc": "Monitorear los avances de los proyectos de investigación ANID en donde académicos/as específicos sean beneficiarios/as principales y/o secundarios/as.",
-				"actores": [
+				],
+				"ios":[
+					{ 
+						"nombre": "Seguimiento de proyectos ANID", 
+						"formula": "Número de instancias de monitoreo y revisión periódicas del estado de avance de proyectos ANID.",
+						"meta": "30"
+					}
+				],
+				"verificadores": [
 					{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
+						"nombre": "Reportes de seguimiento individual de proyectos de investigación.",
+						"estandar": [
+							"Equivalente a lo especificado en F01 (pueden trabajarse como uno solo)."
+						]
 					}
 				]
 			},
 			{
-				"id": "F04", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
+				"id": "F03", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
 				"desc": "Monitorear los avances de los proyectos de investigación internos de la UAysén.",
 				"actores": [
 					{
@@ -524,6 +774,21 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Seguimiento de proyectos internos", 
+						"formula": "Número de instancias de monitoreo y revisión periódicas del estado de avance de proyectos internos.",
+						"meta": "120"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes de seguimiento individual de proyectos de investigación.",
+						"estandar": [
+							"Equivalente a lo especificado en F01 (pueden trabajarse como uno solo)."
+						]
 					}
 				]
 			}
@@ -551,6 +816,17 @@
 					{
 						"cai": "SG-JUR", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decretos asociados a proyectos de investigación actualizados.",
+						"plazo": "jun",
+						"estandar": [
+							"Colección de documentos decretados que contienen información normativa sobre proyectos de investigación, y que han sido objeto de actualización.",
+							"Incorporar tanto versión anterior como nueva.",
+							"Debe incorporar también minuta de resumen, indicando cada documento actualizado, y los propósitos de la actualización."
+						]
 					}
 				]
 			},
@@ -582,6 +858,31 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Trámites asociados a adquisiciones en proyectos de investigación", 
+						"formula": "Número de tramites internos para realizar adquisiciones en el marco del desarrollo de proyectos de investigación asociados a la Institución que son completados.",
+						"meta": "300"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de trámites internos para proyectos de investigación.",
+						"estandar": [
+							"Registro estructurado y sistemático respecto a tramites internos realizados en la Institución para dar soporte a los proyectos de investigación en desarrollo.",
+							"Debe ser cuantificable en cantidad de trámites efectuados.",
+							"Cada registro / tramite debe especificar información de seguimiento como: proyecto asociados, responsable de trámite / proyecto, funcionario/a que resuelve en DI, fecha recepción, fecha tramitación, fecha resolución, tipo de trámite, insumos, estado de trámite, entre otros datos que sean pertinentes para el control.",
+							"Cada registro debe hacer referencia a documentación anexa que corresponda al trámite, para casos de adquisiciones, contrataciones, etc.",
+							"Entregado en formato que permita análisis de datos (ej.: excel)."
+						]
+					},
+					{
+						"nombre": "Validadores de trámite conforme.",
+						"estandar": [
+							"Validador simple de comunicación (ej.: correo electrónico) que de cuenta de la finalización de cada trámite y conformidad de contraparte de proyecto."
+						]
+					}
 				]
 			},
 			{
@@ -612,6 +913,28 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Trámites asociados a contrataciones en proyectos de investigación", 
+						"formula": "Número de tramites internos para realizar contrataciones en el marco del desarrollo de proyectos de investigación asociados a la Institución que son completados.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de trámites internos para proyectos de investigación.",
+						"estandar": [
+							"Equivalente al definido en F01 (pueden se trabajados como uno solo).",
+							"Considerar un tipo de trámite correspondiente a las contrataciones."
+						]
+					},
+					{
+						"nombre": "Validadores de trámite conforme.",
+						"estandar": [
+							"Equivalente al definido en F01 (pueden se trabajados como uno solo)."
+						]
+					}
 				]
 			},
 			{
@@ -634,6 +957,28 @@
 						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Gestiones articuladas en el marco de proyectos de investigación", 
+						"formula": "Número de gestiones realizadas con otras unidades de la Institución en el marco del soporte entregado al desarrollo de proyectos de investigación.",
+						"meta": "320"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de trámites internos para proyectos de investigación.",
+						"estandar": [
+							"Equivalente al definido en F01 (pueden se trabajados como uno solo).",
+							"Considerar la especificación de información sobre gestiones internas hechas en el marco de cada trámite sistematizado."
+						]
+					},
+					{
+						"nombre": "Validadores de gestiones realizadas.",
+						"estandar": [
+							"Cualquier validador comunicacional (correo electrónico, memo, etc.) que de cuenta de gestiones realizadas con otras áreas de la Institución para abordar necesidades de soporte de los proyectos de investigación."
+						]
+					}
 				]
 			}
 		]
@@ -650,11 +995,7 @@
 				"desc": "Definidos y formalizados los recursos a distribuir en el año por fondos de investigación internos.",
 				"actores": [
 					{
-						"cai": "DAF", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DI", "rol": "Consultado",
+						"cai": "DI", "rol": "Aprobador",
 						"capacidades": [ "direccion" ]
 					},
 					{
@@ -672,6 +1013,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de plan anual de fondos internos de investigación.",
+						"plazo": "abr",
+						"estandar": [
+							"Documento formal que entrega todos los detalles asociados a la disponibilidad de fondos para investigación que son entregados por la Institución y las definiciones necesarias para su operacionalización.",
+							"Debe especificar los distintos fondos que se ofrecerán durante el año, los montos a distribuir, objetivos generales de cada fondo, entre otros elementos informativos pertinentes.",
+							"Debe especificar fechas clave, responsables, documentación que orientará los procesos y otros elementos pertinentes de planificación.",
+							"Se debe dar cuenta de la difusión del decreto a los actores pertinentes."
+						]
 					}
 				]
 			},
@@ -699,6 +1052,17 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de plan anual de fondos internos de investigación.",
+						"plazo": "abr",
+						"estandar": [
+							"Equivalente al definido en H01 (pueden ser tratados como el mismo).",
+							"Para efectos de temáticas de interdisciplina, se deben incorporar orientaciones explícitas respecto a los fondos que bonificarán se orientarán directamente a esta estrategia.",
+							"Adicionalmente, decreto debe incorporar criterios y lineamientos generales que permitirán establecer cuando un proyecto es interdisciplinario, lo que podrá profundizarse y detallarse en el desarrollo de los procesos respectivos."
+						]
+					}
 				]
 			},
 			{
@@ -721,6 +1085,16 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de bases de fondo semilla 2021.",
+						"plazo": "may",
+						"estandar": [
+							"Debe seguir todos los estándares definidos en DI respecto a la publicación de bases.",
+							"Debe incorporar todos los elementos fundamentales asociados a la definición de bases de fondos de investigación (objetivos del fondo, montos a distribuir, factibilidad para la postulación, formas y criterios de evaluación, fechas clave y condiciones del proceso, etc.)"
+						]
+					}
 				]
 			},
 			{
@@ -734,6 +1108,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acta de selección de propuestas para proyecto semilla 2021.",
+						"plazo": "jun",
+						"estandar": [
+							"Documento técnico que detalla criterios, ponderaciones, puntajes, resultados y otros insumos que validan el proceso de selección desde la perspectiva metodológica.",
+							"Debe dar cuenta de la aplicación transparente y objetiva de criterios para ponderar las diferentes propuestas, evidenciando aspectos de decisión interna que se puedan haber realizado en los procesos.",
+							"Se deben indicar participantes de los procesos de selección, salvo cuando no sea aplicable según el método.",
+							"Se debe entregar resumen de resultados en coherencia a otra información incorporada en el detalle."
+						]
 					}
 				]
 			},
@@ -753,6 +1139,15 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}				
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de adjudicación de proyecto semilla 2021.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe responder integralmente a acta de selección definida desde H04."
+						]
+					}
 				]
 			},
 			{
@@ -775,6 +1170,16 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de bases de fondo de equipamiento 2021.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe seguir todos los estándares definidos en DI respecto a la publicación de bases.",
+							"Debe incorporar todos los elementos fundamentales asociados a la definición de bases de fondos de investigación (objetivos del fondo, montos a distribuir, factibilidad para la postulación, formas y criterios de evaluación, fechas clave y condiciones del proceso, etc.)"
+						]
+					}
 				]
 			},
 			{
@@ -788,6 +1193,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acta de selección de propuestas para proyecto de equipamiento 2021.",
+						"plazo": "jul",
+						"estandar": [
+							"Documento técnico que detalla criterios, ponderaciones, puntajes, resultados y otros insumos que validan el proceso de selección desde la perspectiva metodológica.",
+							"Debe dar cuenta de la aplicación transparente y objetiva de criterios para ponderar las diferentes propuestas, evidenciando aspectos de decisión interna que se puedan haber realizado en los procesos.",
+							"Se deben indicar participantes de los procesos de selección, salvo cuando no sea aplicable según el método.",
+							"Se debe entregar resumen de resultados en coherencia a otra información incorporada en el detalle."
+						]
 					}
 				]
 			},
@@ -807,11 +1224,20 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de adjudicación de proyecto de equipamiento 2021.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe responder integralmente a acta de selección definida desde H07."
+						]
+					}
 				]
 			},
 			{
-				"id": "F01", "tipo": "Función", "cobertura": "Acotada", 
-				"desc": "Generar y colocar a disposición fondos generales e internos de investigación para el cuerpo académico.",
+				"id": "H09", "tipo": "Hito", "cobertura": "Acotada", 
+				"desc": "Puestos a disposición otros fondos generales e internos de investigación para el cuerpo académico.",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
@@ -828,6 +1254,16 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores generales para otros fondos internos de investigación.",
+						"plazo": "dic",
+						"estandar": [
+							"Documentación formal sobre otros fondos de investigación internos distintos a semilla y equipamiento interno.",
+							"Puede considerar decretos de bases de fondos, actas de selección, decretos de adjudicación, entre otros validadores pertinentes."
+						]
 					}
 				]
 			}
@@ -852,6 +1288,31 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Soporte para apoyar publicaciones científicas", 
+						"formula": "Número de publicaciones científicas a las cuales la institución ha apoyado su desarrollo, envío y/o proceso de publicación.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de soporte a publicaciones científicas.",
+						"estandar": [
+							"Registro estructurado y sistemático de acciones de soporte a los procesos de publicación científica en todas sus etapas.",
+							"Debe ser cuantificable en número de publicaciones que reciben algún tipo de soporte.",
+							"Para cada soporte entregado a alguna publicación, se debe caracterizar información como académico/a que busca publicar, tipo de publicación esperada, tipo de requerimiento / soporte entregado (redacción, búsqueda de revista, traducción, formato, etc.), fecha de recepción, fecha de realización del soporte, características del soporte entregado, estado del proceso, resultados de proceso (publicada, rechazada, aceptada, etc.), entre otros que sean pertinentes.",
+							"Entregado en formato que permita el análisis de datos (ej.: excel)."
+						]
+					},
+					{
+						"nombre": "Validadores de soportes entregados.",
+						"estandar": [
+							"Cualquier validador comunicacional (correo electrónico, memo, etc.) que de cuenta del requerimiento y soporte entregado.",
+							"Adicionalmente, según aplique, se pueden adjuntar validadores asociados a los resultados de publicación (certificado, artículo en prensa, etc.)."
+						]
+					}
 				]
 			},
 			{
@@ -865,6 +1326,28 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Soporte general para apoyar desarrollo de proyectos de investigación", 
+						"formula": "Número de requerimientos de soporte de índole general a los proyectos de investigación gestionados.",
+						"meta": "100"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de trámites internos para proyectos de investigación.",
+						"estandar": [
+							"Equivalente al definido en F01 de DI-05 (pueden se trabajados como uno solo).",
+							"Debe considerar la incorporación de tipos de trámites según la naturaleza de los requerimientos recibidos."
+						]
+					},
+					{
+						"nombre": "Validadores de gestiones realizadas.",
+						"estandar": [
+							"Equivalente al definido en F01 de DI-05 (pueden se trabajados como uno solo)."
+						]
 					}
 				]
 			},
@@ -892,6 +1375,24 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}					
+				],
+				"ios":[
+					{ 
+						"nombre": "Soporte para la difusión científica", 
+						"formula": "Número de actividades de difusión científica a las cuales se ha ofrecido soporte administrativo para su realización.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de soporte a la difusión científica.",
+						"estandar": [
+							"Registro ordenado y estructurado de documentación asociada al soporte que se da para la realización de actividades de divulgación científica.",
+							"Debe considerar documentos asociados a adquisiciones, compras, trámites u otros que permitan al cuerpo académico acceder a pasajes, viáticos, inscripciones a congresos, conferencias, coloquios, etc.",
+							"También se deben incorporar validadores de gestiones y requerimientos realizados (ej.: correos electrónicos intercambiados).",
+							"Información debe estar ordenada y entregada en función a cada actividad realizada (ej.: una carpeta con toda la documentación de soporte asociada a la visita de un académico a una conferencia."
+						]
+					}
 				]
 			},
 			{
@@ -913,6 +1414,35 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Manuales y/o documentación específica de servicios",
+						"plazo": "jun",
+						"estandar": [
+							"Documento simple en donde se entregan orientaciones respecto a un servicio específico al que puede acceder el cuerpo académico.",
+							"Considerar un manual / documento por cada servicio ofrecido y difundido."
+						]
+					},
+					{
+						"nombre": "Actas de difusión sobre servicios de apoyo para desarrollo y difusión de investigaciones",
+						"plazo": "ago",
+						"estandar": [
+							"Un acta por sesión de difusión / grupo.",
+							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
+							"Acta debe indicar contenidos sobre los servicios a los cuales se hace difusión en la sesión."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "ago",
+						"estandar": [
+							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias.",
+							"Incluye comunicaciones por canales oficiales y medios gráficos asociados al objeto de la difusión.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes."
+						]
 					}
 				]
 			}
@@ -945,6 +1475,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de reporte sobre productos de investigación", 
+						"formula": "Número de instancias del periodo en las cuales se reporta sobre información asociada a productos de investigación generados desde la Institución.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes periódicos de productividad científica.",
+						"estandar": [
+							"Documentos generados de forma periódica (trimestral o dos por semestre) y que dan cuenta de los avances del periodo reportado en términos de productos de investigación y sus impactos.",
+							"Deben entregar información agregada y detallada respecto a la productividad generada por el cuerpo académico, clasificada y organizada por tipo de producto generado, impacto según su naturaleza (ej.: cuartil en publicaciones), unidad académica asociada, periodo, difusión realizada / identificada, indicadores de productividad asociados, entre otros que sean pertinentes para la gestión.",
+							"Reportes deben incorporar análisis cuantitativo y cualitativo de los logros obtenidos, dando cuenta de continuidad respecto a periodos de reporte anteriores, y así mismo se deben identificar posibles brechas encontradas en la generación de productividad.",
+							"Se deben incorporar estrategias de trabajo asociadas a las brechas incorporadas para abordarlas en el corto plazo.",
+							"Formatos según estándares DI."
+						]
+					}
 				]
 			},
 			{
@@ -966,6 +1515,23 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de actualización de indicadores de productividad, creación y desarrollo de investigación", 
+						"formula": "Número de instancias del periodo en las cuales se actualizan y difunden indicadores claves del área.",
+						"meta": "8"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Reportes periódicos de productividad científica.",
+						"estandar": [
+							"Equivalente a los definidos en F01 (pueden presentarse como uno solo).",
+							"En el caso de indicadores, estos deben incorporarse explícitamente en apartados de los reportes y debe ser usados (referenciados) en los análisis respectivos.",
+							"Considerar que por reporte generado (dos por semestre) se presentan dos actualizaciones de indicadores distintas."
+						]
 					}
 				]
 			}
@@ -994,27 +1560,63 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Catastro actualizado de redes de colaboración para la investigación.",
+						"plazo": "may",
+						"estandar": [
+							"Compilación estructurada de redes existentes entre el cuerpo académico y otras Instituciones a nivel regional, nacional e internacional.",
+							"El registro debe dar cuenta de las instituciones con las cuales existen vínculos, nivel de formalización de los mismos, tipo de vínculo existente, nivel de actividad en el ámbito de la investigación, departamento y académicos/as asociados, entre otros que sean relevantes para su seguimiento.",
+							"Debe entregarse como un reporte simple que, en función a un análisis cuantitativo y cualitativo, establezca un diagnóstico de las redes existentes, las oportunidades detectadas y las brechas que se deben abordar."
+						]
+					},
+					{
+						"nombre": "Convenios existentes",
+						"plazo": "may",
+						"estandar": [
+							"Documentos que respaldan vínculos que se hayan establecido formalmente.",
+							"En coherencia a catastro levantado (puede ser usado como referencia)."
+						]
+					}
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Levantada y validada una propuesta anual de mejoramiento de redes de colaboración nacionales e internacionales para la investigación en base a la situación del cuerpo académico.",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantada y validada una propuesta de mejoramiento de redes de colaboración nacionales e internacionales para la investigación en base a la situación del cuerpo académico.",
 				"actores": [
 					{
 						"cai": "DI", "rol": "Aprobador",
 						"capacidades": [ "direccion" ]
 					},
 					{
-						"cai": "DVcM-RI", "rol": "Responsable",
+						"cai": "DI-DINV", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DI-DINV", "rol": "Soporte", "participacion": "Esporádica",
+						"cai": "DVcM-RI", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},					
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan de mejoramiento de redes de colaboración para la investigación.",
+						"plazo": "ago",
+						"estandar": [
+							"Informe propuesta que, en colaboración a actores claves de la institución, establece un plan de trabajo de corto y mediano plazo para fortalecer redes regionales, nacionales e internacionales de colaboración con el cuerpo académico en materia de investigación.",
+							"Debe responder integralmente a los diagnósticos realizados en H01",
+							"Debe establecer los grandes objetivos del plan en función a la estrategia del área y de los PED de los departamentos respectivos, grandes hitos, roles, responsabilidades, fechas estimadas y alcance del plan en términos de número de vínculos que se espera ampliar en los distintos planos territoriales.",
+							"Debe confeccionarse en función a las líneas de investigación que promoverá la Institución (ver DI-17).",
+							"Debe proponerse como una estrategia emergente, en función al alcance establecido, detallando que se logrará en el periodo y que se dejará para los siguientes."
+						]
 					}
 				]
 			},
@@ -1037,6 +1639,20 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones y coordinaciones realizadas con instituciones externas.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe dar cuenta de instancias de coordinación establecidas con otras Instituciones en el contexto del plan desarrollado.",
+							"Considerar un acta por cada áctividad de coordinación realizada.",
+							"Debe incorporar aspectos tratados, insumos de coordinación, asistentes a la coordinación y acuerdos tomados.",
+							"Se debe explicitar cuando se establecen condiciones para generar convenios de colaboración y los plazos estimados para su formalización y operacionalización",
+							"Participantes deben incorporar actores estratégicos y académicos relevantes.",
+							"Acompañar de documentación e insumos entregados en las definiciones."
+						]
 					}
 				]
 			}
@@ -1069,6 +1685,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Levantamiento de requerimientos de equipamiento e infraestructura menor en laboratorios", 
+						"formula": "Número de levantamientos de requerimientos asociados a laboratorios de investigación de la Institución para la incorporación de nuevo equipamiento e infraestructura menor.",
+						"meta": "10"
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Reportes de estado de laboratorios.",
+						"estandar": [
+							"Reportes periódicos y ejecutivos que dan cuenta del estado de los laboratorios de la Institución.",
+							"Emitidos de forma periódica (mensual), considerando un reporte específico por cada laboratorio gestionado.",
+							"Debe entregar un detalle de los elementos que fueron inspeccionados en el laboratorio, clasificándolos según su naturaleza (riesgos, equipamiento, personal, etc.) y su prioridad.",
+							"Debe entregar el detalle de los resultados de la inspección, destacando cuando se levanten alertas específicas (ej.: falta de equipamiento, riesgos de bioseguridad, manipulación de equipamiento, etc.)",
+							"Se debe dar cuenta de entrega a actores claves asociados a los laboratorios (DI, Comités, académicos/as, etc.)"
+						]
+					}
 				]
 			},
 			{
@@ -1082,6 +1717,31 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Trámites de soporte sobre laboratorios de investigación", 
+						"formula": "Número de tramites realizados para dar soporte al trabajo de académicos/as en los laboratorios de investigación de la Institución.",
+						"meta": "30"
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Bitácora de gestión y soporte a laboratorios institucionales.",
+						"estandar": [
+							"Registro estructurado y sistemático respecto a tramites realizados en respuesta a requerimientos realizados por académicos/as que trabajan en laboratorios respecto a los mismos.",
+							"Debe ser cuantificable en cantidad de trámites efectuados.",
+							"Cada registro / tramite debe especificar información del requerimiento y soporte entregado, como: académico/a que emite requerimiento, funcionario/a que resuelve en DI, fecha recepción, fecha tramitación, fecha resolución, tipo de requerimiento, antecedentes, estado de soporte, proyectos asociados, entre otros datos que sean pertinentes para el control.",
+							"Cada registro debe hacer referencia a documentación anexa que corresponda al requerimientos, para casos de adquisiciones, contrataciones, etc.",
+							"Entregado en formato que permita análisis de datos (ej.: excel)."
+						]
+					},
+					{
+						"nombre": "Validadores de soporte conforme.",
+						"estandar": [
+							"Validador simple de comunicación (ej.: correo electrónico) que de cuenta de la finalización de cada requerimiento y conformidad del académico/a que recibe el servicio."
+						]
 					}
 				]
 			},
@@ -1105,6 +1765,22 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Inspecciones periódicas a laboratorios de investigación", 
+						"formula": "Número de inspecciones realizadas en el periodo para identificar necesidades emergentes y evaluar condiciones de operación de los laboratorios de investigación de la Institución.",
+						"meta": "5"
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Reportes de estado de laboratorios.",
+						"estandar": [
+							"Equivalentes a los definidos en F01 (pueden tratarse como uno solo).",
+							"Para efectos de las inspecciones detalladas de laboratorios, el detalle de los informes puede profundizar en estos aspectos de forma bimensual."
+						]
+					}
 				]
 			},
 			{
@@ -1127,6 +1803,26 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}					
+				],
+				"ios":[
+					{ 
+						"nombre": "Levantamiento de requerimientos de infraestructura para la investigación", 
+						"formula": "Número de procesos de caracterización y comunicación de requerimientos de infraestructura para dar soporte a la investigación en la Institución.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de caracterización de requerimientos de infraestructura para la investigación.",
+						"estandar": [
+							"Informes periódicos (dos por semestre) que compilan y sistematizan requerimientos de infraestructura para la investigación.",
+							"Deben responder integralmente a los estándares que se definan institucionalmente para caracterizar requerimientos de infraestructura, emanados desde DAF-INSG (ver DAF-28).",
+							"Informes pueden incorporar información parcial o total (actualizada) de lo compilado desde los departamentos académicos.",
+							"Requerimientos se deben entender como definiciones cuya resolución dependerá de los procesos de priorización respectivos y de la oferta de infraestructura que exista en los periodos siguientes.",
+							"Con todo, es relevante que se establezcan criterios de importancia de los distintos requerimientos para orientar la futura priorización, definidos desde lineamientos estratégicos, por ejemplo, las líneas de investigación institucionales.",
+							"Formato de informes debe ser consolidado en su contenido y estructura por definiciones conjuntas entre Di y DAF-INSG."
+						]
+					}
 				]
 			}
 		]		
