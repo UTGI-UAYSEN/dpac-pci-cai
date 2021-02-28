@@ -1854,6 +1854,21 @@
 						"cai": "DAC-EPYEC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion-postgrado" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación de Comité de Coordinación de las funciones de Investigación y Docencia.", 
+						"formula": "Número de instancias de coordinación ejecutadas por el Comité.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones del Comité",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+						]
+					}
 				]
 			},
 			{
@@ -1872,6 +1887,23 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación de Comité de Bioseguridad.", 
+						"formula": "Número de instancias de coordinación ejecutadas por el Comité.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones del Comité",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -1889,6 +1921,23 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación de Comité de Ética y Bioética.", 
+						"formula": "Número de instancias de coordinación ejecutadas por el Comité.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones del Comité",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					}
 				]
 			},
@@ -1911,6 +1960,23 @@
 					{
 						"cai": "DI-DDC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Articulación de área DI.", 
+						"formula": "Número de instancias de coordinación internas del área.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones internas",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					}
 				]
 			}
@@ -1963,6 +2029,27 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}	
+				],
+				"verificadores": [
+					{
+						"nombre": "Acta de contratación de encargado/a área DI-DDC.",
+						"plazo": "abr",
+						"estandar": [
+							"Según estándares de procesos DAF-DP.",
+							"En función a exigencias y requerimientos de contrataciones por proyectos URY."
+						]
+					},
+					{
+						"nombre": "Informe de propuesta sobre orgánica institucional en la materia",
+						"plazo": "jun",
+						"estandar": [
+							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para la institución en materia de difusión y divulgación de la ciencia.",
+							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+							"Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
+							"Debe dar cuenta de un diálogo con actores estratégicos de la institución y coherencia con el contexto normativo que influye.",
+							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+						]
+					}
 				]
 			},
 			{
@@ -1996,6 +2083,33 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de marco de trabajo",
+						"plazo": "ago",
+						"estandar": [
+							"Documento que detalla el marco de trabajo, con sello UAysén, que orienta sobre las variables territoriales para impulsar la difusión, divulgación y creación artística en el contexto regional, y con proyección nacional.",
+							"Debe proporcionar definiciones conceptuales y teóricas respecto a la difusión y divulgación de la ciencia, adaptadas a la naturaleza de la Institución, que permitan contextualizar la construcción de mecanismos operativos en el área.",
+							"Debe entregar una aproximación respecto a como caracterizar y clasificar las diversas actividades de difusión y divulgación, los tipos de resultados en términos de productividad y creación que generan, y como ellos generan vinculación con el medio externo.",
+							"Debe establecer las pautas de gestión de información del área, es decir, establecer los principales grupos de datos e información necesarios para caracterizar los tipos de actividades asociados, además de definir métricas e indicadores de seguimiento, y las grandes preguntas estratégicas que los mismos ayudan a resolver."
+						]
+					},
+					{
+						"nombre": "Actas de validación y difusión de marco de trabajo con actores clave.",
+						"plazo": "ago",
+						"estandar": [
+							"Considera la presentación y evaluación de actores tácticos y estratégicos que adoptarán roles en la implementación del marco.",
+							"Acompañado de material que explica los elementos críticos del sistema."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza marco de trabajo.",
+						"plazo": "sep",
+						"estandar": [
+							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."
+						]
 					}
 				]
 			},
@@ -2039,10 +2153,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza política de difusión y divulgación de la ciencia.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe responder a requerimientos de contraloría general en la materia.",
+							"Debe haber sido elaborada en función a los estándares institucionales para creación de políticas."
+						]
+					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Desarrolladas actividades de formación y de sistematización de ideas para orientar y operacionalizar el área de difusión y divulgación de la ciencia.",
 				"actores": [
 					{
@@ -2068,6 +2192,26 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones de trabajo para sistematización de ideas.",
+						"plazo": "ago",
+						"estandar": [
+							"Deben dar cuenta del trabajo colaborativo de actores claves para profundizar en aspectos operativos del marco de trabajo, en paralelo a la definición de la política.",
+							"Considerar un acta por sesión realizada con actores clave, indicando participantes y temas tratados.",
+							"Cada acta debe entregar un detalle de las ideas sistematizadas y los antecedentes levantados de ellas."
+						]
+					},
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la necesidad de implementar el marco de trabajo y la política diseñadas para el área.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
 					}
 				]
 			},
@@ -2103,6 +2247,26 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones de trabajo para sistematización colaboraciones.",
+						"plazo": "ago",
+						"estandar": [
+							"Equivalentes a lo establecido en H04 (pueden tratarse como uno solo).",
+							"Se pueden incorporar en las actas la sistematización de oportunidades para generar colaboraciones y vínculos en el ámbito."
+						]
+					},
+					{
+						"nombre": "Convenios formalizados con actores externos relevantes",
+						"plazo": "ene",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
+					}
 				]
 			},
 			{
@@ -2130,8 +2294,33 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos comunicacionales para difusión y divulgación de la ciencia",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "oct",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			}
@@ -2168,6 +2357,28 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe diagnóstico proyectos estratégicos e iniciativas de investigación aplicada y docencia presentes en la Universidad.",
+						"plazo": "may",
+						"estandar": [
+							"Compilación estructurada de instancias de trabajo desarrolladas e incentivadas desde el cuerpo académico con potencial de ser formalizadas como Centros de investigación (o ser parte de alguno).",
+							"Las iniciativas deben ser clasificadas sistemáticamente según su antigüedad, complejidad, actores involucrados, naturaleza en el ámbito de la investigación, proyecciones esperadas, infraestructura, vínculos existentes, entre otros grupos de información que sean relevantes.",
+							"Debe especificarse la metodología de diagnóstico que será aplicada a cada iniciativa para definir su idoneidad de evolucionar a un Centro de Investigación formal, o ser absorbida / formar parte de otra iniciativa más general.",
+							"Criterios asociados a la metodología deben ser trabajados en conjunto y validados con actores clave.",
+							"Para cada iniciativa debe aplicarse la metodología, generando un diagnóstico específico que la posiciona en un escenario específicos en base a un análisis cuantitativo y cualitativo de sus características.",
+							"Debe presentarse una propuesta de modelo de gestión integrado de las distintas iniciativas en conjunto a las direcciones clave, de forma que el diagnóstico de cada iniciativa se pueda ordenar sistémicamente."
+						]
+					},
+					{
+						"nombre": "Actas de validación de diagnóstico.",
+						"plazo": "jun",
+						"estandar": [
+							"Deben dar cuenta de la presentación hacia actores clave de los diagnósticos realizados y los acuerdos pertinentes.",
+							"Deben especificar lista de asistentes y desarrollo de los temas tratados."
+						]
+					}
 				]
 			},
 			{
@@ -2198,44 +2409,22 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñados y validados mecanismos iniciales para la propuesta, evaluación y conformación de centros de investigación.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DI", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DI-ITT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+						"nombre": "Decretos formalizadores de Centros de investigación priorizados.",
+						"plazo": "dic",
+						"estandar": [
+							"Deben dar cuenta de una selección de iniciativas priorizadas para su financiamiento y formalización respecto al diagnóstico levantado en H01.",
+							"Estándares de decreto según definiciones de SG (un solo decreto o decreto por iniciativa)",
+							"Decretos deben detallar el financiamiento que se otorgará a las iniciativas priorizadas, estableciendo como fuente principal URY20993.",
+							"Deben dar cuenta de la normativa establecida y que respalda la priorización y formalización de los centros decretados."
+						]
 					}
 				]
-			},
+			},			
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Diseñado y validado un estudio de sostenibilidad financiera, jurídica y administrativa para dar soporte a institucionalidad de centros de investigación.",
 				"actores": [
 					{
@@ -2258,10 +2447,31 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estudio propuesto.",
+						"plazo": "nov",
+						"estandar": [
+							"Documento detallado que entrega antecedentes financieros y jurídicos de naturaleza cuantitativa y cualitativa respecto a las oportunidades, capacidades y proyecciones institucionales para la Creación de Centros de Investigación.",
+							"Debe tener una aproximación abductiva, desde la perspectiva que puede basarse en la casuística de las iniciativas en revisión en H02, para luego establecer parámetros generales y transversales desde dicha casuística.",
+							"Desde la perspectiva financiera, deben presentarse antecedentes asociados al aporte de la sostenibilidad financiera en el largo plazo, evaluando el tipo de actividades que se podrán realizar a través de iniciativas, y como estas se incorporan y proyectan en el presupuesto institucional de largo plazo, para lo cual debe considerar el trabajo realizado en paralelo en DAF-25.",
+							"Desde la perspectiva jurídica, debe presentarse un catastro de mecanismos normativos (decretos, normas externas, etc.) que deba ser ampliada, modificada y/o compatibilizada con los aspectos normativos necesarios para la creación de centros, además de establecer orientaciones respecto a las figuras legales que las distintas iniciativas deberían tener, o como esta debería evolucionar en el tiempo según como evolucionan las mismas.",
+							"De forma analítica, el estudio debe proponer criterios metodológicos para orientar la definición, formalización y operacionalización de centros, que sirva para futuros reglamentos en el tema."
+						]
+					},
+					{
+						"nombre": "Actas de validación de estudio.",
+						"plazo": "dic",
+						"estandar": [
+							"Deben dar cuenta de la presentación hacia actores clave del estudio realizado, incluyendo el Consejo Superior.",
+							"Deben especificar lista de asistentes y desarrollo de los temas tratados."
+						]
+					}
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Fortalecidas las capacidades académicas y del personal de colaboración en materia de gestión de centros de investigación.",
 				"actores": [
 					{
@@ -2283,6 +2493,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de capacitación",
+						"plazo": "nov",
+						"estandar": [
+							"Validadores respecto a sesiones de capacitación que den cuenta de lo propuesto.",
+							"Cada acta debe indicar contenidos asociados a la capacitación, asistentes y fechas y otros elementos pertinentes al seguimiento.",
+							"Actas deben dar cuenta de cómo los contenidos entregados tributan a los mecanismos y diagnósticos asociados a la formalización de Centros asociados a esta acción.",
+							"Si aplica, debe adjuntarse material, certificaciones u otro tipo de anexos derivados de las capacitaciones."
+						]
 					}
 				]
 			}
@@ -2327,6 +2549,35 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Modelo conceptual sobre el ciclo de vida de la investigación institucional",
+						"plazo": "may",
+						"estandar": [
+							"Considera aspectos teóricos y conceptuales para orientar la caracterización, seguimiento, evaluación, articulación y despliegue de actividades asociadas al ciclo de vida de la investigación, en todas sus etapas, entendiendo esto como un proceso dinámico, multivariable y sistémico en su naturaleza.",
+							"El modelo debe describir sistemáticamente el ciclo de vida de la investigación, detallando cada una de sus etapas, las entradas y salidas de cada una en términos de posibles productos de investigación, y como estos contribuyen a los procesos de desarrollo académico y vinculación con el medio externo.",
+							"El modelo debe establecer orientaciones para poder caracterizar las distintas actividades y productos asociadas al ciclo, desde la perspectiva de su clasificación, su complejidad, su impacto en el ciclo de vida (aproximación básica, aplicada, etc.), las capacidades de transferencia tecnológica que pueden lograr, el aporte a la sostenibilidad financiera, cómo se vinculan con aspectos de creación, entre otros factores pertinentes de caracterización.",
+							"Complementando la caracterización, el modelo debe plantear los principales grupos de datos e información que son relevantes para sistematizar las actividades, y desde ello, los procesos que dan soporte a operacionalizar esta sistematización.",
+							"Se deben establecer vínculos directos con los mecanismos de planificación institucional, especialmente el Lenguaje Estratégico, en el entendido que las actividades están sujetas a dichos estándares y deben poder planificarse bajo los estándares institucionales.",
+							"Define los principales mecanismos para la implementación y operacionalización del marco."
+						]
+					},
+					{
+						"nombre": "Actas de validación y difusión de Modelo conceptual con actores clave.",
+						"plazo": "jun",
+						"estandar": [
+							"Considera la presentación y evaluación de actores estratégicos que adoptarán responsabilidades en la implementación del sistema.",
+							"Acompañado de material que explica los elementos críticos del sistema."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza Modelo conceptual.",
+						"plazo": "jul",
+						"estandar": [
+							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."
+						]
+					}
 				]
 			},
 			{
@@ -2353,6 +2604,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de criterios para promover y evidenciar la investigación interdisciplinaria",
+						"plazo": "sep",
+						"estandar": [
+							"Documento de trabajo que sistematiza un set de criterios para poder identificar y caracterizar el grado de interdisciplinariedad de las actividades de investigación, en complemento al marco conceptual desarrollado, además de las aproximaciones metodológicas para aplicar dichos criterios.",
+							"Deben responder integralmente a las definiciones disciplinares y de líneas de investigación institucionales, estableciendo mecanismos para su vinculación y sinergia en la lógica interdisciplinaria.",
+							"Deeb establecer métricas, basadas en datos asociables a las actividades, que permitan medir su grado de interdisciplinariedad, y con ello, poder orientar su clasificación y la definición de indicadores institucionales en la materia.",
+							"Los criterios deben responder integralmente a los valores institucionales asociados a interndisciplina y a las definiciones de la Política de Investigación."
+						]
+					}
 				]
 			},
 			{
@@ -2375,11 +2638,23 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de directrices para equidad de género en la investigación",
+						"plazo": "nov",
+						"estandar": [
+							"Documento de trabajo que establece orientaciones institucionales para promover la equidad de género en las distintas etapas, tipos de actividades y productos asociados al ciclo de vida de la investigación.",
+							"Deeb dar cuenta de un análisis respecto a cómo este tipo de orientaciones se han desarrollado en otras Instituciones similares, estableciendo pauta de adaptación a la realidad UAysén.",
+							"Las orientaciones deben clasificarse según su naturaleza, estableciendo propuestas normativas, operativas, estratégicas, gestión de capacidades, lenguaje y otras que sean pertinentes.",
+							"Puede presentarse como anexo al modelo o una modificación / extensión al mismo."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Integrado el diseño del modelo conceptual con el sistema de gestión integral de actividades y desarrollo académico (DAC-33), de forma que se explicite la contribución de los productos del ciclo de vida de la investigación al desarrollo académico.",
+				"desc": "Integrado el diseño del modelo conceptual con el sistema de gestión integral de actividades y desarrollo académico (DAC-34), de forma que se explicite la contribución de los productos del ciclo de vida de la investigación al desarrollo académico.",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
@@ -2400,6 +2675,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Anexo para el marco conceptual de actividades y desarrollo académico",
+						"plazo": "sep",
+						"estandar": [
+							"Documento de trabajo que establece los grupos de información y orientaciones de caracterización de actividades de investigación que aportan a los procesos de desarrollo académico.",
+							"Debe dar cuenta de cómo las actividades y productos asociados al ciclo de investigación tributan a la planificación anual, calificación y evaluación académica, desde la perspectiva de los insumos de datos e información que entregan para el desarrollo de estos procesos.",
+							"Debe responder integralmente a la normativa asociada, por ej.: el Reglamento General Académico."
+						]
 					}
 				]
 			},
@@ -2435,6 +2721,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "sep",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -2465,11 +2762,22 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Caracterización de requerimientos de información.",
+						"plazo": "oct",
+						"estandar": [
+							"Compilación estructurada de datos e información relevante para los procesos asociados al marco conceptual.",
+							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+						]
+					}
 				]
 			},
 			{
 				"id": "H07", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Piloteados y validados los diversos mecanismos implementados al alero del sistema.",
+				"desc": "Diseñados, piloteados y validados los diversos mecanismos implementados al alero del sistema.",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
@@ -2486,6 +2794,38 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para operacionalizar el marco conceptual",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "oct",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al modelo y su pilotaje.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el modelo conceptual como de sus mecanismos derivados.",
+							"Debe establecer plan de trabajo para su consolidación en el tiempo y estrategia de desarrollo en el largo plazo."
+						]
 					}
 				]
 			}
