@@ -2876,6 +2876,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para regular instancias formativas que promuevan la productividad y divulgación científica.",
+						"plazo": "mar",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "may",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -2918,6 +2939,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos operativos para la divulgación de productos de investigación.",
+						"plazo": "may",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "jul",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
@@ -2948,11 +2990,32 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para regular productos de transferencia, licenciamiento y propiedad intelectual / industrial.",
+						"plazo": "abr",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "jul",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Revisados y ajustas los mecanismos de elaboración y adjudicación de fondos de investigación internos, que permita abordar su continuidad y adaptación al escenario actual y emergente del cuerpo académico de la Institución.",
+				"desc": "Revisados y ajustados los mecanismos de elaboración y adjudicación de fondos de investigación internos, que permita abordar su continuidad y adaptación al escenario actual y emergente del cuerpo académico de la Institución.",
 				"actores": [
 					{
 						"cai": "DI", "rol": "Aprobador",
@@ -2969,6 +3032,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos asociados a fondos internos.",
+						"plazo": "mar",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos ajustados",
+						"plazo": "may",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -2991,6 +3075,19 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "dic",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos asociados a productividad científica.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el marco conceptual como de sus mecanismos derivados.",
+							"Debe establecer plan de trabajo para su consolidación en el tiempo y estrategia de desarrollo en el largo plazo."
+						]
 					}
 				]
 			}
@@ -3023,6 +3120,15 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza Fablab",
+						"plazo": "dic",
+						"estandar": [
+							"En coherencia a avances desarrollados en H02 de DI-13."
+						]
+					}
 				]
 			},
 			{
@@ -3045,6 +3151,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de modelo de gestión Fablab",
+						"plazo": "may",
+						"estandar": [
+							"Documento de trabajo que establece las orientaciones para la articulación del Fablab con actores externos del medio, y el soporte que recibe para ello desde los actores internos de la Institución.",
+							"El modelo debe presentar entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
+							"Deeb responder integralmente a lineamientos institucionales tanto del área de Investigación como de Vinculación con el Medio.",
+							"En formato que responda a estándares DI."
+						]
+					}
 				]
 			},
 			{
@@ -3062,6 +3180,27 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para desarrollo de actividades de Fablab.",
+						"plazo": "jun",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "sep",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -3085,6 +3224,17 @@
 						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la implementación de actividades orientadas por mecanismos desarrollados en H03 y al modelo de gestión en H02.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
+					}
 				]
 			},
 			{
@@ -3106,6 +3256,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a las necesidades del Fablab y vínculos con el medio existentes.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
+						]
 					}
 				]
 			}
@@ -3146,6 +3308,25 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza líneas de investigación",
+						"plazo": "may",
+						"estandar": [
+							"Debe responder a un levantamiento sistemático y participativo del estamento académico.",
+							"Debe dar cuenta de la metodología temporal utilizada para su diseño.",
+							"Debe establecer los alcances del levantamiento de líneas inicial, estableciendo hitos de revisión y actualización para adaptarse a la situación futura de mediano plazo de la Institución."
+						]
+					},
+					{
+						"nombre": "Actas de definición de líneas de investigación",
+						"plazo": "may",
+						"estandar": [
+							"Un acta por sesión de trabajo realizada en el tema.",
+							"Debe dar cuenta de la participación de actores académicos y estratégicos clave, capturando observaciones y compromisos acordados."
+						]
+					}
 				]
 			},
 			{
@@ -3180,6 +3361,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta metodológica",
+						"plazo": "oct",
+						"estandar": [
+							"Documento de trabajo que especifica los distintos mecanismos operativos (información, procesos, procedimientos, etc.) que, en su utilización periódica y/o eventual, permiten la actualización sistemática de las líneas de investigación.",
+							"Deben establecerse los principales criterios y/o condiciones habilitantes para la actualización de las líneas de investigación, asociadas tanto a factores internos (ej.: evolución del cuerpo académico) como externos (ej.: instalación de industrias locales).",
+							"Se deben siempre considerar criterios asociados al medio regional y a las estrategias nacionales de investigación, estableciendo como la metodología recoge estos insumos y los utiliza en la actualización.",
+							"Se deben establecer formatos y medios de sistematización de la información asociada a la actualización de las líneas.",
+							"Se deben establecer principales roles, responsabilidades, hitos clave, actividades y otros antecedentes de planificación que sean relevantes.",
+							"Documento debe dar cuenta de una discusión y retroalimentación participativa con cuerpo académico y actores claves en materia de investigación."
+						]
+					}
 				]
 			},
 			{
@@ -3206,6 +3401,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para vincular procesos de desarrollo académico con la actualización de líneas de investigación institucional.",
+						"plazo": "oct",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ene",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			}
 		]
@@ -3219,6 +3435,48 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Propuesto y validado externamente un plan de Bioseguridad para el periodo.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-INSG", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de Plan de Bioseguridad.",
+						"plazo": "may",
+						"estandar": [
+							"Documento de trabajo que entrega las pautas generales respecto a reglas y estándares, información y formación de personal, aplicación de normativa, equipamiento y otros elementos fundamentales para la Bioseguridad.",
+							"Debe establecer acciones asociadas al diseño de mecanismos específicos a implementar durante el periodo que permitan el desarrollo de la investigación con estándares de Bioseguridad pertinentes.",
+							"Debe establecer actores clave, roles, responsabilidades, hitos, actividades, calendario y otros aspectos pertinentes al Plan.",
+							"En formato según estándares DI."
+						]
+					},
+					{
+						"nombre": "Actas de aprobación de Plan",
+						"plazo": "may",
+						"estandar": [
+							"Un acta por sesión de trabajo realizada en el tema.",
+							"Debe dar cuenta de la participación de actores académicos y estratégicos clave, capturando observaciones y compromisos acordados."
+						]
+					}
+				]
+			},
+			{
+				"id": "H01b", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Generadas directrices especificas para complementar las metodologías de gestión de requerimientos de infraestructura con necesidades específicas sobre el desarrollo de la investigación.",
 				"actores": [
 					{
@@ -3239,7 +3497,18 @@
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Anexos a criterios institucionales para priorización de requerimientos de infraestructura orientada a la investigación.",
+						"plazo": "oct",
+						"estandar": [
+							"Formulación de directrices complementarias a las desarrolladas en DAF-28-H02.",
+							"Deben incorporar aspectos estratégicos y académicos de la investigación respecto a las necesidades de infraestructura, tomando como insumos aspectos de la Política de Investigación, Líneas de investigación, PEDs de departamentos, entre otros mecanismos orientadores.",
+							"Propuesta debe ser coherente con estrategias de sostenibilidad institucional, privilegiar orientaciones hacia la interdisciplina y apuntar a un uso eficiente y productivo de los espacios físicos para la investigación entre múltiples disciplinas."
+						]
 					}
 				]
 			},
@@ -3266,6 +3535,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para la clasificación y manejo de residuos peligrosos.",
+						"plazo": "abr",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "jun",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
@@ -3297,8 +3587,25 @@
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de Bases de licitación.",
+						"plazo": "may",
+						"estandar": [
+							"Debe responder integralmente a normativa nacional e interna, tanto en aspectos académicos como de legislación pública respecto a manejo de residuos para la Bioseguridad.",
+							"Debe responder integralmente a aspectos de aseguramiento de la calidad desde entidades externas (CNA, estándares ISO que apliquen, etc.)."
+						]
+					},
+					{
+						"nombre": "Acta de adjudicación de licitación.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe responder integralmente a bases respectivas y a procesos de adquisiciones."
+						]
+					}
 				]
-			},
+			},			
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Generados y validados mecanismos protocolares para de uso de laboratorios por parte del personal universitario autorizado.",
@@ -3319,32 +3626,31 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Propuesto y validado externamente un plan de Bioseguridad para el periodo.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "riesgos" ]
+						"nombre": "Índice de mecanismos protocolares para de uso de laboratorios por parte del personal universitario autorizado.",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
 					},
 					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
+						"nombre": "Mecanismos diseñados",
+						"plazo": "sep",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
 			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Acotada",
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
 				"desc": "Piloteados y evaluados los mecanismos diseñados al alero de la realización del plan de Bioseguridad.",
 				"actores": [
 					{
@@ -3352,16 +3658,28 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DAF-INSG", "rol": "Consultado",
+						"cai": "DAF-INSG", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "riesgos", "infraestructura" ]
 					},
 					{
-						"cai": "DAF-INSG", "rol": "Consultado",
+						"cai": "DAF-INSG", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
-						"cai": "multiple", "rol": "Consultado",
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados asociados a las iniciativas de mejoramiento de Bioseguridad en el periodo.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto en la parte normativa como en la implementación."
+						]
 					}
 				]
 			}
