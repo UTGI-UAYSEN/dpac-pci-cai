@@ -1867,6 +1867,8 @@
 						"nombre": "Actas de reuniones del Comité",
 						"estandar": [
 							"Al menos un acta por cada sesión realizada.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
 						]
 					}
 				]
