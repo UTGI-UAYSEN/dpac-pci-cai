@@ -15,12 +15,33 @@
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
+						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan de implementación de web institucional",
+						"plazo": "mar",
+						"estandar": [
+							"Documento de trabajo que entrega el detalle respecto a los aspectos comunicacionales de la web institucional que serán mejorados y desarrollados durante el periodo.",
+							"Debe entregar un detalle estructurado respecto al mapa de navegación esperado para el portal, indicando los contenidos que serán presentados, los medios y la estrategia de recopilación de información para cada sección relevante.",
+							"Debe tener especial consideración con elementos de aseguramiento de la calidad que serán claves en el periodo.",
+							"Considera grandes hitos, roles, responsabilidades y fechas clave.",
+							"Debe ser evaluado y retroalimentado por DPAC-TGI."
+						]
+					},
+					{
+						"nombre": "Validadores de implementación de web institucional",
+						"plazo": "ago",
+						"estandar": [
+							"Deben responder integralmente al plan de implementación definido previamente.",
+							"Retroalimentado por actores estratégicos y DPAC-TGI."
+						]
 					}
 				]
 			},
@@ -44,19 +65,39 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos comunicacionales para gestión de recursos web",
+						"plazo": "abr",
+						"estandar": [
+							"Listado simple de mecanismos de caracter comunicacional para gestión de recursos web en la institución.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "jul",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", 
 				"desc": "Diseñados los mecanismos tecnológicos que dan soporte a la implementación de recursos web institucionales que apoyan la comunicación.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
@@ -65,6 +106,17 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de mecanismos tecnológicos incorporados",
+						"plazo": "oct",
+						"estandar": [
+							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
+							"Coherente con mecanismos comunicacionales desarrollados.",
+							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
+						]
 					}
 				]
 			},
@@ -88,6 +140,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de recursos web implementados",
+						"plazo": "ene",
+						"estandar": [
+							"Evidencias de implementación de recursos web para temáticas especificas y priorizadas en la Institución.",
+							"Considerar muestras de los portales desarrollados, documentación técnica, actas de validación, etc.",
+							"Debe dar cuenta del uso de mecanismos tecnológicos desarrollados previamente.",
+							"Debe darse cuenta de aprobación de recursos entregados por parte de actores claves pertinentes."
+						]
+					}
 				]
 			},
 			{
@@ -99,7 +163,7 @@
 						"capacidades": [ "posicionamiento", "posicionamiento" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -109,6 +173,28 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de encuestas de opinión para evaluar recursos web institucionales",
+						"plazo": "nov",
+						"estandar": [
+							"Documento de trabajo e implementación de estructura de encuestas que permita evaluar la opinión de actores clave de la comunidad universitaria y de actores externos respecto a recursos web institucionales.",
+							"Se deben especificar objetivos de encuestas y estructura debe considerar elementos de evaluación como impacto en el interés de las personas sobre temas que son comunicados, calidad de los contenidos, cualidades de presentación, percepción sobre el nivel de actualización, usabilidad de los contenidos, entre otros elementos que sean pertinentes.",
+							"Considerar una encuesta por cada recurso web existente, siendo orientadas hacia los actores internos y externos que sean pertinentes.",
+							"Retroalimentado desde una mirada técnica por DPAC-AI."
+						]
+					},
+					{
+						"nombre": "Informe de diagnostico respecto a evaluación de recursos web institucionales",
+						"plazo": "ene",
+						"estandar": [
+							"Informe que presenta un análisis cualitativo y cuantitativo respecto a impacto de los recursos web institucionales en la comunidad universitaria.",
+							"Debe considerar los resultados tanto en detalle como agregados de las encuestas de opinión aplicadas, además de otras métricas asociadas a nivel de acceso de los contenidos.",
+							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo en base a las brechas identificadas."
+						]
 					}
 				]
 			}
@@ -149,6 +235,35 @@
 						"cai": "DVcM", "rol": "Informado",
 						"capacidades": [ "direccion" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación interna de gestión para seguimiento de POA", 
+						"formula": "Número de instancias de seguimiento de avance interno de la dirección.",
+						"meta": "25"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de evaluación de avance interno de dirección",
+						"estandar": [
+							"Documento ejecutivo de trabajo que provee un diagnóstico para uso interno de la dirección respecto a los avances en la implementación de la planificación correspondiente al periodo.",
+							"Considerar el desarrollo de informes al menos dos veces por semestre.",
+							"Debe dar cuenta de recopilación de antecedentes, realización de reuniones de coordinación (detalladas en informe) y sistematización de información para el diagnóstico.",
+							"Diagnóstico debe desarrollarse en función a un análisis cuantitativo y cualitativo de datos e información disponible, explicitando principales avances y brechas identificadas.",
+							"Debe presentarse un plan de contingencia respecto a las brechas identificadas.",
+							"Se debe dar cuenta de la socialización de los informes al interior de la dirección y el acuse de recibo los responsables respectivo."
+						]
+					},
+					{
+						"nombre": "Actas de coordinación interna",
+						"estandar": [
+							"Actas de reuniones internas realizadas a nivel de dirección para control de gestión.",
+							"Considerar un acta por cada instancia de coordinación realizada",
+							"Debe dar cuenta de temas tratados, participantes, y principales observaciones.",
+							"Considerar al menos la realización de una reunión con cada área de la dirección cada dos semanas para temas tanto de POA como de proyectos institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -183,11 +298,34 @@
 						"cai": "DVcM", "rol": "Informado",
 						"capacidades": [ "direccion" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación interna de gestión para seguimiento de proyectos institucionales", 
+						"formula": "Número de instancias de seguimiento de avance interno de la dirección.",
+						"meta": "25"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de evaluación de avance interno de dirección",
+						"estandar": [
+							"Equivalente a lo definido en F01 (pueden trabajarse como uno).",
+							"Considerar que contenidos reportados deben diferenciar sobre seguimiento de PAO y de proyectos, para efectos de claridad."
+						]
+					},
+					{
+						"nombre": "Actas de coordinación interna",
+						"estandar": [
+							"Equivalente a lo definido en F01 (pueden trabajarse como uno).",
+							"Actas deben especificar si seguimiento se realiza sobre temas de POA o proyectos (o ambos, según temario)."
+						]
+					}
 				]
 			},
 			{
 				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Actualizar periódicamente indicadores operativos asociados a las tareas de la dirección.",
+				"desc": "Actualizar periódicamente indicadores asociados a las tareas de la dirección.",
 				"actores": [
 					{
 						"cai": "DVcM", "rol": "Responsable",
@@ -204,6 +342,22 @@
 					{
 						"cai": "DVcM", "rol": "Informado",
 						"capacidades": [ "direccion" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actualización de indicadores asociados a la dirección", 
+						"formula": "Número de instancias de en las cuales se actualizan los indicadores de seguimiento asociados al área.",
+						"meta": "4"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de evaluación de avance interno de dirección",
+						"estandar": [
+							"Equivalente a lo definido en F01 (pueden trabajarse como uno).",
+							"Informe debe incorporar resumen de actualización de indicadores pertinentes."
+						]
 					}
 				]
 			},
@@ -226,6 +380,23 @@
 					{
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Coordinación de Comité de Coordinación de la Vinculación con el Medio.", 
+						"formula": "Número de instancias de coordinación ejecutadas por el Comité.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones del Comité",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Acompañada por validador de aceptación.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					}
 				]
 			}
@@ -258,32 +429,22 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Actualizado y socializado el calendario anual de actividades artístico-culturales.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DVcM", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DVcM-CU", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
+						"nombre": "Plan anual de actividades artístico-culturales",
+						"plazo": "abr",
+						"estandar": [
+							"Documento de trabajo que presenta el detalle de la planificación de actividades para el periodo.",
+							"Debe presentar de forma estructurada y clasificada las distintas actividades que se realizarán, considerando las circunstancias de contingencia sanitaria, indicando para cada actividad su modalidad de realización, temática abordada, logística y coordinación requerida, plan de compras asociado, articulación con actores externos requerida, actividades de difusión asociadas, entre otros elementos pertinentes al plan.",
+							"Para las distintas actividades deben indicarse roles, responsabilidades, hitos específicos, fechas de realización y productos a generar.",
+							"Formato según estándares DVcM."
+						]
 					}
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Gestionada y desarrollada la actividad del Día de las Artes.",
 				"actores": [
 					{
@@ -294,10 +455,29 @@
 						"cai": "DVcM-COM", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "interna", "posicionamiento", "diseno" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Evidencias de ejecución",
+						"plazo": "abr",
+						"estandar": [
+							"Distintos validadores que den cuenta de la realización de la actividad.",
+							"Debe considerar cosas como: material gráfico presentado, grabaciones, actas, etc.",
+							"Debe considerar un listado de asistencia a la actividad"
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "abr",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia."
+						]
+					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Gestionado y formalizado convenio con Red Patagonia Cultural.",
 				"actores": [
 					{
@@ -316,10 +496,22 @@
 						"cai": "DVcM-TE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenio formalizado",
+						"plazo": "may",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar en el corto plazo."
+						]
+					}
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Gestionado y formalizado convenio con Red Región de Aysén.",
 				"actores": [
 					{
@@ -338,10 +530,22 @@
 						"cai": "DVcM-TE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenio formalizado",
+						"plazo": "ago",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar en el corto plazo."
+						]
+					}
 				]
 			},
 			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Acotada",
+				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Gestionados y formalizados otros convenios con instituciones y agrupaciones culturales.",
 				"actores": [
 					{
@@ -360,11 +564,23 @@
 						"cai": "DVcM-TE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenios formalizados",
+						"plazo": "oct",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
+					}
 				]
 			},
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Dar soporte administrativo a las actividades artístico-culturales en articulación con unidades correspondientes.",
+				"desc": "Dar soporte administrativo y logístico a las actividades artístico-culturales en articulación con unidades correspondientes.",
 				"actores": [
 					{
 						"cai": "DVcM-CU", "rol": "Responsable",
@@ -378,32 +594,28 @@
 						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "contabilidad" ]
 					}
-				]
-			},
-			{
-				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Dar soporte logístico a las actividades artístico-culturales en articulación con unidades correspondientes.",
-				"actores": [
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades artístico-culturales gestionadas.", 
+						"formula": "Número de actividades artístico-culturales gestionadas y realizadas en el periodo.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
 					{
-						"cai": "DVcM-CU", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "interno", "posicionamiento", "diseno" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "soporte" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"nombre": "Registro de actividades artístico-culturales",
+						"estandar": [
+							"Registro ordenado y estructurado para mantener la documentación y evidencias de las distintas actividades artístico-culturales desarrolladas.",
+							"Debe implementarse de forma que permita organizar y transmitir los verificadores de manera expedita (ej.: sistema de archivos).",
+							"Debe estar organizado de forma que cada actividad realizada tenga un espacio para el registro de su documentación y evidencias (ej.: una carpeta por actividad).",
+							"Cada actividad debe registrar validadores como documentación de adquisiciones, memos, trámites de difusión, correos electrónicos de coordinación, listas de asistencia, material de difusión, entre otros que sean pertinentes para su registro."
+						]
 					}
 				]
 			},
 			{
-				"id": "F03", "tipo": "Función", "cobertura": "Mediana",
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana",
 				"desc": "Gestionar y desarrollar actividades artístico-culturales emergentes en la Institución.",
 				"actores": [
 					{
@@ -414,10 +626,26 @@
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "interna" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades artístico-culturales emergentes.", 
+						"formula": "Número de actividades artístico-culturales emergentes que son gestionadas y realizadas en el periodo.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de actividades artístico-culturales",
+						"estandar": [
+							"Equivalente a lo especificado en F01 (pueden tratarse como uno solo).",
+							"Cada actividad debe además registrar evidencias de la naturaleza de emergente de una actividad (no considerada en el plan del periodo)."
+						]
+					}
 				]
 			},
 			{
-				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Diseñar herramientas, aplicarlas y sistematizar resultados de evaluación de resultados y opinión sobre actividades artístico-culturales desarrolladas.",
 				"actores": [
 					{
@@ -436,6 +664,33 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}	
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades artístico-culturales con evaluación de satisfacción.", 
+						"formula": "Número de actividades artístico-culturales emergentes realizadas y para las cuales se realiza una encuesta de satisfacción.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de encuestas de satisfacción",
+						"estandar": [
+							"Documento de trabajo e implementación de estructura de encuestas que permita evaluar la opinión de participantes a las actividades sobre satisfacción y percepción sobre las actividades.",
+							"Se deben especificar objetivos de encuestas y estructura debe considerar elementos de evaluación como impacto en el interés de las personas sobre temas, calidad de los contenidos, cualidades de presentación, usabilidad de los contenidos, entre otros elementos que sean pertinentes.",
+							"Considerar una encuesta por cada actividad realizada, siendo orientadas hacia los actores internos y externos que sean pertinentes.",
+							"Retroalimentado desde una mirada técnica por DPAC-AI."
+						]
+					},
+					{
+						"nombre": "Resultados de encuestas de satisfacción",
+						"estandar": [
+							"Informe ejecutivo que presenta un análisis cualitativo y cuantitativo respecto a los resultados de encuestas de satisfacción de las actividades realizadas.",
+							"Debe considerar los resultados tanto en detalle (para cada actividad realizada) como agregados de las encuestas aplicadas, además de otras métricas asociadas que sean pertinentes.",
+							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
+							"Debe incorporar un plan de mejora sobre la gestión de las actividades evaluadas para futuras actividades similares que se desarrollen."
+						]
+					}
 				]
 			}
 		]
@@ -463,6 +718,18 @@
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "interna" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan anual de actividades del Coro",
+						"plazo": "abr",
+						"estandar": [
+							"Documento de trabajo que presenta el detalle de la planificación de actividades para el periodo.",
+							"Debe presentar de forma estructurada y clasificada las distintas actividades que se realizarán, considerando las circunstancias de contingencia sanitaria, indicando para cada actividad su modalidad de realización, logística y coordinación requerida, plan de compras asociado, articulación con actores externos requerida, actividades de difusión asociadas, entre otros elementos pertinentes al plan.",
+							"Para las distintas actividades deben indicarse roles, responsabilidades, hitos específicos, fechas de realización y productos a generar.",
+							"Formato según estándares DVcM."
+						]
+					}
 				]
 			},
 			{
@@ -476,6 +743,21 @@
 					{
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "interna" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades del Coro UAysén.", 
+						"formula": "Número de actividades realizadas con el Coro UAysén.",
+						"meta": "3"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de actividades artístico-culturales",
+						"estandar": [
+							"Equivalente a lo especificado en F01 de DVcM-03 (pueden tratarse como uno solo)."
+						]
 					}
 				]
 			},
@@ -499,6 +781,21 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}	
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de encuestas de satisfacción",
+						"estandar": [
+							"Equivalente a lo especificado en F03 de DVcM-03 (pueden tratarse como uno solo).",
+							"Para actividades asociada al Coro, deben incorporarse preguntas específicas."
+						]
+					},
+					{
+						"nombre": "Resultados de encuestas de satisfacción",
+						"estandar": [
+							"Equivalente a lo especificado en F03 de DVcM-03 (pueden tratarse como uno solo)."
+						]
+					}
 				]
 			}
 		]
@@ -534,6 +831,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de revisión bibliográfica",
+						"plazo": "abr",
+						"estandar": [
+							"Debe dar cuenta de objetivos de revisión, fuentes revisadas, principales hallazgos y utilidad de la información recopilada para la institución.",
+							"Debe detallar datos, información, métricas u otro tipo de antecedentes cuantitativos obtenidos desde la revisión.",
+							"Debe entregar un diagnóstico cuantitativo y cualitativo de la revisión, en comparación a las necesidades y situación de la Institución, y orientando el uso del diagnóstico para la formulación metodológica."
+						]
+					},
+					{
+						"nombre": "Actas de visitas / coordinación a instituciones externas",
+						"plazo": "may",
+						"estandar": [
+							"Al menos un acta por cada institución visitada.",
+							"Se deben especificar participantes, temas tratados y otros elementos de desarrollo.",
+							"Actas deben ser explícita respecto al desarrollo de los antecedentes y experiencias que se recogen desde la realización de las instancias.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -552,10 +870,62 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de marco conceptual",
+						"plazo": "may",
+						"estandar": [
+							"Debe responder integralmente a los antecedentes recopilados en H01.",
+							"Puede considerarse como una extensión de la revisión hecha en H01, tomando y adaptando los conceptos identificados a la realidad de la Universidad y su contexto regional.",
+							"El marco conceptual debe ser coherente con los instrumentos de planificación, la normativa y otras directrices institucionales relevantes.",
+							"En el contexto de su adaptación, es fundamental que el marco incorpore explícita y funcionalmente la mirada y rol académico en su diseño.",
+							"El modelo debe establecer con claridad el rol consultivo que tendrán las gobernanzas territoriales tanto a nivel de Consejo Social como de Gobierno Universitario."
+						]
+					},
+					{
+						"nombre": "Actas de presentación y validación del marco",
+						"plazo": "jun",
+						"estandar": [
+							"Se deben especificar participantes, temas tratados, retroalimentación generada y otros elementos relacionados.",
+							"Debe dar cuenta de la participación de actores académicos y estratégicos clave.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
+				]
+			},			
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generadas propuestas preliminares de mecanismos tecnológicos que permitan apoyar los procesos identificados.",
+				"actores": [					
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos tecnológicos.",
+						"plazo": "jun",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
+							"Debe tener coherencia con el marco conceptual desarrollado en paralelo.",
+							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones.",
+							"En función a los requerimientos identificados, deben presentarse propuestas preliminares para su resolución, por medio de recursos tecnológicos pertinentes."
+						]
+					}
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Hecho un barrido sobre procesos críticos para la gestión territorial que orienten la operacionalización del MGT, que incluyan aspectos de gobernanza territorial y que identifiquen responsabilidades sobre la gestión de información del modelo.",
 				"actores": [
 					{
@@ -578,27 +948,16 @@
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Generadas propuestas preliminares de mecanismos tecnológicos que permitan apoyar los procesos identificados.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+						"nombre": "Propuesta metodológica para la operación del MGT",
+						"plazo": "jun",
+						"estandar": [
+							"Documento de trabajo que compila resultados de los otros hitos en esta acción y los organiza sistémicamente.",
+							"Debe presentarse como un modelo de gestión en sí, considerando entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
+							"Debe explicitar propuestas de procesos con alcance regional, especificando actores, roles instrumentos y flujos de actividades."
+						]
 					}
 				]
 			},
@@ -630,6 +989,17 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de presentación y validación de diseños propuestos ante instancias pertinentes",
+						"plazo": "ago",
+						"estandar": [
+							"Se deben especificar participantes, temas tratados, retroalimentación generada y otros elementos relacionados.",
+							"Debe dar cuenta de la participación de actores académicos y estratégicos clave.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -648,6 +1018,25 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de MGT actualizado",
+						"plazo": "nov",
+						"estandar": [
+							"Actualización debe dar cuenta de los diferentes productos generados en esta acción.",
+							"Presentación debe corresponder a documento de trabajo que explicite de forma clara el modelo de gestión, presentando al menos: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación y estructura orgánica asociada."
+						]
+					},
+					{
+						"nombre": "Actas de validación de MGT ajustado",
+						"plazo": "dic",
+						"estandar": [
+							"Se deben especificar participantes, temas tratados, retroalimentación generada y otros elementos relacionados.",
+							"Debe dar cuenta de la participación de actores académicos y estratégicos clave.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
 				]
 			},
 			{
@@ -655,26 +1044,37 @@
 				"desc": "Caracterizados los requerimientos de información que dan soporte a la operacionalización del MGT y a la medición de sus resultados e impacto.",
 				"actores": [
 					{
-						"cai": "DPAC-AI", "rol": "Responsable",
+						"cai": "DVcM-TE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
+					},					
 					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
+						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
-						"cai": "DVcM-TE", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
+					},					
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Caracterización de requerimientos de información.",
+						"plazo": "oct",
+						"estandar": [
+							"Compilación estructurada de datos e información relevante para los procesos asociados al MGT.",
+							"Considera diccionario de datos, indicadores, líneas base, metas y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+						]
 					}
 				]
 			},
 			{
 				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Elaborados y desplegados instrumentos iniciales para la captura de datos que permitan resolver los requerimientos de información caracterizados.",
+				"desc": "Elaborados y desplegados mecanismos iniciales para la captura de datos que permitan resolver los requerimientos de información caracterizados.",
 				"actores": [
 					{
 						"cai": "DVcM-TE", "rol": "Responsable",
@@ -688,10 +1088,32 @@
 						"cai": "DPAC-TGI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para captura de datos del MGT",
+						"plazo": "oct",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe ser coherente con propuesta en desarrollo de ajustes al MGT.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "dic",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			},
 			{
-				"id": "H09", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H09", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñado un plan de articulación con actores claves de los territorios que permita el despliegue de los mecanismos operativos del MTG en desarrollo.",
 				"actores": [
 					{
@@ -705,6 +1127,17 @@
 					{
 						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de Plan de Articulación",
+						"plazo": "sep",
+						"estandar": [
+							"Documento de trabajo ejecutivo con una clasificación propuesta de actores del medio con los cuales la Institución podrá interactuar en el marco del MGT.",
+							"Se deben clasificar los distintos actores considerados según localidades, rubro, naturaleza (empresa, institución pública, ONG, instancia no formal, etc.), tamaño, disponibilidad, estrategia de trabajo colaborativo, fundamentación de importancia para su incorporación, entre otros que sean relevantes en el Plan.",
+							"Se deben establecer roles, responsables, actividades, hitos y otros elementos relevantes para generar los vínculos con los actores presentados."
+						]
 					}
 				]
 			},
@@ -723,6 +1156,18 @@
 					{
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenios formalizados",
+						"plazo": "dic",
+						"estandar": [
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
 					}
 				]
 			},
@@ -746,19 +1191,27 @@
 						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general" ]
 					}					
-				]
-			},
-			{
-				"id": "H12", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Fortalecidas capacidades, tanto por nuevas contrataciones como por capacitaciones, que habilite el diseño e implementación de los mecanismos operacionales del MGT.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DVcM-TE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"nombre": "Actas de realización de Consejos",
+						"plazo": "nov",
+						"estandar": [
+							"Se deben especificar participantes, temas tratados, retroalimentación generada y otros elementos relacionados.",
+							"Actas deben explicitar levantamiento de información desde los Consejos respecto a oportunidades y focos de colaboración de la Universidad con los territorios en el ámbito de la docencia y la investigación.",
+							"Debe dar cuenta de la participación de actores clave académicos, estratégicos y del medio a través de las instancias institucionales respectivas.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					},
 					{
-						"cai": "DAF-DP", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
+						"nombre": "Informe de oportunidades territoriales",
+						"plazo": "dic",
+						"estandar": [
+							"Informe ejecutivo que compila antecedentes desarrollados desde los Consejos de forma integrada y sistémica para su uso en el próximo periodo.",
+							"Deben integrarse y desarrollarse las oportunidades y focos de colaboración de la Universidad con los territorios en el ámbito de la docencia y la investigación que se hayan levantado.",
+							"La información debe ser analizada desde la perspectiva cuantitativa y cualitativa para levantar un diagnóstico de oportunidades, clasificándolas por complejidad, sinergia con los componentes disciplinares del cuerpo académico de la Universidad, demanda financiera y logística, entre otros elementos pertinentes.",
+							"Debe establecer un plan de uso para la información analizada y que tenga aplicación desde el periodo siguiente."
+						]
 					}
 				]
 			}
@@ -791,54 +1244,22 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Actualizado y socializado el calendario anual de espacios de reflexión e incidencia pública.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DVcM", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+						"nombre": "Plan anual de actividades para la reflexión e incidencia pública",
+						"plazo": "abr",
+						"estandar": [
+							"Documento de trabajo que presenta el detalle de la planificación de actividades para el periodo.",
+							"Debe presentar de forma estructurada y clasificada las distintas actividades que se realizarán, considerando las circunstancias de contingencia sanitaria, indicando para cada actividad su modalidad de realización, logística y coordinación requerida, plan de compras asociado, articulación con actores externos requerida, actividades de difusión asociadas, entre otros elementos pertinentes al plan.",
+							"Para las distintas actividades deben indicarse roles, responsabilidades, hitos específicos, fechas de realización y productos a generar.",
+							"Formato según estándares DVcM."
+						]
 					}
 				]
 			},
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Dar soporte logístico al desarrollo de espacios de reflexión e incidencia pública.",
-				"actores": [
-					{
-						"cai": "DVcM-TE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "soporte" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}
-				]
-			},
-			{
-				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Gestionar y desarrollar de espacios de reflexión e incidencia pública emergentes en la Institución.",
 				"actores": [
 					{
@@ -852,6 +1273,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades para la reflexión e incidencia pública gestionadas.", 
+						"formula": "Número de actividades para la reflexión e incidencia pública gestionadas y realizadas en el periodo.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de actividades para la reflexión e incidencia pública",
+						"estandar": [
+							"Registro ordenado y estructurado para mantener la documentación y evidencias de las distintas actividades para la reflexión e incidencia pública desarrolladas.",
+							"Debe implementarse de forma que permita organizar y transmitir los verificadores de manera expedita (ej.: sistema de archivos).",
+							"Debe estar organizado de forma que cada actividad realizada tenga un espacio para el registro de su documentación y evidencias (ej.: una carpeta por actividad).",
+							"Cada actividad debe registrar validadores como documentación de adquisiciones, memos, trámites de difusión, correos electrónicos de coordinación, listas de asistencia, material de difusión, entre otros que sean pertinentes para su registro."
+						]
 					}
 				]
 			},
@@ -870,6 +1309,33 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Colaboración con actores claves de los territorios.", 
+						"formula": "Número de colaboraciones con actores claves de los territorios formalizadas y operacionalizadas.",
+						"meta": "5"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Formalización de nuevos convenios o convenios actualizados",
+						"estandar": [
+							"Puede aplicar para convenios que ya existen y requieran una actualización, o para colaboraciones nuevas.",
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
+					},
+					{
+						"nombre": "Informes de desarrollo de actividades al alero de convenios",
+						"estandar": [
+							"Informes ejecutivos que detallan aspectos de ejecución de convenios, detallando actividades realidad, sus impactos y proyecciones.",
+							"Considerar un informe por cada convenio activo.",
+							"Si corresponde, cada informe debe identificar brechas de operacionalización y presentar plan de contingencia para subsanar."
+						]
 					}
 				]
 			},
@@ -892,6 +1358,33 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Espacios de reflexión e incidencia pública con evaluación de satisfacción.", 
+						"formula": "Número de espacios de reflexión e incidencia pública realizados y para los cuales se realiza una encuesta de satisfacción.",
+						"meta": "6"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de encuestas de opinión para evaluar espacios de reflexión e incidencia pública",
+						"estandar": [
+							"Documento de trabajo e implementación de estructura de encuestas que permita evaluar la opinión de actores clave de la comunidad universitaria y de actores externos respecto a los espacios de reflexión e incidencia pública.",
+							"Se deben especificar objetivos de encuestas y estructura debe considerar elementos de evaluación como impacto en el interés de las personas sobre temas que son comunicados, calidad de los contenidos, cualidades de presentación, percepción sobre el nivel de actualización, usabilidad de los contenidos, entre otros elementos que sean pertinentes.",
+							"Considerar una encuesta por cada actividad realizada, siendo orientadas hacia los actores internos y externos que sean pertinentes.",
+							"Retroalimentado desde una mirada técnica por DPAC-AI."
+						]
+					},
+					{
+						"nombre": "Informe de diagnostico respecto a evaluación de espacios de reflexión e incidencia pública",
+						"estandar": [
+							"Informe que presenta un análisis cualitativo y cuantitativo respecto a impacto de los espacios de reflexión e incidencia pública en la comunidad universitaria.",
+							"Debe considerar los resultados tanto en detalle como agregados de las encuestas de opinión aplicadas, además de otras métricas asociadas a nivel de acceso de los contenidos.",
+							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo en base a las brechas identificadas."
+						]
 					}
 				]
 			}
@@ -924,6 +1417,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan anual de realización de Consejos Sociales",
+						"plazo": "mar",
+						"estandar": [
+							"Documento de trabajo que presenta el detalle de la planificación de actividades para el periodo.",
+							"Debe presentar de forma estructurada y clasificada las distintas sesiones que se realizarán, considerando las circunstancias de contingencia sanitaria, indicando para cada actividad su modalidad de realización, logística y coordinación requerida, plan de compras asociado, articulación con actores externos requerida, actividades de difusión asociadas, entre otros elementos pertinentes al plan.",
+							"Para las distintas actividades deben indicarse roles, responsabilidades, hitos específicos, fechas de realización y productos a generar.",
+							"Formato según estándares DVcM."
+						]
+					}
 				]
 			},
 			{
@@ -946,32 +1451,20 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Actualizado y socializado el calendario anual de Consejos Sociales.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DVcM", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+						"nombre": "Plan anual de realización de Consejos Sociales",
+						"plazo": "abr",
+						"estandar": [
+							"Equivalente a lo definido en H01 (pueden trabajarse como uno solo).",
+							"Considerar incorporar la información de los contenidos a presentar por sesión, en coherencia a la planificación anual de la institución."
+						]
 					}
 				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
 				"desc": "Desarrollados los Consejos sociales del 1er semestre.",
 				"actores": [
 					{
@@ -982,10 +1475,22 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de realización del Consejo Social",
+						"plazo": "jul",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Debe especificar listado de asistencia, temas tratados y retroalimentación levantada.",
+							"Acompañada por validador de aceptación de sus miembros.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
+					}
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
 				"desc": "Desarrollados los Consejos sociales del 2do semestre.",
 				"actores": [
 					{
@@ -995,6 +1500,18 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de realización del Consejo Social",
+						"plazo": "ene",
+						"estandar": [
+							"Al menos un acta por cada sesión realizada.",
+							"Debe especificar listado de asistencia, temas tratados y retroalimentación levantada.",
+							"Acompañada por validador de aceptación de sus miembros.",
+							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+						]
 					}
 				]
 			},
@@ -1018,6 +1535,24 @@
 						"cai": "DAF-INSG", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Gestión de Consejos Sociales.", 
+						"formula": "Número de Consejos Sociales gestionados y realizados en el periodo.",
+						"meta": "8"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de Consejos Sociales",
+						"estandar": [
+							"Registro ordenado y estructurado para mantener la documentación y evidencias asociadas a los Consejos Sociales desarrollados.",
+							"Debe implementarse de forma que permita organizar y transmitir los verificadores de manera expedita (ej.: sistema de archivos).",
+							"Debe estar organizado de forma que cada actividad realizada tenga un espacio para el registro de su documentación y evidencias (ej.: una carpeta por actividad).",
+							"Cada actividad debe registrar validadores como documentación de adquisiciones, memos, trámites de difusión, correos electrónicos de coordinación, listas de asistencia, material de difusión, entre otros que sean pertinentes para su registro."
+						]
+					}
 				]
 			},
 			{
@@ -1031,6 +1566,22 @@
 					{
 						"cai": "DVcM-COM", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Comunicación con consejeros/as.", 
+						"formula": "Número de consejeros/as con los/as cuales se gestiona comunicación periódica para su participación.",
+						"meta": "30"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validadores de gestiones comunicacionales",
+						"estandar": [
+							"Evidencias comunicacionales (ej.: correos electrónicos) que dan cuenta de la comunicación realizada de forma periódica con los consejeros y consejeras.",
+							"Mantener registro ordenado de comunicaciones con cada consejero/a."
+						]
 					}
 				]
 			},
@@ -1054,6 +1605,33 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}	
+				],
+				"ios":[
+					{ 
+						"nombre": "Consejos Sociales evaluación de satisfacción.", 
+						"formula": "Número de Consejos Sociales realizados y para los cuales se realiza una encuesta de satisfacción.",
+						"meta": "8"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de encuestas de opinión para evaluar Consejos Sociales",
+						"estandar": [
+							"Documento de trabajo e implementación de estructura de encuestas que permita evaluar la opinión de actores clave de la comunidad universitaria y de actores externos respecto a Consejos Sociales realizados.",
+							"Se deben especificar objetivos de encuestas y estructura debe considerar elementos de evaluación como impacto en el interés de las personas sobre temas que son comunicados, calidad de los contenidos, cualidades de presentación, percepción sobre el nivel de actualización, usabilidad de los contenidos, entre otros elementos que sean pertinentes.",
+							"Considerar una encuesta por cada Consejo realizado, siendo orientadas hacia los actores internos y externos que sean pertinentes.",
+							"Retroalimentado desde una mirada técnica por DPAC-AI."
+						]
+					},
+					{
+						"nombre": "Informe de diagnostico respecto a Consejos Sociales",
+						"estandar": [
+							"Informe que presenta un análisis cualitativo y cuantitativo respecto a impacto de los Consejos Sociales en la comunidad universitaria.",
+							"Debe considerar los resultados tanto en detalle como agregados de las encuestas de opinión aplicadas, además de otras métricas asociadas a nivel de acceso de los contenidos.",
+							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo en base a las brechas identificadas."
+						]
+					}
 				]
 			}
 		]
@@ -1088,6 +1666,14 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta metodológica",
+						"estandar": [
+							"Documento de trabajo que entrega las orientaciones para el diseño de proyectos VEC en el contexto del trabajo en el área de educación."
+						]
 					}
 				]
 			},
