@@ -1671,8 +1671,12 @@
 				"verificadores": [
 					{
 						"nombre": "Propuesta metodológica",
+						"plazo": "abr",
 						"estandar": [
-							"Documento de trabajo que entrega las orientaciones para el diseño de proyectos VEC en el contexto del trabajo en el área de educación."
+							"Documento de trabajo que entrega las orientaciones para el diseño de proyectos VEC en el contexto del trabajo en el área de educación.",
+							"Debe establecer un proceso que considere la identificación, evaluación, priorización y despliegue de ideas para proyectos VEC según criterios objetivos, con perspectiva académica y basados en orientaciones para la vinculación con el medio institucional.",
+							"Debe explicitar la forma de articulación e incidencia del cuerpo académico en la definición de los proyectos.",
+							"Debe establecer roles, responsabilidades, hitos, actividades, principales productos, entre otros elementos metodológicos relevantes."
 						]
 					}
 				]
@@ -1692,6 +1696,28 @@
 					{
 						"cai": "multiple", "rol": "Soporte",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Oportunidades para proyectos sistematizadas",
+						"plazo": "may",
+						"estandar": [
+							"Documento de trabajo que resume oportunidades para el desarrollo de proyectos VEC en el periodo.",
+							"Su definición debe responder integralmente a metodología diseñada en H01.",
+							"Para cada oportunidad definida, deben establecerse requerimientos específicos de implementación que permitan dimensionar su complejidad y alcances.",
+							"Cada oportunidad debe explicitar los requerimientos de articulación tanto interna como externa con actores claves para su desarrollo, en especial en lo que se refiere a establecimientos educacionales y cuerpo académico.",
+							"Debe incorporar un análisis de priorización, estableciendo en función a antecedentes cuantitativos y cualitativos un conjunto de recomendaciones para su selección."
+						]
+					},
+					{						
+						"nombre": "Fichas de propuesta de proyectos",
+						"plazo": "jun",
+						"estandar": [
+							"Informes ejecutivos que resumen cada propuesta que representa una oportunidad de proyecto.",
+							"Considerar un informe por propuesta definida.",
+							"Debe ser coherente con documento consolidado de oportunidades."
+						]
 					}
 				]
 			},
@@ -1714,6 +1740,34 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acta de selección de propuestas",
+						"plazo": "jun",
+						"estandar": [
+							"Acta de instancia de coordinación y/o reunión para la definición de las propuestas que serán implementadas entre las oportunidades existentes.",
+							"Debe dar cuenta de participantes, oportunidades presentadas, discusión y resultados de selección.",
+							"Acta debe presentar acuerdos respecto a las siguientes gestiones para avanzar en la implementación."
+						]
+					},
+					{						
+						"nombre": "Fichas de propuesta de proyectos seleccionadas",
+						"plazo": "jun",
+						"estandar": [
+							"Subconjunto de las definidas en H02, considerando solo propuestas seleccionadas para su implementación."
+						]
+					},
+					{
+						"nombre": "Verificadores de proyectos desarrollados",
+						"plazo": "oct",
+						"estandar": [
+							"Diversos validadores que permitan dar cuenta de la realización de las propuestas que se implementarán.",
+							"Puede considerar documentación general, sobre implementación, evidencia gráfica, presentaciones, prototipos en formato digital, entre otros que sean pertinentes.",
+							"Todas deben dar cuenta de algún validador que respalde la finalización del proyecto en función a la propuesta respectiva.",
+							"Antecedentes deben ser ordenados y estructurados de forma ordenada con cada proyecto (ej.: una carpeta por proyecto desarrollado."
+						]
 					}
 				]
 			},
@@ -1757,6 +1811,27 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Material de difusión",
+						"plazo": "ene",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+							"Material debe entregar orientaciones a los usuarios respecto a cómo pueden acceder a los recursos.",
+							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+						]
+					},
+					{
+						"nombre": "Evidencias de ejecución de eventos",
+						"plazo": "ene",
+						"estandar": [
+							"Distintos validadores que den cuenta de la realización de las actividades.",
+							"Debe considerar cosas como: material gráfico presentado, fotografías, grabaciones, actas, etc.",
+							"Debe considerar listados de asistencia a las actividades."
+						]
+					}
 				]
 			},
 			{
@@ -1775,6 +1850,19 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica", "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza instancia institucional",
+						"plazo": "abr",
+						"estandar": [
+							"Debe describir características, funciones, composición y otros elementos asociados a la orgánica de la instancia.",
+							"Debe explicitar los mecanismos de vinculación con el medio externo asociados a la instancia, y los mecanismos de retroalimentación y coordinación con el estamento académico que sean pertinentes.",
+							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+							"Debe dar cuenta de un diálogo con actores estratégicos de la institución y coherencia con el contexto normativo que influye.",
+							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+						]
+					}
 				]
 			},
 			{
@@ -1786,12 +1874,27 @@
 						"capacidades": [ "coordinacion-general", "educacion" ]
 					},
 					{
-						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Puntual",
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que formaliza directrices estratégicas (ej.: política) sobre Vinculación Escolar.",
+						"plazo": "sep",
+						"estandar": [
+							"Debe responder integralmente a elementos establecidos en otras directrices clave, como la política de VcM, PEDI, etc.",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y la retroalimentación con el estamento respectivo.",
+							"Debe haber sido elaborada en función a los estándares institucionales para directrices institucionales (DPAC-PCI)."
+						]
 					}
 				]
 			},
@@ -1815,6 +1918,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la necesidad de implementar acciones en el área de educación, acorde a sus directrices estratégicas.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
+					}
 				]
 			},
 			{
@@ -1837,6 +1951,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de reuniones de trabajo con actores clave.",
+						"plazo": "jun",
+						"estandar": [
+							"Deben dar cuenta del trabajo colaborativo de actores claves para avanzar en oportunidades al alero de una MIEE.",
+							"Considerar un acta por sesión realizada con actores clave, indicando participantes y temas tratados.",
+							"Debe considerar la participación de actores académicos clave, tanto de la UAysén como de otras IES regionales.",
+							"Cada acta debe entregar un detalle de las ideas sistematizadas y los antecedentes levantados de ellas."
+						]
+					}
 				]
 			},
 			{
@@ -1858,6 +1984,18 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Validador de formalización de MIEE.",
+						"plazo": "jul",
+						"estandar": [
+							"Cualquier documento formal (decreto, resolución, etc.) que de cuenta de la conformación.",
+							"Debe establecer al menos objetivos, conformación, funciones, orgánica interna, mecanismos de coordinación y otros elementos de gestión asociados.",
+							"Debe explicitar como la mirada académica incide y retroalimenta desde la Universidad el funcionamiento de la Mesa, resaltando dicha contribución desde los actores asociados a la Educación Superior Regional.",
+							"Debe dar cuenta de contraparte explicita de la Universidad en la MIEE."
+						]
 					}
 				]
 			},
@@ -1884,6 +2022,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta metodológica para generación de directrices.",
+						"plazo": "ago",
+						"estandar": [
+							"Establece la forma de recopilación y sistematización de perspectivas para la formulación de directrices por parte de los actores clave.",
+							"Establece definiciones de forma, estructura de presentación de las directrices y diseño de estrategia de seguimiento (indicadores, métricas, etc.)",
+							"Debe proponer calendario tentativo, roles, responsabilidades, actores clave, hitos, productos y otros elementos metodológicos clave."
+						]
+					},
+					{
+						"nombre": "Propuesta inicial de Directrices Estratégicas desde MIEE.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe responder integralmente a la metodología diseñada, siendo incorporada explícitamente en el documento.",
+							"Debe responder integralmente a elementos establecidos en otras directrices clave a nivel regional, nacional y de las instituciones involucradas (ej.: ERI).",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y como las IES tienen influencia y retroalimentan el desarrollo de propuestas al alero de las directrices.",
+							"Diseño debe responder a formato que permita su difusión y presentación como instrumento estratégico (ej.: documento estrategia)."
+						]
 					}
 				]
 			}
@@ -1917,8 +2076,28 @@
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
+						"cai": "DAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de diagnóstico sobre implementación de ATE",
+						"plazo": "may",
+						"estandar": [
+							"Informe detallado que compila antecedentes cuantitativos y cualitativos respecto a las necesidades emergentes para la gestión de una ATE a nivel institucional.",
+							"Debe desarrollar un análisis de la situación actual de la Institución y de la situación esperada con la ATE instalada, detallando en los principales aportes a la estrategia institucional, a la sostenibilidad financiera, al aporte a nivel regional y a otros elementos contextuales que sean pertinentes.",
+							"El análisis debe considerar retroalimentación y perspectivas de experiencias de otras IES que tengan instancias similares.",
+							"Debe explicitar la participación, injerencia y retroalimentación del estamento académico en la formación, funcionamiento y proyección de la propuesta.",
+							"Debe dar cuenta de una orgánica requerida acorde a las proyecciones establecidas, definiendo en detalle capacidades requeridas y los costos involucrados en el largo plazo.",
+							"Establece necesidades de gestión procedimental, tecnológica y de información requeridas para la implementación.",
+							"Debe dar cuenta de los principales mecanismos legales y jurídicos que deben ser implementados.",
+							"Debe tener en consideración aspectos de aseguramiento de la calidad."
+						]
 					}
 				]
 			},
@@ -1950,6 +2129,27 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta metodológica para generación de directrices.",
+						"plazo": "jun",
+						"estandar": [
+							"Establece la forma de recopilación y sistematización de perspectivas para la formulación de directrices por parte de los actores clave.",
+							"Establece definiciones de forma, estructura de presentación de las directrices y diseño de estrategia de seguimiento (indicadores, métricas, etc.)",
+							"Debe proponer calendario tentativo, roles, responsabilidades, actores clave, hitos, productos y otros elementos metodológicos clave."
+						]
+					},
+					{
+						"nombre": "Propuesta inicial de Directrices Estratégicas para ATE.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe responder integralmente a la metodología diseñada, siendo incorporada explícitamente en el documento.",
+							"Debe responder integralmente a elementos establecidos en otras directrices clave a nivel regional, nacional y de las instituciones involucradas (ej.: ERI).",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y como actores claves del estamento académico participan, retroalimentan y orientan aspectos de la gestión y desarrollo de la ATE.",
+							"Diseño debe responder a formato que permita su difusión y presentación como instrumento estratégico (ej.: documento estrategia), utilizando estándares institucionales (DPAC-PCI)."
+						]
+					}
 				]
 			},
 			{
@@ -1976,11 +2176,24 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Modelo de negocios de ATE",
+						"plazo": "oct",
+						"estandar": [
+							"Documento de trabajo que, establece directrices estratégicas, metodológicas y operativas para la planificación, priorización y desarrollo de actividades al alero de la ATE que generan recursos para aportar a su sostenibilidad en el largo plazo y los aportes a la sostenibilidad financiera institucional.",
+							"Debe explicitar los mecanismos a través de los cuales se generan y distribuyen los ingresos generados desde la ATE, explicitando como las actividades relacionadas aportarán a dichos flujos.",
+							"Debe establecer mecanismos para la sistematización, cuantificación y evaluación de aspectos financieros de la ATE en función a las actividades desarrolladas.",
+							"Debe establecer parámetros de sostenibilidad que permitan evaluar y orientar decisiones respecto al tipo y forma de las actividades que desarrollará la ATE en contribución a su sostenibilidad financiera.",
+							"Debe explicitar el modelo de gestión que permitirá proyectar la sostenibilidad de la ATE desde el aporte de la Universidad y el aporte propio, y como ambos se retroalimentan mutuamente."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Desarrolladas y evaluadas acciones piloto en el contexto de instalación emergente de la ATE.",
+				"desc": "Diseñadas y evaluadas acciones piloto en el contexto de instalación emergente de la ATE.",
 				"actores": [
 					{
 						"cai": "DVcM-TE", "rol": "Responsable",
@@ -1995,12 +2208,27 @@
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
+						"cai": "DPAC-PCI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la propuesta de instalación y proyección de ATE, incluyendo actividades derivadas de su implementación inicial.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
 					}
 				]
 			}
@@ -2015,7 +2243,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y valido un plan anual de posicionamiento que permita establecer mecanismos periódicos y recursos para la difusión de las actividades académicas en el medio, en coherencia a la planificación institucional.",
+				"desc": "Diseñado y valido un plan anual de posicionamiento que permita establecer mecanismos periódicos y recursos para la difusión de las actividades académicas y del personal de colaboración en el medio, en coherencia a la planificación institucional.",
 				"actores": [
 					{
 						"cai": "DVcM", "rol": "Aprobador",
@@ -2053,53 +2281,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Diseñado y valido un plan anual de posicionamiento que permita establecer mecanismos periódicos y recursos para la difusión de las actividades de los equipos de colaboración, en coherencia a la planificación institucional.",
-				"actores": [
+				],
+				"verificadores": [
 					{
-						"cai": "DVcM", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
-					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Diseñado y valido un plan anual de posicionamiento internacional de las actividades realizadas en la institución, en función a los otros planes locales.",
-				"actores": [
-					{
-						"cai": "DVcM", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
-					},
-					{
-						"cai": "DVcM-RI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+						"nombre": "Plan anual de Posicionamiento Institucional.",
+						"plazo": "abr",
+						"estandar": [
+							"Documento de trabajo que entrega detalles respecto a las estrategias del periodo para posicionar a la institución en el contexto regional, nacional e internacional, por medio de actividades e iniciativas comunicacionales pertinentes.",
+							"Debe detallar los diversos mecanismos comunicacionales a utilizar, clasificándolos por su forma de implementación, alcance de aplicación, actores clave asociados, medios de difusión, grado de formalización, impacto esperado, entre otros pertinentes.",
+							"Debe dar cuenta del tipo de actividades a realizar y sobre las cuales algunos mecanismos podrán ser usados para su implementación, clasificándolas según formas de implementación, logística y recursos requeridos, extensión, alcance (regional, nacional, internacional), medios de difusión, actores claves para su realización, formas de reporte y verificación, medición de impacto, entre otros pertinentes.",
+							"Plan debe establecer áreas estratégicas sobre las cuales los mecanismos se implementarán, estableciendo prioridades y focos específicos en materias académicas y disciplinares asociadas a la docencia e investigación institucional.",
+							"Debe proponer calendario de aplicación del plan, indicando roles, responsabilidades, hitos y productos esperados."
+						]
 					}
 				]
 			},
@@ -2126,6 +2319,31 @@
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de actividades de docencia en medios externos.", 
+						"formula": "Número de productos comunicacionales en los medios regionales y nacionales sobre actividades destacadas en el ámbito de la docencia de pregrado, postgrado y la educación continua de la Institución.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de difusión y posicionamiento institucional",
+						"estandar": [
+							"Debe registrar productos comunicacionales que apunten a la difusión de actividades en la Institución y que apunten a su posicionamiento.",
+							"Debe ser cuantificable en cantidad de productos generados.",
+							"Cada registro de producto debe especificar su tipo, actividades a las que tributa, medio de implementación, vigencia, estado de validación, lugar de almacenamiento, alcance (regional, nacional, internacional), objetivo de difusión (interno, externo), entre otros que sean pertinentes para su caracterización."
+						]
+					},
+					{
+						"nombre": "Productos comunicacionales",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de las instancias.",
+							"Sistematizado de forma apropiada en el registro respectivo."
+						]
 					}
 				]
 			},
@@ -2157,6 +2375,29 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de actividades de investigación, innovación y divulgación de la ciencia en medios externos.", 
+						"formula": "Número de productos comunicacionales en los medios regionales y nacionales sobre actividades destacadas en el ámbito de la investigación, innovación y divulgación de la ciencia de la Institución.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de difusión y posicionamiento institucional",
+						"estandar": [
+							"Equivalente a lo definido en F01 (pueden trabajarse como una sola)."
+						]
+					},
+					{
+						"nombre": "Productos comunicacionales",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de las instancias.",
+							"Sistematizado de forma apropiada en el registro respectivo."
+						]
+					}
 				]
 			},
 			{
@@ -2175,6 +2416,29 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de actividades de los equipos de colaboración en medios externos.", 
+						"formula": "Número de productos comunicacionales en los medios regionales y nacionales sobre actividades destacadas en el ámbito de los equipos de colaboración de la Institución.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de difusión y posicionamiento institucional",
+						"estandar": [
+							"Equivalente a lo definido en F01 (pueden trabajarse como una sola)."
+						]
+					},
+					{
+						"nombre": "Productos comunicacionales",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de las instancias.",
+							"Sistematizado de forma apropiada en el registro respectivo."
+						]
+					}
 				]
 			},
 			{
@@ -2190,12 +2454,35 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "coordinacion" ]
 					},
 					{
-						"cai": "multiple", "rol": "Consultado",
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de actividades en medios internacionales.", 
+						"formula": "Número de productos comunicacionales presentados en los medios internacionales.",
+						"meta": "10"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de difusión y posicionamiento institucional",
+						"estandar": [
+							"Equivalente a lo definido en F01 (pueden trabajarse como una sola)."
+						]
+					},
+					{
+						"nombre": "Productos comunicacionales",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de las instancias.",
+							"Sistematizado de forma apropiada en el registro respectivo."
+						]
 					}
 				]
 			}
@@ -2248,6 +2535,28 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica", "todos-tacticos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan anual de comunicación interna.",
+						"plazo": "abr",
+						"estandar": [
+							"Documento de trabajo que entrega lineamientos para el periodo en lo que respecta al desarrollo de las comunicaciones internas en la Institución.",
+							"Se deben considerar al menos dos dimensiones de la comunicación interna para la presentación del plan: i) operacionalización y soporte a los flujos de comunicación organizacional, y difusión comunicacional a la comunidad universitaria en todas sus formas.",
+							"Se deben presentar actividades tanto periódicas como específicas a desarrollar, clasificándolas según su naturaleza, objetivos, requerimientos logísticos, actores clave, alcance de realización, impactos esperados, entre otros relevantes.",
+							"Propuesta debe dar cuenta de los instrumentos de planificación estratégica que correspondan.",
+							"Se debe especificar un estrategia de medición de impacto de los resultados de la comunicación interna, basada de forma central en criterios académicos y organizacionales, por sobre aspectos periodísticos.",
+							"Debe especificar roles, responsabilidades, etapas, hitos, calendario, productos y otros elementos relevantes de planificación."
+						]
+					},
+					{
+						"nombre": "Acta de validación del plan.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y académicos clave para su desarrollo.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
+					}
 				]
 			},
 			{
@@ -2273,6 +2582,29 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de actividades de docencia en la comunidad universitaria.", 
+						"formula": "Número de productos comunicacionales para difusión interna sobre actividades destacadas en el ámbito de la docencia de la Institución.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de difusión y posicionamiento institucional",
+						"estandar": [
+							"Equivalente a lo definido en F01 de DVcM-10 (pueden trabajarse como una sola)."
+						]
+					},
+					{
+						"nombre": "Productos comunicacionales",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de las instancias.",
+							"Sistematizado de forma apropiada en el registro respectivo."
+						]
 					}
 				]
 			},
@@ -2304,11 +2636,34 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de actividades en el ámbito de la investigación, innovación y divulgación de la ciencia en la comunidad universitaria.", 
+						"formula": "Número de productos comunicacionales para difusión interna sobre actividades destacadas en el ámbito de la investigación, innovación y divulgación de la ciencia de la Institución.",
+						"meta": "40"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de difusión y posicionamiento institucional",
+						"estandar": [
+							"Equivalente a lo definido en F01 de DVcM-10 (pueden trabajarse como una sola)."
+						]
+					},
+					{
+						"nombre": "Productos comunicacionales",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de las instancias.",
+							"Sistematizado de forma apropiada en el registro respectivo."
+						]
+					}
 				]
 			},
 			{
 				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Sistematizar y difundir periódicamente actividades destacadas en el ámbito de las actividades de los equipos de colaboración  a la comunidad universitaria.",
+				"desc": "Sistematizar y difundir periódicamente actividades destacadas en el ámbito de las actividades de los equipos de colaboración a la comunidad universitaria.",
 				"actores": [
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
@@ -2322,41 +2677,60 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
 					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Difusión de actividades en el ámbito de las actividades de los equipos de colaboración a la comunidad universitaria.", 
+						"formula": "Número de productos comunicacionales para difusión interna sobre actividades de los equipos de colaboración de la Institución.",
+						"meta": "15"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bitácora de difusión y posicionamiento institucional",
+						"estandar": [
+							"Equivalente a lo definido en F01 de DVcM-10 (pueden trabajarse como una sola)."
+						]
+					},
+					{
+						"nombre": "Productos comunicacionales",
+						"estandar": [
+							"Incluye comunicaciones por canales oficiales y medios gráficos.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes de las instancias.",
+							"Sistematizado de forma apropiada en el registro respectivo."
+						]
+					}
 				]
 			},
 			{
 				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Difundir periódicamente acciones y lineamientos asociados a la gestión de calidad en la comunidad Universitaria.",
+				"desc": "Facilitar canales de comunicación de los equipos institucionales para potenciar y apoyar los procesos de comunicación interna.",
 				"actores": [
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
 					}
-				]
-			},
-			{
-				"id": "F05", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Difundir periódicamente acciones y lineamientos asociados a la gestión de personas, clima organizacional y bienestar en la comunidad Universitaria.",
-				"actores": [
+				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de apoyo a equipos institucionales para comunicación interna.", 
+						"formula": "Número de instancias de coordinación con equipos institucionales para orientar y apoyar el desarrollo de las comunicaciones internas.",
+						"meta": "20"
+					}
+				],
+				"verificadores": [
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "psicologico" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
+						"nombre": "Actas de coordinación",
+						"estandar": [
+							"Dan cuenta de reuniones de asesoría y/o coordinación con equipos y actores clave para asesorar respecto a la utilización de canales internos de comunicación.",
+							"Actas deben indicar problemática comunicacional (interna) a abordar, propuestas desde equipo técnico, consideraciones de implementación y otros elementos relevantes de asesoría.",
+							"Acta debe indicar lista de participantes y áreas claves involucradas.",
+							"Un acta por cada instancia de asesoría / coordinación."
+						]
 					}
 				]
 			}
@@ -2396,6 +2770,29 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan anual de Escuelas de Temporada.",
+						"plazo": "abr",
+						"estandar": [
+							"Documento de trabajo que entrega lineamientos para el periodo en lo que respecta a la implementación de las Escuelas de Temporada, considerando contingencia sanitaria.",
+							"Debe entregar el detalle de objetivos, orientaciones, tópicos, focos y orientaciones que serán abordadas por las Escuelas de temporada del periodo, detallando para cada una de ellas.",
+							"Deben dar cuenta de las principales actividades a realizar, tanto de la perspectiva de gestión, logística, difusión, coordinación con actores claves, entre otros relevantes.",
+							"Debe entregar un plan específico de adquisiciones y contratación para los eventos.",
+							"Debe especificar un plan de vinculación con actores claves del medio, y la coordinación con el Consejo Social para su articulación.",
+							"Debe indicar una estrategia de medición de impacto, los mecanismos a utilizar y los componentes de información (métricas, datos, etc.) que serán utilizados para sistematizar, analizar y reportar.",
+							"Debe especificar roles, responsabilidades, actores claves, plazos, hitos, principales productos, impactos esperados, entre otros relevantes para la planificación."
+						]
+					},
+					{
+						"nombre": "Acta de validación del plan.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y académicos clave para su desarrollo.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
 					}
 				]
 			},
@@ -2443,6 +2840,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Orientaciones temáticas de Escuelas de Temporada.",
+						"plazo": "abr",
+						"estandar": [
+							"Documentos de trabajo que detallan las líneas temáticas de cada Escuela a realizar y las orientaciones que las actividades que se realizarán ellas deberán considerar para su incorporación.",
+							"Considerar un documento de trabajo por Escuela a realizar.",
+							"Debe responder integralmente al plan anual diseñado.",
+							"Presentado y desarrollado para su difusión hacia actores claves de la institución y que aportarán con el desarrollo de actividad (ej.: cuerpo académico)."
+						]
+					}
 				]
 			},
 			{
@@ -2473,6 +2882,17 @@
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "posicionamiento", "interno" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Actas de coordinación.",
+						"plazo": "may",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores tácticos y operativos clave para el desarrollo de cada Escuela a desarrollar respecto a las actividades administrativas y logísticas asociadas.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación.",
+							"Considerar una o varias actas por Escuela a desarrollar (agrupar en la entrega)."
+						]
+					}
 				]
 			},
 			{
@@ -2486,6 +2906,51 @@
 					{
 						"cai": "multiple", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Actas de coordinación.",
+						"plazo": "may",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores académicos clave para el desarrollo de cada Escuela a desarrollar respecto a las actividades académicas a realizar.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación.",
+							"Considerar una o varias actas por Escuela a desarrollar (agrupar en la entrega)."
+						]
+					}
+				]
+			},
+			{
+				"id": "H04b", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñadas herramientas de evaluación de resultados y opinión sobre las Escuelas de temporada realizadas.",
+				"actores": [
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM", "rol": "Consultado",
+						"capacidades": [ "coordinacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}					
+				],
+				"verificadores": [
+					{
+						"nombre": "Diseño de encuestas de opinión para evaluar Escuelas de Temporada",
+						"plazo": "nov",
+						"estandar": [
+							"Documento de trabajo e implementación de estructura de encuestas que permita evaluar la opinión de actores clave de la comunidad universitaria y de actores externos respecto a las Escuelas en su generalidad, y de sus actividades especificas.",
+							"Se deben especificar objetivos de encuestas y estructura debe considerar elementos de evaluación como impacto en el interés de las personas sobre temas que son desarrollados, calidad de los contenidos, cualidades de presentación, percepción sobre el nivel de actualización, usabilidad de los contenidos, entre otros elementos que sean pertinentes.",
+							"Considerar una encuesta por cada Escuela y/o por sus distintas actividades, siendo orientadas hacia los actores internos y externos que sean pertinentes.",
+							"Retroalimentado desde una mirada técnica por DPAC-AI."
+						]
 					}
 				]
 			},
@@ -2529,6 +2994,45 @@
 						"cai": "multiple", "rol": "Soporte",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Checklist de administración y logística.",
+						"plazo": "may",
+						"estandar": [
+							"Listado ordenado de tareas y responsables a través del cual se coordinará la actividad",
+							"Diseñado en función a los acuerdos tomados en las sesiones de coordinación respectivas.",
+							"Deben especificar un detalle completo de cada actividad a realizar, su actor responsable, sus actores de soporte, plazos específicos y observaciones generales."
+						]
+					},
+					{
+						"nombre": "Material de difusión",
+						"plazo": "jun",
+						"estandar": [
+							"Incluye material de comunicaciones por canales oficiales y medios gráficos asociados al objeto de la difusión.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes."
+						]
+					},
+					{
+						"nombre": "Evidencias de ejecución",
+						"plazo": "jul",
+						"estandar": [
+							"Distintos validadores que den cuenta de la realización de la actividad.",
+							"Debe considerar cosas como: material gráfico presentado, grabaciones, actas, etc.",
+							"Debe considerar un listado de asistencia a la actividad"
+						]
+					},
+					{
+						"nombre": "Informe de diagnostico respecto a evaluación de Escuela de Invierno 2021",
+						"plazo": "ago",
+						"estandar": [
+							"Informe que presenta un análisis cualitativo y cuantitativo respecto a impacto de la realización de la Escuela en la comunidad universitaria y actores del medio.",
+							"Debe responder integralmente al diseño de la encuesta respectivo.",
+							"Debe considerar los resultados tanto en detalle como agregados de las encuestas de opinión aplicadas, además de otras métricas asociadas a la realización de las actividades.",
+							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo en base a las brechas identificadas."
+						]
+					}
 				]
 			},
 			{
@@ -2571,28 +3075,45 @@
 						"cai": "multiple", "rol": "Soporte",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-				]
-			},
-			{
-				"id": "H07", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñadas, aplicadas y sistematizados los resultados de herramientas de evaluación de resultados y opinión sobre las Escuelas de temporada realizadas.",
-				"actores": [
+				],
+				"verificadores": [					
 					{
-						"cai": "DVcM-TE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"nombre": "Checklist de administración y logística.",
+						"plazo": "nov",
+						"estandar": [
+							"Listado ordenado de tareas y responsables a través del cual se coordinará la actividad",
+							"Diseñado en función a los acuerdos tomados en las sesiones de coordinación respectivas.",
+							"Deben especificar un detalle completo de cada actividad a realizar, su actor responsable, sus actores de soporte, plazos específicos y observaciones generales."
+						]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"nombre": "Material de difusión",
+						"plazo": "dic",
+						"estandar": [
+							"Incluye material de comunicaciones por canales oficiales y medios gráficos asociados al objeto de la difusión.",
+							"Considera folletería u otro material que permita comunicar aspectos relevantes."
+						]
 					},
 					{
-						"cai": "DVcM", "rol": "Consultado",
-						"capacidades": [ "coordinacion" ]
+						"nombre": "Evidencias de ejecución",
+						"plazo": "ene",
+						"estandar": [
+							"Distintos validadores que den cuenta de la realización de la actividad.",
+							"Debe considerar cosas como: material gráfico presentado, grabaciones, actas, etc.",
+							"Debe considerar un listado de asistencia a la actividad"
+						]
 					},
 					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}					
+						"nombre": "Informe de diagnostico respecto a evaluación de Escuela de Verano 2021",
+						"plazo": "ene",
+						"estandar": [
+							"Informe que presenta un análisis cualitativo y cuantitativo respecto a impacto de la realización de la Escuela en la comunidad universitaria y actores del medio.",
+							"Debe responder integralmente al diseño de la encuesta respectivo.",
+							"Debe considerar los resultados tanto en detalle como agregados de las encuestas de opinión aplicadas, además de otras métricas asociadas a la realización de las actividades.",
+							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo en base a las brechas identificadas."
+						]
+					}
 				]
 			}
 		]
@@ -2628,6 +3149,26 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Propuesta de protocolo.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe establecer los criterios institucionales para clasificar, categorizar y canalizar de forma apropiada los distintos requerimientos que se levanten desde el Consejo Social, considerando la sintonía existente entre la problemática respectiva con los propósitos y capacidades institucionales de la Universidad.",
+							"Los criterios deben clasificarse de forma estructurada según el tipo de requerimiento al que corresponde su aplicación, según el tipo de capacidades académicas que aplica para su consideración a nivel Institucional, entre otros clasificadores que sean pertinentes.",
+							"Debe establecer los medios y mecanismos para canalizar los requerimientos evaluados, ya sea tanto que se escapan del alcance institucional como que puedan ser abordados.",
+							"Presentar resumen como flujograma de decisión."
+						]
+					},
+					{
+						"nombre": "Acta de validación.",
+						"plazo": "abr",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y académicos clave asociados a los requerimientos que se pueden levantar desde Consejo Social.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
+					}
 				]
 			},
 			{
@@ -2658,6 +3199,17 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Decreto de reglamento propuesto.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe responder integralmente a los criterios levantados desde el protocolo (eventualmente, podría absorberlo).",
+							"Debe establecer un diseño general de modelo de gestión que permita coordinar a los distintos actores relacionados, incluyendo los órganos de gobierno institucionales.",
+							"Debe responder integralmente al Lenguaje Estratégico desde la perspectiva de la canalización de necesidades para el desarrollo de acciones institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -2679,6 +3231,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [					
+					{
+						"nombre": "Propuesta de orientaciones.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe responder integralmente al reglamento diseñado.",
+							"Debe tomar como referencia el Lenguaje Estratégico institucional, estableciendo con detalle la participación de los miembros del Consejo Social y de la gestión de la VcM en el ciclo de vida de acciones institucionales.",
+							"Debe especificar el tipo de información que debe ser sistematizada por parte de la gestión de la VcM respecto a las acciones institucionales para poder llevarla a los mecanismos de planificación institucional definidos.",
+							"Propuesta debe ser retroalimentada táctica y operativamente por DPAc-PCI."
+						]
+					},
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la necesidad de implementar acciones para abordar necesidades levantadas desde el Consejo Social en el periodo.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
 					}
 				]
 			}
@@ -2723,6 +3296,24 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Actas de capacitación con actores clave",
+						"plazo": "jun",
+						"estandar": [
+							"Un acta por sesión de capacitación.",
+							"Se debe indicar las características del grupo que es capacitado y registrar listado de asistencia.",
+							"Acta debe indicar contenidos reforzados."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "jun",
+						"estandar": [
+							"PPT, documentos u otros que explique objetos de la capacitación."
+						]
+					}
 				]
 			},
 			{
@@ -2757,6 +3348,28 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan de implementación de mecanismos críticos.",
+						"plazo": "ago",
+						"estandar": [
+							"Documento de trabajo que especifica principales acciones de diseño, gestión y coordinación para arrancar el despliegue de la implementación de la OTEC vía certificación institucional.",
+							"Debe entregar un listado sistemático y estructurado de mecanismos que deben ser generados, reformulados y/o estudiados para cumplir con la certificación en el mediano plazo.",
+							"Debe entregar un análisis cuantitativo (vía JCE) de capacidades necesarias para implementar los mecanismos necesarios.",
+							"Debe establecer una hoja de ruta con etapas, hitos, plazos, productos, roles, responsables y otros clave para alcanzar la certificación.",
+							"Debe responder integralmente al SGIC perfeccionado durante el periodo (ver DPAC-18), para lo cual se deben caracterizar estándares y criterios de aseguramiento de calidad al alero del sistema que permitan evaluar el estado de avance y logro de los mecanismos asociados a la norma respectiva."
+						]
+					},
+					{
+						"nombre": "Acta de validación.",
+						"plazo": "sep",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y tácticos clave asociados a la implementación de la OTEC.",
+							"Debe explicitar la aprobación de DPAC-GC desde la perspectiva de la integración de la propuesta con el SGIC.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
+					}
 				]
 			},
 			{
@@ -2787,6 +3400,27 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos para avanzar en la implementación de la OTEC",
+						"plazo": "ago",
+						"estandar": [
+							"Listado simple de mecanismos relevantes.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ene",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					}
 				]
 			}
 		]
@@ -2803,6 +3437,10 @@
 				"desc": "Elaborada, aplicada y analizada encuesta de percepción UAysén hacia actores internos y externos.",
 				"actores": [
 					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
 						"cai": "DVcM-COM", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "posicionamiento" ]
 					},
@@ -2813,6 +3451,25 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica", "todos-tacticos", "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estructura de operacionalización de encuesta.",
+						"plazo": "mar",
+						"estandar": [
+							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
+							"Versión validada por Directora DVcM."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de encuesta.",
+						"plazo": "abr",
+						"estandar": [
+							"Generada en función a estándares del equipo de Análisis Institucional.",
+							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
+							"Constancia de entrega a Directora DVcM."
+						]
 					}
 				]
 			},
@@ -2829,7 +3486,7 @@
 						"capacidades": [ "coordinacion-general", "posicionamiento" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Soporte",
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -2848,16 +3505,33 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructurada de iniciativas de posicionamiento.",
+						"plazo": "jun",
+						"estandar": [
+							"Detalle estructurado de actividades que han sido realizadas históricamente en materias académicas y sujetas a posicionamiento institucional.",
+							"Debe incorporar análisis que permita clasificar actividades compiladas según su naturaleza académica, su contribución al posicionamiento institucional en diversos medios, su impacto identificado y verificable en términos cuantitativos, percepción de la comunidad universitaria y otras variables que sean pertinentes al tema.",
+							"Debe considerar comparativamente métricas de impacto periodístico respecto a impactos sobre indicadores institucionales observados, estableciendo una evaluación objetiva respecto a la vinculación y utilidad de articulación entre ambas.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar un marco metodológico para orientar el posicionamiento institucional de las actividades académicas en diversos medios, fuentes y sectores.",
+							"Presentado en formato de informe y/o compilación de datos según conveniencia."
+						]
+					},
+					{
+						"nombre": "Acta de validación.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y tácticos clave.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Confeccionado y validado un marco metodológico que defina el alcance y los propósitos de las capacidades institucionales para el posicionamiento de la Universidad en el medio, centrado en proyecciones y resultados de naturaleza académica, con un foco marcado en la admisión y la divulgación científica.",
+				"desc": "Confeccionado y validado un modelo de gestión específico que defina el alcance y los propósitos de las capacidades institucionales para el posicionamiento de la Universidad en el medio, centrado en proyecciones y resultados de naturaleza académica, con un foco marcado en la admisión y la divulgación científica.",
 				"actores": [
-					{
-						"cai": "Rectoria", "rol": "Aprobador",
-						"capacidades": [ "rectoria" ]
-					},
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "posicionamiento" ]
@@ -2878,11 +3552,23 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de modelo de gestión para el posicionamiento institucional",
+						"plazo": "sep",
+						"estandar": [
+							"Documento de trabajo que establece las orientaciones para la articulación los actores claves en materia de posicionamiento institucional.",
+							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H02.",
+							"El modelo debe presentar entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
+							"Deeb responder integralmente a lineamientos institucionales tanto del área de Investigación, Académica y de Vinculación con el Medio."
+						]
+					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñadas y validadas directrices estratégicas para orientar el posicionamiento de la Institución en el medio, en coherencia al marco metodológico establecido.",
+				"desc": "Mejoradas y validadas directrices estratégicas para orientar el posicionamiento de la Institución en el medio, en coherencia al diagnóstico desarrollado.",
 				"actores": [
 					{
 						"cai": "Rectoria", "rol": "Aprobador",
@@ -2893,8 +3579,24 @@
 						"capacidades": [ "coordinacion-general", "posicionamiento" ]
 					},
 					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de mejora sobre directrices estratégicos de posicionamiento institucional",
+						"plazo": "sep",
+						"estandar": [
+							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H02.",
+							"Debe responder integralmente a distintos otros instrumentos estratégicos y directrices contenidas en ellos que sean relevantes para el posicionamiento institucional (PEDI, Política de VcM, PFI, etc.).",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y como actores claves del estamento académico participan, retroalimentan y orientan aspectos del desarrollo y posicionamiento de actividades académicas en general.",
+							"Diseño debe responder a formato que permita su difusión y presentación como instrumento estratégico (ej.: documento estrategia), utilizando estándares institucionales (DPAC-PCI)."
+						]
 					}
 				]
 			},
@@ -2902,6 +3604,10 @@
 				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
 				"desc": "Perfeccionada y proyectada la imagen y marca UAysén en coherencia a las directrices institucionales de posicionamiento en el medio establecidas.",
 				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "diseno" ]
@@ -2914,11 +3620,30 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de marca UAysén perfeccionada",
+						"plazo": "nov",
+						"estandar": [
+							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H02 y a directrices estratégicas levantadas en H04.",
+							"Basada en estándares técnicos de diseño del área de comunicaciones.",
+							"Debe incorporar variantes, alternativas y otros antecedentes que permitan a actores estratégicos, desde una perspectiva no-técnica, tomar decisiones al respecto."
+						]
+					},
+					{
+						"nombre": "Acta de validación.",
+						"plazo": "nov",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos respecto a alternativas existentes.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida, definiciones y otros relevantes para su aprobación."
+						]
+					}
 				]
 			},
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y validado un plan de implementación de mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemática e intencionadamente el posicionamiento en el medio de la Institución.",
+				"desc": "Diseñado y validados mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemática e intencionadamente el posicionamiento en el medio de la Institución.",
 				"actores": [
 					{
 						"cai": "DVcM", "rol": "Aprobador",
@@ -2929,14 +3654,39 @@
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos institucionales para el posicionamiento con perspectiva académica.",
+						"plazo": "sep",
+						"estandar": [
+							"Listado simple de mecanismos relevantes, que respondan a estrategias perfeccionadas en H04.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "nov",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
 			{
-				"id": "H07", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementados y evaluados mecanismos priorizados del plan para mejorar el posicionamiento en el medio con perspectiva académica.",
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados mecanismos priorizados para mejorar el posicionamiento en el medio con perspectiva académica.",
 				"actores": [
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
@@ -2945,6 +3695,18 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a las estrategias mejoradas de posicionamiento y su vinculación a las actividades académicas.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora y de continuidad simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
+						]
 					}
 				]
 			}
