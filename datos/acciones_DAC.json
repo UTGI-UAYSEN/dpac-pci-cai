@@ -700,7 +700,7 @@
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "dsearrollo", "plataforma" ]
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},					
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -712,7 +712,7 @@
 						"nombre": "Programa de realización de proceso",
 						"plazo": "mar",
 						"estandar": [
-							"Detalle de tareas, plazos y resonsabilidades sobre el desarrollo de la matrícula.",
+							"Detalle de tareas, plazos y responsabilidades sobre el desarrollo de la matrícula.",
 							"Validado y acordado con cada uno de los actores involucrados.",
 							"Debe indicar principales productos a generar y resultados esperados.",
 							"Visado por Director DAC."
@@ -742,7 +742,7 @@
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "dsearrollo", "plataforma" ]
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},					
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
@@ -780,7 +780,7 @@
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "dsearrollo", "plataforma" ]
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
@@ -839,7 +839,7 @@
 						"plazo": "may",
 						"estandar": [
 							"Descripción detallada de requerimientos no técnicos sobre la difusión que debe ser realizada para dar soporte al proceso.",
-							"Específicación orientada por DVcM-COM, desde donde se entregan los insumos de forma para proveer los requerimientos.",
+							"Especificación orientada por DVcM-COM, desde donde se entregan los insumos de forma para proveer los requerimientos.",
 							"Debe considerar posible nueva oferta según proyecciones del área.",
 							"Visado por Director DAC."
 						]
@@ -1072,7 +1072,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Levantados requerimientos finales para modulos iniciales del sistema",
+				"desc": "Levantados requerimientos finales para módulos iniciales del sistema",
 				"actores": [					
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -1108,7 +1108,7 @@
 						"nombre": "Especificación de requerimientos de sistema.",
 						"plazo": "abr",
 						"estandar": [
-							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los modulos respectivos.",
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los módulos respectivos.",
 							"Debe tener coherencia con los procesos asociados.",
 							"Se debe especificar alcance de los módulos iniciales y posibles próximas etapas."
 						]
@@ -1947,7 +1947,7 @@
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", 
-				"desc": "Implementados y desplegados nuevos aplicativos PKP para complementar el respositorio de biblioteca (OJS, OMS, OPS, OCS)",
+				"desc": "Implementados y desplegados nuevos aplicativos PKP para complementar el repositorio de biblioteca (OJS, OMS, OPS, OCS)",
 				"actores": [
 					{
 						"cai": "DAC-BRA", "rol": "Responsable",
@@ -2468,7 +2468,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Informes de jearquización anual.",
+						"nombre": "Informes de jerarquización anual.",
 						"plazo": "sep",
 						"estandar": [
 							"Registro de documentos que detallan los resultados de jerarquización de académicos y académicas en la institución, uno por cada uno/a.",
@@ -2854,7 +2854,7 @@
 							"Información debe estar organizada según carrera, antecedentes socioeconómicos, periodo académico, entre otros que sean pertinentes para clasificar a los estudiantes.",
 							"Se debe generar diagnóstico descriptivo por cada carrera, indicando principales problemáticas de desempeño observadas y recomendaciones para atender oportunamente las debilidades observadas.",
 							"Desde cada reporte se debe desprender número de intervenciones a realizar en cada carrera para atender casos de estudiantes con riesgo y debilidades asociadas a desempeño académico.",
-							"El análisis puede considerar casuística específica de estudiantes que permita a Jefaturas de Carrera efectar acciones de apoyo."
+							"El análisis puede considerar casuística específica de estudiantes que permita a Jefaturas de Carrera efectuar acciones de apoyo."
 						]
 					}
 				]
@@ -2898,12 +2898,12 @@
 							"Un acta por sesión de evaluación realizada con estudiante que requiere intervención.",
 							"Considerar al menos tres sesiones semestrales por estudiante que requiere intervención.",
 							"Acta debe indicar aspectos evaluados, situación cualitativa del/la estudiante y diagnóstico preliminar de situación de desempeño.",
-							"Deben indicar medidas paleativas y aspectos a evaluar en próximas sesiones con estudiante (si aplica).",
+							"Deben indicar medidas paliativas y aspectos a evaluar en próximas sesiones con estudiante (si aplica).",
 							"Debe acompañarse de antecedentes académicos (ej.: notas, rendimiento, etc.) de estudiante, si aplica."
 						]
 					},
 					{
-						"nombre": "Bitácoras de segumiento con estudiantes",
+						"nombre": "Bitácoras de seguimiento con estudiantes",
 						"estandar": [
 							"Registro simple para contabilizar sesiones presenciales con estudiantes.",
 							"Cada elemento del registro debe dar cuenta de una sesión registrada y hacer referencia a su acta."
@@ -2952,7 +2952,7 @@
 							"Debe ser cuantificable en número de derivaciones.",
 							"Las derivaciones deben poder clasificarse en carrera, motivos, periodo, estado, entre otros relevantes.",
 							"Cada derivación debe ser acompañada de información del estudiante y debe mantener un historial de desarrollo, incluyendo estado de seguimiento y atención.",
-							"Según corresponda, las derivaciones deben vincularse a las isntancia de seguimiento registradas en F02.",
+							"Según corresponda, las derivaciones deben vincularse a las instancia de seguimiento registradas en F02.",
 							"Sistematización en formato estandar (ej.: excel)."
 						]
 					}
@@ -2986,7 +2986,7 @@
 						"estandar": [
 							"Un acta por sesión/grupo de estudiantes realizada.",
 							"Debe especificar listado de estudiantes asistentes",
-							"Acta debe indicar las caracteristicas del grupo al cual se hace inducción según información de caracterización disponible.",
+							"Acta debe indicar las características del grupo al cual se hace inducción según información de caracterización disponible.",
 							"Acta debe indicar aspectos que fueron trabajados con los/las estudiantes, considerando dimensiones académicas y no académicas.",
 							"Acta debe indicar diagnóstico preliminar de cada estudiante con el/la cual se ha trabajado según antecedentes que puedan ser rescatados de las instancias de inducción, para sistematizar antecedentes preliminares de futuras intervenciones."
 						]
@@ -2997,7 +2997,7 @@
 							"Considerar al menos una encuesta por sesión realizada.",
 							"Debe indicar tasa de respuesta de asistentes por sesión.",
 							"Debe dar cuenta de aspectos cualitativos respecto a la calidad de las sesiones y percepción de estudiantes respecto a ellas como mecanismo de inducción a la vida universitaria.",
-							"Caompañado tanto de respuestas individuales como de indicadores agragados que den cuenta de la percepción general sobre las sesiones."
+							"Acompañado tanto de respuestas individuales como de indicadores agregados que den cuenta de la percepción general sobre las sesiones."
 						]
 					}
 				]
@@ -3036,7 +3036,7 @@
 							"Información debe estar organizada según carrera, antecedentes socioeconómicos, periodo académico, entre otros que sean pertinentes para clasificar a los estudiantes.",
 							"Se debe generar diagnóstico descriptivo por cada carrera, indicando principales problemáticas socieconómicas observadas y recomendaciones para atender oportunamente las debilidades observadas.",
 							"Desde cada reporte se debe desprender número de intervenciones a realizar en cada carrera para atender casos de estudiantes con riesgo y debilidades asociadas a factores socioeconómicos.",
-							"El análisis puede considerar casuística específica de estudiantes que permita a Jefaturas de Carrera efectar acciones de apoyo."
+							"El análisis puede considerar casuística específica de estudiantes que permita a Jefaturas de Carrera efectuar acciones de apoyo."
 						]
 					}
 				]
@@ -3076,13 +3076,13 @@
 							"Un acta por sesión de evaluación realizada con estudiante que requiere intervención.",
 							"Considerar al menos tres sesiones semestrales por estudiante que requiere intervención.",
 							"Acta debe indicar aspectos evaluados, situación cualitativa del/la estudiante y diagnóstico preliminar de situación socioeconómica.",
-							"Deben indicar medidas paleativas y aspectos a evaluar en próximas sesiones con estudiante (si aplica).",
+							"Deben indicar medidas paliativas y aspectos a evaluar en próximas sesiones con estudiante (si aplica).",
 							"Debe indicar cuando corresponde si aplican medidas de derivación externa.",
 							"Debe acompañarse de antecedentes académicos (ej.: notas, rendimiento, etc.) de estudiante, si aplica."
 						]
 					},
 					{
-						"nombre": "Bitácoras de segumiento con estudiantes",
+						"nombre": "Bitácoras de seguimiento con estudiantes",
 						"estandar": [
 							"Registro simple para contabilizar sesiones presenciales con estudiantes.",
 							"Cada elemento del registro debe dar cuenta de una sesión registrada y hacer referencia a su acta."
@@ -3129,7 +3129,7 @@
 							"Se debe presentar un análisis cuantitativo en función a datos compilados durante el semestre.",
 							"Debe considerar tanto análisis integrado de variables (efecto de todo tipo de intervención sobre rendimiento y retención) como análisis independiente de variables clave (efecto individual de cada tipo de intervención - académica, psicológica, etc.).",
 							"Deben ser consideradas los resultados de las diversas encuestas de percepción en el análisis de resultados.",
-							"Debe ndar cuenta de principales logros desde resultados obtenidos y desafios emergentes.",
+							"Deben dar cuenta de principales logros desde resultados obtenidos y desafíos emergentes.",
 							"Debe establecer un breve plan de mejora que permita abordar desafíos encontrados para el mejoramiento de los procesos respectivos."
 						]
 					}
@@ -3247,7 +3247,7 @@
 				"ios":[
 					{
 						"nombre": "Iniciativas de evaluación de implementación curricular de programas", 
-						"formula": "Número de programas de pregrado sobre los cuales se efectuan evaluaciones respecto al diseño de su currículo.",
+						"formula": "Número de programas de pregrado sobre los cuales se efectúan evaluaciones respecto al diseño de su currículo.",
 						"meta": "8"
 					}
 				],
@@ -3288,7 +3288,7 @@
 				"ios":[
 					{
 						"nombre": "Evaluación de cohortes respecto a avance del proceso formativo", 
-						"formula": "Número de evaluaciones realizadas sobre cohortes específicas de carreras de pregrado para diganósticar estado de avance respecto a objetivos de perfil de egreso.",
+						"formula": "Número de evaluaciones realizadas sobre cohortes específicas de carreras de pregrado para diagnosticar estado de avance respecto a objetivos de perfil de egreso.",
 						"meta": "6"
 					}
 				],
@@ -3296,7 +3296,7 @@
 					{
 						"nombre": "Informes de avance de cohortes respecto a cumplimiento de perfil de egreso",
 						"estandar": [
-							"Cada informe evalua la situación de una cohorte específica de un programa en curso respecto al cumplimiento de perfil de egreso.",
+							"Cada informe evalúa la situación de una cohorte específica de un programa en curso respecto al cumplimiento de perfil de egreso.",
 							"Análisis basado en información cualitativa y cuantitativa obtenida desde el avance curricular de los/las estudiantes de las cohortes respectivas.",
 							"Debe establecer claramente métricas e indicadores de avance que permitan realizar el análisis y posterior diagnóstico.",
 							"Análisis debe estar basado integralmente en aspectos declarados en el Modelo Educativo, incluyendo conceptos asociados al diseño curricular y antecedentes curriculares de los estudiantes (RdA, Matriz de consistencia, indicadores de progresión, etc.)",
@@ -3343,7 +3343,7 @@
 						"nombre": "Rediseños curriculares propuestos a programas de pregrado",
 						"estandar": [
 							"Informes, reportes, u otro tipo de documento de trabajo, en donde cada uno presenta una propuesta técnica y detallada sobre ajustes al diseño curricular de un programa de pregrado.",
-							"Basado en información cualitativa y cuantitatva recopilada y analizada desde otras tácticas de esta acción.",
+							"Basado en información cualitativa y cuantitativa recopilada y analizada desde otras tácticas de esta acción.",
 							"Debe entregar una serie de recomendaciones de ajustes, basados en criterios técnicos y disciplinares, sobre los diversos componentes que forman parte del diseño curricular de la carrera respectiva (objetivos, sello, itinerario, etc.)",
 							"Deben ser claramente establecidos los propósitos y los alcances de los rediseños propuestos en cada informe.",
 							"Se debe entregar un cronograma tentativo de actividades, plazos y responsabilidades asociadas a la implementación de los ajustes propuestos.",
@@ -3391,7 +3391,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de gestión biblográfica de programas de asignatura",
+						"nombre": "Bitácora de gestión bibliográfica de programas de asignatura",
 						"estandar": [
 							"Registro estructurado respecto a programas de asignatura cuya bibliografía ha sido sometida a procesamiento con propósitos de su provisión.",
 							"Registro debe ser cuantificable en términos de cantidad de programas de asignatura cuya bibliografía es procesada.",
@@ -3535,7 +3535,7 @@
 				"ios":[
 					{
 						"nombre": "Capacitación a usuarios de recursos bibliográficos", 
-						"formula": "Número de sesiones de capacitación realizadas a grupos de usuarios respecto a serviciso disponibles de biblioteca.",
+						"formula": "Número de sesiones de capacitación realizadas a grupos de usuarios respecto a servicios disponibles de biblioteca.",
 						"meta": "6"
 					}
 				],
@@ -4322,7 +4322,7 @@
 						"nombre": "Informe de propuesta sobre definiciones normativas para funcionamiento interno de los departamentos.",
 						"plazo": "jun",
 						"estandar": [
-							"Documento simple que establece propuesta de construcción de mecanismos normativos y procedimientales necesarios para establecer un marco regulatorio y funcionar para los departamentos.",
+							"Documento simple que establece propuesta de construcción de mecanismos normativos y procedimentales necesarios para establecer un marco regulatorio y funcionar para los departamentos.",
 							"Propuesta debe considerar perspectivas de regulación a nivel institucional, y al mismo tiempo abordar autonomía necesaria que requieren los departamentos para su organización interna.",
 							"Se deben considerar criterios de aseguramiento de calidad relevantes (ej.: CNA, normativa interna, etc.).",
 							"Debe considerar aspectos de regulación centrada en funciones misionales (docencia, investigación, VcM).",
@@ -6701,7 +6701,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Marco conceptual sobre acompañamiento, nivelación y progresión académica.",
+						"nombre": "Modelo conceptual sobre acompañamiento, nivelación y progresión académica.",
 						"plazo": "jun",
 						"estandar": [
 							"Considera aspectos teóricos y conceptuales para la implementación de procesos asociados al acompañamiento, nivelación y progresión académica, basados en las diversas etapas del proceso formativo, sus interfaces, insumos, resultados e interacciones relevantes.",
@@ -6709,11 +6709,11 @@
 							"Debe establecer los grupos de datos e información que son necesarios para caracterizar los conceptos fundamentales del proceso formativo que permitan orientar y evaluar mecanismos de acompañamiento.",
 							"Debe establecer los principales mecanismos de evaluación y retroalimentación de iniciativas de acompañamiento académico, que permitan la mejora continua en su diseño, implementación y operacionalización.",
 							"Debe esbozar un modelo de gestión para el acompañamiento académico, que identifique los flujos de coordinación entre el área y otras vinculadas estrechamente en la gestión del proceso formativo (desarrollo estudiantil, gestión curricular, etc.), incluyendo la interacción con actores académicos relevantes (ej.: Jefaturas de Carrera).",
-							"Define los principales mecanismos para la implementación y operacionalización del marco."
+							"Define los principales mecanismos para la implementación y operacionalización del modelo."
 						]
 					},
 					{
-						"nombre": "Actas de validación y difusión de marco de trabajo con actores clave.",
+						"nombre": "Actas de validación y difusión de modelo con actores clave.",
 						"plazo": "jul",
 						"estandar": [
 							"Considera la presentación y evaluación de actores estratégicos que adoptarán responsabilidades en la implementación del sistema.",
@@ -6721,7 +6721,7 @@
 						]
 					},
 					{
-						"nombre": "Decreto que formaliza marco de trabajo.",
+						"nombre": "Decreto que formaliza modelo.",
 						"plazo": "ago",
 						"estandar": [
 							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."

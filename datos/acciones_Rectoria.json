@@ -317,7 +317,7 @@
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Difundida y desarrollada la semana de la Diversidad y Disidencia Sexual y de Género.",
+				"desc": "Difundida y desarrollada la semana de la Diversidad y Disidencia Sexual y de Género.",
 				"actores": [
 					{
 						"cai": "EG", "rol": "Responsable",
@@ -1047,7 +1047,7 @@
 					{
 						"nombre": "Reportes mensuales de aplicación de protocolo",
 						"estandar": [
-							"Debe dar cuenta de las acciones procedimientales y legales realizadas por los responsables institucionales para la aplicación del protocolo.",
+							"Debe dar cuenta de las acciones procedimentales y legales realizadas por los responsables institucionales para la aplicación del protocolo.",
 							"Cada informe debe resumir posibles casos detectados, y todas las acciones realizadas, tanto en materia interna como derivación a asuntos legales.",
 							"En caso de no existir casos que evidenciar, Cada reporte lo debe explicitar",
 							"Los reportes deben ocultar toda información personal de involucrados/as para cuidar privacidad y asegurar su entrega.",
@@ -2172,7 +2172,7 @@
 			},
 			{
 				"id": "H09", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantadas y sistematizadas participativamente propuestas que permitan abordar los desafíos de transversalización del género en la gestión universitaria.",
+				"desc": "Levantadas y sistematizadas participatívamente propuestas que permitan abordar los desafíos de transversalización del género en la gestión universitaria.",
 				"actores": [
 					{
 						"cai": "EG", "rol": "Responsable",
@@ -3016,7 +3016,7 @@
 					},
 					{
 						"nombre": "Mecanismos diseñados",
-						"plazo": "sept",
+						"plazo": "sep",
 						"estandar": [
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica.",

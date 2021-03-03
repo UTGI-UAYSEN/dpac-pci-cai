@@ -71,7 +71,7 @@
 						"nombre": "Índice de mecanismos comunicacionales para gestión de recursos web",
 						"plazo": "abr",
 						"estandar": [
-							"Listado simple de mecanismos de caracter comunicacional para gestión de recursos web en la institución.",
+							"Listado simple de mecanismos de carácter comunicacional para gestión de recursos web en la institución.",
 							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
 							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
 						]
@@ -893,40 +893,10 @@
 						]
 					}
 				]
-			},			
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Generadas propuestas preliminares de mecanismos tecnológicos que permitan apoyar los procesos identificados.",
-				"actores": [					
-					{
-						"cai": "DVcM-TE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Especificación de requerimientos tecnológicos.",
-						"plazo": "jun",
-						"estandar": [
-							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
-							"Debe tener coherencia con el marco conceptual desarrollado en paralelo.",
-							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones.",
-							"En función a los requerimientos identificados, deben presentarse propuestas preliminares para su resolución, por medio de recursos tecnológicos pertinentes."
-						]
-					}
-				]
 			},
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Hecho un barrido sobre procesos críticos para la gestión territorial que orienten la operacionalización del MGT, que incluyan aspectos de gobernanza territorial y que identifiquen responsabilidades sobre la gestión de información del modelo.",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Hecho un diseño metodológico para la gestión territorial que orienten la operacionalización del MGT, incluyendo aspectos de gobernanza territorial y que identifiquen responsabilidades sobre la gestión de información del modelo.",
 				"actores": [
 					{
 						"cai": "DPAC-GC", "rol": "Responsable",
@@ -954,9 +924,39 @@
 						"nombre": "Propuesta metodológica para la operación del MGT",
 						"plazo": "jun",
 						"estandar": [
-							"Documento de trabajo que compila resultados de los otros hitos en esta acción y los organiza sistémicamente.",
+							"Documento de trabajo que compila resultados de los otros hitos en esta acción y los organiza sistemáticamente.",
 							"Debe presentarse como un modelo de gestión en sí, considerando entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
 							"Debe explicitar propuestas de procesos con alcance regional, especificando actores, roles instrumentos y flujos de actividades."
+						]
+					}
+				]
+			},			
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Generadas propuestas preliminares de mecanismos tecnológicos que permitan apoyar el diseño metodológico.",
+				"actores": [					
+					{
+						"cai": "DVcM-TE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación de requerimientos tecnológicos.",
+						"plazo": "jul",
+						"estandar": [
+							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
+							"Debe tener coherencia con el marco conceptual desarrollado en paralelo.",
+							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones.",
+							"En función a los requerimientos identificados, deben presentarse propuestas preliminares para su resolución, por medio de recursos tecnológicos pertinentes."
 						]
 					}
 				]
@@ -3241,7 +3241,7 @@
 							"Debe responder integralmente al reglamento diseñado.",
 							"Debe tomar como referencia el Lenguaje Estratégico institucional, estableciendo con detalle la participación de los miembros del Consejo Social y de la gestión de la VcM en el ciclo de vida de acciones institucionales.",
 							"Debe especificar el tipo de información que debe ser sistematizada por parte de la gestión de la VcM respecto a las acciones institucionales para poder llevarla a los mecanismos de planificación institucional definidos.",
-							"Propuesta debe ser retroalimentada táctica y operativamente por DPAc-PCI."
+							"Propuesta debe ser retroalimentada táctica y operativamente por DPAC-PCI."
 						]
 					},
 					{
@@ -3514,7 +3514,7 @@
 							"Detalle estructurado de actividades que han sido realizadas históricamente en materias académicas y sujetas a posicionamiento institucional.",
 							"Debe incorporar análisis que permita clasificar actividades compiladas según su naturaleza académica, su contribución al posicionamiento institucional en diversos medios, su impacto identificado y verificable en términos cuantitativos, percepción de la comunidad universitaria y otras variables que sean pertinentes al tema.",
 							"Debe considerar comparativamente métricas de impacto periodístico respecto a impactos sobre indicadores institucionales observados, estableciendo una evaluación objetiva respecto a la vinculación y utilidad de articulación entre ambas.",
-							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar un marco metodológico para orientar el posicionamiento institucional de las actividades académicas en diversos medios, fuentes y sectores.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar un modelo de gestión para operacionalizar el posicionamiento institucional de las actividades académicas en diversos medios, fuentes y sectores.",
 							"Presentado en formato de informe y/o compilación de datos según conveniencia."
 						]
 					},
@@ -3589,7 +3589,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Propuesta de mejora sobre directrices estratégicos de posicionamiento institucional",
+						"nombre": "Propuesta de mejora sobre directrices estratégicas de posicionamiento institucional",
 						"plazo": "sep",
 						"estandar": [
 							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H02.",
@@ -3643,7 +3643,7 @@
 			},
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y validados mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemática e intencionadamente el posicionamiento en el medio de la Institución.",
+				"desc": "Diseñados y validados mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemática e intencionadamente el posicionamiento en el medio de la Institución.",
 				"actores": [
 					{
 						"cai": "DVcM", "rol": "Aprobador",
@@ -3751,16 +3751,33 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructurada de iniciativas de comunicación interna.",
+						"plazo": "may",
+						"estandar": [
+							"Detalle estructurado sobre iniciativas realizadas en la Institución para la operacionalización y desarrollo de las comunicaciones internas, considerando al menos dos grandes perspectivas: i) difusión interna de temáticas relevantes, ii) soporte al desarrollo de canales internos y externos de comunicación de los equipos institucionales, y iii) gestión del cambio.",
+							"Debe incorporar análisis que permita clasificar las iniciativas compiladas según su naturaleza (normativa, actividad, material, etc.), actor ejecutor, su contribución a las comunicaciones internas de los equipos y entre equipos, temáticas abordadas (calidad, clima laboral, planificación, etc.), su impacto identificado y verificable en términos cuantitativos, percepción de la comunidad universitaria y otras variables que sean pertinentes al tema.",
+							"Se debe presentar un análisis respecto a la aproximación metodológica de las iniciativas identificadas, estableciendo patrones comunes entre ellas y estableciendo el impacto de dichos patrones en las comunicaciones de los equipos.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar un modelo de gestión para orientar el desarrollo de las comunicaciones internas.",
+							"Presentado en formato de informe y/o compilación de datos según conveniencia."
+						]
+					},
+					{
+						"nombre": "Acta de validación.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y tácticos clave.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Confeccionado y validado un marco metodológico que defina el alcance y los propósitos de las capacidades institucionales para la comunicación interna, centrado en la gestión de calidad, gestión de cambio, clima laboral y la planificación estratégica.",
+				"desc": "Confeccionado y validado un modelo de gestión interno que defina el alcance y los propósitos de las capacidades institucionales para la comunicación interna, centrado en la gestión de calidad, gestión de cambio, clima laboral y la planificación estratégica.",
 				"actores": [
-					{
-						"cai": "Rectoria", "rol": "Aprobador",
-						"capacidades": [ "rectoria" ]
-					},
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "interna" ]
@@ -3781,11 +3798,24 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de modelo de gestión para el desarrollo de las comunicaciones internas",
+						"plazo": "ago",
+						"estandar": [
+							"Documento de trabajo que establece las orientaciones para la articulación los actores claves en materia de comunicaciones internas.",
+							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H01.",
+							"Debe considerar integralmente componentes de gestión asociados a la gestión de calidad, gestión de cambio, clima laboral y la planificación estratégica.",
+							"El modelo debe presentar entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
+							"Deeb responder integralmente a lineamientos institucionales tanto de Planificación, Calidad, Desarrollo de Personas y comunicaciones."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñadas y validadas directrices estratégicas para orientar la eficiencia en las comunicaciones internas de la Institución, en coherencia al marco metodológico establecido.",
+				"desc": "Diseñadas y validadas directrices estratégicas para orientar la eficiencia en las comunicaciones internas de la Institución, en coherencia al diagnóstico realizado.",
 				"actores": [
 					{
 						"cai": "Rectoria", "rol": "Aprobador",
@@ -3796,14 +3826,30 @@
 						"capacidades": [ "coordinacion-general", "interna" ]
 					},
 					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de mejora sobre directrices estratégicas de comunicaciones internas",
+						"plazo": "ago",
+						"estandar": [
+							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H01.",
+							"Debe responder integralmente a distintos otros instrumentos estratégicos y directrices contenidas en ellos que sean relevantes para la comunicación interna (PEDI, Política de VcM, PFI, etc.).",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y como actores claves del estamento académico participan, retroalimentan y orientan aspectos de las comunicaciones internas.",
+							"Diseño debe responder a formato que permita su difusión y presentación como instrumento estratégico (ej.: documento estrategia), utilizando estándares institucionales (DPAC-PCI)."
+						]
 					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y validado un plan de implementación de mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemáticamente la eficiencia en la comunicación interna de la Institución.",
+				"desc": "Diseñados y validados mecanismos conductores y operativos (protocolos, manuales, etc.) para promover sistemáticamente la eficiencia en la comunicación interna de la Institución.",
 				"actores": [
 					{
 						"cai": "DVcM", "rol": "Aprobador",
@@ -3814,14 +3860,39 @@
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos institucionales para las comunicaciones internas.",
+						"plazo": "sep",
+						"estandar": [
+							"Listado simple de mecanismos relevantes, que respondan a estrategias perfeccionadas en H03.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "nov",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
 					}
 				]
 			},
 			{
 				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementados y evaluados mecanismos priorizados del plan, articulado integralmente con la planificación institucional del periodo, con los procesos de gestión de calidad y de desarrollo de personas, para mejorar la eficiencia en las comunicaciones internas de la Institución.",
+				"desc": "Piloteados y evaluados mecanismos priorizados, articulado integralmente con la planificación institucional del periodo, con los procesos de gestión de calidad y de desarrollo de personas, para mejorar la eficiencia en las comunicaciones internas de la Institución.",
 				"actores": [
 					{
 						"cai": "DVcM-COM", "rol": "Responsable",
@@ -3842,6 +3913,18 @@
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de pilotaje",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a las estrategias mejoradas de comunicaciones internas.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora y de continuidad simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
+						]
 					}
 				]
 			}
@@ -3886,6 +3969,19 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Compilación estructurada de actividades académicas en el medio internacional.",
+						"plazo": "abr",
+						"estandar": [
+							"Detalle estructurado sobre actividades lideradas por la Institución de naturaleza académica que hayan sido desarrolladas y hayan tenido impacto en el medio internacional.",
+							"Debe incorporar análisis que permita clasificar las iniciativas compiladas según la contribución a las funciones misionales, actor ejecutor, país o países de realización, su contribución posicionamiento internacional, articulaciones desplegadas y/o formalizadas (ej.: convenios), temáticas disciplinares, impacto identificado y verificable en términos cuantitativos, percepción de actores asociados y otras variables que sean pertinentes al tema.",
+							"Se debe presentar un análisis respecto a las estrategias de coordinación entre actores relevantes para la realización de las actividades y la aplicación de mecanismos específicos que haya impulsado la Institución, describiendo y evaluando el grado de formalidad e institucionalidad.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar un modelo de gestión para las relaciones internacionales.",
+							"Presentado en formato de informe y/o compilación de datos según conveniencia."
+						]
+					}
 				]
 			},
 			{
@@ -3912,11 +4008,24 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de actualización y avance de convenios internacionales.",
+						"plazo": "may",
+						"estandar": [
+							"Puede complementar o anexar el diagnóstico desarrollado en H01.",
+							"Debe establecer un resumen descriptivo de los diversos convenios internacionales propuestos y/o desarrollados y/o formalizados, describiendo el estado de avance y profundización de los mismos.",
+							"Se debe hacer un análisis de impacto territorial en el contexto internacional desde los convenios sistematizados, describiendo las tendencias y aproximaciones de vinculación con países específicos.",
+							"Debe establecer un diagnóstico de avance de las acciones comprometidas en los distintos convenios, con antecedentes cuantitativos y cualitativos, estableciendo métricas agregadas y destacando en casos de relevancia para el análisis.",
+							"Debe diagnosticar tanto avances como brechas asociadas a los convenios, dando cuenta de las principales causales detectadas y contrastadas con el desarrollo institucional de los periodos respectivos."
+						]
+					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñada y validada una propuesta sobre el potencial alcance geográfico de las relaciones internacionales proyectada en el mediano plazo para la Universidad de Aysén en función a los insumos catastrados y diagnosticados.",
+				"desc": "Diseñada y validada una propuesta sobre el potencial alcance geográfico de las relaciones internacionales proyectada en el mediano plazo para la Universidad de Aysén en función a los insumos sistematizados y diagnosticados.",
 				"actores": [
 					{
 						"cai": "Rectoria", "rol": "Aprobador",
@@ -3945,6 +4054,27 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estrategia de alcance geográfico para las relaciones internacionales.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe responder integralmente a los diagnósticos realizados en H01 y H02.",
+							"Debe considerar y responder a los antecedentes levantados en el ámbito de las redes de colaboración para la investigación (DI-09).",
+							"Debe establecer una hoja de ruta de corto, mediano y largo plazo para la búsqueda, coordinación, definición, formalización y operacionalización de relaciones internacionales en función a una distribución geográfica propuesta desde los antecedentes previamente levantados.",
+							"Debe establecer mecanismos para la participación del cuerpo académico en la hoja de ruta respectiva, estableciendo acciones periódicas y emergentes que ayuden a consolidar redes en función a las oportunidades trabajadas con el estamento académico.",
+							"Debe responder integralmente a instrumentos de planificación institucional."
+						]
+					},
+					{
+						"nombre": "Acta de validación.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y tácticos clave.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
 					}
 				]
 			},
@@ -3980,6 +4110,18 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de mejora sobre directrices estratégicas de relaciones internacionales",
+						"plazo": "oct",
+						"estandar": [
+							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H01 y  H02.",
+							"Debe responder integralmente a distintos otros instrumentos estratégicos y directrices contenidas en ellos que sean relevantes para las relaciones internacionales (PEDI, Política de VcM, PFI, etc.).",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y como actores claves del estamento académico participan, retroalimentan y orientan aspectos de las relaciones internacionales.",
+							"Diseño debe responder a formato que permita su difusión y presentación como instrumento estratégico (ej.: documento estrategia), utilizando estándares institucionales (DPAC-PCI)."
+						]
+					}
 				]
 			},
 			{
@@ -4014,27 +4156,64 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la necesidad de implementar las estrategias en mejoramiento para el área de relaciones internacionales.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
+					}
 				]
 			},
 			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Generada una propuesta de fortalecimiento de capacidades e institucionalización de mecanismos conductores para el desarrollo de la internacionalización en la Institución.",
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Generada una propuesta de fortalecimiento de capacidades y diseño de mecanismos conductores para el desarrollo de la internacionalización en la Institución.",
 				"actores": [
-					{
-						"cai": "DVcM", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
 					{
 						"cai": "DVcM-RI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-GC", "rol": "Consultado",
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "multiple", "rol": "Consultado",
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de capacidades requeridas",
+						"plazo": "ago",
+						"estandar": [
+							"Informe ejecutivo, diseñado en coherencia a diagnósticos levantados en H01 y H02.",
+							"Debe entregar un análisis y justificación sobre requerimientos en talento humano y fortalecimiento necesario de equipo asociado a internacionalización, tanto en el corto como en el largo plazo.",
+							"Debe establecer los requerimientos desde perspectivas cuantitativos (JCE) y cualitativas, bajo criterios de sostenibilidad y coherencia con proyecciones de largo plazo sobre recursos (ej.: PFI).",
+							"Debe expresar coherencia con instrumentos de planificación estratégica."
+						]
+					},
+					{
+						"nombre": "Índice de mecanismos",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para operacionalizar nueva versión de protocolo.",
+							"Clasificados según tipo (procedimiento, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados.",
+						"plazo": "dic",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Coherentes con el índice que los específica.",
+							"Registro ordenado de documentos que compilan los mecanismos diseñados."
+						]
 					}
 				]
 			},
@@ -4062,6 +4241,16 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de reglamento de movilidad estudiantil",
+						"plazo": "abr",
+						"estandar": [
+							"Desarrollado según definiciones asociadas a URY 1856 en temas de internacionalización.",
+							"Debe responder integralmente a definiciones del Modelo Educativo y estrategias institucionales en el área de docencia."
+						]
+					}
 				]
 			},
 			{
@@ -4088,6 +4277,19 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenios actualizados",
+						"plazo": "abr",
+						"estandar": [
+							"Debe adjuntarse listado resumen de convenios actualizados y principales ajustes.",
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
+					}
 				]
 			},
 			{
@@ -4106,7 +4308,18 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}					
-				]
+				],
+				"verificadores": [
+					{
+						"nombre": "Evidencias de realización de actividades",
+						"plazo": "jun",
+						"estandar": [
+							"Distintos validadores que den cuenta de la realización de las actividades.",
+							"Debe considerar cosas como: material gráfico presentado, fotografías, grabaciones, actas, etc.",
+							"Debe considerar listados de asistencia a las actividades."
+						]
+					}
+				]				
 			}
 		]
 	},
@@ -4157,11 +4370,41 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Modelo conceptual sobre la medición de bidireccionalidad e impacto en actividades académicas.",
+						"plazo": "may",
+						"estandar": [
+							"Considera aspectos teóricos y conceptuales para la caracterización, medición y evaluación de propiedades de bidireccionalidad e impacto en medio de las actividades académicas, en coherencia a la realidad institucional.",
+							"Debe establecer los fundamentos para la confección y validación de criterios asociados al alcance de los impactos de las actividades académicas, ya sea en la institución, en el medio o en ambas (bidireccional).",
+							"Debe proponer un modelo sistémico para definir las características de los impactos de las actividades académicas en el medio, utilizando como base sus resultados o productos, y definiendo criterios para clasificar dichos impactos en un horizonte de corto, mediano y largo plazo.",
+							"Debe considerar la lógica de encadenamiento de los impactos de las actividades, es decir, como los productos de actividades específicas se utilizan como insumos de otras actividades, y en una aproximación sistémica permiten generar impactos encadenados en horizontes temporales definidos.",
+							"Debe establecer los grupos de información que permiten caracterizar las cualidades de bidireccionalidad e impacto de las actividad académicas y de los productos que generan, estableciendo los principales datos que se deben sistematizar, métricas, indicadores y otros elementos cuantitativos para la medición de los atributos respectivos.",
+							"Se deben establecer las orientaciones institucionales para describir cualitativamente la bidireccionalidad y el impacto de las actividades, de forma complementaria a la medición cuantitativa.",
+							"Define los principales mecanismos para la implementación y operacionalización del modelo."
+						]
+					},
+					{
+						"nombre": "Actas de validación y difusión de modelo con actores clave.",
+						"plazo": "may",
+						"estandar": [
+							"Considera la presentación y evaluación de actores estratégicos que adoptarán responsabilidades en la implementación del sistema.",
+							"Acompañado de material que explica los elementos críticos del sistema."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza modelo.",
+						"plazo": "jun",
+						"estandar": [
+							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."
+						]
+					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Integrado el diseño del modelo conceptual con el Modelo de Gestión Territorial (MGT - URY 2095) como un componente específico del sistema para caracterizar la bidireccionalidad e impacto de actividades académicas en función a la articulación con los territorios y el despliegue de mecanismos de gobernanza universitaria en ellos.",
+				"desc": "Integrado el diseño del modelo conceptual con el Modelo de Gestión Territorial (MGT - URY 2095 - DVcM-05) como un componente específico del sistema para caracterizar la bidireccionalidad e impacto de actividades académicas en función a la articulación con los territorios y el despliegue de mecanismos de gobernanza universitaria en ellos.",
 				"actores": [
 					{
 						"cai": "DVcM-TE", "rol": "Responsable",
@@ -4176,14 +4419,36 @@
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					},
 					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Complemento al marco conceptual del MGT.",
+						"plazo": "ago",
+						"estandar": [
+							"Extensión y/o complemento del marco conceptual establecido para el MGT (ver H02 en DVcM-05).",
+							"Debe incorporar los aspectos de caracterización de bidireccionalidad e impacto relevantes."
+						]
+					},
+					{
+						"nombre": "Complemento a la caracterización de información asociada al MGT.",
+						"plazo": "nov",
+						"estandar": [
+							"Extensión y/o complemento de caracterización de requerimientos de información establecida para el MGT (ver H05 en DVcM-05), y en coherencia a la caracterización hecha en H05 de esta acción.",
+							"En función a estándares DPAC-AI para caracterización de requerimientos."
+						]
 					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Integrado el diseño del modelo conceptual con el sistema de gestión integral de actividades y desarrollo académico (DAC-33), de forma que se explicite el rol de la bidireccionalidad e impacto de actividades de docencia e investigación en el desarrollo académico.",
+				"desc": "Integrado el diseño del modelo conceptual con el sistema de gestión integral de actividades y desarrollo académico (DAC-34), de forma que se explicite el rol de la bidireccionalidad e impacto de actividades de docencia e investigación en el desarrollo académico.",
 				"actores": [
 					{
 						"cai": "DVcM-TE", "rol": "Responsable",
@@ -4200,6 +4465,24 @@
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Complemento al marco conceptual del Sistema.",
+						"plazo": "sep",
+						"estandar": [
+							"Extensión y/o complemento del marco conceptual establecido para el sistema de gestión integral de actividades y desarrollo académico (ver H01 en DAC-34).",
+							"Debe incorporar los aspectos de caracterización de bidireccionalidad e impacto relevantes."
+						]
+					},
+					{
+						"nombre": "Complementada la caracterización de información asociada al Sistema.",
+						"plazo": "dic",
+						"estandar": [
+							"Extensión y/o complemento de caracterización de requerimientos de información establecida para el MGT (ver H04 en DAC-34) y en coherencia a la caracterización hecha en H05 de esta acción.",
+							"En función a estándares DPAC-AI para caracterización de requerimientos."
+						]
 					}
 				]
 			},
@@ -4231,6 +4514,17 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Documentación de normalización de procesos.",
+						"plazo": "sep",
+						"estandar": [
+							"Especificación de macroproceso según estándares institucionales.",
+							"Manuales de procesos críticos normalizados según estándares institucionales.",
+							"Plan de implementación de procesos críticos según estándares institucionales."
+						]
+					}
 				]
 			},
 			{
@@ -4260,6 +4554,17 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Caracterización de requerimientos de información.",
+						"plazo": "ago",
+						"estandar": [
+							"Compilación estructurada de datos e información relevante para los procesos asociados al modelo.",
+							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales que define Análisis Institucional.",
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+						]
 					}
 				]
 			},
@@ -4303,6 +4608,36 @@
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos",
+						"plazo": "ago",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para operacionalizar el modelo.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados.",
+						"plazo": "oct",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Coherentes con el índice que los específica.",
+							"Registro ordenado de documentos que compilan los mecanismos diseñados."
+						]
+					},
+					{
+						"nombre": "Informe de resultados de aplicación de mecanismos",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados de la aplicación del modelo desarrollado y sus mecanismos.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el modelo mismo como de sus mecanismos derivados."
+						]
+					}
 				]
 			}
 		]
@@ -4323,12 +4658,36 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
+						"cai": "DVcM-COM", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Antecedentes para diseño de Plan Estratégico",
+						"plazo": "mar",
+						"estandar": [
+							"Sistematización de diagnósticos, datos, información y otros insumos levantados desde instancias previas del proyecto (URY 1995) para identificar los lineamientos institucionales relacionados con la Innovación Social.",
+							"Deben responder integralmente a definiciones del proyecto URY 1995."
+						]
+					},
+					{
+						"nombre": "Plan Estratégico del CIS",
+						"plazo": "may",
+						"estandar": [
+							"Debe responder integralmente a distintos otros instrumentos estratégicos y directrices contenidas en ellos que sean relevantes para la VcM (PEDI, PFI, etc.).",
+							"Deben dar cuenta del análisis y evaluación de antecedentes levantados durante el proyecto (URY 1995).",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y como actores claves del estamento académico participan, retroalimentan y orientan aspectos de desarrollo, gestión y operacionalización del CIS.",
+							"Diseño debe responder a formato que permita su difusión y presentación como instrumento estratégico (ej.: documento estrategia), utilizando estándares institucionales (DPAC-PCI)."
+						]
 					}
 				]
 			},
@@ -4364,6 +4723,27 @@
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Índice de mecanismos",
+						"plazo": "jun",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para operacionalizar procesos en el CIS.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Debe establecer al menos un mecanismo que permita caracterizar y describir proyectos amparados en el CIS (bases, formularios, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados.",
+						"plazo": "ago",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Coherentes con el índice que los específica.",
+							"Registro ordenado de documentos que compilan los mecanismos diseñados."
+						]
+					}
 				]
 			},
 			{
@@ -4378,7 +4758,18 @@
 						"cai": "multiple", "rol": "Soporte", "participacion": "Puntual",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
-
+				],
+				"verificadores": [
+					{
+						"nombre": "Evidencias de realización de proyectos",
+						"plazo": "dic",
+						"estandar": [
+							"Distintos validadores que den cuenta de la realización de los proyectos.",
+							"Siempre debe considerar la formulación de los proyectos desde los mecanismos definidos en H02.",
+							"Debe considerar cosas como: material gráfico asociado a la realización de los proyectos, como fotografías, grabaciones, actas, etc.",
+							"Debe considerar listados de asistencia para actividades pertinentes."
+						]
+					}
 				]
 			},
 			{
@@ -4404,6 +4795,18 @@
 					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de resultados de despliegue del CIS",
+						"plazo": "ene",
+						"estandar": [
+							"Informe simple que indica principales resultados del diseño e implementación de proyectos al alero del CIS, a través de mecanismos operacionalizados.",
+							"Debe indicar los elementos que resultan exitosos.",
+							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los mecanismos operativos como de los aspectos de gestión del CIS."
+						]
 					}
 				]
 			}
