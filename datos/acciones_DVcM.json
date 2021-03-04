@@ -2921,7 +2921,7 @@
 				]
 			},
 			{
-				"id": "H04b", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H04b", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñadas herramientas de evaluación de resultados y opinión sobre las Escuelas de temporada realizadas.",
 				"actores": [
 					{

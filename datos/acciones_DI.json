@@ -1641,10 +1641,16 @@
 						"capacidades": [ "todos-gestion-academica" ]
 					}
 				],
+				"ios":[
+					{ 
+						"nombre": "Gestión de redes académicas", 
+						"formula": "Número de instancias de coordinación para la gestión de redes nacionales e internacionales asociadas al cuerpo académico.",
+						"meta": "8"
+					}
+				],
 				"verificadores": [
 					{
 						"nombre": "Actas de reuniones y coordinaciones realizadas con instituciones externas.",
-						"plazo": "dic",
 						"estandar": [
 							"Debe dar cuenta de instancias de coordinación establecidas con otras Instituciones en el contexto del plan desarrollado.",
 							"Considerar un acta por cada áctividad de coordinación realizada.",

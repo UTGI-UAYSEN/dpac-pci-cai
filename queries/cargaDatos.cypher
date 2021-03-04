@@ -99,8 +99,7 @@ return a, t, c1, c2
 //////////////////////////////////
 // Crea IOs y MDVs
 
-//WITH [ 'DAC', 'DPAC', 'DAF', 'DI', 'DVcM', 'Rectoria', 'CI' ] as files
-WITH [ 'DPAC', 'DAC', 'Rectoria', 'CI' ] as files
+WITH [ 'DAC', 'DPAC', 'DAF', 'DI', 'DVcM', 'Rectoria', 'CI' ] as files
 UNWIND files as file
 CALL apoc.load.json('file:///datos/acciones_' + file + '.json') YIELD value
 

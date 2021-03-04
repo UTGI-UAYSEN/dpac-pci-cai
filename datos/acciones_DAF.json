@@ -4891,7 +4891,7 @@
 		"responsable": "DAF-INSG",
 		"tacticas": [
 			{
-				"id": "H01", "tipo": "Función", "cobertura": "Mínima", "prioridad": "Alta",
+				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
 				"desc": "Completada la Etapa 1 - Ajuste metodológico.",
 				"actores": [
 					{
@@ -4914,7 +4914,7 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Completada la Etapa 2 - Anteproyecto para aprobar IFC y realización de estudio de mecánica de suelos.",
 				"actores": [
 					{
@@ -4937,7 +4937,7 @@
 				]
 			},
 			{
-				"id": "H03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Completada la Etapa 3a - Avance proyecto de arquitectura y especialidades.",
 				"actores": [
 					{
@@ -4960,7 +4960,7 @@
 				]
 			},
 			{
-				"id": "H04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Completada la Etapa 3b - Avance proyecto de arquitectura y especialidades, e ingreso DIA.",
 				"actores": [
 					{
@@ -4983,7 +4983,7 @@
 				]
 			},
 			{
-				"id": "H05", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Avanzada Etapa 3c - Avance proyecto de arquitectura y especialidades, subsanación adendas DIA e ingreso proyectos sectoriales.",
 				"actores": [
 					{
@@ -5007,7 +5007,7 @@
 				]
 			},
 			{
-				"id": "H06", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Desarrollada Participación Ciudadana 1.",
 				"actores": [
 					{
@@ -5041,7 +5041,7 @@
 				]
 			},
 			{
-				"id": "H07", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H07", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Desarrollada Participación Ciudadana 2.",
 				"actores": [
 					{
@@ -5075,7 +5075,7 @@
 				]
 			},
 			{
-				"id": "H08", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H08", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Desarrollada Participación Ciudadana 3.",
 				"actores": [
 					{

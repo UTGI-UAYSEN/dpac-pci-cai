@@ -847,7 +847,7 @@
 				]
 			},
 			{
-				"id": "F01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Ejecutar la difusión comunicacional de la oferta 2022 de pregrado a nivel regional y nacional.",
 				"actores": [
 					{
