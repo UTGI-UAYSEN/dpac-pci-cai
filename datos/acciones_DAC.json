@@ -3100,7 +3100,7 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Evaluado el impacto de medidas de acompañamiento y atención desarrolladas sobre estudiantes durante el 1er semestre.",
 				"actores": [
 					{
@@ -3136,7 +3136,7 @@
 				]
 			},
 			{
-				"id": "H03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Evaluado el impacto de medidas de acompañamiento y atención desarrolladas sobre estudiantes durante el 2do semestre.",
 				"actores": [
 					{

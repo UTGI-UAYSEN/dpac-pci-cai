@@ -2217,7 +2217,7 @@
 				]
 			},
 			{
-				"id": "H01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Realizada la mantención y reparación de Campus Rio Simpson para su entrega",
 				"actores": [
 					{
@@ -2253,7 +2253,7 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Realizada la mantención y reparación del Centro del Visitante Cerro Castillo",
 				"actores": [
 					{
