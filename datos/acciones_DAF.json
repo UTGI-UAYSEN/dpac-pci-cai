@@ -582,6 +582,13 @@
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
 				],
+				"ios":[
+					{ 
+						"nombre": "Instancias de evaluación de asistencia", 
+						"formula": "Número de instancias en que se ha compilado, analizado y evaluado la información sobre la asistencia de un área específica y se ha socializado con su jefatura respectiva.",
+						"meta": "70"
+					}
+				],
 				"verificadores": [
 					{
 						"nombre": "Registro de solicitudes de permisos",
@@ -592,11 +599,13 @@
 						]
 					},
 					{
-						"nombre": "Bitácora de permisos del personal",
+						"nombre": "Informes periódicos de asistencia del personal",
 						"estandar": [
-							"Registro que sintetiza y compila información estructurada de la gestión de cometidos.",
-							"Cada elemento en el registro debe dar cuenta de un permiso solicitado, incluyendo su tipo, solicitante, fecha de solicitud, fecha de tramitación, fecha de aceptación / validación, estado de permiso, entre otros que sean pertinentes.",
-							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+							"Registro que sintetiza y compila información sobre la asistencia de los funcionarios de cada área específica.",
+							"Emitido de forma mensual, y considerando un informe dirigido a cada área estratégica (ej.: dirección) de la institución.",
+							"Debe incorporar datos filtrados y seleccionados hacia el área correspondiente con el detalle de la información de asistencia respectiva.",
+							"Debe incorporar un análisis cuantitativo (indicadores, métricas) y cuialitativo desde desarrollo de personasd hacia el área respectiva, indicando observaciones encontradas sobre el área respectiva, orientaciones sobre preocupaciones relevantes y sugerencias de consideración.",
+							"En formatos según estándares DAF-DP."
 						]
 					},
 					{
@@ -1149,6 +1158,13 @@
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
 				],
+				"ios":[
+					{ 
+						"nombre": "Recepciones conforme gestionadas.", 
+						"formula": "Número de recepciones conforme realizadas de acuerdo a las adquisiciones ejhecutadas y valdiadas por contrapartes respectivas.",
+						"meta": "500"
+					}
+				],
 				"verificadores": [
 					{
 						"nombre": "Registro de compras institucionales",
@@ -1210,6 +1226,13 @@
 					{
 						"cai": "DAF-FIN", "rol": "Consultado",
 						"capacidades": [ "tesoreria" ]
+					}
+				],
+				"ios":[
+					{ 
+						"nombre": "Cierres contables mensuales", 
+						"formula": "Número de procesos de cierre contables desarrollados y documentados.",
+						"meta": "10"
 					}
 				],
 				"verificadores": [
@@ -2991,7 +3014,7 @@
 						"estandar": [
 							"Debe ser implementado a través de una definición de criterios que asigne grados de la estructura salarial en función a la experiencia profesional y formación académica de las personas.",
 							"En función a los mecanismos generados desde H01, la propuesta de nueva estructura debe presentarse de forma comparativa con la situación actual de grados del personal de colaboración, estableciendo distintos escenarios de implementación que permitan visualizar los ajustes que sufrirían las remuneraciones en el tiempo, tanto de forma individual como de forma agregada.",
-							"La propuesta debe aportar a la sostenibilidad económica de la institución, avanzando en una reducción gradual y controlada del gasto en personal a nivel institucional, que permita reducir la carga en el presupuesto institucional y beneficiar la incorporación sostenida de nuevas capacidades en el largo plazo.",
+							"La propuesta debe aportar a la sostenibilidad económica de la institución, avanzando en una reducción gradual y controlada del gasto en personal a nivel institucional, que permita beneficiar la carga en el presupuesto institucional y la incorporación sostenida de nuevas capacidades en el largo plazo.",
 							"La propuesta debe privilegiar que la bonificación de remuneraciones por cargos de responsabilidad se defina a través de asignaciones, y no a través de los grados, para avanzar en su flexibilidad.",
 							"El análisis que se pueda realizar desde este mecanismo no se puede desconectar de la estructura de asignaciones que se proponga en paralelo.",
 							"Debe presentarse en un formato que facilite el análisis de los datos (ej.: excel)."
@@ -3081,7 +3104,7 @@
 							"Debe ser implementado a través de una definición de criterios que establezcan asignaciones de la estructura salarial en función a grados de responsabilidad, necesidades específicas del personal, resultados de evaluación, entre otros que sean pertinentes.",
 							"Es crítico que este mecanismo proponga un reemplazo completo e integral de la asignación de implementación actualmente existente en la Institución.",
 							"En función a los mecanismos generados desde H01, la propuesta de nueva estructura debe presentarse de forma comparativa con la situación actual de asignaciones del personal, estableciendo distintos escenarios de implementación que permitan visualizar los ajustes que sufrirían las remuneraciones en el tiempo, tanto de forma individual como de forma agregada.",
-							"La propuesta debe aportar a la sostenibilidad económica de la institución, avanzando en una reducción gradual y controlada del gasto en personal a nivel institucional, que permita reducir la carga en el presupuesto institucional y beneficiar la incorporación sostenida de nuevas capacidades en el largo plazo.",
+							"La propuesta debe aportar a la sostenibilidad económica de la institución, avanzando en un ajuste gradual y controlado del gasto en personal a nivel institucional, que beneficie la carga en el presupuesto institucional y la incorporación sostenida de nuevas capacidades en el largo plazo.",
 							"El análisis que se pueda realizar desde este mecanismo no se puede desconectar de la estructura de grados que se proponga en paralelo.",
 							"Debe presentarse en un formato que facilite el análisis de los datos (ej.: excel)."
 						]
@@ -3129,7 +3152,7 @@
 						"plazo": "ene",
 						"estandar": [
 							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
-							"Debe responder a la necesidad de evolucionar gradualmente en la implementación de los ajustes propuestos a la estructura salarial, de forma que se refleje periodo a periodo una reducción del gasto en personal en el presupuesto institucional (ej: p1 - 5%, p2 - 10%, p3 - 15%, etc.).",
+							"Debe responder a la necesidad de evolucionar gradualmente en la implementación de los ajustes propuestos a la estructura salarial, de forma que se refleje periodo a periodo un ajuste en el gasto en personal del presupuesto institucional.",
 							"Debe incorporar acciones que expliciten un ajuste a la planta institucional en función a la normalización de la estructura salarial en el tiempo.",
 							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
 						]

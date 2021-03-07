@@ -747,7 +747,7 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Actividades del Coro UAysén.", 
+						"nombre": "Actividades del Coro UAysén desarrolladas.", 
 						"formula": "Número de actividades realizadas con el Coro UAysén.",
 						"meta": "3"
 					}
@@ -781,6 +781,13 @@
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}	
+				],
+				"ios":[
+					{ 
+						"nombre": "Actividades del Coro UAysén con evaluación de satisfacción.", 
+						"formula": "Número de actividades realizadas con el Coro UAysén en las cuales se han aplicado, analizado y socializado encuestas de satisfacción.",
+						"meta": "3"
+					}
 				],
 				"verificadores": [
 					{
