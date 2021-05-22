@@ -38,11 +38,14 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
-							"Plan de implementación de procesos críticos según estándares institucionales."
+							"Plan de implementación de procesos críticos según estándares institucionales.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -72,6 +75,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
@@ -83,7 +90,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados a la gestión de productos de investigación.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -328,13 +338,9 @@
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Implementadas y evaluadas herramientas para dar soporte a las primeras etapas de los procesos del ciclo de vida de proyectos de investigación.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Soporte",
+						"cai": "DI-DINV", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -348,6 +354,10 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -1468,7 +1478,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
@@ -1491,7 +1501,10 @@
 							"Deben entregar información agregada y detallada respecto a la productividad generada por el cuerpo académico, clasificada y organizada por tipo de producto generado, impacto según su naturaleza (ej.: cuartil en publicaciones), unidad académica asociada, periodo, difusión realizada / identificada, indicadores de productividad asociados, entre otros que sean pertinentes para la gestión.",
 							"Reportes deben incorporar análisis cuantitativo y cualitativo de los logros obtenidos, dando cuenta de continuidad respecto a periodos de reporte anteriores, y así mismo se deben identificar posibles brechas encontradas en la generación de productividad.",
 							"Se deben incorporar estrategias de trabajo asociadas a las brechas incorporadas para abordarlas en el corto plazo.",
-							"Formatos según estándares DI."
+							"Formatos según estándares DI.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen al reporte.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1509,7 +1522,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
@@ -1530,7 +1543,10 @@
 						"estandar": [
 							"Equivalente a los definidos en F01 (pueden presentarse como uno solo).",
 							"En el caso de indicadores, estos deben incorporarse explícitamente en apartados de los reportes y debe ser usados (referenciados) en los análisis respectivos.",
-							"Considerar que por reporte generado (dos por semestre) se presentan dos actualizaciones de indicadores distintas."
+							"Considerar que por reporte generado (dos por semestre) se presentan dos actualizaciones de indicadores distintas.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen al reporte.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -2778,7 +2794,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al marco conceptual.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]

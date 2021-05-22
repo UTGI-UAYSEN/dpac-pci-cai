@@ -19,8 +19,8 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "DAC-DE", "rol": "Consultado",
@@ -34,7 +34,8 @@
 						"estandar": [
 							"Informe simple que indique ajustes y/o actualizaciones realizadas.",
 							"Debe dar cuenta de estado previo y justificación de los ajustes.",
-							"Debe indicar impactos esperados de los ajustes sobre los datos y elementos predictivos de la alerta temprana."
+							"Debe indicar impactos esperados de los ajustes sobre los datos y elementos predictivos de la alerta temprana.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe."
 						]
 					},
 					{
@@ -42,7 +43,9 @@
 						"plazo": "may",
 						"estandar": [
 							"Generados en función al sistema que fue ajustado.",
-							"Presentados en función de requerimientos de acompañamiento académico."
+							"Presentados en función de requerimientos de acompañamiento académico.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -60,8 +63,8 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Puntual",
@@ -75,19 +78,22 @@
 				"verificadores": [
 					{
 						"nombre": "Informe de resultados de encuesta.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
-							"Constancia de entrega a Director DAC."
+							"Constancia de entrega a Director DAC.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe."
 						]
 					},
 					{
 						"nombre": "Datos de análisis",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"En formato estándar que permita su revisión (excel, csv, etc.).",
-							"Innominado o según corresponda su protección."
+							"Innominado o según corresponda su protección.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -113,8 +119,8 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -136,7 +142,10 @@
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
-							"Constancia de entrega a Director DAC."
+							"Constancia de entrega a Director DAC.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -158,8 +167,8 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -181,7 +190,9 @@
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
-							"Constancia de entrega a Director DAC."
+							"Constancia de entrega a Director DAC.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -203,8 +214,8 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -214,11 +225,13 @@
 				"verificadores": [
 					{
 						"nombre": "Informe de resultados de análisis.",
-						"plazo": "jul",
+						"plazo": "sep",
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
-							"Constancia de entrega a Director DAC."
+							"Constancia de entrega a Director DAC.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -240,8 +253,8 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -255,7 +268,9 @@
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
-							"Constancia de entrega a Director DAC."
+							"Constancia de entrega a Director DAC.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -395,8 +410,8 @@
 						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -417,7 +432,9 @@
 							"Deben resumir y proveer información agregada relevante respecto a tramites realizados en torno a antecedentes curriculares y documentación generada durante el periodo.",
 							"Debe proveer indicadores generales sobre los tramites cuantificados, clasificando según su tipo, carreras asociadas, estados, etc.",
 							"Deben dar cuenta de los tiempos que toman los trámites y otros elementos asociados a la calidad del servicio entregado a los/las estudiantes.",
-							"Debe incorporar un apartado descriptivo con análisis desde el área sobre los resultados generados en términos de eficiencia y cobertura."
+							"Debe incorporar un apartado descriptivo con análisis desde el área sobre los resultados generados en términos de eficiencia y cobertura.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -437,11 +454,15 @@
 				"actores": [
 					{
 						"cai": "DAC-EPYEC", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general, coordinacion-postgrado, postgrado" ]
+						"capacidades": [ "coordinacion-general", "coordinacion-postgrado", "postgrado" ]
 					},
 					{
 						"cai": "DPAC-AI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -459,14 +480,17 @@
 					},
 					{
 						"nombre": "Datos de análisis",
-						"plazo": "abr",
+						"plazo": "jun",
 						"estandar": [
-							"En formato estándar que permita su revisión (excel, csv, etc.)."
+							"En formato estándar que permita su revisión (excel, csv, etc.).",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+  							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos",
+  							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					},
 					{
 						"nombre": "Informe de resultados de encuesta.",
-						"plazo": "may",
+						"plazo": "jul",
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
@@ -486,6 +510,10 @@
 					{
 						"cai": "DPAC-AI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -546,7 +574,7 @@
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "gobierno-datos" ]
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -569,14 +597,16 @@
 						"plazo": "mar",
 						"estandar": [
 							"Informes incrementales del avance de la matrícula según requerimientos de mandantes.",
-							"Debe considerar un informe final que compile los diversos incrementos, como última entrega."
+							"Debe considerar un informe final que compile los diversos incrementos, como última entrega.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "complejidad": "Alta", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Implementado un módulo SGA para la matrícula online.",
+				"desc": "Implementado un módulo SGA de matrícula online 2021 para pregrado.",
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -614,7 +644,7 @@
 				"verificadores": [
 					{
 						"nombre": "Actas de capacitación.",
-						"plazo": "mar",
+						"plazo": "abr",
 						"estandar": [
 							"Al menos un acta por cada grupo de usuarios clave.",
 							"Acompañada por validador de aceptación.",
@@ -623,7 +653,7 @@
 					},
 					{
 						"nombre": "Manual de usuario de módulo.",
-						"plazo": "mar",
+						"plazo": "abr",
 						"estandar": [
 							"Debe considerar las principales funcionalidades asociadas al sistema.",
 							"En formato de transmisión estándar (docx, pdf)."
@@ -631,14 +661,14 @@
 					},
 					{
 						"nombre": "Certificado de entrega de módulo.",
-						"plazo": "mar",
+						"plazo": "abr",
 						"estandar": [
 							"Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."
 						]
 					},
 					{
 						"nombre": "Documentación técnica módulo.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Formatos y estructura según estándares TGI."
 						]
@@ -1072,11 +1102,15 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Levantados requerimientos finales para módulos iniciales del sistema",
+				"desc": "Implementado y desplegado módulo SGA para matrícula online de formación continua.",
 				"actores": [					
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "gobierno-datos" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
@@ -1106,11 +1140,19 @@
 				"verificadores": [
 					{
 						"nombre": "Especificación de requerimientos de sistema.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los módulos respectivos.",
 							"Debe tener coherencia con los procesos asociados.",
 							"Se debe especificar alcance de los módulos iniciales y posibles próximas etapas."
+						]
+					},
+					{
+						"nombre": "Datos de análisis.",
+						"plazo": "may",
+						"estandar": [
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1936,7 +1978,7 @@
 				"verificadores": [
 					{
 						"nombre": "Informe técnico de implementación de plataformas",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Documento simple con especificación de ajustes realizados a plataformas respectivas.",
 							"Debe sintetizar ajustes efectuados para cada uno de los servicios involucrados, justificándolos según su objetivo e impactos esperados tras la actualización.",
@@ -2148,6 +2190,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "DI-DINV", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
@@ -2174,7 +2220,9 @@
 							"Sistematización de información en formato que pueda ser usada por actores claves en proceso de calificación.",
 							"Soporte desde AI para información desde fuentes institucionales.",
 							"Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
-							"Considerar formatos manipulables y de uso general (ej.: excel)."
+							"Considerar formatos manipulables y de uso general (ej.: excel).",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -2281,6 +2329,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "DI-DINV", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
@@ -2307,7 +2359,9 @@
 							"Sistematización de información en formato que pueda ser usada por actores claves en proceso de calificación.",
 							"Soporte desde AI para información desde fuentes institucionales.",
 							"Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
-							"Considerar formatos manipulables y de uso general (ej.: excel)."
+							"Considerar formatos manipulables y de uso general (ej.: excel).",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -2414,6 +2468,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "DI-DINV", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
@@ -2440,7 +2498,9 @@
 							"Sistematización de información en formato que pueda ser usada por actores claves en proceso de jerarquización.",
 							"Soporte desde AI para información desde fuentes institucionales.",
 							"Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
-							"Considerar formatos manipulables y de uso general (ej.: excel)."
+							"Considerar formatos manipulables y de uso general (ej.: excel).",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -3611,6 +3671,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
@@ -3629,7 +3693,19 @@
 							"Reportes simples respecto a los insumos, el desarrollo y resultado de los procesos asociados a la gestión de cada beneficio disponible para el estamento estudiantil.",
 							"Se debe generar un reporte por cada beneficio disponible y que esté sometido a postulación y adjudicación de estudiantes.",
 							"Los reportes deben dar cuenta de los beneficios específicos que se proveen y la sinergia con otros beneficios relacionados.",
-							"Se deben entregar datos detallados y agregados respecto a los resultados del proceso (postulantes, adjudicaciones, etc.)."
+							"Se deben entregar datos detallados y agregados respecto a los resultados del proceso (postulantes, adjudicaciones, etc.).",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+  							"Considera respaldo de información generada en el repositorio de datos institucional."
+						]
+					},
+					{
+						"nombre": "Reportes estatales de asignación de beneficios",
+						"estandar": [
+							"Reportes de alcance nacional que deben ser previamente filtrados.",
+							"Incluye asignación inicial gratuidad, becas de arancel, acreditación socioeconomica, FSCU- renovantes beneficios estudiantiles."
 						]
 					}
 				]
@@ -5797,6 +5873,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
@@ -5808,7 +5888,10 @@
 						"estandar": [
 							"Información cuantitativa y cualitativa de percepción de estudiantes respecto al impacto del funcionamiento de la escuela en su rendimiento académico.",
 							"Debe considerar tanto diseño de la encuesta en función a parámetros académicos y de calidad de servicio, como los datos recopilados desde las encuestas.",
-							"Debe dar cuenta del universo de estudiantes objetivos de la encuesta, validadores de envío de encuesta y universo de respuestas."							
+							"Debe dar cuenta del universo de estudiantes objetivos de la encuesta, validadores de envío de encuesta y universo de respuestas.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					},
 					{
@@ -5887,7 +5970,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
@@ -5902,7 +5985,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al protocolo.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -7213,7 +7299,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al protocolo.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales que define Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -8249,6 +8338,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "DVcM-TE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
@@ -8278,7 +8371,10 @@
 						"estandar": [
 							"Debe ser coherente con TdRs establecidos.",
 							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional."
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -8601,6 +8697,10 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",

@@ -1341,7 +1341,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al protocolo.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales que define Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de implementación."
+							"Aproximación incremental: debe entenderse como una primera etapa de implementación.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -2123,7 +2126,7 @@
 				"verificadores": [
 					{
 						"nombre": "Actas de coordinación con actores clave.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Debe dar cuenta de aspectos analizados en el diseño de encuestas y retroalimentación de DPAC-AI en la materia.",
 							"Una o varias actas que den cuenta de la articulación del trabajo y la integración de propuestas en los instrumentos pertinentes."
@@ -2142,6 +2145,10 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -2165,7 +2172,10 @@
 						"estandar": [
 							"Debe ser coherente con TdRs establecidos.",
 							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional."
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -2288,7 +2298,7 @@
 					},
 					{
 						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Puntual",
-						"capacidades": [ "gobierno-datos" ]
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
@@ -2310,7 +2320,10 @@
 							"Debe dar cuenta del estado de resolución del requerimiento.",
 							"Debe explicitar si se han extendido plazos asociados.",
 							"Debe explicitar tiempos de respuesta a los requerimientos resueltos.",
-							"Debe incorporar un diagnóstico cualitativo de problemas abordados en la resolución."
+							"Debe incorporar un diagnóstico cualitativo de problemas abordados en la resolución.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					},
 					{
@@ -2873,7 +2886,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
@@ -2888,7 +2901,7 @@
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma", "gobierno-datos" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Soporte",
@@ -2914,7 +2927,7 @@
 				"verificadores": [
 					{
 						"nombre": "Validadores de SII actualizado",
-						"plazo": "may",
+						"plazo": "ago",
 						"estandar": [
 							"Manuales de uso, fotos de interfaces, documentación anexa u otros relacionados.",
 							"Deben dar cuenta de diferencias respecto a versiones previas, nuevas funcionalidades y/o protocolos de manejo de información incorporados.",
@@ -3078,7 +3091,7 @@
 			},	
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Evaluados e implementados mecanismos tecnológicos para automatizar firmas digitales en documentación institucional.",
+				"desc": "Piloteados y Evaluados mecanismos tecnológicos para automatizar firmas digitales en documentación institucional.",
 				"actores": [
 					{
 						"cai": "SG-OPGDT", "rol": "Responsable",
@@ -3096,7 +3109,7 @@
 				"verificadores": [
 					{
 						"nombre": "Evaluación de requerimientos tecnológicos",
-						"plazo": "abr",
+						"plazo": "oct",
 						"estandar": [
 							"Documento simple que sintetiza necesidades funcionales y procedimentales respecto a la implementación de firmas digitales.",
 							"Incorpora diagnóstico y evaluación de alternativas, considerando externalización.",
@@ -3106,7 +3119,7 @@
 					},
 					{
 						"nombre": "Términos de referencia de servicios externos",
-						"plazo": "may",
+						"plazo": "nov",
 						"estandar": [
 							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
 							"En coherencia con evaluación realizada.",
@@ -3116,7 +3129,7 @@
 					},
 					{
 						"nombre": "Validadores de mecanismos tecnológicos incorporados",
-						"plazo": "sep",
+						"plazo": "ene",
 						"estandar": [
 							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
 							"Coherente con TdRs desarrollados.",
@@ -3208,7 +3221,7 @@
 				"verificadores": [
 					{
 						"nombre": "Informe de diagnóstico sobre sistematización de convenios",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Informe simple que compila antecedentes cuantitativos y cualitativos respecto a la gestión de convenios institucionales.",
 							"Revela avances y desafíos en la materia.",

@@ -1423,6 +1423,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
@@ -1493,6 +1497,10 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					}
 				],
 				"ios":[
@@ -1606,6 +1614,10 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					}
 				],
 				"verificadores": [
@@ -1634,6 +1646,10 @@
 					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					}
 				],
 				"verificadores": [
@@ -2945,6 +2961,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
@@ -2968,11 +2988,14 @@
 					},
 					{
 						"nombre": "Estudio desarrollado y plan de uso.",
-						"plazo": "jul",
+						"plazo": "jun",
 						"estandar": [
 							"Debe ser coherente con TdRs establecidos.",
 							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional y a las necesidades de corto plazo de ajuste a la estructura salarial."
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional y a las necesidades de corto plazo de ajuste a la estructura salarial.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -3181,6 +3204,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
 						"cai": "DVcM-COM", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
 					},
@@ -3202,11 +3229,14 @@
 					},
 					{
 						"nombre": "Estudio desarrollado y plan de uso.",
-						"plazo": "jun",
+						"plazo": "ago",
 						"estandar": [
 							"Debe ser coherente con TdRs establecidos.",
 							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional."
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -3849,7 +3879,7 @@
 				"verificadores": [
 					{
 						"nombre": "Especificación de requerimientos tecnológicos.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
 							"Debe tener coherencia con evaluación de procesos asociados a adquisiciones.",
@@ -4314,7 +4344,7 @@
 				"verificadores": [
 					{
 						"nombre": "Evaluación de requerimientos tecnológicos",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Documento simple que sintetiza necesidades funcionales y procedimentales respecto al soporte tecnológico que requiere el seguimiento de situación financiera de los estudiantes.",
 							"Incorpora diagnóstico y evaluación de alternativas, considerando externalización.",
@@ -5328,7 +5358,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al modelo.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]

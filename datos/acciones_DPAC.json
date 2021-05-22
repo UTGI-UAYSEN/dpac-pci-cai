@@ -429,7 +429,7 @@
 				"verificadores": [
 					{
 						"nombre": "Estructura de operacionalización de encuesta.",
-						"plazo": "mar",
+						"plazo": "abr",
 						"estandar": [
 							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
 							"Versión validada por Director DPAC."
@@ -437,7 +437,7 @@
 					},
 					{
 						"nombre": "Informe de resultados de encuesta.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
@@ -1016,7 +1016,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Respaldos de entrega de datos e información.",
+						"nombre": "Respaldos de entrega de datos e información interno.",
 						"plazo": "may",
 						"estandar": [
 							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
@@ -1039,7 +1039,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Respaldos de entrega de datos e información.",
+						"nombre": "Respaldos de entrega de datos e información a institución externa.",
 						"plazo": "jun",
 						"estandar": [
 							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
@@ -1492,7 +1492,7 @@
 				"verificadores": [
 					{
 						"nombre": "Diseño de metodología para implementación proceso autoevaluación 2021-2022.",
-						"plazo": "abr",
+						"plazo": "sep",
 						"estandar": [
 							"Debe incorporar elementos de comunicaciones del proceso.",
 							"Debe incluir cronograma de trabajo.",
@@ -1503,7 +1503,7 @@
 					},
 					{
 						"nombre": "Acta de aprobación de metodología.",
-						"plazo": "abr",
+						"plazo": "sep",
 						"estandar": [
 							"Debe dar cuenta de presentación a equipo directivo y aprobación desde Rectoría.",
 							"Se puede acompañar de material desde otros MdVs."
@@ -1560,7 +1560,7 @@
 				"verificadores": [
 					{
 						"nombre": "Diseño de estrategia comunicacional para proceso de autoevaluación.",
-						"plazo": "may",
+						"plazo": "sep",
 						"estandar": [
 							"Debe incorporar aliados y actores claves.",
 							"Debe detallar técnicamente canales internos y externos de comunicación.",
@@ -1570,7 +1570,7 @@
 					},
 					{
 						"nombre": "Acta de aprobación de estrategia.",
-						"plazo": "may",
+						"plazo": "sep",
 						"estandar": [
 							"Debe dar cuenta de presentación y acuerdos entre actores clave de DPAC-GC y DVcM-COM.",
 							"Se puede acompañar de material desde otros MdVs."
@@ -1649,7 +1649,7 @@
 				"verificadores": [
 					{
 						"nombre": "Compilación estructurada de procesos sujetos a automatización.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Basado en Mapa de Procesos que la institución tenga actualizado a la fecha.",
 							"Para cada proceso considerable, debe indicar nivel de complejidad de la automatización aplicable (ej.: workflow de complejidad baja o mediana).",
@@ -1805,8 +1805,8 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Desplegadas las metodologías y herramientas tecnológicas para habilitar la gestión de pruebas unitarias en los desarrollos institucionales.",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Evaluadas las metodologías y herramientas tecnológicas para habilitar la gestión de pruebas unitarias en los desarrollos institucionales.",
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -1896,7 +1896,7 @@
 				"verificadores": [
 					{
 						"nombre": "Estándares de respaldo de información institucional.",
-						"plazo": "abr",
+						"plazo": "jun",
 						"estandar": [
 							"Documentación técnica respecto a los mecanismos tecnológicos que habilitarán el respaldo de información.",
 							"Debe explicitar los requerimientos procedimentales asociados a los respaldos y su transferencia a los usuarios.",
@@ -1930,7 +1930,7 @@
 				"verificadores": [
 					{
 						"nombre": "Estándares de respaldo de información institucional.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Documentación técnica respecto a los mecanismos tecnológicos que habilitarán el respaldo de información.",
 							"Debe explicitar los requerimientos procedimentales asociados a los respaldos y su transferencia a los usuarios.",
@@ -2220,7 +2220,10 @@
 							"Considera la definición de estándar de modelado que permita su extensión y mantención en el tiempo.",
 							"Debe incorporar procedimientos para su actualización periódica y pautas de extensión.",
 							"Debe explicitar roles y responsabilidades para su mantención.",
-							"Debe diferenciar y articular apropiadamente los alcances transaccionales y estratégicos respecto al uso de los datos asociados al modelo."
+							"Debe diferenciar y articular apropiadamente los alcances transaccionales y estratégicos respecto al uso de los datos asociados al modelo.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Considera artefactos que respondan integralmente al modelo diseñado.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					},
 					{
@@ -2297,14 +2300,16 @@
 							"Informe simple que indica principales resultados de la aplicación de los mecanismos.",
 							"Debe indicar los elementos que resultan exitosos.",
 							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los mecanismos procedimentales como tecnológicos que correspondan."
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los mecanismos procedimentales como tecnológicos que correspondan.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+  							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñadas e implementadas mejoras para la automatización de entrega de información institucional usando herramientas tecnológicas (Tableau).",
+				"desc": "Diseñadas e implementadas mejoras para la automatización de entrega de información institucional usando herramientas tecnológicas y un ecosistema de reportes.",
 				"actores": [
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -2340,7 +2345,9 @@
 						"estandar": [
 							"Deben implementarse a través de Tableau batería de reportes críticos y de uso periódico demostrado en el pasado.",
 							"Deben presentarse a través de mecanismos de acceso y con estándares de seguridad apropiados.",
-							"Debe acompañarse de un listado estructurado y ordenado de reportes disponibles, indicando los actores a quienes se dirige."
+							"Debe acompañarse de un listado estructurado y ordenado de reportes disponibles, indicando los actores a quienes se dirige.",
+							"Se debe establecer conexión de lectura con repositorio de datos institucionales (Dremio).",
+							"Se debe generar una conexión de confianza para publicar reportes de Tableau en el Sistema de Análisis Institucional (SAI)."
 						]
 					}
 				]
@@ -3431,7 +3438,7 @@
 				"verificadores": [
 					{
 						"nombre": "Diagnóstico sobre continuidad del proceso ev. intermedia.",
-						"plazo": "mar",
+						"plazo": "abr",
 						"estandar": [
 							"Debe indicar los elementos comprometidos en proceso 2019 que no lograron implementarse según lo esperado.",
 							"Acompañado de documento con actualización del estado de avance del Plan de Mejora Institucional 2019 (Considerar DPAC-07-H02).",
@@ -3519,7 +3526,7 @@
 					},
 					{
 						"nombre": "Programa de Visita CNA.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Considera descripción y cronograma específico de visita, considerando grupos de entrevista según defina CNA.",
 							"Establecer modalidades y puntos de encuentros virtuales.",
@@ -3724,7 +3731,10 @@
 						"estandar": [
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -3762,7 +3772,9 @@
 							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al marco de trabajo desarrollado.",
 							"Debe indicar los elementos que resultan exitosos.",
 							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el marco de trabajo como de sus mecanismos derivados."
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el marco de trabajo como de sus mecanismos derivados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Considera respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -4040,7 +4052,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Índice de mecanismos para operacionalizar el marco de trabajo en gobierno de datos",
+						"nombre": "Índice de mecanismos iniciales para operacionalizar el MGU",
 						"plazo": "jun",
 						"estandar": [
 							"Listado simple de mecanismos relevantes para la implementación inicial del MGU.",
@@ -4079,7 +4091,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Índice de mecanismos para operacionalizar el marco de trabajo en gobierno de datos",
+						"nombre": "Hoja de ruta sobre Sistemas de Gestión críticos",
 						"plazo": "jun",
 						"estandar": [
 							"Debe complementar el marco de trabajo inicial del MGU.",

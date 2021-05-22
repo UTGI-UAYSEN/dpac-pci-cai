@@ -15,7 +15,7 @@
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
 					},
 					{
@@ -26,7 +26,7 @@
 				"verificadores": [
 					{
 						"nombre": "Plan de implementación de web institucional",
-						"plazo": "mar",
+						"plazo": "abr",
 						"estandar": [
 							"Documento de trabajo que entrega el detalle respecto a los aspectos comunicacionales de la web institucional que serán mejorados y desarrollados durante el periodo.",
 							"Debe entregar un detalle estructurado respecto al mapa de navegación esperado para el portal, indicando los contenidos que serán presentados, los medios y la estrategia de recopilación de información para cada sección relevante.",
@@ -933,7 +933,9 @@
 						"estandar": [
 							"Documento de trabajo que compila resultados de los otros hitos en esta acción y los organiza sistemáticamente.",
 							"Debe presentarse como un modelo de gestión en sí, considerando entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
-							"Debe explicitar propuestas de procesos con alcance regional, especificando actores, roles instrumentos y flujos de actividades."
+							"Debe explicitar propuestas de procesos con alcance regional, especificando actores, roles instrumentos y flujos de actividades.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -947,8 +949,8 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+						"cai": "DPAC-TGI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma", "gobierno-datos" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
@@ -963,7 +965,10 @@
 							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
 							"Debe tener coherencia con el marco conceptual desarrollado en paralelo.",
 							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones.",
-							"En función a los requerimientos identificados, deben presentarse propuestas preliminares para su resolución, por medio de recursos tecnológicos pertinentes."
+							"En función a los requerimientos identificados, deben presentarse propuestas preliminares para su resolución, por medio de recursos tecnológicos pertinentes.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1055,7 +1060,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},					
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
@@ -1074,7 +1079,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al MGT.",
 							"Considera diccionario de datos, indicadores, líneas base, metas y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1092,7 +1100,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
+						"cai": "DPAC-TGI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					}
 				],
@@ -1114,7 +1122,10 @@
 						"estandar": [
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -4570,7 +4581,10 @@
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al modelo.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales que define Análisis Institucional.",
-							"Aproximación incremental: debe entenderse como una primera etapa de sistematización."
+							"Aproximación incremental: debe entenderse como una primera etapa de sistematización.",
+							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -4608,7 +4622,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},									
 					{
@@ -4642,7 +4656,10 @@
 							"Informe simple que indica principales resultados de la aplicación del modelo desarrollado y sus mecanismos.",
 							"Debe indicar los elementos que resultan exitosos.",
 							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el modelo mismo como de sus mecanismos derivados."
+							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el modelo mismo como de sus mecanismos derivados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
