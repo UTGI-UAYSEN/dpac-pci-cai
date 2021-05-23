@@ -8,7 +8,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado un Plan de Contrataciones anual en función a planificación institucional 2021.",
+				"desc": "Diseñado un Programa de Contrataciones anual en función a planificación institucional 2021.",
 				"actores": [
 					{
 						"cai": "DAF", "rol": "Aprobador",
@@ -29,11 +29,12 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Plan de contrataciones del periodo",
+						"nombre": "Programa de contrataciones del periodo",
 						"plazo": "mar",
 						"estandar": [
 							"Debe considerar contrataciones en las diversas calidades (contrata, honorarios, etc.).",
 							"Debe establecer plazos estimados (en meses) para realizar las distintas contrataciones, que permitan organizar los esfuerzos necesarios y la preparación oportuna de bases.",
+							"En el caso de honorarios, se considera de forma exclusiva personal de colaboración y docentes colaboradores.",
 							"Debe ser consistente con la planificación del periodo, el presupuesto definido y las capacidades asociadas."
 						]
 					}
@@ -69,18 +70,12 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bases de concursos públicos",
+						"nombre": "Decretos con la definición de resultados de concurso",
 						"estandar": [
-							"Considerar un documento de bases por proceso realizado.",
+							"Incorpora las bases del proceso de concurso, en caso de que el cargo haya sido definido a través de concurso.",
+							"Define el cargo y grado o remuneración  de la contratación, así como el período de su contratación.",
 							"Debe ser coherente con requerimientos levantados desde la planificación institucional y canalizados en el presupuesto institucional.",
 							"Deben ser coherentes con los formatos y estándares definidos en DAF-DP."
-						]
-					},
-					{
-						"nombre": "Actas finales de concursos públicos",
-						"estandar": [
-							"Considerar un acta por proceso realizado.",
-							"Deben ser coherentes y responder a las bases diseñadas."
 						]
 					},
 					{
@@ -118,30 +113,21 @@
 					{ 
 						"nombre": "Procesos de selección de personal académico", 
 						"formula": "Número de procesos de selección del personal académico realizados y completados.",
-						"meta": "3"
+						"meta": "6"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Bases de concursos públicos",
+						"nombre": "Decretos con la definición de resultados de concurso",
 						"estandar": [
-							"Considerar un documento de bases por proceso realizado.",
-							"Debe ser coherente con requerimientos levantados desde la planificación institucional y canalizados en el presupuesto institucional.",
-							"Deben ser coherentes con los formatos y estándares definidos en DAF-DP.",
-							"Deben ser diseñados y retroalimentados en conjunto a DAC y DI."
-						]
-					},
-					{
-						"nombre": "Actas finales de concursos públicos",
-						"estandar": [
-							"Considerar un acta por proceso realizado.",
-							"Deben ser coherentes y responder a las bases diseñadas."
+							"Equivalentes a F01 (puede ser tratado como uno solo)."
 						]
 					},
 					{
 						"nombre": "Registro del personal universitario",
 						"estandar": [
-							"Equivalente al registro de F01 (puede ser combinado con este verificador)."
+							"Equivalentes a F01 (puede ser tratado como uno solo).",
+							"En el caso de la experiencia, debe considerar elementos de carrera académica."
 						]
 					}
 				]
@@ -171,24 +157,18 @@
 					{ 
 						"nombre": "Procesos de contratación de personal a honorarios por producto", 
 						"formula": "Número de procesos de contratación del personal a honorarios gestionados y completados.",
-						"meta": "150"
+						"meta": "300"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Formularios de solicitud de contratación a honorarios",
+						"nombre": "Decretos SIAPER que formalizan las contrataciones",
 						"estandar": [
-							"Considerar un formulario por persona a contratar.",
+							"Incorpora el formulario de solicitud de contratación a honorario.",
+							"Define el monto de la contratación y el período de su contratación.",
 							"Debe incorporar requerimientos levantados desde la planificación institucional, docentes colaborados y otros asociados a proyectos de investigación.",
 							"Deben ser coherentes con los formatos y estándares definidos en DAF-DP.",
 							"Contenidos de los formularios deben explicitar y ser concordantes con la modalidad a productos que exige la calidad a honorarios en la institución."
-						]
-					},
-					{
-						"nombre": "Convenios a honorarios",
-						"estandar": [
-							"Considerar un convenio por contratación gestionada.",
-							"Deben ser coherentes y responder a las necesidades de los formularios emitidos."
 						]
 					},
 					{
@@ -233,12 +213,12 @@
 					{ 
 						"nombre": "Procesos de pago de remuneraciones del personal a contrata de la Institución", 
 						"formula": "Número de procesos de pago de remuneraciones del personal a contrata gestionados y completados.",
-						"meta": "1000"
+						"meta": "1572"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Liquidaciones mensuales de sueldo",
+						"nombre": "Libro de remuneraciones mensual",
 						"estandar": [
 							"Registro estructurado y ordenado con los verificadores de pagos emitidos hacia el personal a contrata.",
 							"Implementado a través de un sistema de archivos, ordenado por mes de remuneración y personal respectivo, que permita su seguimiento y contabilización.",
@@ -277,10 +257,11 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Comprobantes de remuneración pagada",
+						"nombre": "Registro e informe de remuneraciones a honorarios",
 						"estandar": [
-							"Registro estructurado y ordenado con los verificadores de pagos emitidos hacia el personal a honorarios.",
-							"Implementado a través de un sistema de archivos, ordenado por mes de remuneración y personal respectivo, que permita su seguimiento y contabilización.",
+							"Informe que compile resultados operacionales del proceso",
+							"Debe acompañarse de registro estructurado y ordenado con los verificadores de pagos emitidos hacia el personal a honorarios.",
+							"Registro implementado a través de un sistema de archivos, ordenado por mes de remuneración y personal respectivo, que permita su seguimiento y contabilización.",
 							"Coherente con las contrataciones existentes y con el presupuesto definido para la institución."
 						]
 					}
@@ -290,8 +271,8 @@
 	},
 	{
 		"id": "03", "area": "DAF",
-		"titulo": "Calificación del personal de colaboración de la Universidad.",
-		"objetivo": "Implementar y evaluar durante el periodo el proceso de calificación del personal, levantando información sobre el proceso y recomendaciones de mejora en su desarrollo para los próximos periodos.",
+		"titulo": "Calificación de desempeño del personal de colaboración de la Universidad.",
+		"objetivo": "Desplegar mecanismos de preparación y difusión sobre el proceso de calificación de desempeño del personal, permitiendo avanzar a su operacionalización durante el 2022.",
 		"responsable": "DAF-DP",
 		"tipo": "Misional",
 		"tacticas": [
@@ -314,7 +295,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de difusión con personal de colaboración",
+						"nombre": "Actas de reuniones de presentación de reglamento a personal de colaboración",
 						"plazo": "abr",
 						"estandar": [
 							"Un acta por sesión de difusión / grupo de funcionarios/as.",
@@ -328,163 +309,98 @@
 						"nombre": "Material de difusión",
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
+							"Incorporar registro visual de las instancias.",
+							"Puede agregar registro de fidelizador con comunicado a la comunidad universitaria."
+						]
+					}
+				]
+			},
+			{
+				"id": "H01b", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"desc": "Aprobado el Reglamento de Evaluación de Desempeño para personal de colaboración",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto que aprueba reglamento diseñado",
+						"plazo": "jun",
+						"estandar": [
+							"Responde y da cuenta de la toma de razón de Contraloría General."
+						]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Capacitada Junta Calificadora y Evaluadores del proceso",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Registro de asistencia a actividades de capacitación",
+						"plazo": "ago",
+						"estandar": [
+							"Incorpora listado de personas capacitadas, con sus roles y funciones en el proceso.",
+							"Debe acompañarse del detalle de los contenidos capacitados."
+						]
+					},
+					{
+						"nombre": "Material de capacitación",
+						"plazo": "ago",
+						"estandar": [
+							"PPT, documento u otro asociado a la capacitación.",
 							"Incorporar registro visual de las instancias."
 						]
 					}
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Conformada y organizada la Junta Calificadora para el proceso.",
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Iniciado Proceso de Calificación de desempeño 2021-2022",
 				"actores": [
 					{
 						"cai": "DAF-DP", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Decreto de conformación de la Junta Calificadora",
-						"plazo": "oct",
-						"estandar": [
-							"Conformación debe ser coherente con Reglamento de Evaluación de Desempeño aprobado."
-						]
-					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Ejecutada la etapa de precalificación del proceso.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Validadores de entrega de Informes de Desempeño",
-						"plazo": "may",
+						"nombre": "Decreto que formaliza proceso",
+						"plazo": "ago",
 						"estandar": [
-							"Registro estructurado y ordenado que permita evidenciar la entrega de los Informes de Desempeño que correspondan.",
-							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
+							"Especifica calendario de hitos clave.",
+							"Especifica responsabilidades de proceso.",
+							"Especifica direcciones y/o unidades auditadas.",
+							"Especifica productos y resultados a obtener.",
+							"Debe dar cuenta de su comunicación y retroalimentación por equipo directivo."
 						]
 					},
 					{
-						"nombre": "Validadores de entrega de Hojas de Vida del personal a jefaturas respectivas",
+						"nombre": "Oficio de inicio del proceso",
 						"plazo": "sep",
 						"estandar": [
-							"Registro estructurado y ordenado que permita evidenciar la entrega de las Hojas de Vida que correspondan.",
-							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
-						]
-					},
-					{
-						"nombre": "Validadores de entrega de Precalificaciones",
-						"plazo": "oct",
-						"estandar": [
-							"Registro estructurado y ordenado que permita evidenciar la entrega de las Precalificaciones que correspondan.",
-							"basado en formatos y estándares definidos por DAF-DP.",
-							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
-						]
-					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Ejecutada la etapa de calificación del proceso.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de entrega de Calificaciones",
-						"plazo": "nov",
-						"estandar": [
-							"Registro estructurado y ordenado que permita evidenciar la entrega de las Calificaciones por parte de la Junta Calificadora.",
-							"basado en formatos y estándares definidos por DAF-DP.",
-							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
-						]
-					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Ejecutada la etapa de apelación y reclamos del proceso.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de entrega de fallos de apelaciones",
-						"plazo": "dic",
-						"estandar": [
-							"Registro estructurado y ordenado que permita evidenciar la entrega de los fallos de las apelaciones que fuesen presentadas.",
-							"basado en formatos y estándares definidos por DAF-DP.",
-							"Dependiendo de la confidencialidad de los datos respectivos, la información puede ser innominada o ajustada en su contenido para efectos de la entrega del validador."
-						]
-					}
-				]
-			},
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Realizada una evaluación del proceso que permita levantar estrategias de mejora y ajuste.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de evaluación del proceso.",
-						"plazo": "ene",
-						"estandar": [
-							"Debe sistematizar antecedentes entregados por actores claves respecto al desarrollo y resultados del proceso.",
-							"Debe indicar aspectos de la implementación que resultan exitosos.",
-							"Debe indicar aspectos de la implementación que no se lograron según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto desde la perspectiva procedimental como técnica en materia de comunicación."
+							"Comunicación formal emitida a Rectoría para dar inicio al proceso.",
+							"Acompañada de decreto que formaliza proceso y otras indicaciones específicas que sean necesarias."
 						]
 					}
 				]
@@ -531,7 +447,7 @@
 					{ 
 						"nombre": "Cometidos tramitados y procesados", 
 						"formula": "Número de cometidos del personal gestionados y completados.",
-						"meta": "500"
+						"meta": "50"
 					}
 				],
 				"verificadores": [
@@ -605,7 +521,8 @@
 							"Emitido de forma mensual, y considerando un informe dirigido a cada área estratégica (ej.: dirección) de la institución.",
 							"Debe incorporar datos filtrados y seleccionados hacia el área correspondiente con el detalle de la información de asistencia respectiva.",
 							"Debe incorporar un análisis cuantitativo (indicadores, métricas) y cuialitativo desde desarrollo de personasd hacia el área respectiva, indicando observaciones encontradas sobre el área respectiva, orientaciones sobre preocupaciones relevantes y sugerencias de consideración.",
-							"En formatos según estándares DAF-DP."
+							"En formatos según estándares DAF-DP.",
+							"En el contexto de crisis sanitaria, esto solo aplica para personal que haya asistido presencialmente a las instalaciones universitarias."
 						]
 					},
 					{
@@ -614,7 +531,8 @@
 							"Registro que sintetiza y compila información estructurada de la asistencia del personal.",
 							"Cada elemento en el registro debe dar cuenta de la información de asistencia de las personas, incluyendo fecha, persona, estado de asistencia, posibles permisos emitidos para el día, etc.",
 							"Podría combinarse con bitácora de permisos del personal.",
-							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel).",
+							"En el contexto de crisis sanitaria, esto solo aplica para personal que haya asistido presencialmente a las instalaciones universitarias."
 						]
 					}
 				]
@@ -624,7 +542,7 @@
 	{
 		"id": "05", "area": "DAF",
 		"titulo": "Gestión del Plan de Compras de la Institución.",
-		"objetivo": "Desarrollar todas las actividades conducentes a implementar eficientemente el Plan de Compras del periodo vigente, respondiendo a la normativa de compras públicas, y desde aquello elaborar directrices para la construcción oportuna del Plan del periodo siguiente.",
+		"objetivo": "Desarrollar todas las actividades y tareas administrativas conducentes a implementar eficientemente el Plan de Compras del periodo vigente, respondiendo a la normativa de compras públicas, y desde aquello elaborar directrices para la construcción oportuna del Plan del periodo siguiente.",
 		"responsable": "DAF-ADQ",
 		"tipo": "Misional",
 		"tacticas": [
@@ -657,6 +575,13 @@
 							"Registro estructurado y ordenado con la información de las compras programadas para el periodo.",
 							"Debe dar cuenta de los requerimientos de las diversas direcciones según las necesidades de planificación y presupuesto respectivas.",
 							"El registro debe entregar información respecto a las necesidades, incluyendo tipo de compra a realizar, elementos a adquirir, costos aproximados, fechas requeridas, entre otros datos pertinentes."
+						]
+					},
+					{
+						"nombre": "Decreto que formaliza Plan de Compras 2022",
+						"plazo": "abr",
+						"estandar": [
+							"Definido en consistencia con detalle sistematizado."
 						]
 					}
 				]
@@ -775,9 +700,9 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Compras a través de trato directo", 
-						"formula": "Número de compras gestionadas y completadas a través de trato directo.",
-						"meta": "100"
+						"nombre": "Volumen de adquisiciones a través de trato directo", 
+						"formula": "Porcentaje de adquisiciones gestionadas y completadas a través de trato directo.",
+						"meta": "30%"
 					}
 				],
 				"verificadores": [
@@ -797,7 +722,7 @@
 			},
 			{
 				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Dar soporte y gestionar el desarrollo de licitaciones públicas de baja envergadura.",
+				"desc": "Dar soporte y gestionar el desarrollo de licitaciones públicas de baja envergadura (L1 y LE).",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -810,9 +735,9 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Procesos de licitación de baja envergadura", 
-						"formula": "Número de procesos de licitación de baja envergadura gestionados y completados.",
-						"meta": "20"
+						"nombre": "Duración de procesos de licitación L1 y LE", 
+						"formula": "Tiempo promedio en días corridos de preparación de bases para publicación en licitaciones L1 y LE (fecha de publicación – Fecha recepción solicitud)",
+						"meta": "21"
 					}
 				],
 				"verificadores": [
@@ -836,7 +761,7 @@
 			},
 			{
 				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Dar soporte y gestionar el desarrollo de licitaciones públicas de alta envergadura.",
+				"desc": "Dar soporte y gestionar el desarrollo de licitaciones públicas de alta envergadura (LP, LQ y LR).",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -849,9 +774,9 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Procesos de licitación de alta envergadura", 
-						"formula": "Número de procesos de licitación de alta envergadura gestionados y completados.",
-						"meta": "4"
+						"nombre": "Procesos de licitación de alta envergadura (LP, LQ y LR)", 
+						"formula": "Tiempo promedio en días corridos de preparación de bases para publicación en licitaciones LP, LQ y LR (fecha de publicación – Fecha recepción solicitud)",
+						"meta": "30"
 					}
 				],
 				"verificadores": [
@@ -870,80 +795,7 @@
 				]
 			},
 			{
-				"id": "F05", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Apoyar y orientar la búsqueda de opciones de compra según normativa a las unidades requirentes y de forma articulada con proveedores.",
-				"actores": [
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Procesos de búsqueda de proveedores apoyados", 
-						"formula": "Número de compras en donde se ha apoyado y gestionada la búsqueda de proveedores idóneos.",
-						"meta": "200"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Registro de compras institucionales",
-						"estandar": [
-							"Equivalente al de F01 (pueden unirse como registro único).",
-							"Para efectos de esta táctica, es relevante agregar validadores asociados a la búsqueda y recomendación de proveedores específicos en Mercado Público (pantallazos de sistema, correos de aprobación de solicitantes, entre otros)."
-						]
-					}
-				]
-			}
-		]
-	},
-	{
-		"id": "06", "area": "DAF",
-		"titulo": "Soporte administrativo al desarrollo de compras en la institución.",
-		"objetivo": "Implementar actos administrativos que permitan formalizar la ejecución de compras, sus pagos y dar respuesta con ello a las exigencias normativas vigentes.",
-		"responsable": "DAF-ADQ",
-		"tipo": "Misional",
-		"tacticas": [
-			{
-				"id": "F01", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Confeccionar y tramitar actos administrativos asociados a gestión de compras de la Institución.",
-				"actores": [
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}					
-				],
-				"ios":[
-					{ 
-						"nombre": "Actos administrativos asociados a compras", 
-						"formula": "Número de actos administrativos de compras emitidos y formalizados en la Institución.",
-						"meta": "500"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Registro de compras institucionales",
-						"estandar": [
-							"Equivalente al de F01 en DAF-05 (pueden unirse como registro único).",
-							"Para efectos de esta táctica, el registro debe incluir también los decretos formalizados respecto a las compras realizadas."
-						]
-					}
-				]
-			},
-			{
-				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "F05", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Elaborar y confeccionar set de pagos a proveedores por la adquisición de bienes y servicios, procurando resguardar el pago oportuno.",
 				"actores": [
 					{
@@ -958,53 +810,23 @@
 				"ios":[
 					{ 
 						"nombre": "Pagos a proveedores", 
-						"formula": "Número de pagos realizados y formalizados a proveedores con los cuales se han tramitado adquisiciones.",
-						"meta": "500"
+						"formula": "Porcentaje de facturas recepcionadas, tramitadas y enviadas a pago a DAF-FIN, dentro del plazo de 20 días.",
+						"meta": "90%"
 					}
 				],
 				"verificadores": [
 					{
 						"nombre": "Registro de compras institucionales",
 						"estandar": [
-							"Equivalente al de F01 en DAF-05 (pueden unirse como registro único).",
+							"Equivalente al de F01 (pueden unirse como registro único).",
 							"Para efectos de esta táctica, el registro debe incluir también los documentos formales que acreditan el pago a los proveedores."
 						]
 					},
 					{
 						"nombre": "Bitácora de adquisiciones",
 						"estandar": [
-							"Equivalente al de F01 en DAF-05 (pueden unirse como bitácora única).",
+							"Equivalente al de F01 (pueden unirse como bitácora única).",
 							"Para efectos de esta táctica, se pueden incorporar fechas vinculadas a los procesos de pago de los proveedores, que permitan cuantificar tiempos y oportunidad en la ejecución del pago."
-						]
-					}
-				]
-			},
-			{
-				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Administrar los seguros que corresponda e incorporar nuevos recursos físicos y materiales de la institución.",
-				"actores": [
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Seguros contratados sobre adquisiciones", 
-						"formula": "Número de seguros gestionados y contratados para recursos físicos y materiales de la institución.",
-						"meta": "20"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de adquisición de seguros",
-						"estandar": [
-							"Documentos formales que acrediten los contratos y/o adquisiciones de los seguros respectivos.",
-							"Deben explicitan los objetos del seguro y quienes actúan como contrapartes de los bienes asegurados."
 						]
 					}
 				]
@@ -1020,7 +842,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Efectuada la actualización del inventario de bienes muebles sobre el stock existente en las dependencias de la Univerisdad.",
+				"desc": "Efectuada la actualización del inventario de bienes muebles sobre el stock existente en las dependencias de la Universidad.",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -1034,7 +856,7 @@
 				"verificadores": [
 					{
 						"nombre": "Registro de inventario y bienes",
-						"plazo": "jun",
+						"plazo": "oct",
 						"estandar": [
 							"Registro estructurado y sistemático de los diversos bienes de uso pertenecientes a la institución.",
 							"Debe permitir contabilizar y hacer seguimiento detallado de cada bien en la Institución de acuerdo a los diversos estándares planteados desde Contraloría General, CNA, Normativa sobre bienes muebles (decreto 180, decreto 577, etc.), Política de Finanzas y manuales de procedimientos generados desde la institución.",
@@ -1046,7 +868,7 @@
 			},
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Desarrollar actividades administrativas de registro de altas, bajas, donaciones y traslados de bienes muebles.",
+				"desc": "Desarrollar actos administrativos de registro de altas, bajas, donaciones y traslados de bienes muebles.",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -1063,19 +885,20 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Actividades administrativas de bienes muebles.", 
-						"formula": "Número de actividades administrativas asociadas a bienes muebles que han sido gestionadas, tramitadas y sistematizadas.",
-						"meta": "500"
+						"nombre": "Actos administrativos de bienes muebles.", 
+						"formula": "Número de actos administrativos asociadas a bienes muebles que han sido gestionadas, tramitadas y sistematizadas.",
+						"meta": "200"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de actividades administrativas sobre bienes muebles",
+						"nombre": "Bitácora de actos administrativos sobre bienes muebles",
 						"estandar": [
 							"Registro estructurado que detalla altas, bajas, donaciones y traslados de bienes muebles en la institución.",
 							"Eventualmente podría complementar y/o unirse con registro establecido en H01.",
-							"Debe especificar el detalle de cada acción y/o transacción realizada sobre un bien mueble en la Institución, detallando los datos que identifican el bien, tipo de transacción, estado de la transacción, fechas, responsables y otros elementos pertinentes que permitan su seguimiento integral.",
-							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
+							"Debe especificar el detalle de cada acto y/o transacción realizada sobre un bien mueble en la Institución, detallando los datos que identifican el bien, tipo de transacción, estado de la transacción, fechas, responsables y otros elementos pertinentes que permitan su seguimiento integral.",
+							"Entregado en formato que permita el análisis de sus datos (ej.: excel).",
+							"Puede complementarse con reporte de FIN700."
 						]
 					}
 				]
@@ -1095,9 +918,9 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Revisión periódica de estado de bienes.", 
+						"nombre": "Monitoreo de bienes institucionales", 
 						"formula": "Número procesos de inspección / auditoria de bienes, materiales y otros para efectos de la evaluación de su estado.",
-						"meta": "10"
+						"meta": "5"
 					}
 				],
 				"verificadores": [
@@ -1132,44 +955,45 @@
 					{ 
 						"nombre": "Registro de inventario activo fijo.", 
 						"formula": "Número de ítems de inventario activo fijo ingresados en los sistemas institucionales.",
-						"meta": "500"
+						"meta": "200"
 					}
 				],
 				"verificadores": [
 					{
 						"nombre": "Registro de inventario y bienes",
 						"estandar": [
-							"Equivalente al indicado en H01 (pueden unirse en un solo registro).",
+							"Equivalente al indicado en F01 (pueden unirse en un solo registro).",
 							"Debe dar cuenta del registro de los bienes respectivos a través de identificadores utilizados en los sistemas de información respectivos."
 						]
 					}
 				]
-			},
+			},			
 			{
-				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Gestionar y notificar a los distintos actores de la Universidad los materiales recepcionados, controlando su entrega y recepción conforme.",
+				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Administrar los seguros que corresponda e incorporar nuevos recursos físicos y materiales de la institución.",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "inventario" ]
+						"capacidades": [ "coordinacion-general", "compras" ]
 					},
 					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
 					}
 				],
 				"ios":[
 					{ 
-						"nombre": "Recepciones conforme gestionadas.", 
-						"formula": "Número de recepciones conforme realizadas de acuerdo a las adquisiciones ejhecutadas y valdiadas por contrapartes respectivas.",
-						"meta": "500"
+						"nombre": "Seguros contratados sobre adquisiciones", 
+						"formula": "Número de seguros gestionados y contratados para recursos físicos y materiales de la institución.",
+						"meta": "20"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Registro de compras institucionales",
+						"nombre": "Validadores de adquisición de seguros",
 						"estandar": [
-							"Equivalente al de F01 en DAF-05 (pueden unirse como registro único)."
+							"Documentos formales que acrediten los contratos y/o adquisiciones de los seguros respectivos.",
+							"Deben explicitan los objetos del seguro y quienes actúan como contrapartes de los bienes asegurados."
 						]
 					}
 				]
@@ -1185,7 +1009,7 @@
 		"tacticas": [
 			{
 				"id": "F01", "tipo": "Función", "prioridad": "Alta",
-				"desc": "Realizar contabilidad de egresos e ingresos según estándares técnicos y normativos institucionales.",
+				"desc": "Realizar asientos contables según estándares técnicos y normativas institucionales.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1198,26 +1022,32 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Registro financiero-contable periódico.", 
+						"nombre": "Registro financiero-contable mensual.", 
 						"formula": "Número de reportes periódicos generados con información financiera-contable de la Institución.",
 						"meta": "10"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Reportes financiero-contables periódicos",
+						"nombre": "Informes mensuales de cierre contable",
 						"estandar": [
 							"Reportes operativos que contienen la información institucional sobre registros contables sistematizados (egresos e ingresos) e información agregada relevante.",
 							"Generados de forma mensual y apoyados desde sistemas de información institucionales.",
 							"Deben entregar detalle completo de registros como evidencia, además de análisis general de la información a través de métricas definidas por estándares técnicos de DAF-FIN.",
 							"Cada informe debe incorporar un apartado de resumen y observaciones en caso de detectar problemas y/o elementos de observación en la operación contable mensual."
 						]
+					},
+					{
+						"nombre": "Libro mayor con registros realizados en el mes",
+						"estandar": [
+							"Debe tener consistencia con informes mensuales."
+						]
 					}
 				]
 			},
 			{
-				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Coordinar y controlar los procesos de cierre contable mensual.",
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Revisar periódicamente situación financiera de la institución.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1230,139 +1060,19 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Cierres contables mensuales", 
-						"formula": "Número de procesos de cierre contables desarrollados y documentados.",
+						"nombre": "Gestión periódica de situación financiera.", 
+						"formula": "Número de procesos de evaluación financiera realizados en la institución.",
 						"meta": "10"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Reportes contables periódicos",
+						"nombre": "Informes mensuales de situación financiera",
 						"estandar": [
-							"Equivalente a los especificados en F01.",
-							"Se debe incorporar además información que de cuenta y/o resuma sobre los cierres contables mensuales."
-						]
-					}
-				]
-			},
-			{
-				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Revisar periódicamente fondos por rendir y fondos fijos.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "contabilidad" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "tesoreria" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Gestión periódica de fondos.", 
-						"formula": "Número de fondos por rendir y/o fijos que son gestionados mensualmente en la institución.",
-						"meta": "50"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Registro de fondos por rendir y fondos fijos",
-						"estandar": [
-							"Registro estructurado respecto a este tipo de fondos en la Institución.",
+							"Registro estructurado respecto a las evaluaciones realizadas.",
 							"Debe establecer características de los fondos sistematizados y considerar el registro de transacciones sobre ellos.",
 							"Se debe dar cuenta de información de seguimiento de las transacciones, como las fechas de ejecución, montos, solicitantes, entre otros que sean pertinentes.",
 							"Si aplica, se puede combinar con reportes contables especificados en F01."
-						]
-					}
-				]
-			},
-			{
-				"id": "F04", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Elaborar decretos de respaldo de información financiera para registro y control.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "contabilidad" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "tesoreria" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Decretos de respaldo de información financiera.", 
-						"formula": "Número de decretos emitidos para efectos de respaldo de registro y control.",
-						"meta": "200"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Registro de decretos emitidos",
-						"estandar": [
-							"Registro estructurado y ordenado con los decretos de respaldo emitidos.",
-							"Implementado a través de un sistema de archivos, ordenado por naturaleza de decreto, fechas de generación, entre otros que sean pertinentes, para su seguimiento y contabilización."
-						]
-					}
-				]
-			},
-			{
-				"id": "F05", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Realizar soporte administrativo y técnico variado a gestión contable (ej: impuestos, conciliaciones).",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "contabilidad" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "tesoreria" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Elementos contables administrados.", 
-						"formula": "Número de elementos contables variados (impuestos, conciliaciones, etc.) sujetos a gestión.",
-						"meta": "130"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de elementos contables gestionados",
-						"estandar": [
-							"Registro estructurado y ordenado con validadores formales de elementos contables que sean gestionados por la Institución.",
-							"Organizados de forma que permita su contabilización y seguimiento."
-						]
-					}
-				]
-			},
-			{
-				"id": "F06", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Rendir cuentas por fondos asignados correspondientes a gastos operacionales y de inversión.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "contabilidad" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "tesoreria" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Rendición de cuentas.", 
-						"formula": "Número de cuentas rendidas de forma mensual por la Institución.",
-						"meta": "100"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de rendición de cuentas",
-						"estandar": [
-							"Registro estructurado y ordenado con validadores formales de cuentas que son rendidas por la Institución.",
-							"Organizados de forma que permita su contabilización y seguimiento."
 						]
 					}
 				]
@@ -1375,40 +1085,10 @@
 		"objetivo": "Registrar y proveer información asociada a la gestión contable y administrativa de la Universidad tanto con internos como con externos.",
 		"responsable": "DAF-FIN",
 		"tipo": "Misional",
-		"tacticas": [
+		"tacticas": [			
 			{
-				"id": "F01", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Registrar de forma oportuna egresos e ingresos en el sistema financiero-contable.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "contabilidad" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Registro financiero-contable periódico.", 
-						"formula": "Número de reportes periódicos generados con información financiera-contable de la Institución.",
-						"meta": "10"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Reportes financiero-contables periódicos",
-						"estandar": [
-							"Equivalente al definido en F01 de DAF-08.",
-							"Considerar datos específicos que den cuenta de las fechas de registro de la información."
-						]
-					}
-				]
-			},
-			{
-				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Emitir informes financiero-contables hacia entidades fiscalizadoras (FECU, SES, Contraloria, CNA etc.).",
+				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Emitir oportunamente informes financiero-contables hacia entidades externas.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1429,27 +1109,32 @@
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
 					}
 				],
 				"ios":[
 					{ 
 						"nombre": "Informes financiero-contables emitidos hacia entidades externas.", 
-						"formula": "Número de reportes financiero-contables emitidos hacia entidades externas por la Institución.",
-						"meta": "10"
+						"formula": "Porcentaje de reportes financiero-contables emitidos hacia entidades externas por la Institución en base a requierimientos recibidos.",
+						"meta": "100%"
 					}
 				],
 				"verificadores": [
 					{
 						"nombre": "Informes emitidos",
 						"estandar": [
-							"Deben ser acompañados también de validadores de entrega (correo electrónico, certificado de portal, etc.)."
+							"Deben ser acompañados también de validadores de entrega (correo electrónico, certificado de portal, etc.).",
+							"Considerar como base 10 informes a emitir durante el periodo."
 						]
 					}
 				]
 			},			
 			{
-				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Emitir informes financiero-contables periódicos para actores internos.",
+				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Emitir informes presupuestarios mensuales para actores internos.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1466,9 +1151,9 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Informes financiero-contables emitidos hacia actores internos.", 
-						"formula": "Número de reportes financiero-contables emitidos hacia entidades externas por la Institución.",
-						"meta": "10"
+						"nombre": "Informes presupuestarios internos.", 
+						"formula": "Número de reportes presupuestarios emitidos hacia actores internos de la Institución.",
+						"meta": "13"
 					}
 				],
 				"verificadores": [
@@ -1477,14 +1162,14 @@
 						"estandar": [
 							"Deben responder a formatos estandarizados definidos desde DAF-FIN",
 							"Cada informa debe especificar objetivos y propósitos según los requerimientos de información generados desde los actores solicitantes",
-							"Deben ser acompañados también de validadores de entrega (ej.: correo electrónico)."
+							"Acompañado de correo electrónico con el envío de cada informe (3 informes al Consejo Superior y 10 informes de Ejecución presupuestaria)."
 						]
 					}
 				]
 			},
 			{
-				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Emitir informes financiero-contables hacia Redes externas (CUECH, CRUCH, AUR).",
+				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Revisar trimestralmente imputación de gastos e ingresos a su Cuenta Contable y Centro de Responsabilidad.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1495,59 +1180,26 @@
 						"capacidades": [ "contabilidad" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Informes financiero-contables emitidos hacia redes externas.", 
-						"formula": "Número de reportes financiero-contables emitidos hacia redes externas por la Institución.",
-						"meta": "5"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informes emitidos",
-						"estandar": [
-							"Deben ser acompañados también de validadores de solicitud de requerimiento y de entrega (correo electrónico, certificado de portal, etc.)."
-						]
-					}
-				]
-			},
-			{
-				"id": "F05", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Revisar periódicamente validez de imputación de gastos e ingresos a su Cuenta Contable y Centro de Responsabilidad.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "contabilidad" ]
+						"cai": "DAF-ADQ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "compras" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
 				],
 				"ios":[
 					{ 
 						"nombre": "Inspección periódica de imputación de gastos e ingresos.", 
-						"formula": "Número de reportes emitidos periódicamente para identificar la validez de la imputación de gastos e ingresos.",
-						"meta": "6"
+						"formula": "Número de reportes emitidos para identificar la validez de la imputación de gastos e ingresos.",
+						"meta": "3"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Reportes sobre inspección de imputación de gastos e ingresos.",
+						"nombre": "Informes sobre imputación de gastos e ingresos.",
 						"estandar": [
-							"Emitidos periódicamente (bimensual) hacia actores a los cuales sea relevante informar respecto a normalidad y/o anomalías detectadas en las inspecciones.",
+							"Emitidos trimestralmente hacia actores a los cuales sea relevante informar respecto a normalidad y/o anomalías detectadas en las inspecciones.",
 							"Deben dar cuenta del universo de registros inspeccionados, entregando un análisis agregado respecto a la validez de las imputaciones.",
 							"Deben entregar conclusiones respecto a problemas y/o anomalías detectadas, causas identificadas yo supuestas, y propuestas de cursos de acción para su corrección.",
 							"Deben anexar datos utilizados para el análisis respectivo."
@@ -1562,103 +1214,49 @@
 				]
 			},
 			{
-				"id": "F06", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Analizar, mantener y controlar información de cuentas de gasto e ingreso.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "contabilidad" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "tesoreria" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Reporte periódico de gastos e ingresos.", 
-						"formula": "Número de reportes emitidos periódicamente para informar y controlar gastos e ingresos.",
-						"meta": "10"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Balances mensuales de gastos e ingresos.",
-						"estandar": [
-							"Emitidos periódicamente (mensual) hacia actores a los cuales sea relevante informar respecto a las cuentas de gasto e ingreso respectivas.",
-							"Deben dar cuenta del universo de datos inspeccionados, entregando un análisis agregado respecto a sus características.",
-							"Deben entregar conclusiones respecto a problemas y/o anomalías detectadas, causas identificadas yo supuestas, y propuestas de cursos de acción para su corrección.",
-							"Deben anexar datos utilizados para el análisis respectivo."
-						]
-					},
-					{
-						"nombre": "Validadores de entrega de reportes.",
-						"estandar": [
-							"Particularmente necesarios cuando se detecten problemas y sea necesario informar a los actores clave."
-						]
-					}
-				]
-			},
-			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Emitido informe sobre gestión financiera de 1er semestre para Ministerio de Educación y Hacienda.",
+				"desc": "Recibidos informes correspondientes a Estados Financieros auditados 2020.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					},
 					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "contabilidad" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+						"cai": "multiple", "rol": "Informados",
+						"capacidades": [ "todos-estrategicos" ]
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Informe emitido.",
-						"plazo": "jul",
+						"nombre": "Informe con los Estados financieros auditados 2020",
+						"plazo": "may",
 						"estandar": [
-							"Debe cumplir con los criterios establecidos en el Decreto 180.",
-							"Confeccionado desde fuentes oficiales institucionales"
+							"Debe acompañarse de análisis respecto al resultado de auditoría.",
+							"Debe darse cuenta de socialización con equipo directivo en términos no técnicos, analizando hallazgos y requerimientos de mejora al respecto."
 						]
 					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Emitido informe sobre gestión financiera de 2do semestre para Ministerio de Educación y Hacienda.",
+				"desc": "Emitido informe de cumplimiento 2021 de la carta Gantt correspondiente al plan de trabajo del nuevo plan de cuentas CGR-SES",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					},
 					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "contabilidad" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+						"cai": "multiple", "rol": "Informados",
+						"capacidades": [ "todos-estrategicos" ]
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Informe emitido.",
-						"plazo": "ene",
+						"nombre": "Informe de cumplimiento trabajo 2021 para Plan de cuentas CGR-SES",
+						"plazo": "dic",
 						"estandar": [
-							"Debe cumplir con los criterios establecidos en el Decreto 180.",
-							"Confeccionado desde fuentes oficiales institucionales"
+							"Debe acompañarse de análisis respecto a aspectos informados.",
+							"Debe darse cuenta de socialización con equipo directivo en términos no técnicos, analizando hallazgos y requerimientos de mejora al respecto."
 						]
 					}
 				]
@@ -1674,7 +1272,7 @@
 		"tacticas": [			
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Contabilizar transacciones ingresadas en caja única por asuntos estudiantiles.",
+				"desc": "Contabilizar transacciones ingresadas en caja única por aranceles, matrículas y TNE",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1695,26 +1293,32 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Transacciones por asuntos estudiantiles.", 
-						"formula": "Número de transacciones registradas y gestionadas a través de caja única por asuntos estudiantiles.",
-						"meta": "100"
+						"nombre": "Porcentaje de cumplimiento de contabilizaciones", 
+						"formula": "Número de contabilizaciones realizadas / total transacciones por caja única",
+						"meta": "90%"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de transacciones vía caja única.",
+						"nombre": "Planilla con transacciones vía caja única",
 						"estandar": [
 							"Registro estructurado y ordenado de transacciones realizadas a través de caja única.",
 							"Cuantificable en base a la cantidad de transacciones registradas.",
 							"Se debe especificar información general de cada transacción, como fecha, naturaleza (ej.: asuntos estudiantiles), montos, emisores, etc.",
 							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
 						]
+					},
+					{
+						"nombre": "Libro mayor con contabilizaciones realizadas",
+						"estandar": [
+							"En coherencia a planilla generada."
+						]
 					}
 				]
 			},
 			{
 				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Administrar la normalización de acuerdos incumplidos en cuanto a cobranzas de estudiantes.",
+				"desc": "Mantener y custodiar los pagarés de estudiantes.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1727,24 +1331,30 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Gestión de incumplimiento en cobranzas de estudiantes.", 
-						"formula": "Número de casos de estudiantes asociados a cobranza revisados y gestionados.",
-						"meta": "20"
+						"nombre": "Gestión administrativa de los pagarés mantenidos por estudiantes", 
+						"formula": "Número de pagarés vigentes / total estudiantes con deuda vigente",
+						"meta": "90%"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Validadores de gestión de casos de cobranza.",
+						"nombre": "Pagarés mantenidos en custodia",
 						"estandar": [
-							"Documentos que permitan verificar la gestión integral de los casos, desde las comunicaciones hasta la formalización de definiciones asociadas a la cobranza de los estudiantes.",
-							"Considerar diversos tipos de validadores según la naturaleza de cada caso (correos electrónicos, decretos, documentos formales, respaldos de pagarés, etc.)."
+							"Según estándares normativo para la forma de estos documentos."
+						]
+					},
+					{
+						"nombre": "Planilla con detalles de pagarés en custodia",
+						"estandar": [
+							"Debe dar cuenta de la contabilización de pagarés gestionados.",
+							"Debe incorporar información relevante de seguimiento (estudiantes asociados, estado de pagaré, etc.)"
 						]
 					}
 				]
 			},
 			{
 				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Gestionar técnica y administrativamente los distintos beneficios de los estudiantes.",
+				"desc": "Contabilizar las transacciones por aportes recibidos de: Gratuidad, Becas ministeriales, CAE, Fondo Solidario y otros.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1761,17 +1371,23 @@
 				],
 				"ios":[
 					{
-						"nombre": "Gestión de beneficios estudiantiles", 
-						"formula": "Número de procesos de beneficios (becas, asignaciones, etc.) que son gestionados desde la perspectiva financiera.",
-						"meta": "15"
+						"nombre": "Contabilización de transacciones asociadas a beneficios estudiantiles", 
+						"formula": "Número de contabilizaciones realizadas / total aportes recibidos.",
+						"meta": "90%"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Informes de gestión de beneficios",
+						"nombre": "Planilla con detalles de aportes recibidos",
 						"estandar": [
-							"Equivalentes en términos de estándares a los definidos en F01 de DAC-14.",
-							"Considerar combinación de estos informes, y generación de anexos con información financiera pertinente."
+							"Debe dar cuenta de la contabilización de transacciones.",
+							"Debe incorporar información relevante de seguimiento (estudiantes asociados, estado de transacciones, etc.)"
+						]
+					},
+					{
+						"nombre": "Libro mayor con contabilizaciones realizadas",
+						"estandar": [
+							"En coherencia a planilla generada."
 						]
 					}
 				]
@@ -1807,13 +1423,52 @@
 						]
 					}
 				]
+			},
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Actualizado el decreto 479.",
+				"actores": [
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto actualizado según requerimientos de actores involucrados",
+						"plazo": "nov",
+						"estandar": [
+							"Se debe ratificar si los procedimientos establecidos en decreto deben ejecutarse en su totalidad o parcialmente, como el proceso de cobranza judicial."
+						]
+					}
+				]
 			}
 		]
 	},
 	{
 		"id": "11", "area": "DAF",
-		"titulo": "Soporte financiero y administrativo a proyectos con financiamiento interno y externo.",
-		"objetivo": "Gestionar administrativa y soporte a los diversos proyectos de la institución (investigación, fortalecimiento, etc.) que permitan su correcto seguimiento y operación.",
+		"titulo": "Soporte financiero a proyectos con financiamiento interno y externo.",
+		"objetivo": "Brindar soporte financiero a los diversos proyectos de la institución (investigación, fortalecimiento, etc.) que permitan su correcto seguimiento y operación.",
 		"responsable": "DAF-FIN",
 		"tipo": "Misional",
 		"tacticas": [			
@@ -1832,25 +1487,32 @@
 				],
 				"ios":[
 					{
-						"nombre": "Conciliación de información contable sobre proyectos institucionales", 
-						"formula": "Número de conciliaciones gestionadas y desarrolladas respecto a proyectos institucionales.",
-						"meta": "200"
+						"nombre": "Porcentaje de cumplimiento de conciliaciones contables de proyectos", 
+						"formula": "Número de proyectos conciliados / total proyectos vigentes",
+						"meta": "90%"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Rendiciones de proyectos institucionales",
+						"nombre": "Planilla con detalle de conciliaciones realizadas para los proyectos",
 						"estandar": [
-							"Información detallada sobre rendiciones de proyectos institucionales que se realizan periódicamente.",
-							"Debe incorporar toda la información y validadores solicitados por las contrapartes para la rendición apropiada (informes, conciliaciones, certificados, etc.).",
-							"Entregar como registro ordenado según periodicidad establecida."
+							"Debe dar cuenta de la contabilización de las conciliaciones realizadas.",
+							"Debe incorporar información relevante de seguimiento (proyecto, tipo, estado y/o resultados de conciliaciones, etc.)"
+						]
+					},
+					{
+						"nombre": "Informe semestral con seguimiento de proyectos",
+						"estandar": [
+							"En coherencia a planilla mantenida periódicamente.",
+							"Debe entregar análisis cuantitativo y cualitativo de la información asociada a la conciliación, que permita implementar estrategias de ajuste en la administración de los proyectos respectivos.",
+							"Seccionar según sea necesario por tipo de proyecto y/o área administrativa (investigación, URY, etc.)"
 						]
 					}
 				]
 			},
 			{
 				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Dar respuesta a los requerimientos efectuados para la correcta apertura, gestión y cierre de proyectos.",
+				"desc": "Mantener un detalle financiero actualizado de proyectos vigentes en la universidad.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1871,25 +1533,33 @@
 				],
 				"ios":[
 					{
-						"nombre": "Requerimientos de gestión financiera de proyectos institucionales", 
-						"formula": "Número de solicitudes atendidas y gestionadas sobre requerimientos de proyectos institucionales.",
-						"meta": "50"
+						"nombre": "Situación financiera de proyectos", 
+						"formula": "Número de instancias de seguimiento institucional de proyectos para una evaluación financiera.",
+						"meta": "2"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Validadores de gestión de requerimientos sobre proyectos",
+						"nombre": "Reportes sobre situación financiera de proyectos",
 						"estandar": [
-							"Documentación de respaldo sobre gestiones realizadas sobre los proyectos institucionales.",
-							"Puede ser entregado a través de cualquier verificador comunicacional o formal (correo electrónico, documentación, decretos, etc.)",
-							"Deben dar cuenta de la recepción de solicitudes, su procesamiento y notificación de gestiones realizadas con contrapartes solicitantes."
+							"Contiene detalle actualizado sobre la situación financiera a la fecha de los diversos proyectos.",
+							"Debe entregar análisis cuantitativo y cualitativo de la información financiera identificada",
+							"Debe proveer recomendaciones para abordar brechas detectadas desde el plano financiero.",
+							"Incorporar validadores de entrega de reportes (ej.: correo)"
+						]
+					},
+					{
+						"nombre": "Planilla de detalle sobre seguimiento financiero de proyectos vigentes",
+						"estandar": [
+							"Contiene detalle desagregado que se va consolidando en informes semestrales.",
+							"Clasifica la información según características de proyectos (tipo, estado, situación, etc.)."
 						]
 					}
 				]
 			},
 			{
 				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Proveer periódicamente documentación que respalda los gastos e ingresos asociados a los proyectos para su correcta rendición y posterior solicitud de nueva remesa",
+				"desc": "Proveer mensualmente la información contable para la gestión de las rendiciones que debe realizar cada unidad técnica.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1918,25 +1588,32 @@
 				],
 				"ios":[
 					{
-						"nombre": "Gestión periódica de información de gastos e ingresos sobre proyectos", 
-						"formula": "Número de compilaciones de información sobre proyectos para los cuales se respaldan gastos e ingresos de forma periódica.",
-						"meta": "300"
+						"nombre": "Porcentaje de cumplimiento en el envío de la información sobre proyectos", 
+						"formula": "Proyectos con sus respaldos enviados / total proyectos con información por enviar",
+						"meta": "100%"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Registro de respaldos financiero-contables de proyectos",
+						"nombre": "Registro de respaldos sobre gastos e ingresos de proyectos",
 						"estandar": [
 							"Documentación de respaldo sobre gestiones realizadas sobre los proyectos institucionales, organizada de manera estructurada y ordenada de forma mensual.",
 							"Se debe incorporar documentación como validadores financieros, de transacciones, documentos de respaldo, entre otros que sean pertinentes para la validación.",
-							"Implementado a través de un sistema de archivos, ordenado por mes de gestión realizada, proyecto gestionado, tipo de documentación registrada, entre otros clasificadores pertinentes."
+							"Implementado a través de un sistema de archivos, ordenado por mes de gestión realizada, proyecto gestionado, tipo de documentación registrada, entre otros clasificadores pertinentes.",
+							"Actualizado mensualmente para seguimiento de indicador."
+						]
+					},
+					{
+						"nombre": "Validadores de entrega de información",
+						"estandar": [
+							"Comunicaciones formales (memorándum, correo, etc.) que dan cuenta envío de información a unidades técnicas relevantes."
 						]
 					}
 				]
 			},
 			{
 				"id": "F04", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Elaborar y validar periódicamente rendiciones de proyectos institucionales para su presentación a Mineduc",
+				"desc": "Elaborar mensualmente rendiciones de proyectos institucionales para su presentación a Mineduc.",
 				"actores": [
 					{
 						"cai": "DAF-FIN", "rol": "Responsable",
@@ -1954,15 +1631,19 @@
 				"ios":[
 					{
 						"nombre": "Rendiciones de proyectos institucionales", 
-						"formula": "Número de rendiciones de proyectos institucionales desarrolladas periódicamente.",
-						"meta": "200"
+						"formula": "Rendiciones elaboradas por mes, entregadas en plazos oportunos y aprobadas por contraparte técnica / total de proyectos vigentes por mes",
+						"meta": "100%"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Rendiciones de proyectos institucionales",
+						"nombre": "Registro de documentación asociada a rendiciones mensuales",
 						"estandar": [
-							"Equivalente a lo definido en F01 (se pueden presentar de forma combinada)."
+							"Documentación de respaldo sobre gestiones realizadas sobre los proyectos URY, organizada de manera estructurada y ordenada de forma mensual.",
+							"Se debe incorporar documentación como validadores financieros, de transacciones, documentos de respaldo, entre otros que sean pertinentes para la validación.",
+							"Implementado a través de un sistema de archivos, ordenado por mes de gestión realizada, proyecto gestionado, tipo de documentación registrada, entre otros clasificadores pertinentes.",
+							"Actualizado mensualmente para seguimiento de indicador.",
+							"Debe adjuntarse validador de aceptación por contraparte (DPAC-PCI) para ser contabilizado."
 						]
 					}
 				]
@@ -1978,7 +1659,7 @@
 		"tacticas": [			
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Realizar traslados de equipamiento y otros bienes de uso de los funcionarios en sedes universitarias.",
+				"desc": "Realizar traslados de equipamiento y otros bienes de uso de los funcionarios, académicos y estudiantes entre sedes universitarias.",
 				"actores": [
 					{
 						"cai": "DAF-INSG", "rol": "Responsable",
@@ -1993,12 +1674,12 @@
 					{
 						"nombre": "Traslado de bienes de uso", 
 						"formula": "Número de traslados de bienes de uso realizados en sedes universitarias.",
-						"meta": "120"
+						"meta": "65"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de servicios generales",
+						"nombre": "Planilla de servicios generales",
 						"estandar": [
 							"Registro estructurado y ordenado de servicios generales realizados en la institución.",
 							"Debe ser cuantificable en número de servicios realizados para el personal de colaboración y académico.",
@@ -2060,6 +1741,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
@@ -2089,6 +1774,41 @@
 							"Deben considerarse métricas que apunten a la eficiencia en la entrega de los servicios (ej.: tiempos de resolución) y calidad del servicio entregado (opinión de personal).",
 							"Se debe proporcionar un análisis cualitativo y cuantitativo de la información, establecimiento principales logros y brechas identificadas desde los datos.",
 							"Se debe plantear un plan de mejora respecto a las brechas identificadas de cara al informe siguiente que se generará."
+						]
+					}
+				]
+			},
+			{
+				"id": "F04", "tipo": "Función", "naturaleza": "Técnica", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Trasladar estudiantes, académicos y personal de colaboración en el marco del desarrollo de sus actividades.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Traslados realizados", 
+						"formula": "Número de salidas de traslado efectuadas",
+						"meta": "60"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Planilla de servicios generales",
+						"estandar": [
+							"Equivalente a propuesta de F01 (se pueden entregar como uno solo)."
+						]
+					},
+					{
+						"nombre": "Verificadores de servicios efectuados",
+						"estandar": [
+							"Equivalente a propuesta de F01 (se pueden entregar como uno solo)."
 						]
 					}
 				]
@@ -2162,18 +1882,12 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de servicios generales",
+						"nombre": "Decretos de recepción de obras con informe técnico adjuntos",
 						"estandar": [
-							"Equivalente al definido en F01 de DAF-12 (pueden trabajarse en conjunto).",
-							"Se puede clasificar las reparaciones mayores según su tipo (canaletas, pintura, etc.)"
-						]
-					},
-					{
-						"nombre": "Minutas de reparaciones efectuadas",
-						"estandar": [
-							"Reporte detallado en donde se incorpora toda la información respecto a las reparaciones efectuadas.",
+							"Incluyen reporte detallado en donde se incorpora toda la información respecto a las reparaciones efectuadas.",
 							"Debe indicar objeto de la reparación, estado previo y estado final post-reparación, servicios contratados (si corresponde), materiales y otros elementos adquiridos, costos, plan de trabajo (si aplica), entre otros antecedentes pertinentes.",
-							"Reporte debe adjuntar evidencia visual de los ajustes (ej.: fotografías del antes y después)."
+							"Reporte debe adjuntar evidencia visual de los ajustes (ej.: fotografías del antes y después).",
+							"Decretos deben incorporar la información de los estados de pago cursados."
 						]
 					}
 				]
@@ -2218,44 +1932,6 @@
 				]
 			},
 			{
-				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Cursar estados de pago para diseño, construcción y mantención",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "contabilidad", "tesoreria" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}
-				],
-				"ios":[
-					{
-						"nombre": "Gestión de estados de pagos", 
-						"formula": "Número de estados de pago cursados para efecto de diseño, construcción y mantención de instalación.",
-						"meta": "10"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de estados de pagos",
-						"estandar": [
-							"Validadores formales que den cuenta de que se han cursado los distintos estados de pago para los fines correspondientes.",
-							"Debe rendirse un validador por cada estado de pago cursado."
-						]
-					}
-				]
-			},
-			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Realizada la mantención y reparación de Campus Rio Simpson para su entrega",
 				"actores": [
@@ -2282,10 +1958,10 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Minuta de reparación efectuada",
+						"nombre": "Decreto de recepción de obras",
 						"plazo": "ene",
 						"estandar": [
-							"Equivalente o parte de las minutas definidas en F02.",
+							"Equivalente o parte de las minutas definidas en F02, en forma de informe técnico adjunto.",
 							"Como parte de la minuta, debe darse cuenta de que las reparaciones y mantenciones deben permitir entregar las instalaciones según fueron recepcionadas, para lo cual debe además entregarse el detalle de los estándares con los cuales dichas instalaciones fueron recibidas."
 						]
 					}
@@ -2322,10 +1998,50 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Minuta de reparación efectuada",
+						"nombre": "Decreto de recepción de obras",
 						"plazo": "dic",
 						"estandar": [
-							"Equivalente o parte de las minutas definidas en F02.",
+							"Equivalente o parte de las minutas definidas en F02, en forma de informe técnico adjunto.",
+							"Como parte de la minuta, debe darse cuenta de como las reparaciones tributan al uso de las instalaciones según los requerimientos emitidos desde DI."
+						]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Realizada la reparación casa Reserva Nacional Coyhaique.",
+				"actores": [
+					{
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de recepción de obras",
+						"plazo": "dic",
+						"estandar": [
+							"Equivalente o parte de las minutas definidas en F02, en forma de informe técnico adjunto.",
 							"Como parte de la minuta, debe darse cuenta de como las reparaciones tributan al uso de las instalaciones según los requerimientos emitidos desde DI."
 						]
 					}
@@ -2380,7 +2096,8 @@
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
-							"Plan de implementación de procesos críticos según estándares institucionales."
+							"Plan de implementación de procesos críticos según estándares institucionales.",
+							"Considera acto de formalización (decreto)."
 						]
 					}
 				]
@@ -2807,7 +2524,7 @@
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñar y validar un reglamento de perfeccionamiento del personal acorde a los criterios establecidos.",
+				"desc": "Aprobado el reglamento de capacitación y perfeccionamiento del personal acorde a los criterios establecidos.",
 				"actores": [
 					{
 						"cai": "DAF", "rol": "Aprobador",
@@ -2833,7 +2550,7 @@
 				"verificadores": [					
 					{
 						"nombre": "Decreto de reglamento de perfeccionamiento del personal.",
-						"plazo": "jul",
+						"plazo": "jun",
 						"estandar": [
 							"Debe responder integralmente a las orientaciones estratégicas levantadas y a los procesos normalizados en DAF-14.",
 							"Debe establecer roles y responsabilidades del reglamento, mecanismos de apoyo, procedimientos periódicos, su calendario anual y otros elementos pertinentes para la operacionalización del tema."
@@ -2843,7 +2560,7 @@
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantado un plan de pilotaje de perfeccionamiento de personal priorizado según criterios y reglamentos establecidos.",
+				"desc": "Levantado un plan de pilotaje de perfeccionamiento de personal priorizado para el 2022 según criterios y reglamentos establecidos.",
 				"actores": [
 					{
 						"cai": "DAF", "rol": "Aprobador",
@@ -2861,80 +2578,22 @@
 				"verificadores": [					
 					{
 						"nombre": "Plan de perfeccionamiento piloto.",
-						"plazo": "ago",
+						"plazo": "dic",
 						"estandar": [
 							"Plan de corto plazo para implementar un conjunto de iniciativas de perfeccionamiento a modo de evaluación de procesos y normativas asociada.",
 							"Debe tomar prioridades generales levantadas desde las orientaciones estratégicas en H01.",
 							"Plan debe responder integralmente a los elementos descritos en el reglamento de H02, incluyendo plazos, proceso y productos.",
-							"Debe incluir cronograma de actividades, roles, responsables y otros elementos de planificación que sean pertinentes."
+							"Debe incluir cronograma de actividades, roles, responsables y otros elementos de planificación que sean pertinentes.",
+							"Puede incorporar acto administrativo que formaliza, siempre y cuando haya sido validado en instancias estratégicas."
 						]
-					}
-				]
-			},
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementado y evaluado el plan de perfeccionamiento piloto de forma inicial.",
-				"actores": [
+					},
 					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico" ]
-					},					
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de resultados de pilotaje",
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
 						"plazo": "ene",
 						"estandar": [
-							"Informe simple que indica principales resultados del piloto de perfeccionamiento para el personal de colaboración.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto en la parte normativa como en la implementación."
-						]
-					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Diseñado y aplicado un plan general de capacitación del personal de colaboración en competencias digitales.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "soporte" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica"  ]
-					}
-				],
-				"verificadores": [					
-					{
-						"nombre": "Plan de perfeccionamiento en competencias digitales.",
-						"plazo": "ago",
-						"estandar": [
-							"Plan de corto mediano plazo para reforzar capacidades digitales del personal de colaboración.",
-							"Plan debe presentar principales objetivos, resultados esperados, estrategias metodológicas y de priorización del personal beneficiado, entre otros elementos que sean relevantes para su implementación.",
-							"Diseñado en coherencia al reglamento establecido en H02.",
-							"Establece cronograma de aplicación de corto plazo (en el periodo), roles, responsabilidades y principales actividades.",
-							"Retroalimentado desde DPAC-TGI, pensando en el manejo de sistemas y gestión de datos e información relevante para los funcionarios."							
-						]
-					},
-					{
-						"nombre": "Informe de implementación de plan",
-						"plazo": "ene",
-						"estandar": [
-							"Informe simple que indica principales resultados de la aplicación del plan de perfeccionamiento en competencias digitales.",
-							"Debe evidenciar que tipo de competencias se logran reforzar en el personal, como ellas apoyan sus funciones y validadores de los resultados obtenidos.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar una estrategia de replicabilidad para extender y/o profundizar el alcance del plan."
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder a la necesidad de implementación del plan de capacitación y perfeccionamiento.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
 						]
 					}
 				]
@@ -3190,57 +2849,7 @@
 		"objetivo": "Instalar las capacidades institucionales para el desarrollo de bienestar en la institución.",
 		"responsable": "DAF-DP",
 		"tipo": "Desarrollo",
-		"tacticas": [
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Diseñado y aplicado un estudio de evaluación de clima laboral y necesidades de bienestar del estamento funcionario de la Institución.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Términos de referencia sobre estudio.",
-						"plazo": "abr",
-						"estandar": [
-							"Debe considerar necesidades institucionales en la materia y diagnósticos requeridos.",
-							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Debe establecer productos esperados, plazos y condiciones generales."
-						]
-					},
-					{
-						"nombre": "Estudio desarrollado y plan de uso.",
-						"plazo": "ago",
-						"estandar": [
-							"Debe ser coherente con TdRs establecidos.",
-							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional.",
-							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
-						]
-					}
-				]
-			},
+		"tacticas": [			
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Analizadas y definidas las capacidades (equipo, mecanismos, recursos) necesarias para iniciar y proyectar el funcionamiento de un área de Bienestar en la institución.",
@@ -3314,6 +2923,13 @@
 							"Debe entregar orientaciones y/o criterios asociados a las tipos de beneficios que se podrán ofrecer, como se asignarán beneficiarios, responsabilidades de beneficiarios y estrategias de financiamiento de para dar sostenibilidad a los beneficios.",
 							"Debe establecer calendario y actividades asociadas a procesos periódicos de Bienestar."
 						]
+					},
+					{
+						"nombre": "Validador de ingreso de reglamento a SUDESO",
+						"plazo": "nov",
+						"estandar": [
+							"Debe ser coherente con versión final aprobada del reglamento."
+						]
 					}
 				]
 			},
@@ -3348,12 +2964,16 @@
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Implementados los diversos principales servicios, beneficios y convenios conductores que servirán para la implementación inicial de Bienestar.",
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Planificada la implementación de los diversos principales servicios, beneficios y convenios conductores que servirán para el despliegue inicial de Bienestar.",
 				"actores": [
 					{
 						"cai": "DAF-DP", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
@@ -3366,16 +2986,6 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Convenios formalizados",
-						"plazo": "ene",
-						"estandar": [
-							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
-							"Establece líneas de trabajo de corto, mediano y largo plazo.",
-							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
-							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
-						]
-					},
-					{
 						"nombre": "Propuesta de despliegue de Bienestar",
 						"plazo": "ene",
 						"estandar": [
@@ -3383,6 +2993,109 @@
 							"Debe dar cuenta de gestiones realizadas para dar de alta servicios asociados, clasificación de estos servicios y mecanismos de acceso.",
 							"Debe establecer un plan de implementación y socialización para el periodo siguiente, describiendo actividades, plazos, responsables y otros elementos relevantes.",
 							"Debe establecer una estrategia de aplicación progresiva, indicando grupos de funcionarios/as según caracterización que sean pertinentes."
+						]
+					},
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder al plan de despliegue de Bienestar definido.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
+						]
+					}
+				]
+			}
+		]
+	},
+	{	
+		"id": "19b", "area": "DAF",
+		"titulo": "Salud Ocupacional en la Universidad de Aysén.",
+		"objetivo": "Desarrollar mecanismos y actividades que avancen en abordar la temática de la salud ocupacional en la comunidad universitaria, especialmente focalizado en la crisis sanitaria COVID-19.",
+		"responsable": "DAF-DP",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Aplicado Protocolo de Vigilancia y riesgos psicosociales en el trabajo en UAYSEN.",
+				"actores": [
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Especificación técnica sobre requerimientos para protocolo.",
+						"plazo": "jun",
+						"estandar": [
+							"Debe considerar necesidades institucionales en la materia y diagnósticos requeridos.",
+							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI para articular incorporación de datos levantados.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Debe establecer productos esperados, plazos y condiciones generales."
+						]
+					},
+					{
+						"nombre": "Informe de resultados ISTAS 2021.",
+						"plazo": "sep",
+						"estandar": [
+							"Debe ser coherente con Específicación técnica establecida.",
+							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional."
+						]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Formulado Plan de Clima Laboral UAysén.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "DAF-DP", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan que documenta estrategias para abordar temática de clima laboral.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe dar cuenta de un análisis cuantitativo y cualitativo de los resultados obtenidos desde H01.",
+							"Debe incorporar un conjunto de estrategias concretas para abordar la problemática y en contexto a situación de pandemia",
+							"Debe responder a una validación en instancias estratégicas y con actores académicos clave."
+						]
+					},
+					{
+						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
+							"Debe responder al plan para el clima laboral diseñado.",
+							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
 						]
 					}
 				]
@@ -3424,7 +3137,7 @@
 				"verificadores": [
 					{
 						"nombre": "Manual de adquisiciones actualizado",
-						"plazo": "may",
+						"plazo": "ago",
 						"estandar": [
 							"Debe dar cuenta de los cambios implementados, indicando que cosas fueron actualizadas y como se operacionalizarán en el corto plazo.",
 							"Ajustes deben responder integralmente a procesos institucionales vigentes y a las actualizaciones de la ley de compras."
@@ -3460,7 +3173,7 @@
 				"verificadores": [
 					{
 						"nombre": "Proceso para gestión de contratos suscritos",
-						"plazo": "may",
+						"plazo": "nov",
 						"estandar": [
 							"Debe dar cuenta de la incorporación de elementos asociados a la ley 19.886.",
 							"Debe establecer principales mecanismos operativos, normativos (internos) y comunicacionales que permitirán la implementación apropiada del proceso.",
@@ -3687,7 +3400,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
+						"cai": "DAF-ADQ", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "inventario" ]
 					}
 				],
@@ -4862,43 +4575,6 @@
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Realizada difusión de avance del 1er semestre a comunidad universitaria.",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Actas de difusión con comunidad universitaria",
-						"plazo": "jul",
-						"estandar": [
-							"Un acta por sesión de difusión / grupo.",
-							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
-							"Acta debe indicar contenidos a los cuales se hace difusión en la sesión."
-						]
-					},
-					{
-						"nombre": "Material de difusión",
-						"plazo": "jul",
-						"estandar": [
-							"PPT, documento u otro que explique el objeto de la difusión.",
-							"Incorporar registro visual de las instancias."
-						]
-					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Realizada difusión de avance del 2do semestre a comunidad universitaria.",
 				"actores": [
 					{
@@ -5165,7 +4841,7 @@
 	},
 	{
 		"id": "28", "area": "DAF",
-		"titulo": "Sistema para la gestión y priorización de requerimientos del Plan Maestro Institucional",
+		"titulo": "Sistema para la gestión y priorización de requerimientos de la Infraestructura Institucional",
 		"objetivo": "Instalar un sistema de gestión para proyectar y valorizar el Plan Maestro, con sello UAysén, que en sintonía con la planificación y la coordinación institucional coordine las necesidades de infraestructura, las priorice de forma flexible y entregue insumos para generar un Plan de Inversión coherente.",
 		"responsable": "DAF-INSG",
 		"tipo": "Desarrollo",

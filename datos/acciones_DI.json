@@ -125,12 +125,12 @@
 						"plazo": "abr",
 						"estandar": [
 							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
-							"Debe tener coherencia con evaluación de procesos en H01.",
+							"Debe tener coherencia con normalización de procesos en H01.",
 							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones."
 						]
 					},
 					{
-						"nombre": "Términos de referencia",
+						"nombre": "Términos de referencia y/o Especificación Técnica",
 						"plazo": "abr",
 						"estandar": [
 							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
@@ -179,8 +179,8 @@
 						"nombre": "Validadores de mecanismos tecnológicos incorporados",
 						"plazo": "oct",
 						"estandar": [
-							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
-							"Coherente con TdRs desarrollados.",
+							"Respaldos de proceso de adquisición e implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
+							"Coherente con TdRs / EETT desarrollados.",
 							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
 						]
 					}
@@ -227,7 +227,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos.",
-						"plazo": "abr",
+						"plazo": "junio",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
@@ -264,7 +264,7 @@
 				"verificadores": [
 					{
 						"nombre": "Índice de mecanismos para gestión de proyectos de investigación",
-						"plazo": "abr",
+						"plazo": "junio",
 						"estandar": [
 							"Listado simple de mecanismos que permiten la operacionalización de la gestión de proyectos de investigación.",
 							"Mecanismos deben ser coherentes con procesos normalizados en H01.",
@@ -402,18 +402,9 @@
 						"capacidades": [ "todos-gestion-academica" ]
 					}
 				],
-				"verificadores": [
+				"verificadores": [					
 					{
-						"nombre": "Actas de difusión con cuerpo académico",
-						"plazo": "abr",
-						"estandar": [
-							"Un acta por sesión de difusión / grupo.",
-							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
-							"Acta debe indicar contenidos a los cuales se hace difusión en la sesión."
-						]
-					},
-					{
-						"nombre": "Material de difusión",
+						"nombre": "Boletines de difusión de fondos internos y externos",
 						"plazo": "abr",
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
@@ -488,8 +479,7 @@
 						"nombre": "Boletines periódicos de procesos de fondos de investigación.",
 						"estandar": [
 							"Documentos simples que detallan información respecto al desarrollo de diversos fondos de investigación, en lo que respecta a sus fechas críticas, etapas, documentación y trámites, personal académico que postula, personal académico que avanza en etapas, personal académico que adjudica, entre otros que sean relevante para un seguimiento tanto individual como institucional.",
-							"Debe considerarse un boletín por cada fondo y/o concurso que se gestiona y hace seguimiento desde la Institución.",
-							"Boletines son incrementales: se van actualizando en la medida que los procesos avanzan, ante lo cual se van comunicando de forma apropiada.",
+							"Debe considerarse la elaboración de boletines semanales o cada dos semanas de difusión de fondos disponibles.",
 							"Formato abierto según estándares DI."
 						]
 					},
@@ -537,7 +527,8 @@
 							"Cualquier colección de documentos asociados a la postulación y adjudicación de un concurso o fondo por algún miembro del cuerpo académico y al cual se hará seguimiento.",
 							"Documentación debe ser presentada a través de sistema de archivos u otros medios digitales, organizándola de forma que toda la documentación se clasifique y se ordene en función a adjudicaciones y proyectos individuales (ej.: una carpeta por proyecto).",
 							"Documentación debe incorporar validadores asociadas al ciclo de vida de los fondos, incluyendo trámites internos para gestión de los fondos, seguimiento periódico de ejecución, productos intermedios, decretos, oficios, certificados u otra documentación relevante asociada a cada proyecto, entre otros que sean pertinentes para su gestión.",
-							"Información debe ser actualizada de forma periódica en función al avance de los proyectos respectivos."
+							"Información debe ser actualizada de forma periódica en función al avance de los proyectos respectivos.",
+							"Se dispondrá desde DI accesos a plataformas específicas para la descarga directa de la información en la forma y los contenidos que estos estándares establecen."
 						]
 					}
 				]
@@ -878,7 +869,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de trámites internos para proyectos de investigación.",
+						"nombre": "Registro en plataforma de gestión de proyectos de investigación.",
 						"estandar": [
 							"Registro estructurado y sistemático respecto a tramites internos realizados en la Institución para dar soporte a los proyectos de investigación en desarrollo.",
 							"Debe ser cuantificable en cantidad de trámites efectuados.",
@@ -890,7 +881,8 @@
 					{
 						"nombre": "Validadores de trámite conforme.",
 						"estandar": [
-							"Validador simple de comunicación (ej.: correo electrónico) que de cuenta de la finalización de cada trámite y conformidad de contraparte de proyecto."
+							"Validador simple de comunicación (ej.: correo electrónico) que de cuenta de la finalización de cada trámite y conformidad de contraparte de proyecto.",
+							"Debe terminar con recepción conforme de equipo o de insumos y/o decretos en caso de honorarios, pagos o documentación que corresponda a la unidades solicitadas"
 						]
 					}
 				]
@@ -933,16 +925,16 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de trámites internos para proyectos de investigación.",
+						"nombre": "Registro en plataforma de gestión de proyectos de investigación.",
 						"estandar": [
 							"Equivalente al definido en F01 (pueden se trabajados como uno solo).",
 							"Considerar un tipo de trámite correspondiente a las contrataciones."
 						]
 					},
 					{
-						"nombre": "Validadores de trámite conforme.",
+						"nombre": "Respaldo de contratación de personal",
 						"estandar": [
-							"Equivalente al definido en F01 (pueden se trabajados como uno solo)."
+							"Forma dependiendo de tipo de contratación (honorarios / contrata)."
 						]
 					}
 				]
@@ -977,16 +969,16 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de trámites internos para proyectos de investigación.",
+						"nombre": "Registro en plataforma de gestión de proyectos de investigación.",
 						"estandar": [
 							"Equivalente al definido en F01 (pueden se trabajados como uno solo).",
 							"Considerar la especificación de información sobre gestiones internas hechas en el marco de cada trámite sistematizado."
 						]
 					},
 					{
-						"nombre": "Validadores de gestiones realizadas.",
+						"nombre": "Correos SAP con solicitudes a otras unidades.",
 						"estandar": [
-							"Cualquier validador comunicacional (correo electrónico, memo, etc.) que de cuenta de gestiones realizadas con otras áreas de la Institución para abordar necesidades de soporte de los proyectos de investigación."
+							"Deben dar cuenta de gestiones realizadas con otras áreas de la Institución para abordar necesidades de soporte de los proyectos de investigación."
 						]
 					}
 				]
@@ -1028,7 +1020,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto de plan anual de fondos internos de investigación.",
-						"plazo": "abr",
+						"plazo": "mayo",
 						"estandar": [
 							"Documento formal que entrega todos los detalles asociados a la disponibilidad de fondos para investigación que son entregados por la Institución y las definiciones necesarias para su operacionalización.",
 							"Debe especificar los distintos fondos que se ofrecerán durante el año, los montos a distribuir, objetivos generales de cada fondo, entre otros elementos informativos pertinentes.",
@@ -1066,7 +1058,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto de plan anual de fondos internos de investigación.",
-						"plazo": "abr",
+						"plazo": "mayo",
 						"estandar": [
 							"Equivalente al definido en H01 (pueden ser tratados como el mismo).",
 							"Para efectos de temáticas de interdisciplina, se deben incorporar orientaciones explícitas respecto a los fondos que bonificarán se orientarán directamente a esta estrategia.",
@@ -1490,14 +1482,14 @@
 					{ 
 						"nombre": "Instancias de reporte sobre productos de investigación", 
 						"formula": "Número de instancias del periodo en las cuales se reporta sobre información asociada a productos de investigación generados desde la Institución.",
-						"meta": "4"
+						"meta": "2"
 					}
 				],
 				"verificadores": [
 					{
 						"nombre": "Reportes periódicos de productividad científica.",
 						"estandar": [
-							"Documentos generados de forma periódica (trimestral o dos por semestre) y que dan cuenta de los avances del periodo reportado en términos de productos de investigación y sus impactos.",
+							"Documentos generados de forma periódica (semestral) y que dan cuenta de los avances del periodo reportado en términos de productos de investigación y sus impactos.",
 							"Deben entregar información agregada y detallada respecto a la productividad generada por el cuerpo académico, clasificada y organizada por tipo de producto generado, impacto según su naturaleza (ej.: cuartil en publicaciones), unidad académica asociada, periodo, difusión realizada / identificada, indicadores de productividad asociados, entre otros que sean pertinentes para la gestión.",
 							"Reportes deben incorporar análisis cuantitativo y cualitativo de los logros obtenidos, dando cuenta de continuidad respecto a periodos de reporte anteriores, y así mismo se deben identificar posibles brechas encontradas en la generación de productividad.",
 							"Se deben incorporar estrategias de trabajo asociadas a las brechas incorporadas para abordarlas en el corto plazo.",
@@ -1580,7 +1572,7 @@
 				"verificadores": [
 					{
 						"nombre": "Catastro actualizado de redes de colaboración para la investigación.",
-						"plazo": "may",
+						"plazo": "sep",
 						"estandar": [
 							"Compilación estructurada de redes existentes entre el cuerpo académico y otras Instituciones a nivel regional, nacional e internacional.",
 							"El registro debe dar cuenta de las instituciones con las cuales existen vínculos, nivel de formalización de los mismos, tipo de vínculo existente, nivel de actividad en el ámbito de la investigación, departamento y académicos/as asociados, entre otros que sean relevantes para su seguimiento.",
@@ -1589,7 +1581,7 @@
 					},
 					{
 						"nombre": "Convenios existentes",
-						"plazo": "may",
+						"plazo": "sep",
 						"estandar": [
 							"Documentos que respaldan vínculos que se hayan establecido formalmente.",
 							"En coherencia a catastro levantado (puede ser usado como referencia)."
@@ -1673,7 +1665,8 @@
 							"Debe incorporar aspectos tratados, insumos de coordinación, asistentes a la coordinación y acuerdos tomados.",
 							"Se debe explicitar cuando se establecen condiciones para generar convenios de colaboración y los plazos estimados para su formalización y operacionalización",
 							"Participantes deben incorporar actores estratégicos y académicos relevantes.",
-							"Acompañar de documentación e insumos entregados en las definiciones."
+							"Acompañar de documentación e insumos entregados en las definiciones.",
+							"Insumos provienen desde DVcM-RI"
 						]
 					}
 				]
@@ -1828,16 +1821,17 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Levantamiento de requerimientos de infraestructura para la investigación", 
+						"nombre": "Levantamiento de requerimientos de infraestructura para la investigación en coordinación con los Departamentos Académicos", 
 						"formula": "Número de procesos de caracterización y comunicación de requerimientos de infraestructura para dar soporte a la investigación en la Institución.",
 						"meta": "4"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Informes de caracterización de requerimientos de infraestructura para la investigación.",
+						"nombre": "Fichas de requerimientos, adecuación o mejora o nueva infraestructura",
 						"estandar": [
-							"Informes periódicos (dos por semestre) que compilan y sistematizan requerimientos de infraestructura para la investigación.",
+							"Fichas que compilan y sistematizan requerimientos de infraestructura para la investigación.",
+							"Se debe proveer un conjunto de fichas por procesos de caracterización y comunicación de requerimientos respectivos.",
 							"Deben responder integralmente a los estándares que se definan institucionalmente para caracterizar requerimientos de infraestructura, emanados desde DAF-INSG (ver DAF-28).",
 							"Informes pueden incorporar información parcial o total (actualizada) de lo compilado desde los departamentos académicos.",
 							"Requerimientos se deben entender como definiciones cuya resolución dependerá de los procesos de priorización respectivos y de la oferta de infraestructura que exista en los periodos siguientes.",
@@ -2064,7 +2058,7 @@
 						]
 					},
 					{
-						"nombre": "Informe de propuesta sobre orgánica institucional en la materia",
+						"nombre": "Propuesta sobre orgánica institucional en la materia",
 						"plazo": "jun",
 						"estandar": [
 							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para la institución en materia de difusión y divulgación de la ciencia.",
@@ -2111,7 +2105,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Propuesta de marco de trabajo",
+						"nombre": "Marco con sello UAysén de divulgación científica",
 						"plazo": "ago",
 						"estandar": [
 							"Documento que detalla el marco de trabajo, con sello UAysén, que orienta sobre las variables territoriales para impulsar la difusión, divulgación y creación artística en el contexto regional, y con proyección nacional.",
@@ -2220,10 +2214,11 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de reuniones de trabajo para sistematización de ideas.",
+						"nombre": "Validadores asociados a sistematización de ideas.",
 						"plazo": "ago",
 						"estandar": [
 							"Deben dar cuenta del trabajo colaborativo de actores claves para profundizar en aspectos operativos del marco de trabajo, en paralelo a la definición de la política.",
+							"Vinculados a entregas de informes de avance a Mineduc en el contexto del URY2093.",
 							"Considerar un acta por sesión realizada con actores clave, indicando participantes y temas tratados.",
 							"Cada acta debe entregar un detalle de las ideas sistematizadas y los antecedentes levantados de ellas."
 						]
@@ -2274,7 +2269,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de reuniones de trabajo para sistematización colaboraciones.",
+						"nombre": "Validadores asociados a coordinación con actores relevantes establecidos en marco de divulgación con sello UAysén producto del proyecto URY 2093.",
 						"plazo": "ago",
 						"estandar": [
 							"Equivalentes a lo establecido en H04 (pueden tratarse como uno solo).",
@@ -2521,7 +2516,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de capacitación",
+						"nombre": "Certificados de capacitación (diplomado vía URY20993)",
 						"plazo": "nov",
 						"estandar": [
 							"Validadores respecto a sesiones de capacitación que den cuenta de lo propuesto.",
@@ -3083,7 +3078,7 @@
 			},
 			{
 				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Piloteados y validados los diversos mecanismos implementados al alero del sistema.",
+				"desc": "Piloteados y validados los diversos mecanismos implementados al plan desplegado.",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
@@ -3184,7 +3179,7 @@
 						"estandar": [
 							"Documento de trabajo que establece las orientaciones para la articulación del Fablab con actores externos del medio, y el soporte que recibe para ello desde los actores internos de la Institución.",
 							"El modelo debe presentar entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
-							"Deeb responder integralmente a lineamientos institucionales tanto del área de Investigación como de Vinculación con el Medio.",
+							"Debe responder integralmente a lineamientos institucionales tanto del área de Investigación como de Vinculación con el Medio.",
 							"En formato que responda a estándares DI."
 						]
 					}
@@ -3210,7 +3205,7 @@
 				"verificadores": [
 					{
 						"nombre": "Índice de mecanismos para desarrollo de actividades de Fablab.",
-						"plazo": "jun",
+						"plazo": "ago",
 						"estandar": [
 							"Listado simple de mecanismos relevantes.",
 							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
@@ -3220,7 +3215,7 @@
 					},
 					{
 						"nombre": "Mecanismos diseñados",
-						"plazo": "sep",
+						"plazo": "nov",
 						"estandar": [
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica.",
@@ -3258,40 +3253,6 @@
 							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
 							"Debe responder a la implementación de actividades orientadas por mecanismos desarrollados en H03 y al modelo de gestión en H02.",
 							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
-						]
-					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Piloteadas y evaluadas iniciativas piloto de trabajo entre el Fablab y actores del medio para el periodo en curso.",
-				"actores": [					
-					{
-						"cai": "DI-ITT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de resultados de pilotaje",
-						"plazo": "ene",
-						"estandar": [
-							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a las necesidades del Fablab y vínculos con el medio existentes.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
 						]
 					}
 				]
