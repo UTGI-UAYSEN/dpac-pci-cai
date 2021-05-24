@@ -23,12 +23,12 @@
 					{ 
 						"nombre": "Porcentaje de observaciones auditadas a las cuales se ha hecho seguimiento.", 
 						"formula": "(Número de observaciones con seguimiento realizado / Número de observaciones sujetas a seguimiento) * 100",
-						"meta": "100%"
+						"meta": "70%"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Registro de seguimiento de observaciones",
+						"nombre": "Registro de seguimiento de observaciones de acuerdo a lo establecido en el DUE N°59/2020",
 						"estandar": [
 							"Clasificado según dirección y/o unidad asociada.",
 							"Cuantificable en cantidad de observaciones que están sujetas a seguimiento.",
@@ -85,19 +85,17 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de reuniones o instancias de presentación del Plan",
-						"plazo": "may",
+						"nombre": "Correo electrónico de difusión",
+						"plazo": "abr",
 						"estandar": [
-							"Al menos un acta por cada dirección o área estratégica.",
-							"Acompañada por validador de aceptación.",
-							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+							"Enviado a todos los departamentos o unidades que serán objeto de auditoría durante el presente año."
 						]
 					},
 					{
-						"nombre": "Material de difusión",
-						"plazo": "may",
+						"nombre": "Publicación del plan de auditoria 2021",
+						"plazo": "abr",
 						"estandar": [
-							"PPT, documento u otro que explique el proceso y sus detalles."
+							"Considera validador de publicación en la web institucional en el apartado de la Contraloría Universitaria."
 						]
 					}
 				]
@@ -118,7 +116,7 @@
 				"verificadores": [
 					{
 						"nombre": "Informes de resultado de seguimiento de procesos auditados",
-						"plazo": "jul",
+						"plazo": "nov",
 						"estandar": [
 							"Al menos un informe por cada dirección o área estratégica.",
 							"Debe indicar aquellas observaciones que han sido detectadas como resueltas y no resueltas.",
@@ -127,10 +125,9 @@
 					},
 					{
 						"nombre": "Actas de reuniones o instancias de presentación de resultados",
-						"plazo": "jul",
+						"plazo": "nov",
 						"estandar": [
-							"Al menos un acta por cada dirección o área estratégica.",
-							"Acompañada por validador de aceptación.",
+							"Acta de resultados relacionados al proceso.",
 							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
 						]
 					}
