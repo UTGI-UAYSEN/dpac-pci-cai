@@ -2255,7 +2255,7 @@
 		"tacticas": [
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Responder a requerimientos generales de documentación formal al interior de la institución.",
+				"desc": "Gestionar solicitudes de documentación formal al interior de la institución.",
 				"actores": [
 					{
 						"cai": "SG-OPGDT", "rol": "Responsable",
@@ -2269,7 +2269,7 @@
 				"ios":[
 					{ 
 						"nombre": "Requerimientos de documentación resueltos", 
-						"formula": "Número de requerimientos de documentación resueltos.",
+						"formula": "Número de documentos recepcionados, foliados y/o derivados a los actores interesados dentro de la institución.",
 						"meta": "100"
 					}
 				],
@@ -2278,8 +2278,8 @@
 						"nombre": "Bitácora de requerimientos de documentación institucional",
 						"estandar": [
 							"Registro simple (planilla, documento, etc.) con detalle de requerimientos recibidos y sus características.",
-							"Debe dar cuenta del estado de resolución del requerimiento.",
-							"Debe explicitar tiempos de respuesta a los requerimientos resueltos."
+							"Debe dar cuenta del estado de derivación del requerimiento.",
+							"Debe explicitar tiempo que medie entre la recepción del requerimiento y/o derivación a los actos interesados dentro de la institución."
 						]
 					}
 				]
@@ -2308,7 +2308,7 @@
 				"ios":[
 					{ 
 						"nombre": "Requerimientos de transparencia resueltos", 
-						"formula": "Número de requerimientos de de transparencia resueltos exitosamente.",
+						"formula": "Número de requerimientos de transparencia resueltos dentro del plazo legal.",
 						"meta": "20"
 					}
 				],
@@ -2320,7 +2320,6 @@
 							"Debe dar cuenta del estado de resolución del requerimiento.",
 							"Debe explicitar si se han extendido plazos asociados.",
 							"Debe explicitar tiempos de respuesta a los requerimientos resueltos.",
-							"Debe incorporar un diagnóstico cualitativo de problemas abordados en la resolución.",
 							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
 							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
 							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
@@ -2331,7 +2330,8 @@
 						"estandar": [
 							"Validador de entrega de información solicitada.",
 							"Registro ordenado sistemáticamente de acuerdo a identificadores usados en sistema de Transparencia.",
-							"Debe existir coherencia entre este registro y la bitácora."
+							"Debe existir coherencia entre este registro y la bitácora.",
+							"Se pueden considerar certificados emitidos por sistemas asociados."
 						]
 					}
 				]
@@ -2383,7 +2383,7 @@
 		"tacticas": [
 			{
 				"id": "F01", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Elaborar el contenido legal para la documentación que requiere ser formalizada en la institución.",
+				"desc": "Visar y elaborar los actos administrativos que requieren ser emitidos en la institución.",
 				"actores": [
 					{
 						"cai": "SG-JUR", "rol": "Responsable",
@@ -2401,7 +2401,7 @@
 				"ios":[
 					{ 
 						"nombre": "Documentación legal diseñada", 
-						"formula": "Número de documentos legales diseñados según necesidades y aparato normativo vigente.",
+						"formula": "Número de actos administrativos por dirección visados/elaborados por SG.",
 						"meta": "200"
 					}					
 				],
@@ -2425,7 +2425,7 @@
 			},
 			{
 				"id": "F02", "tipo": "Función", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Coordinar la suscripción de documentación que permita efectuar actos administrativos.",
+				"desc": "Coordinar la suscripción de los actos administrativos derivados a Secretaría General.",
 				"actores": [
 					{
 						"cai": "SG-JUR", "rol": "Responsable",
@@ -2451,7 +2451,7 @@
 				"ios":[
 					{ 
 						"nombre": "Documentación legal formalizada", 
-						"formula": "Número de documentos legales formalizados según necesidades y aparato normativo vigente.",
+						"formula": "Números de actos administrativos emitidos.",
 						"meta": "200"
 					}					
 				],
@@ -2465,7 +2465,7 @@
 					{
 						"nombre": "Documentos formalizados",
 						"estandar": [
-							"Decretos que dan cuenta de la formalización y de los actos administrativos.",
+							"Decretos que dan cuenta de la formalización y de los decretos exentos, exentos delegados y afectos.",
 							"Puede formar parte del mismo registro de F01."
 						]
 					}
@@ -2502,8 +2502,7 @@
 						"nombre": "Calendario anual de sesiones del CS",
 						"plazo": "mar",
 						"estandar": [
-							"Considera fechas de sesiones y horarios para instancias emergentes.",
-							"Establecer instancias específicas de articulación con Senado Universitario, priorizando respecto a necesidad de articular decisiones clave."
+							"Considera fechas de sesiones y horarios para instancias emergentes."
 						]
 					}
 				]
@@ -2511,11 +2510,11 @@
 			{
 
 				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Diseñada y aprobada una propuesta para las temáticas y elementos de discusión que se llevarán durante el año a los Consejos Superiores, articulado con la planificación anual de la Institución.",
+				"desc": "Apoyado el diseño de una propuesta para las temáticas y elementos de discusión que se llevan anualmente al conocimiento y resolución del Consejo Superior articulado con la planificación anual de la Universidad.",
 				"actores": [
 					{
-						"cai": "SG", "rol": "Aprobador",
-						"capacidades": [ "secretaria-general" ]
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
 					},
 					{
 						"cai": "SG-JUR", "rol": "Responsable",
@@ -2532,7 +2531,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Calendario de sesiones del CS complementado con temáticas",
+						"nombre": "Propuesta de temáticas y elementos de discusión para calendario de Consejo Superior",
 						"plazo": "mar",
 						"estandar": [
 							"Temas deben estar articulados con planificación institucional y necesidad de formalización de mecanismos clave.",
@@ -2543,7 +2542,7 @@
 			},
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Preparar sesiones del Consejo Superior en términos de sus contenidos y logística requerida.",
+				"desc": "Preparar y colaborar en el desarrollo periódico del Consejo Superior en términos de sus contenidos y logística.",
 				"actores": [
 					{
 						"cai": "SG-JUR", "rol": "Responsable",
@@ -2565,7 +2564,7 @@
 				"ios":[
 					{ 
 						"nombre": "Instancias de Consejo Superior organizadas", 
-						"formula": "Número de sesiones de Consejo Superior organizadas y gestionadas.",
+						"formula": "Número de instancias de consejo superior organizadas y desarrolladas.",
 						"meta": "11"
 					}					
 				],
@@ -2575,49 +2574,20 @@
 						"estandar": [
 							"Registro simple (planilla, documento, etc.) de sesiones organizadas.",
 							"Deben anexarse documentos usados como antecedentes para las sesiones (tabla, documentación para revisión, etc.",
-							"Para cada sesión organizada, se deben registrar tiempos de anticipación con los cuales se entregan antecedentes y tabla.",
-							"Deben tener consistencia con calendario anual y propuesta de temas diseñados en H01 y H02."
+							"Para cada sesión organizada, se deben registrar tiempos de anticipación con los cuales se entregan antecedentes y tabla."
 						]
-					}
-				]
-			},
-			{
-				"id": "F02", "tipo": "Función", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Desarrollar periódicamente las sesiones del Consejo Superior.",
-				"actores": [
-					{
-						"cai": "SG-JUR", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
-					{
-						"cai": "Gabinete", "rol": "Soporte",
-						"capacidades": [ "gabinete" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Instancias de Consejo Superior ejecutadas", 
-						"formula": "Número de sesiones de Consejo Superior desarrolladas.",
-						"meta": "11"
-					}					
-				],
-				"verificadores": [
 					{
 						"nombre": "Actas de sesión",
 						"estandar": [
 							"Detalle completo de asistencia, temas tratados y decisiones tomadas.",
-							"Explicitar coherencia con calendario y temas planificados para el año.",
-							"Explicitar insumos posteriores y otros entregables definidos."
+							"Contenidos según reglamento interno del Consejo."
 						]
 					}
 				]
 			},
 			{
-				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
+				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Sistematizar resultados del Consejo Superior respecto a temáticas tratadas, acuerdos y otros resultados.",
 				"actores": [
 					{
@@ -2636,13 +2606,13 @@
 				"ios":[
 					{ 
 						"nombre": "Resultados de instancias de Consejo Superior tratados", 
-						"formula": "Número de reportes de resultados trabajados en la institución desde insumos del Consejo Superior.",
+						"formula": "Número de seguimientos de resultados trabajados en la institución desde insumos del Consejo Superior.",
 						"meta": "4"
 					}					
 				],
 				"verificadores": [
 					{
-						"nombre": "Informes de gestión sobre Consejo Superior",
+						"nombre": "Planillas de seguimiento de los acuerdos del Consejo Superior",
 						"estandar": [
 							"Generados periódicamente en base a sesiones del Consejo Superior realizadas.",
 							"Detallan y sintetizan el uso de los resultados de las sesiones del Consejo para su debida instalación y despliegue en la institución.",
@@ -2692,7 +2662,7 @@
 			{
 
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñada y aprobada una propuesta para las temáticas y elementos de discusión que se llevarán durante el año al Senado Universitario, articulado con la planificación anual de la Institución.",
+				"desc": "Entregado el apoyo técnico en la propuesta para las temáticas y elementos de discusión que se llevarán durante el año 2021 al Senado Universitario.",
 				"actores": [
 					{
 						"cai": "SG", "rol": "Aprobador",
@@ -2724,7 +2694,7 @@
 			},
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Preparar sesiones del Senado Universitario en términos de sus contenidos y logística requerida.",
+				"desc": "Asesorar en la preparación del Senado Universitario en términos de sus contenidos y logística requerida.",
 				"actores": [
 					{
 						"cai": "SG-JUR", "rol": "Responsable",
@@ -2745,8 +2715,8 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Instancias de Senado Universitario organizadas", 
-						"formula": "Número de sesiones de Senado Universitario organizadas y gestionadas.",
+						"nombre": "Instancia de reuniones con la Mesa del Senado", 
+						"formula": "Número de reuniones de la Mesa del Senado asesoradas.",
 						"meta": "20"
 					}					
 				],
@@ -2756,7 +2726,7 @@
 						"estandar": [
 							"Registro simple (planilla, documento, etc.) de sesiones organizadas.",
 							"Deben anexarse documentos usados como antecedentes para las sesiones (tabla, documentación para revisión, etc.",
-							"Para cada sesión organizada, se deben registrar tiempos de anticipación con los cuales se entregan antecedentes y tabla.",
+							"Para cada sesión asesorada, se deben registrar tiempos de anticipación con los cuales se entregan el informe de legalidad y conformidad.",
 							"Deben tener consistencia con calendario anual y propuesta de temas diseñados en H01 y H02."
 						]
 					}
@@ -2764,7 +2734,7 @@
 			},
 			{
 				"id": "F02", "tipo": "Función", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Desarrollar periódicamente las sesiones del Senado Universitario.",
+				"desc": "Participar y asesorar las sesiones del Senado Universitario desarrolladas.",
 				"actores": [
 					{
 						"cai": "SG-JUR", "rol": "Responsable",
@@ -2785,8 +2755,8 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Instancias de Senado Universitario ejecutadas", 
-						"formula": "Número de sesiones del Senado Universitario desarrolladas.",
+						"nombre": "Sesiones del Senado realizadas", 
+						"formula": "Número de sesiones del Senado asesoradas.",
 						"meta": "20"
 					}					
 				],
@@ -2794,9 +2764,7 @@
 					{
 						"nombre": "Actas de sesión",
 						"estandar": [
-							"Detalle completo de asistencia, temas tratados y decisiones tomadas.",
-							"Explicitar coherencia con calendario y temas planificados para el año.",
-							"Explicitar insumos posteriores y otros entregables definidos."
+							"Detalle completo de asistencia, temas tratados y decisiones tomadas."
 						]
 					}
 				]
@@ -2826,12 +2794,12 @@
 					{ 
 						"nombre": "Resultados de instancias de Senado Universitario tratados", 
 						"formula": "Número de reportes de resultados trabajados en la institución desde insumos del Senado Universitario.",
-						"meta": "4"
+						"meta": "2"
 					}					
 				],
 				"verificadores": [
 					{
-						"nombre": "Informes de gestión sobre Senado Universitario",
+						"nombre": "Reportes de gestión generados semestralmente",
 						"estandar": [
 							"Generados periódicamente en base a sesiones del Senado Universitario realizadas.",
 							"Detallan y sintetizan el uso de los resultados de las sesiones del Senado para su debida instalación y despliegue en la institución.",
@@ -3185,13 +3153,13 @@
 	{
 		"id": "06", "area": "SG",
 		"titulo": "Mejoramiento de la gestión de convenios institucionales.",
-		"objetivo": "Implementar mecanismos de gestión para mejorar la recepción, tramitación, registro y organización general de convenios que sostiene la Institución con actores externos del medio.",
+		"objetivo": "Implementar mecanismos de gestión para mejorar la recepción, registro y tramitación de convenios que sostiene la Institución con actores externos del medio.",
 		"responsable": "SG-OPGDT",
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Actualizado el catastro e información existente respecto a convenios institucionales, estableciendo un diagnóstico respecto a su estado de desarrollo y ejecución.",
+				"desc": "Actualizado el catastro e información respecto de convenios institucionales que se encuentren en tramitación en Secretaría General.",
 				"actores": [
 					{
 						"cai": "SG-OPGDT", "rol": "Responsable",
@@ -3220,7 +3188,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Informe de diagnóstico sobre sistematización de convenios",
+						"nombre": "Informe de sistematización de los convenios que se encuentran aprobados por medio de acto administrativo",
 						"plazo": "jun",
 						"estandar": [
 							"Informe simple que compila antecedentes cuantitativos y cualitativos respecto a la gestión de convenios institucionales.",
@@ -3233,7 +3201,7 @@
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñados y validados mecanismos de registro de información sobre convenios para su evaluación y gestión.",
+				"desc": "Diseñado y validados mecanismos procedimentales de formalización de los convenios institucionales.",
 				"actores": [
 					{
 						"cai": "SG-OPGDT", "rol": "Responsable",
@@ -3291,60 +3259,8 @@
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñados y validados mecanismos procedimentales para la gestión y seguimiento de convenios, articulada con los mecanismos de coordinación institucional.",
-				"actores": [
-					{
-						"cai": "SG", "rol": "Aprobador",
-						"capacidades": [ "secretaria-general" ]
-					},
-					{
-						"cai": "SG-OPGDT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "Gabinete", "rol": "Soporte",
-						"capacidades": [ "gabinete" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Índice de mecanismos para operacionalizar el seguimiento sistemático de convenios",
-						"plazo": "may",
-						"estandar": [
-							"Listado simple de mecanismos relevantes.",
-							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
-							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad.",
-							"Deben tener coherencia con los estándares de planificación institucional."
-						]
-					},
-					{
-						"nombre": "Mecanismos diseñados",
-						"plazo": "ago",
-						"estandar": [
-							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
-							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Piloteados y evaluados los mecanismos para la gestión de convenios.",
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteados y evaluados los mecanismos para la formalización de convenios.",
 				"actores": [
 					{
 						"cai": "SG-OPGDT", "rol": "Responsable",
