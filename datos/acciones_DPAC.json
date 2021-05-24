@@ -1432,7 +1432,7 @@
 				"verificadores": [
 					{
 						"nombre": "Informe de avance de Plan de Mejora 2019.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Debe responder integralmente a compromisos de Informe de Autoevaluación 2019.",
 							"Debe entregar indicadores generales de avance, con la metodología de cálculo empleada.",
@@ -3450,7 +3450,7 @@
 				"verificadores": [
 					{
 						"nombre": "Diagnóstico sobre continuidad del proceso ev. intermedia.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Debe indicar los elementos comprometidos en proceso 2019 que no lograron implementarse según lo esperado.",
 							"Acompañado de documento con actualización del estado de avance del Plan de Mejora Institucional 2019 (Considerar DPAC-07-H02).",
@@ -3522,7 +3522,7 @@
 				"verificadores": [
 					{
 						"nombre": "Informes específicos de implementación y articulación.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Al menos un informe por cada dirección o área estratégica, que responda a sus particularidades y estados de avance en la materia.",
 							"Debe indicar aquellos hitos o eventos relevantes del proceso para cada dirección.",
@@ -3531,7 +3531,7 @@
 					},
 					{
 						"nombre": "Material de difusión.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Comprende registro audiovisual de instancias de implementación y articulación."
 						]
