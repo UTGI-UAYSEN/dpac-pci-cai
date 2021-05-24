@@ -577,13 +577,13 @@
 				"desc": "Ejecutar la difusión comunicacional de la oferta 2022 de pregrado a nivel regional y nacional.",
 				"actores": [
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
 					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},					
 					{
 						"cai": "DAF-ADQ", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
@@ -793,15 +793,15 @@
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Desarrollada la difusión vinculada a la matrícula 2021.",
-				"actores": [					
+				"actores": [
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
+						"cai": "DAC-EPRE", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
-					},
+					},					
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
+					},					
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
@@ -4580,16 +4580,16 @@
 				"desc": "Diseñar mecanismos de comunicación interna que favorezcan la difusión de los instrumentos y directrices esenciales para el desarrollo de la docencia en la institución.",
 				"actores": [
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "coordinacion-acompanamiento-academico" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
 					{
 						"cai": "DAC-SA", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},	
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "coordinacion-acompanamiento-academico" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",

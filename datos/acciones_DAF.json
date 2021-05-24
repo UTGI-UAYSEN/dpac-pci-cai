@@ -5304,13 +5304,14 @@
 				"desc": "Desarrollada la difusión de los mecanismos elaborados.",
 				"actores": [
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+						"cai": "DAF-INSG", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "riesgos" ]
 					},
 					{
-						"cai": "DAF-INSG", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "riesgos" ]
-					},					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},										
+					{
 						"cai": "DAF-DP", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},

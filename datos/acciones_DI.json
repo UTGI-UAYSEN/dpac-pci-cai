@@ -2291,14 +2291,14 @@
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñados y validados mecanismos comunicaciones para dar soporte a la difusión y divulgación de la ciencia en el contexto regional, nacional e internacional.",
-				"actores": [
-					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "posicionamiento" ]
-					},
+				"actores": [					
 					{
 						"cai": "DI-DDC", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
 					},
 					{
 						"cai": "DI-DINV", "rol": "Consultado",

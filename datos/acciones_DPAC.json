@@ -392,7 +392,11 @@
 					{
 						"cai": "DPAC-PCI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},					
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "juridica" ]
+					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
@@ -429,7 +433,7 @@
 				"verificadores": [
 					{
 						"nombre": "Estructura de operacionalización de encuesta.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"En función a los estándares de trabajo del equipo de Análisis Institucional.",
 							"Versión validada por Director DPAC."
@@ -529,7 +533,11 @@
 					{
 						"cai": "DPAC-PCI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},	
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna" ]
+					},
 					{
 						"cai": "multiple", "rol": "Informado", "participacion": "Puntual",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
@@ -538,7 +546,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto aprobador de Proceso de Planificación Institucional 2022",
-						"plazo": "abr",
+						"plazo": "jun",
 						"estandar": [
 							"Especifica calendario de hitos clave.",
 							"Especifica responsabilidades de proceso.",
@@ -645,7 +653,7 @@
 				"verificadores": [
 					{
 						"nombre": "Reporte de acciones vinculadas a trabajo con tutoría",
-						"plazo": "mar",
+						"plazo": "abr",
 						"estandar": [
 							"Sigue misma estructura de reporte estándar descrito en F01, incluyendo información de acciones que están asociadas a directrices de Tutoría UCH."
 						]
@@ -892,7 +900,11 @@
 					{
 						"cai": "DPAC-PCI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "coordinacion" ]
-					},					
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "juridica" ]
+					},
 					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-tacticos", "todos-estrategicos" ]
@@ -1365,7 +1377,7 @@
 					},
 					{
 						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
@@ -1478,7 +1490,7 @@
 					},
 					{
 						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -1543,14 +1555,14 @@
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñada y validada la estrategia comunicacional para complementar el desarrollo del proceso de levantamiento de antecedentes y articulación de equipos.",
-				"actores": [
+				"actores": [					
 					{
-						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "interno", "diseno" ]
+						"cai": "DPAC-GC", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -2723,7 +2735,7 @@
 				"verificadores": [
 					{
 						"nombre": "Lenguaje estratégico actualizado.",
-						"plazo": "abr",
+						"plazo": "may",
 						"estandar": [
 							"Debe responder a proceso piloto 2020 de planificación institucional.",
 							"Debe incorporar nuevos grupos de información considerados, o la actualización de aquellos que corresponda.",
@@ -2732,14 +2744,14 @@
 					},
 					{
 						"nombre": "Decreto que formaliza Lenguaje estratégico.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Actualizado y alineado con versión final del Lenguaje."
 						]
 					},
 					{
 						"nombre": "Procedimientos para diseño de acciones actualizados.",
-						"plazo": "jun",
+						"plazo": "jul",
 						"estandar": [
 							"Debe responder a la actualización del ciclo de vida de las acciones plasmado en versión final de Lenguaje Estratégico.",
 							"Debe considerar nuevas capacidades instaladas y proyectadas para DPAC-PCI"
@@ -2763,7 +2775,7 @@
 				"verificadores": [
 					{
 						"nombre": "Propuesta de diseño y ajustes a mecanismos de control de gestión institucionales.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Debe responder a las observaciones y/o estrategias identificadas e incorporadas como capacidades tras las actividades de capacitación realizadas en H01.",
 							"Debe abordar que instrumentos deben ser ajustados y que nuevos artefactos se propone crear.",
