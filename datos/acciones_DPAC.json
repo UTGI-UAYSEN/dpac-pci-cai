@@ -969,7 +969,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"estandar": [
 							"Validadores de la entrega realizada, en donde se incluya la descripción del alcance del requerimiento resuelto.",
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos que Análisis Institucional establezca."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos que Análisis Institucional establezca.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1000,7 +1003,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"plazo": "abr",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1031,7 +1037,10 @@
 						"nombre": "Respaldos de entrega de datos e información interno.",
 						"plazo": "may",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1054,7 +1063,10 @@
 						"nombre": "Respaldos de entrega de datos e información a institución externa.",
 						"plazo": "jun",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1077,7 +1089,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"plazo": "oct",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1100,7 +1115,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"plazo": "dic",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1135,7 +1153,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"plazo": "ago",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1166,7 +1187,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"plazo": "oct",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1185,7 +1209,7 @@
 					},
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
+						"capacidades": [ "coordinacion-general", "coordinacion-admision-matricula", "admision-matricula" ]
 					}
 				],
 				"verificadores": [
@@ -1193,7 +1217,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"plazo": "nov",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -1224,7 +1251,10 @@
 						"nombre": "Respaldos de entrega de datos e información.",
 						"plazo": "dic",
 						"estandar": [
-							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados."
+							"Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
 						]
 					}
 				]
@@ -2226,7 +2256,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Estándares de diseño y mantención del modelo de datos institucional.",
+						"nombre": "Estándares de diseño y mantención del modelo de datos institucional",
 						"plazo": "abr",
 						"estandar": [
 							"Considera la definición de estándar de modelado que permita su extensión y mantención en el tiempo.",
@@ -2239,11 +2269,22 @@
 						]
 					},
 					{
-						"nombre": "Modelo de datos actualizado.",
+						"nombre": "Modelo de datos actualizado",
 						"plazo": "jun",
 						"estandar": [
 							"Debe estar sistematizado en función a los estándares definidos.",
 							"Debe ser acompañado de documentación que especifique los alcances de los datos que considera actualmente el modelo."
+						]
+					},
+					{
+						"nombre": "Repositorio de datos institucional",
+						"plazo": "jun",
+						"estandar": [
+							"Debe lograr conectarse a las distintas fuentes de datos de sistemas transaccionales o software propietarios de la institución mediante APIs, Driver JDBC/ODBC, u otra estrategia de lectura y recolección de datos.",
+							"Debe poder indexar, catalogar y categorizar documentos que posean datos estructurados (CSV, XLSX, PDF).",
+							"Debe considerar una estrategia periódica de actualización automatizada de las distintas fuentes de datos.",
+							"Se debe establecer un catálogo de datos y metadatos.",
+							"Se deben establecer estándares para la generación de diccionarios de datos."
 						]
 					}
 				]
@@ -3010,7 +3051,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto reglamento de funcionamiento CEC.",
-						"plazo": "sep",
+						"plazo": "ago",
 						"estandar": [
 							"Establece roles específicos dentro del órgano.",
 							"Establece mecanismos para la toma de decisión.",
@@ -3020,7 +3061,7 @@
 					},
 					{
 						"nombre": "Programa de sesiones iniciales",
-						"plazo": "sep",
+						"plazo": "ago",
 						"estandar": [
 							"Establece calendario de sesiones para el resto del periodo.",
 							"Define los temas a abordar en las sesiones.",
@@ -3829,7 +3870,7 @@
 						]
 					},
 					{
-						"nombre": "Metodología para la actualización periódica de estructura salarial",
+						"nombre": "Metodología para la actualización periódica de estructura organizacional",
 						"plazo": "may",
 						"estandar": [
 							"Debe considerar procedimientos generales para el análisis y diseño de ajustes.",
@@ -4552,6 +4593,147 @@
 							"Debe explicitar como la sustentabilidad puede trabajar de forma articulada con el género.",
 							"Debe indicar la utilización de estrategias aplicadas en materia de género para los principios de sustentabilidad.",
 							"Debe entregar una propuesta de cómo avanzar en la orgánica de la sustentabilidad a largo plazo, y en coherencia a los compromisos definidos con al Red de Campus Sustentable."
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "26", "area": "DAC",
+		"titulo": "Estudio de futura oferta de pregrado para la institución",
+		"objetivo": "Realizar las gestiones necesarias estudiar alternativas y evaluar nuevos programas de pregrado para su implementación en los próximos periodos.",
+		"responsable": "DPAC",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Diseñada una metodología institucional para levantar antecedentes que permitan decidir sobre el diseño e implementación de nueva oferta de pregrado.",
+				"actores": [
+					{
+						"cai": "DPAC", "rol": "Responsable",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta metodológica",
+						"plazo": "sep",
+						"estandar": [
+							"Debe especificar principales actividades, etapas y productos asociados al proceso.",
+							"Debe detallar sobre los criterios que aplicarán en las definiciones clave, clasificándolos en términos académicos, financieros, contexto regional, oportunidad regional y nacional, capacidades instaladas y otros que sean pertinentes.",
+							"Debe indicar información y fuentes necesarias para realizar los análisis respectivos.",
+							"Debe establecer modelo de gestión tanto con actores internos de la Universidad como con actores externos para la definición de las directrices que permitirán establecer la oferta propuesta.",
+							"Debe proponer cronograma de realización en el contexto del periodo en curso.",
+							"Retroalimentado por actores estratégicos y académicos relevantes."
+						]
+					}
+				]
+			},
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñado y aplicado un estudio de demanda e intereses sobre nueva oferta de pregrado para el contexto regional y nacional.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Términos de referencia sobre estudio.",
+						"plazo": "oct",
+						"estandar": [
+							"Debe considerar necesidades institucionales en la materia y diagnósticos requeridos.",
+							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Debe establecer productos esperados, plazos y condiciones generales."
+						]
+					},
+					{
+						"nombre": "Estudio desarrollado y plan de uso.",
+						"plazo": "dic",
+						"estandar": [
+							"Debe ser coherente con TdRs establecidos.",
+							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional.",
+							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
+						]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Levantados y sistematizados antecedentes que permitan tomar decisiones sobre nueva oferta de pregrado a diseñar.",
+				"actores": [
+					{
+						"cai": "DAC-EPRE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de priorización para diseño de nuevos programas de pregrado.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe ser coherente con estudio de demanda levantado en H05, obedeciendo a un análisis cuantitativo y cualitativo de información relevante.",
+							"Debe obedecer a una discusión académica y con mirada externa respecto a oportunidades en el medio regional y nacional, articulación con otras IES, además de la coherencia con la oferta de pregrado existente y la investigación realizada en la Institución por los departamentos académicos.",
+							"Debe estar sustentada en perspectivas de sostenibilidad, coherencia con estándares de aseguramiento de calidad y coherencia con capacidades institucionales que puedan ser abordadas en el mediano y largo plazo, especialmente del cuerpo académico.",
+							"Debe establecer orientaciones respecto a las proyecciones temporales de implementación de las alternativas analizadas, estableciendo una hoja de ruta que permita operacionalizar la priorización, y que sea coherente con la planificación estratégica de la Institución."
 						]
 					}
 				]

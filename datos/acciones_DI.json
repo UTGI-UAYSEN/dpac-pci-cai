@@ -1730,6 +1730,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "infraestructura" ]
+					},
+					{
 						"cai": "multiple", "rol": "Consultado",
 						"capacidades": [ "todos-gestion-academica" ]
 					}
@@ -1767,6 +1771,10 @@
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},					
+					{
+						"cai": "DAF-INSG", "rol": "Soporte",
+						"capacidades": [ "riesgos" ]
 					},
 					{
 						"cai": "DAF-INSG", "rol": "Consultado",
@@ -3428,12 +3436,20 @@
 						"capacidades": [ "coordinacion-general", "riesgos" ]
 					},
 					{
+						"cai": "DI-ADQ", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "compras" ]
+					},
+					{
+						"cai": "DI-INSG", "rol": "Soporte",
+						"capacidades": [ "operacion-misc" ]
+					},
+					{
 						"cai": "DI-DINV", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "DAF-INSG", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
+						"capacidades": [ "infraestructura" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",

@@ -87,6 +87,23 @@
 						]
 					},
 					{
+						"nombre": "Encuesta habilitada en plataforma digital.",
+						"plazo": "may",
+						"estandar": [
+							"El instrumento debe visualizarse en distintos tipos de dispositivos.",
+							"Las respuestas deben guardarse automáticamente en un repositorio de datos definidos para el instrumento.",
+							"Debe incorporar validadores de primer y segundo nivel."
+						]
+					},
+					{
+						"nombre": "Datos resultados de la encuesta.",
+						"plazo": "may",
+						"estandar": [
+							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+							" Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
+						]
+					},
+					{
 						"nombre": "Datos de análisis",
 						"plazo": "may",
 						"estandar": [
@@ -246,7 +263,7 @@
 			},
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Elaborado, aplicado y analizado el informe de asignaturas críticas - segundo semestre.",
+				"desc": "Planificado el desarrollo de un informe de asignaturas críticas - segundo semestre.",
 				"actores": [
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
@@ -275,14 +292,12 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Informe de resultados de análisis.",
+						"nombre": "Plan de análisis de información sobre asignaturas críticas - segundo semestre.",
 						"plazo": "ene",
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
-							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
-							"Constancia de entrega a Director DAC.",
-							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al informe.",
-							"Considera respaldo de información generada en el repositorio de datos institucional."
+							"Debe dar cuenta de la estructura definida par ala presentación de la información.",
+							"Debe establecer el tipo de consultas y los aspectos técnicos del manejo de los datos que se realizará para trabajar los resultados."
 						]
 					}
 				]
@@ -492,7 +507,7 @@
 					},
 					{
 						"nombre": "Datos de análisis",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"En formato estándar que permita su revisión (excel, csv, etc.).",
 							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
@@ -502,7 +517,7 @@
 					},
 					{
 						"nombre": "Informe de resultados de encuesta.",
-						"plazo": "jun",
+						"plazo": "jul",
 						"estandar": [
 							"Generada en función a estándares del equipo de Análisis Institucional.",
 							"Debe incorporar breve estrategia de replicación para siguiente periodo.",
@@ -1198,27 +1213,17 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Especificación de requerimientos de sistema.",
+						"nombre": "Artefactos de desarrollo.",
 						"plazo": "may",
 						"estandar": [
-							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los módulos respectivos.",
-							"Debe tener coherencia con los procesos asociados.",
-							"Se debe especificar alcance de los módulos iniciales y posibles próximas etapas."
-						]
-					},
-					{
-						"nombre": "Datos de análisis.",
-						"plazo": "may",
-						"estandar": [
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
+							"Incorpora entre otras cosas: historias de usuarios, diseño del modelo de datos, diseño UI, pruebas de calidad del software, plan/checklist de despliegue producción, acta de capacitación usuario final o mandante y documentación técnica del módulo."
 						]
 					}
 				]
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Generado el diseño de los módulos iniciales",
+				"desc": "Implementado mantenedores SGA para gestión de usuarios y estudiantes",
 				"actores": [					
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
@@ -1245,34 +1250,28 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
 						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Artefactos de diseño de sistema.",
-						"plazo": "may",
+						"nombre": "Artefactos de desarrollo.",
+						"plazo": "jun",
 						"estandar": [
-							"Documentación técnica de elementos de diseño de los módulos acorde a estándares TGI.",
-							"Debe considerar al menos artefactos asociados a las bases de datos, interfaces de usuario y arquitectura del sistema, incorporando documentación sobre las tecnologías involucradas.",
-							"Debe ser coherente con especificación de requerimientos de sistema."
+							"Incorpora entre otras cosas: historias de usuarios, diseño del modelo de datos, diseño UI, pruebas de calidad del software, documentación técnica del módulo, evidencia Migración de datos SAI a SGA."
 						]
 					}
 				]
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Implementados los avances de los módulos iniciales",
+				"desc": "Implementado módulo SGA para gestión de actas.",
 				"actores": [					
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
+					},					
 					{
 						"cai": "DAC-TGI", "rol": "Soporte",
 						"capacidades": [ "plataforma" ]
@@ -1280,10 +1279,6 @@
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
@@ -1305,31 +1300,28 @@
 				"verificadores": [
 					{
 						"nombre": "Artefactos de desarrollo de sistema.",
-						"plazo": "ago",
+						"plazo": "jul",
 						"estandar": [
-							"Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
-							"Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
-							"Desarrollo debe ser coherente con estándares TGI definidos.",
-							"Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+							"Incorpora entre otras cosas: historias de usuarios, diseño del modelo de datos, diseño UI, pruebas de calidad del software, documentación técnica del módulo, evidencia Migración de datos SAI a SGA."
 						]
 					}
 				]
 			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Hecho el control de calidad de los módulos iniciales",
+				"desc": "Implementado mantenedores SGA para gestión curricular.",
 				"actores": [					
 					{
 						"cai": "DPAC-TGI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},					
+					{
+						"cai": "DAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
@@ -1342,57 +1334,41 @@
 					{
 						"cai": "DAC-DE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Reportes de testing de sistema.",
-						"plazo": "oct",
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "jul",
 						"estandar": [
-							"Documentación que de cuenta de la ejecución de pruebas (ya sea automatizadas o no) sobre las versiones estables de los desarrollos realizados a la fecha.",
-							"Debe considerar estándares TGI para testing.",
-							"Debe dar cuenta de problemas detectados, correcciones y posteriores revisiones.",
-							"Debe indicar metodología y tecnologías de soporte utilizadas.",
-							"Debe proveer el detalle de los set de pruebas utilizados para futura replicabilidad."
+							"Incorpora entre otras cosas: historias de usuarios, diseño del modelo de datos, diseño UI, pruebas de calidad del software, documentación técnica del módulo, evidencia Migración de datos SAI a SGA."
 						]
 					}
 				]
 			},
 			{
 				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Desplegados y socializados los módulos desarrollados",
+				"desc": "Implementado módulo SGA para gestión de certificados de alumno regular.",
 				"actores": [
 					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DAC-SA", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
 					},					
 					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
+						"cai": "DAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "procesos" ]
 					},
 					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},			
 					{
 						"cai": "DAC-DE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
 					},
 					{
 						"cai": "multiple", "rol": "Informado",
@@ -1401,31 +1377,53 @@
 				],				
 				"verificadores": [
 					{
-						"nombre": "Actas de capacitación.",
-						"plazo": "ene",
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "nov",
 						"estandar": [
-							"Al menos un acta por cada grupo de usuarios clave.",
-							"Acompañada por validador de aceptación.",
-							"Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
-						]
-					},
-					{
-						"nombre": "Manual de usuario de módulos.",
-						"plazo": "ene",
-						"estandar": [
-							"Debe considerar las principales funcionalidades asociadas al sistema.",
-							"En formato de transmisión estándar (docx, pdf)."
-						]
-					},
-					{
-						"nombre": "Certificado de entrega de módulos.",
-						"plazo": "ene",
-						"estandar": [
-							"Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."
+							"Incorpora entre otras cosas: historias de usuarios, diseño del modelo de datos, diseño UI, pruebas de calidad del software, documentación técnica del módulo, evidencia Migración de datos SAI a SGA."
 						]
 					}
 				]
 			},
+			{
+				"id": "H05b", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Implementado y desplegado módulo SGA para matrícula online pregrado 2022.",
+				"actores": [
+					{
+						"cai": "DPAC-TGI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "desarrollo" ]
+					},					
+					{
+						"cai": "DAC-TGI", "rol": "Soporte",
+						"capacidades": [ "plataforma" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "procesos" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},				
+					{
+						"cai": "DAC-DE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],				
+				"verificadores": [
+					{
+						"nombre": "Artefactos de desarrollo de sistema.",
+						"plazo": "dic",
+						"estandar": [
+							"Incorpora entre otras cosas: historias de usuarios, diseño del modelo de datos, diseño UI, pruebas de calidad del software, documentación técnica del módulo, evidencia Migración de datos SAI a SGA."
+						]
+					}
+				]
+			},			
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Evaluado un sistema LMS para desarrollo de actividades curriculares",
@@ -3133,7 +3131,7 @@
 			},
 			{
 				"id": "F04", "tipo": "Función", "prioridad": "Alta",
-				"desc": "Sistematizar y monitorear información de situación emocional, familiar y/o económica de los estudiantes.",
+				"desc": "Sistematizar y monitorear información de situación socioeconómica de los estudiantes.",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -3142,6 +3140,14 @@
 					{
 						"cai": "DAC-EPRE", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-TGI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -3196,33 +3202,40 @@
 					{
 						"nombre": "Seguimiento presencial de estudiantes.", 
 						"formula": "Número de sesiones presenciales de seguimiento socioeconómico con estudiantes.",
-						"meta": "1000"
+						"meta": "440"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de seguimiento con estudiantes",
+						"nombre": "Resultados de aplicación de encuesta de evaluación dinámica de estudiantes",
 						"estandar": [
-							"Un acta por sesión de evaluación realizada con estudiante que requiere intervención.",
-							"Considerar al menos tres sesiones semestrales por estudiante que requiere intervención.",
-							"Acta debe indicar aspectos evaluados, situación cualitativa del/la estudiante y diagnóstico preliminar de situación socioeconómica.",
-							"Deben indicar medidas paliativas y aspectos a evaluar en próximas sesiones con estudiante (si aplica).",
-							"Debe indicar cuando corresponde si aplican medidas de derivación externa.",
-							"Debe acompañarse de antecedentes académicos (ej.: notas, rendimiento, etc.) de estudiante, si aplica."
+							"Informes consolidados para evaluar volumen de atenciones semestrales requeridas.",
+							"Considerar dos informes, uno por semestre.",
+							"Cada informe debe dar cuenta de método de encuesta aplicada, esto es, evaluación, considerando evaluación estado de ánimo, escala de ansiedad, depresión y control de impulsos.", 
+							"Cada informe entregará será la sistematización de los resultados obtenidos de forma general, indicando el número de estudiantes que requieren acompañamiento psicológico.",
+							"Se espera tener una tasa de respuesta de 50% de los/as estudiantes de la Universidad."
 						]
-					},
+					},				
 					{
 						"nombre": "Bitácoras de seguimiento con estudiantes",
 						"estandar": [
 							"Registro simple para contabilizar sesiones presenciales con estudiantes.",
-							"Cada elemento del registro debe dar cuenta de una sesión registrada y hacer referencia a su acta."
+							"Cada elemento del registro debe dar cuenta de una sesión registrada, información del estudiante, fecha y hora de atención, junto a temáticas abordadas."
 						]
 					},
 					{
-						"nombre": "Encuestas de satisfacción de atención socioeconómica",
+						"nombre": "Actas de recepción de atención con estudiantes intervenidos",
 						"estandar": [
-							"Considerar al menos una encuesta por estudiante con el/la cual se ha realizado una sesión.",
-							"Estructura de encuestas debe ser retroalimentada y establecida en conjunto a DPAC-GC.",
+							"Debe dar cuenta de la aceptación por parte del estudiante del diagnóstico y compromiso al seguimiento realizado.",
+							"Contiene información acotada para efectos de privacidad.",
+							"Un acta por estudiante atendido."
+						]
+					},
+					{
+						"nombre": "Encuestas de satisfacción de atención de apoyo psicológico",
+						"estandar": [
+							"Considerar al menos una encuesta por estudiante con el/la cual se ha terminado un pland e intervención.",
+							"Estructura de diseño debe ser retroalimentada y establecida en conjunto a DPAC-GC.",
 							"Estructura de encuesta debe dar cuenta entre otras cosas de elementos de calidad de atención recibida por estudiantes y percepción de impacto sobre situación psicológica.",
 							"Formato que pueda ser sujeto a análisis de datos (ej.: planilla)."
 						]
@@ -3876,12 +3889,44 @@
 						]
 					}
 				]
+			},
+			{
+				"id": "F03", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
+				"desc": "Gestionar aspectos administrativos del funcionamiento del CAE.",
+				"actores": [
+					{
+						"cai": "DAC-DE", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAF-FIN", "rol": "Consultado",
+						"capacidades": [ "contabilidad", "finanzas", "tesoreria" ]
+					}
+				],
+				"ios":[
+					{
+						"nombre": "Control administrativo del CAE", 
+						"formula": "Número de procesos de control administrativo del CAE emitidos desde la Institución.",
+						"meta": "2"
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informes de administración del CAE",
+						"estandar": [
+							"Documentación simple que resume aspectos de gestión administrativa sobre el CAE que es realizada por la Institución.",
+							"Debe incorporar información cuantitativa y cualitativa respecto a registros contables y/o financieros asociados al CAE, gestiones realizadas con el crédito respectivo, transacciones pertinentes, alcance de las gestiones, universo de estudiantes y sus características para los cuales el CAE es administrado.",
+							"Considerar la emisión de reportes semestrales.",
+							"Los reportes deben entregar un análisis respecto a problemáticas, brechas u otros elementos que requieran revisión respecto a la gestión periódica de CAE, para la realización de las gestiones que sean pertinentes."
+						]
+					}
+				]
 			}
 		]
 	},
 	{
 		"id": "15", "area": "DAC",
-		"titulo": "Gestión y promoción de actividades extracurriculares para los estudiantes",
+		"titulo": "Gestión y promoción de actividades extracurriculares y salud mental para los estudiantes",
 		"objetivo": "Desarrollar actividades que complementen la actividad curricular de los estudiantes, apuntando a su desarrollo integral.",
 		"responsable": "DAC-DE",
 		"tipo": "Misional",
@@ -3954,7 +3999,7 @@
 			},
 			{
 				"id": "F02", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Propiciar y promover estilos de vida saludable, el autocuidado y el uso del tiempo libre en la comunidad universitaria.",
+				"desc": "Propiciar y promover estilos de vida saludable, el autocuidado, salud mental, y el uso del tiempo libre en la comunidad universitaria.",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -3991,6 +4036,23 @@
 						"estandar": [
 							"PPT, documentos u otros asociados a los objetos de la difusión.",
 							"Pueden ser publicaciones en página web, en Ucampus, flyer para redes sociales, envío de correo electrónico, etc."
+						]
+					},
+					{
+						"nombre": "Actas de adjudicación sobre licitaciones de servicios externos contratados en la materia",
+						"estandar": [
+							"Cada servicio debe considerar temnática específica asociada a autocuidado y/o salud mental.",
+							"Se consideran temas como alimentación, deporte, parentalidad y atención psicológica / psiquátrica para efectos de derivación interna."
+						]
+					},
+					{
+						"nombre": "Informes de desarrollo, resultados e impactos de actividades",
+						"estandar": [
+							"Se informa volumen de beneficiarios y su información agregrada / desagregada.",
+							"Detallan objetivos abordados y alcances de las actividades.",
+							"Incorpora medidas de impacto a nivel de satisfacción e impactos en sus efectos.",
+							"Incluye diagnóstico interno de Unidad respecto a resultados obtenidos, acompañado de estrategias de mejora para próximos periodos.",
+							"Considerar un informe por cada actividad licitada."
 						]
 					}
 				]
@@ -4784,7 +4846,11 @@
 					},
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-acompanamiento-academico", "acompanamiento-academico" ]
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-TE", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
@@ -8260,52 +8326,7 @@
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñada una metodología institucional para levantar antecedentes que permitan decidir sobre el diseño e implementación de nueva oferta de pregrado.",
-				"actores": [
-					{
-						"cai": "DAC", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Propuesta metodológica",
-						"plazo": "mar",
-						"estandar": [
-							"Debe especificar principales actividades, etapas y productos asociados al proceso.",
-							"Debe detallar sobre los criterios que aplicarán en las definiciones clave, clasificándolos en términos académicos, financieros, contexto regional, oportunidad regional y nacional, capacidades instaladas y otros que sean pertinentes.",
-							"Debe indicar información y fuentes necesarias para realizar los análisis respectivos.",
-							"Debe establecer modelo de gestión tanto con actores internos de la Universidad como con actores externos para la definición de las directrices que permitirán establecer la oferta propuesta.",
-							"Debe proponer cronograma de realización en el contexto del periodo en curso.",
-							"Retroalimentado por actores estratégicos y académicos relevantes.",
-							"Formato de documento según estándares DAC."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Actualizado el diseño de la oferta de pregrado elaborado en los periodos anteriores, acorde a la situación actual del medio y de la Institución.",
 				"actores": [
 					{
@@ -8337,7 +8358,7 @@
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Aplicada una valorización y costeo preliminar de la oferta de pregrado diseñada en los periodos anteriores por medio de mecanismos institucionales.",
 				"actores": [					
 					{
@@ -8366,7 +8387,7 @@
 				]
 			},			
 			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
+				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
 				"desc": "Tomada la decisión sobre la implementación de la oferta de pregrado diseñada en los periodos anteriores.",
 				"actores": [
 					{
@@ -8396,136 +8417,6 @@
 						"plazo": "jun",
 						"estandar": [
 							"Debe dar cuenta de decisiones tomadas respecto a nueva oferta que se proveerá en próximo periodo.",
-							"Debe incorporar aspectos tratados, insumos de definición, asistentes a la definición y decisiones finales.",
-							"Participantes deben incorporar actores estratégicos y académicos relevantes.",
-							"Acompañar de documentación e insumos entregados en las definiciones."
-						]
-					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y aplicado un estudio de demanda e intereses sobre nueva oferta de pregrado para el contexto regional y nacional.",
-				"actores": [
-					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Términos de referencia sobre estudio.",
-						"plazo": "jul",
-						"estandar": [
-							"Debe considerar necesidades institucionales en la materia y diagnósticos requeridos.",
-							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Debe establecer productos esperados, plazos y condiciones generales."
-						]
-					},
-					{
-						"nombre": "Estudio desarrollado y plan de uso.",
-						"plazo": "sep",
-						"estandar": [
-							"Debe ser coherente con TdRs establecidos.",
-							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional.",
-							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
-						]
-					}
-				]
-			},
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Levantados y sistematizados antecedentes que permitan tomar decisiones sobre nueva oferta de pregrado a diseñar.",
-				"actores": [
-					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de priorización para diseño de nuevos programas de pregrado.",
-						"plazo": "nov",
-						"estandar": [
-							"Debe ser coherente con estudio de demanda levantado en H05, obedeciendo a un análisis cuantitativo y cualitativo de información relevante.",
-							"Debe obedecer a una discusión académica y con mirada externa respecto a oportunidades en el medio regional y nacional, articulación con otras IES, además de la coherencia con la oferta de pregrado existente y la investigación realizada en la Institución por los departamentos académicos.",
-							"Debe estar sustentada en perspectivas de sostenibilidad, coherencia con estándares de aseguramiento de calidad y coherencia con capacidades institucionales que puedan ser abordadas en el mediano y largo plazo, especialmente del cuerpo académico.",
-							"Debe establecer orientaciones respecto a las proyecciones temporales de implementación de las alternativas analizadas, estableciendo una hoja de ruta que permita operacionalizar la priorización, y que sea coherente con la planificación estratégica de la Institución."
-						]
-					}
-				]
-			},
-			{
-				"id": "H07", "tipo": "Hito", "cobertura": "Mínima",
-				"desc": "Tomada la decisión sobre el diseño de nueva oferta de pregrado para periodos sucesivos.",
-				"actores": [
-					{
-						"cai": "Rectoria", "rol": "Aprobador",
-						"capacidades": [ "rectoria" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},	
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Acta de definición",
-						"plazo": "ene",
-						"estandar": [
-							"Debe dar cuenta de decisiones tomadas respecto a nueva oferta que se diseñará en próximo periodo.",
 							"Debe incorporar aspectos tratados, insumos de definición, asistentes a la definición y decisiones finales.",
 							"Participantes deben incorporar actores estratégicos y académicos relevantes.",
 							"Acompañar de documentación e insumos entregados en las definiciones."
@@ -8947,12 +8838,12 @@
 		"id": "43", "area": "DAC",
 		"titulo": "Operacionalización del Espacio de Cuidados",
 		"objetivo": "Realizar las acciones administrativas y de gestión para operacionalizar el Espacio, permitiendo con ello generar instancias de apoyo para estudiantes que convivan con niñ@s que cursen primero y/o segundo ciclo básico, y que requieran delegar el cuidado de estos con el fin de poder dedicar ese tiempo a las actividades académicas.",
-		"responsable": "DAC-EPRE",
+		"responsable": "DAC-DE",
 		"tipo": "Misional",
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantadas necesidades de uso del Espacio de Cuidados por parte de los/las estudiantes para el 1er semestre",
+				"desc": "Levantadas las necesidades de uso del Espacio de Cuidados por parte de los/las estudiantes para el 1er semestre",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -8973,7 +8864,7 @@
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantadas necesidades de uso del Espacio de Cuidados por parte de los/las estudiantes para el 2do semestre",
+				"desc": "Levantadas las necesidades de uso del Espacio de Cuidados por parte de los/las estudiantes para el 2do semestre",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -8992,7 +8883,7 @@
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Adquiridos insumos para el funcionamiento del Espacio de Cuidados en el periodo",
+				"desc": "Adquiridos los insumos para el funcionamiento del Espacio de Cuidados en el periodo",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -9065,8 +8956,8 @@
 				]
 			},
 			{
-				"id": "F01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Disponibilizar y evaluar el uso del Espacio de cuidados para los/las estudiantes que lo requieran.",
+				"id": "F01", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Disponer y evaluar el uso del Espacio de cuidados para los/las estudiantes que lo requieran.",
 				"actores": [
 					{
 						"cai": "DAC-DE", "rol": "Responsable",
@@ -9104,6 +8995,15 @@
 							"Debe ser coherente con los registros asociados a esta función.",
 							"Debe considerar tanto diseño de la encuesta en función a parámetros definidos por Unidad sobre las necesidades de los/las estudiantes, como los datos recopilados desde las encuestas.",
 							"Debe dar cuenta del universo de estudiantes objetivos de la encuesta, validadores de envío de encuesta y universo de respuestas."							
+						]
+					},
+					{
+						"nombre": "Informe de gestión del Espacio de Cuidados.",
+						"estandar": [
+							"Diagnóstico de la Unidad respecto al funcionamiento del Espacio a final del periodo.",
+							"Incluye evaluación de impactos observados, calidad de servicio, percepción estudiantil y mecanismos internos de gestión, según su utilización durante el periodo.",
+							"Incluye consideraciones específicas en función a contingencia sanitaria.",
+							"Incluye estrategias de mejora para siguientes periodos respecto a utilización de Espacio, disponibilización de recursos y mecanismos utilizados."
 						]
 					}
 				]

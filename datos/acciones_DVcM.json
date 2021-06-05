@@ -137,7 +137,8 @@
 							"Informe que presenta un análisis cualitativo y cuantitativo respecto a impacto de los recursos web institucionales en la comunidad universitaria.",
 							"Debe considerar los resultados tanto en detalle como agregados de las encuestas de opinión aplicadas, además de otras métricas asociadas a nivel de acceso de los contenidos.",
 							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo en base a las brechas identificadas."
+							"Debe incorporar un plan de mejora simple para el siguiente periodo en base a las brechas identificadas.",
+							"Da cuenta de avances trimentrales que han sido hecho de forma interna en la Unidad."
 						]
 					}
 				]
@@ -562,6 +563,47 @@
 				]
 			},
 			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñadas y ejecutadas actividades de Divulgación Científica a través de actividades artísticas en conjunto con otras Direcciones de la Universidad (URY 2093).",
+				"actores": [
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DI-DDC", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Plan de Trabajo para el desarrollo de actividades",
+						"plazo": "jul",
+						"estandar": [
+							"Incluye el número de actividades a realizar, sus características, enfoques y fechas de realización.",
+							"Debe establecer roles y responsabilidades asociadas a la implementación del Plan, en especial en lo que respecta a la articulación con DI.",
+							"Debe entregar una definición respecto a impactos institucionales en la actividad académica y mecanismos para asegurar bidireccionalidad de actividades.",
+							"Debe establecer estrategias de evaluación de impacto de las actividades y resultados esperados para su evaluación en el periodo."
+						]
+					},
+					{
+						"nombre": "Informe de actividades ejecutadas",
+						"plazo": "dic",
+						"estandar": [
+							"Debe incorporar programa o pauta de cada actividad realizada.",
+							"Debe incorporar registro fotográfico o audiovisual de las actividades realizadas.",
+							"Debe incorporar registro de convocatoria de cada actividad realizada.",
+							"Debe establecer un análisis cuantitativo y cualitativo de resultados de implementación del programa, tomando como referencia una expectativa de cumplimiento del 85%.",
+							"Debe entregar un análisis cuantitativo y cualitativo de impactos logrados, en la lógica de bidireccional, indicando estrategias de medición aplicadas e instrumentos utilizados."
+						]
+					}
+				]
+			},
+			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Dar soporte administrativo y logístico a las actividades artístico-culturales en articulación con unidades correspondientes.",
 				"actores": [
@@ -676,6 +718,86 @@
 							"Debe considerar los resultados tanto en detalle (para cada actividad realizada) como agregados de las encuestas aplicadas, además de otras métricas asociadas que sean pertinentes.",
 							"Se debe establecer un diagnóstico cuantitativo y cualitativo de la información disponible, presentando los elementos que resultan exitosos y las brechas que requieren atención.",
 							"Debe incorporar un plan de mejora sobre la gestión de las actividades evaluadas para futuras actividades similares que se desarrollen."
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "03b", "area": "DVcM",
+		"titulo": "Fortalecimiento del ámbito de gestión cultural y extensión.",
+		"objetivo": "Fortalecer la estructura orgánica y de gestión de la Unidad de Extensión Cultural de la Dirección de VcM que contribuya al Modelo de Gestión Institucional de Vinculación con el Medio.",
+		"responsable": "DVcM-CU",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Revisada y diseñada una propuesta de ajuste a la estructura orgánica de la Unidad de Extensión desde la óptica universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}	
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de propuesta sobre orgánica institucional en la materia",
+						"plazo": "nov",
+						"estandar": [
+							"Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para la institución en materia de extensión Universitaria.",
+							"Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+							"Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
+							"Debe dar cuenta de un diálogo con actores estratégicos de la institución y coherencia con el contexto normativo que influye.",
+							"Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+						]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
+				"desc": "Diseñada y formalizada una propuesta de Política de Extensión Universitaria.",
+				"actores": [
+					{
+						"cai": "DVcM", "rol": "Aprobador",
+						"capacidades": [ "direccion" ]
+					},
+					{
+						"cai": "DVcM-CU", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Soporte",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de Política de extensión Universitaria",
+						"plazo": "nov",
+						"estandar": [
+							"Su diseño debe seguir las orientaciones institucionales para este tipo de instrumento.",
+							"Debe articularse con instrumentos estratégicos con el modelo de gestión institucional de la dirección de vinculación con el medio.",
+							"Debe dar cuenta de la validación y retroalimentación de actores estratégicos."
+						]
+					},
+					{
+						"nombre": "Decreto que aprueba Política propuesta",
+						"plazo": "ene",
+						"estandar": [
+							"Debe dar cuenta de estrategia de socialización e implementación de la política."
 						]
 					}
 				]
@@ -1685,7 +1807,8 @@
 							"Documento de trabajo que entrega las orientaciones para el diseño de proyectos VEC en el contexto del trabajo en el área de educación.",
 							"Debe establecer un proceso que considere la identificación, evaluación, priorización y despliegue de ideas para proyectos VEC según criterios objetivos, con perspectiva académica y basados en orientaciones para la vinculación con el medio institucional.",
 							"Debe explicitar la forma de articulación e incidencia del cuerpo académico en la definición de los proyectos.",
-							"Debe establecer roles, responsabilidades, hitos, actividades, principales productos, entre otros elementos metodológicos relevantes."
+							"Debe establecer roles, responsabilidades, hitos, actividades, principales productos, entre otros elementos metodológicos relevantes.",
+							"Debe establecer mecanismos de registro de actividades de codiseño con actores claves vinculados a los Proyectos V.E.C."
 						]
 					},
 					{
@@ -2020,7 +2143,7 @@
 			},
 			{
 				"id": "H10", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Gestionado el diseñadas y validación de directrices estratégicas, al alero de la MIEE, que orienten la definición de acciones para mejorar la calidad de la educación regional.",
+				"desc": "Gestionado el diseñado y validación de directrices estratégicas, al alero de la MIEE, que orienten la definición de acciones para mejorar la calidad de la educación regional.",
 				"actores": [
 					{
 						"cai": "DVcM-TE", "rol": "Responsable",
@@ -2046,7 +2169,7 @@
 				"verificadores": [
 					{
 						"nombre": "Propuesta metodológica para generación de directrices.",
-						"plazo": "ago",
+						"plazo": "dic",
 						"estandar": [
 							"Establece la forma de recopilación y sistematización de perspectivas para la formulación de directrices por parte de los actores clave.",
 							"Establece definiciones de forma, estructura de presentación de las directrices y diseño de estrategia de seguimiento (indicadores, métricas, etc.)",
@@ -2055,7 +2178,7 @@
 					},
 					{
 						"nombre": "Propuesta inicial de Directrices Estratégicas desde MIEE.",
-						"plazo": "ene",
+						"plazo": "dic",
 						"estandar": [
 							"Debe responder integralmente a la metodología diseñada, siendo incorporada explícitamente en el documento.",
 							"Debe responder integralmente a elementos establecidos en otras directrices clave a nivel regional, nacional y de las instituciones involucradas (ej.: ERI).",
@@ -3633,20 +3756,16 @@
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Perfeccionada y proyectada la imagen y marca UAysén en coherencia a las directrices institucionales de posicionamiento en el medio establecidas.",
+				"id": "H04b", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Elaborada identidad de marca institucional con mecanismos para su crecimiento y ampliación estratégica, validada y socializada con actores estratégicos institucionales.",
 				"actores": [
 					{
-						"cai": "Rectoria", "rol": "Aprobador",
-						"capacidades": [ "rectoria" ]
-					},
-					{
 						"cai": "DVcM-COM", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "diseno" ]
+						"capacidades": [ "coordinacion-general" ]
 					},
 					{
-						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "posicionamiento" ]
+						"cai": "DVcM-COM", "rol": "Soporte",
+						"capacidades": [ "posicionamiento", "diseno" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
@@ -3655,20 +3774,66 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Propuesta de marca UAysén perfeccionada",
-						"plazo": "nov",
+						"nombre": "Manual de Identidad de Marca",
+						"plazo": "may",
 						"estandar": [
-							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H02 y a directrices estratégicas levantadas en H04.",
-							"Basada en estándares técnicos de diseño del área de comunicaciones.",
-							"Debe incorporar variantes, alternativas y otros antecedentes que permitan a actores estratégicos, desde una perspectiva no-técnica, tomar decisiones al respecto."
+							"Responder integralmente a lineamientos institucionales en materias de diseño y posicionamiento institucional.",
+							"Acompañado de mecanismos formalizadores que correspondan.",
+							"Debe acompañarse de estrategias e insumos para su socialización con la comunidad universitaria."
 						]
 					},
 					{
 						"nombre": "Acta de validación.",
 						"plazo": "nov",
 						"estandar": [
-							"Debe dar cuenta de la presentación y visación de actores estratégicos respecto a alternativas existentes.",
+							"Debe dar cuenta de la presentación y visación de actores estratégicos.",
 							"Debe indicar participantes, temas presentados, retroalimentación recibida, definiciones y otros relevantes para su aprobación."
+						]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
+				"desc": "Perfeccionada y proyectada la imagen y marca UAysén en coherencia a las directrices institucionales de posicionamiento en el medio establecidas.",
+				"actores": [
+					{
+						"cai": "DVcM-COM", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "diseno", "posicionamiento" ]
+					},
+					{
+						"cai": "DVcM-ADQ", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "operacion-misc", "compras" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "operacion-misc", "operacion-misc" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Bases de licitación de campaña de identididad de marca",
+						"plazo": "jun",
+						"estandar": [
+							"Debe responder integralmente a definiciones de manual de identididad de marca y otros lineamientos institucionales en la materia.",
+							"Cofneccionada según estándares noprmativos establecidos.",
+							"Debe considerar validadores que formalicen."
+						]
+					},
+					{
+						"nombre": "Acta de adjudicación de licitación sobre campaña de identidad de marca.",
+						"plazo": "jul",
+						"estandar": [
+							"Debe responder a requerimientos establecidos en licitación.",
+							"Debe responder a estándares normativos establecidos, incluyendo mecanismos respectivos para definición de oferta ganadora respectiva."
+						]
+					},
+					{
+						"nombre": "Informe sobre ejecución de campaña de marca.",
+						"plazo": "ene",
+						"estandar": [
+							"Debe entregar detalle de plan de trabajo realizado.",
+							"Debe entregar diversos insumos gráficos (ej.: registro fotográfico) que permita dar cuenta de los resultados.",
+							"Debe incorporar análisis cuantitativoa (basado en datos estadísticos) y cualitativo de los resultados, estableciendo estrategias de mejora e institucionalización de la campaña en próximos periodos."
 						]
 					}
 				]

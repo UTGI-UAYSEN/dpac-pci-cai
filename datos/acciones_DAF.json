@@ -97,6 +97,10 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
 					},
 					{
+						"cai": "DAC-DA", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
 						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},									
@@ -1391,39 +1395,7 @@
 						]
 					}
 				]
-			},
-			{
-				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
-				"desc": "Gestionar aspectos administrativos del funcionamiento del CAE.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado",
-						"capacidades": [ "contabilidad", "tesoreria" ]
-					}
-				],
-				"ios":[
-					{
-						"nombre": "Control administrativo del CAE", 
-						"formula": "Número de procesos de control administrativo del CAE emitidos desde la Institución.",
-						"meta": "2"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informes de administración del CAE",
-						"estandar": [
-							"Documentación simple que resume aspectos de gestión administrativa sobre el CAE que es realizada por la Institución.",
-							"Debe incorporar información cuantitativa y cualitativa respecto a registros contables y/o financieros asociados al CAE, gestiones realizadas con el crédito respectivo, transacciones pertinentes, alcance de las gestiones, universo de estudiantes y sus características para los cuales el CAE es administrado.",
-							"Considerar la emisión de reportes semestrales.",
-							"Los reportes deben entregar un análisis respecto a problemáticas, brechas u otros elementos que requieran revisión respecto a la gestión periódica de CAE, para la realización de las gestiones que sean pertinentes."
-						]
-					}
-				]
-			},
+			},			
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "naturaleza": "Técnica", "prioridad": "Alta",
 				"desc": "Actualizado el decreto 479.",
@@ -2092,7 +2064,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos.",
-						"plazo": "may",
+						"plazo": "jun",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
@@ -2130,7 +2102,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos.",
-						"plazo": "jun",
+						"plazo": "ago",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
@@ -2167,7 +2139,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos.",
-						"plazo": "jul",
+						"plazo": "sep",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
@@ -3407,7 +3379,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos actualizada.",
-						"plazo": "may",
+						"plazo": "ago",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Debe ser coherente con modelo diseñado.",
@@ -3445,7 +3417,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto de Reglamento de Inventario",
-						"plazo": "jun",
+						"plazo": "sep",
 						"estandar": [
 							"Compila aspectos conceptuales y operacionales para el control de existencias de la Institución.",
 							"Su diseño debe considerar integralmente estándares planteados desde Contraloría General, CNA, Normativa sobre bienes muebles (decreto 180, decreto 577, etc.), Política de Finanzas y manuales de procedimientos generados desde la institución.",
@@ -3474,7 +3446,7 @@
 				"verificadores": [
 					{
 						"nombre": "Índice de mecanismos para difusión asociada a inventario",
-						"plazo": "jul",
+						"plazo": "ago",
 						"estandar": [
 							"Listado simple de mecanismos que permiten comunicar a la comunidad universitaria respecto a servicios, procedimientos y normativa asociada a inventario, con orientación a la comunicación efectiva.",
 							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
@@ -3483,7 +3455,7 @@
 					},
 					{
 						"nombre": "Mecanismos diseñados",
-						"plazo": "sep",
+						"plazo": "nov",
 						"estandar": [
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica.",
@@ -3512,7 +3484,7 @@
 				"verificadores": [
 					{
 						"nombre": "Actas de difusión con personal de colaboración",
-						"plazo": "nov",
+						"plazo": "dic",
 						"estandar": [
 							"Un acta por sesión de difusión / grupo atendido.",
 							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
@@ -3521,7 +3493,7 @@
 					},
 					{
 						"nombre": "Material de difusión",
-						"plazo": "nov",
+						"plazo": "dic",
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
 							"Incorporar registro visual de las instancias."
