@@ -8,7 +8,7 @@
 		"tacticas": [
 			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Realizar seguimiento de los avances y resultados de procesos auditados.",
+				"desc": "Aplicar seguimiento de los avances y resultados de procesos auditados.",
 				"actores": [
 					{
 						"cai": "CI-AUD", "rol": "Responsable",
