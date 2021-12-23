@@ -72,7 +72,7 @@
 					{
 						"nombre": "Decretos con la definición de resultados de concurso",
 						"estandar": [
-							"Incorpora las bases del proceso de concurso, en caso de que el cargo haya sido definido a través de concurso.",
+							"Indica las bases del proceso de concurso, en caso de que el cargo haya sido definido a través de concurso.",
 							"Define el cargo y grado o remuneración  de la contratación, así como el período de su contratación.",
 							"Debe ser coherente con requerimientos levantados desde la planificación institucional y canalizados en el presupuesto institucional.",
 							"Deben ser coherentes con los formatos y estándares definidos en DAF-DP."
@@ -337,7 +337,7 @@
 						"nombre": "Decreto que aprueba reglamento diseñado",
 						"plazo": "jun",
 						"estandar": [
-							"Responde y da cuenta de la toma de razón de Contraloría General."
+							"Decreto Universitario Exento totalmente tramitado."
 						]
 					}
 				]
@@ -388,17 +388,6 @@
 					}
 				],
 				"verificadores": [
-					{
-						"nombre": "Decreto que formaliza proceso",
-						"plazo": "ago",
-						"estandar": [
-							"Especifica calendario de hitos clave.",
-							"Especifica responsabilidades de proceso.",
-							"Especifica direcciones y/o unidades auditadas.",
-							"Especifica productos y resultados a obtener.",
-							"Debe dar cuenta de su comunicación y retroalimentación por equipo directivo."
-						]
-					},
 					{
 						"nombre": "Oficio de inicio del proceso",
 						"plazo": "sep",
@@ -460,20 +449,10 @@
 						"estandar": [
 							"Registro estructurado y ordenado con los verificadores de solicitudes de cometido emitidos por el personal.",
 							"Implementado a través de un sistema de archivos, ordenado por mes de solicitud y personal respectivo, que permita su seguimiento y contabilización.",
-							"Coherente con las contrataciones existentes."
-						]
-					},
-					{
-						"nombre": "Validador de pago de cometidos",
-						"estandar": [
+							"Coherente con las contrataciones existentes.",
 							"Registro estructurado y ordenado con los verificadores formales de pagos de cometidos emitidos hacia el personal a honorarios.",
 							"Implementado a través de un sistema de archivos, ordenado por mes de solicitud de cometido respectivo y personal respectivo, que permita su seguimiento y contabilización.",
-							"Coherente con las contrataciones existentes."
-						]
-					},
-					{
-						"nombre": "Bitácora de cometidos",
-						"estandar": [
+							"Coherente con las contrataciones existentes.",
 							"Registro que sintetiza y compila información estructurada de la gestión de cometidos.",
 							"Cada elemento en el registro debe dar cuenta de la información de un cometido emitido, incluyendo propósitos, montos solicitados, solicitante, fecha de solicitud, fecha de tramitación, fecha de pago, estado de cometido, entre otros que sean pertinentes.",
 							"Entregado en formato que permita el análisis de sus datos (ej.: excel)."
@@ -582,7 +561,7 @@
 						]
 					},
 					{
-						"nombre": "Decreto que formaliza Plan de Compras 2022",
+						"nombre": "Decreto que formaliza Plan de Compras 2021",
 						"plazo": "abr",
 						"estandar": [
 							"Definido en consistencia con detalle sistematizado."
@@ -815,7 +794,7 @@
 					{ 
 						"nombre": "Pagos a proveedores", 
 						"formula": "Porcentaje de facturas recepcionadas, tramitadas y enviadas a pago a DAF-FIN, dentro del plazo de 20 días.",
-						"meta": "90%"
+						"meta": "80%"
 					}
 				],
 				"verificadores": [
@@ -891,7 +870,7 @@
 					{ 
 						"nombre": "Actos administrativos de bienes muebles.", 
 						"formula": "Número de actos administrativos asociadas a bienes muebles que han sido gestionadas, tramitadas y sistematizadas.",
-						"meta": "200"
+						"meta": "10"
 					}
 				],
 				"verificadores": [
@@ -935,13 +914,8 @@
 							"Deben dar cuenta de metodología de selección, inspección, evaluación y auditoria de los bienes y materiales que deriven en recomendaciones que apunten a darlos de baja.",
 							"Deben informar información cuantitativa y cualitativa respecto a los bienes y materiales inspeccionados, entregando métricas generales para dimensionar y evaluar estado de los bienes y materiales a nivel institucional.",
 							"Deben entregar un resumen con recomendaciones respecto a bienes y materiales específicos que puedan requerir ser dados de bajas, para que los actores que toman decisiones al respecto puedan actuar.",
-							"Considerar informes mensuales sobre muestras específicas de bienes y materiales (según metodología establecida)."
-						]
-					},
-					{
-						"nombre": "Validadores de entrega de informes",
-						"estandar": [
-							"Validadores comunicacionales (ej.: correo electrónic) que den cuenta de la entrega de las recomendaciones generadas a los actores pertinentes en la toma de decisiones."
+							"Considerar informes mensuales sobre muestras específicas de bienes y materiales (según metodología establecida).",
+							"Validadores comunicacionales (ej.: correo electrónicO) que den cuenta de la entrega de las recomendaciones generadas a los actores pertinentes en la toma de decisiones."
 						]
 					}
 				]
@@ -1028,7 +1002,7 @@
 					{ 
 						"nombre": "Registro financiero-contable mensual.", 
 						"formula": "Número de reportes periódicos generados con información financiera-contable de la Institución.",
-						"meta": "10"
+						"meta": "9"
 					}
 				],
 				"verificadores": [
@@ -1066,12 +1040,12 @@
 					{ 
 						"nombre": "Gestión periódica de situación financiera.", 
 						"formula": "Número de procesos de evaluación financiera realizados en la institución.",
-						"meta": "10"
+						"meta": "9"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Informes mensuales de situación financiera",
+						"nombre": "Informes de ejecución presupuestaria",
 						"estandar": [
 							"Registro estructurado respecto a las evaluaciones realizadas.",
 							"Debe establecer características de los fondos sistematizados y considerar el registro de transacciones sobre ellos.",
@@ -1155,7 +1129,7 @@
 				],
 				"ios":[
 					{ 
-						"nombre": "Informes presupuestarios internos.", 
+						"nombre": "Informes de ejecución presupuestaria.", 
 						"formula": "Número de reportes presupuestarios emitidos hacia actores internos de la Institución.",
 						"meta": "13"
 					}
@@ -1196,7 +1170,7 @@
 					{ 
 						"nombre": "Inspección periódica de imputación de gastos e ingresos.", 
 						"formula": "Número de reportes emitidos para identificar la validez de la imputación de gastos e ingresos.",
-						"meta": "3"
+						"meta": "1"
 					}
 				],
 				"verificadores": [
@@ -1428,7 +1402,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto actualizado según requerimientos de actores involucrados",
-						"plazo": "nov",
+						"plazo": "ene",
 						"estandar": [
 							"Se debe ratificar si los procedimientos establecidos en decreto deben ejecutarse en su totalidad o parcialmente, como el proceso de cobranza judicial."
 						]
@@ -1461,7 +1435,7 @@
 					{
 						"nombre": "Porcentaje de cumplimiento de conciliaciones contables de proyectos", 
 						"formula": "Número de proyectos conciliados / total proyectos vigentes",
-						"meta": "90%"
+						"meta": "80%"
 					}
 				],
 				"verificadores": [
@@ -1507,7 +1481,7 @@
 					{
 						"nombre": "Situación financiera de proyectos", 
 						"formula": "Número de instancias de seguimiento institucional de proyectos para una evaluación financiera.",
-						"meta": "2"
+						"meta": "1"
 					}
 				],
 				"verificadores": [
@@ -1656,12 +1630,7 @@
 							"Registro estructurado y ordenado de servicios generales realizados en la institución.",
 							"Debe ser cuantificable en número de servicios realizados para el personal de colaboración y académico.",
 							"Cada servicio registrado debe ser caracterizado según sus características, considerando tipo de servicio (traslado de equipamiento, traslado en vehículo, reparación, trámite, compra, etc.), fecha de realización, encargado, solicitante, fecha de solicitud, fecha de atención, fecha de completitud, estado, entre otros que sean pertinentes para su seguimiento y gestión.",
-							"Debe ser entregado en formato que permita el análisis de datos (ej.: excel)."
-						]
-					},
-					{
-						"nombre": "Verificadores de servicios efectuados",
-						"estandar": [
+							"Debe ser entregado en formato que permita el análisis de datos (ej.: excel).",
 							"Cualquier tipo de validador comunicacional que de cuenta de la completitud y acuso de servicio general efectuado.",
 							"Debe dar cuenta de la aprobación de persona que recibe servicio respectivo (ej.: correo electrónico confirmando servicio realizado).",
 							"Validadores deben estar asociados y ser consistentes con información de la bitácora respectiva."
@@ -1692,12 +1661,6 @@
 				"verificadores": [
 					{
 						"nombre": "Bitácora de servicios generales",
-						"estandar": [
-							"Equivalente al definido en F01 (pueden trabajarse en conjunto)."
-						]
-					},
-					{
-						"nombre": "Verificadores de servicios efectuados",
 						"estandar": [
 							"Equivalente al definido en F01 (pueden trabajarse en conjunto)."
 						]
@@ -1776,12 +1739,6 @@
 						"estandar": [
 							"Equivalente a propuesta de F01 (se pueden entregar como uno solo)."
 						]
-					},
-					{
-						"nombre": "Verificadores de servicios efectuados",
-						"estandar": [
-							"Equivalente a propuesta de F01 (se pueden entregar como uno solo)."
-						]
 					}
 				]
 			}
@@ -1819,12 +1776,7 @@
 						"nombre": "Bitácora de servicios generales",
 						"estandar": [
 							"Equivalente al definido en F01 de DAF-12 (pueden trabajarse en conjunto).",
-							"Se puede clasificar las reparaciones menores según su tipo (canaletas, pintura, etc.)"
-						]
-					},
-					{
-						"nombre": "Minutas de reparaciones efectuadas",
-						"estandar": [
+							"Se puede clasificar las reparaciones menores según su tipo (canaletas, pintura, etc.)",
 							"Reporte breve y simple en donde se incorpora el detalle de las reparaciones efectuadas.",
 							"Debe indicar objeto de la reparación, estado previo y estado final post-reparación.",
 							"Reporte debe adjuntar evidencia visual de los ajustes (ej.: fotografías del antes y después)."
@@ -1899,42 +1851,6 @@
 							"Se deben entregar antecedentes cuantitativos y cualitativos respecto a los resultados obtenidos, indicando logros y brechas identificadas.",
 							"Se debe entregar un plan de mejora en función a las brechas identificadas.",
 							"Acompañar de validadores de entrega de informes hacia actores estratégicos pertinentes."
-						]
-					}
-				]
-			},
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Realizada la mantención y reparación de Campus Rio Simpson para su entrega",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-ADQ", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "CI-LCJ", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Decreto de recepción de obras",
-						"plazo": "ene",
-						"estandar": [
-							"Equivalente o parte de las minutas definidas en F02, en forma de informe técnico adjunto.",
-							"Como parte de la minuta, debe darse cuenta de que las reparaciones y mantenciones deben permitir entregar las instalaciones según fueron recepcionadas, para lo cual debe además entregarse el detalle de los estándares con los cuales dichas instalaciones fueron recibidas."
 						]
 					}
 				]
@@ -2241,38 +2157,6 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Evaluadas integraciones técnicas entre sistemas (ej.: SIAPER, FIN700) que apoyen la gestión de información asociada a procesos de gestión de personas.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc", "psicologico" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "CI-LCJ", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Especificación técnica de integración.",
-						"plazo": "oct",
-						"estandar": [
-							"Basa en estándares técnicos y TdRs en H01.",
-							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
-						]
-					}
-				]
-			},
-			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Implementadas y evaluadas las mejoras tecnológicas que apoyen los procesos de gestión de personas.",
 				"actores": [
@@ -2351,91 +2235,6 @@
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
 							"Incorporar registro visual de las instancias."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Aplicada la metodología con actores institucionales.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Soporte",
-						"capacidades": [ "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [					
-					{
-						"nombre": "Mecanismos específicos asociados a la aplicación de la metodología.",
-						"plazo": "ago",
-						"estandar": [
-							"Considera productos específicos asociados al proceso de levantamiento de perfiles que sirvan a la vez de insumo para su confección.",
-							"Debe responder integralmente a lo indicado en la metodología respectiva.",
-							"Considera elementos como Diccionario de competencias, Mapa de Cargos críticos, entre otros."
-						]
-					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Sistematizados y entregados los resultados del la aplicación metodológica.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [					
-					{
-						"nombre": "Perfiles de cargo sistematizados.",
-						"plazo": "sep",
-						"estandar": [
-							"Registro estructurado y ordenado de los documentos de perfiles de cargo",
-							"Un documento detallado por cada perfil sistematizado de la institución.",
-							"Deben responder integralmente a la metodología aplicada y deben ser coherentes con los mecanismos específicos establecidos en H02.",
-							"Se debe explicitar el universo de perfiles que fue abordado en la Institución, y eventualmente cuales requerirán ser trabajados en el futuro."
-						]
-					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Diseñadas y validadas las estrategias de uso y actualización periódica de los perfiles levantados.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc", "procesos" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [					
-					{
-						"nombre": "Plan de uso y actualización de perfiles de cargo.",
-						"plazo": "nov",
-						"estandar": [
-							"Documento detallado que especifica estrategia de actualización periódica y uso de los perfiles levantados.",
-							"Debe dar cuenta de la aplicación sistemática de los perfiles en los procesos y otros mecanismos levantados de DAF-14.",
-							"Debe explicitar actividades periódicas (anuales) para actualizar y/o extender los perfiles existentes, y en función de eso, replicar y perfeccionar la metodología respectiva.",
-							"Debe establecer plan de trabajo anual para estos fines, con fechas, hitos y productos, de forma que pueda ser entregado de insumo a los procesos de planificación anual."
 						]
 					}
 				]
@@ -2550,7 +2349,7 @@
 				"verificadores": [					
 					{
 						"nombre": "Plan de perfeccionamiento piloto.",
-						"plazo": "dic",
+						"plazo": "ENE",
 						"estandar": [
 							"Plan de corto plazo para implementar un conjunto de iniciativas de perfeccionamiento a modo de evaluación de procesos y normativas asociada.",
 							"Debe tomar prioridades generales levantadas desde las orientaciones estratégicas en H01.",
@@ -2581,7 +2380,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y aplicado un estudio interno de caracterización del personal universitario, que permita tener datos para medir el impacto de ajustes a la estructura salarial.",
+				"desc": "Instalación de Comisión para el rediseño de estructura salarial de la Institución y propuesta de encasillamiento a Planta.",
 				"actores": [
 					{
 						"cai": "DAF-DP", "rol": "Responsable",
@@ -2606,27 +2405,11 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Términos de referencia sobre estudio.",
-						"plazo": "abr",
-						"estandar": [
-							"Debe considerar el levantamiento de grupos de información que permitan hacer un análisis cuantitativo de impacto que genera el ajuste tanto de grados como de asignaciones en la institución.",
-							"Debe considerar la sistematización y consolidación de información detallada del CV actualizado del personal de colaboración y académico de la Institución, de forma que tanto la escala de grados como las asignaciones puedan ser definidas con criterios estructurados y dependientes de dichos datos.",
-							"Debe considerar la entrega tanto de un reporte con información consolidada, agregada y analizada respecto a l caracterización del personal, como de un instrumento de evaluación de impacto en el ajuste de grados y asignaciones, que permita dimensionar el efecto de los ajustes sobre estos mecanismos.",
-							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Debe establecer productos esperados, plazos y condiciones generales."
-						]
-					},
-					{
-						"nombre": "Estudio desarrollado y plan de uso.",
+						"nombre": "Decreto de la Comisión para el rediseño de estructura salarial.",
 						"plazo": "jun",
 						"estandar": [
-							"Debe ser coherente con TdRs establecidos.",
-							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional y a las necesidades de corto plazo de ajuste a la estructura salarial.",
-							"Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción de reportes que darán origen al estudio.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
+							"Se puede acompañar de actas y otros validadores que den cuenta de avances y socialización de resultados con actores claves.",
+							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional y a las necesidades de corto plazo de ajuste a la estructura salarial."
 						]
 					}
 				]
@@ -2634,7 +2417,7 @@
 			{
 
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñada y validada una nueva estructura de grados para el personal de colaboración, en base a criterios de experiencia, formación académica y sostenibilidad económica de la institución.",
+				"desc": "Diseñada y validada una nueva estructura de asignaciones remuneracionales para el personal decolaboración, en base a criterios definidos por la comisión decretada para tal efecto.",
 				"actores": [
 					{
 						"cai": "Rectoria", "rol": "Aprobador",
@@ -2663,7 +2446,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Rediseño propuesto de estructura de grados para el personal de colaboración.",
+						"nombre": "Decreto de remuneraciones Universidad de Aysén 2022.",
 						"plazo": "sep",
 						"estandar": [
 							"Debe ser implementado a través de una definición de criterios que asigne grados de la estructura salarial en función a la experiencia profesional y formación académica de las personas.",
@@ -2712,7 +2495,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Rediseño propuesto de estructura de grados para el personal académico.",
+						"nombre": "Decreto de remuneraciones Universidad de Aysén 2022.",
 						"plazo": "sep",
 						"estandar": [
 							"Aplican mismos criterios que el rediseño de H02, en el ámbito de la experiencia y formación académica."
@@ -2753,7 +2536,7 @@
 				"verificadores": [
 					{
 						"nombre": "Rediseño propuesto de estructura de asignaciones.",
-						"plazo": "sep",
+						"plazo": "ene",
 						"estandar": [
 							"Debe ser implementado a través de una definición de criterios que establezcan asignaciones de la estructura salarial en función a grados de responsabilidad, necesidades específicas del personal, resultados de evaluación, entre otros que sean pertinentes.",
 							"Es crítico que este mecanismo proponga un reemplazo completo e integral de la asignación de implementación actualmente existente en la Institución.",
@@ -2768,7 +2551,7 @@
 			{
 
 				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y validado una plan de implementación gradual para los nuevos diseños para los próximos periodos, que contemplen el ajuste de remuneraciones y un ajuste al diseño inicial de la planta institucional.",
+				"desc": "Propuesta de criterios para el encasillamiento a Planta Institucional.",
 				"actores": [
 					{
 						"cai": "Rectoria", "rol": "Aprobador",
@@ -2794,7 +2577,7 @@
 				"verificadores": [
 					{
 						"nombre": "Actas de socialización de propuesta.",
-						"plazo": "dic",
+						"plazo": "ene",
 						"estandar": [
 							"Debe dar cuenta de la comunicación de la propuesta y su plan de implementación gradual de largo plazo con actores clave (ej.: AFUA).",
 							"Debe explicitarse tanto la comunicación de aspectos de la estructura salarial, la asignación de implementación y de futuras modificaciones a la planta que serán necesarias.",
@@ -2861,53 +2644,8 @@
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y aprobado un reglamento de servicio de Bienestar que contextualice la oferta de servicios, beneficios y convenios asociados.",
-				"actores": [
-					{
-						"cai": "DAF", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Decreto de Reglamento de Bienestar",
-						"plazo": "sep",
-						"estandar": [
-							"Debe responder integralmente a las necesidades establecidas por el informe de H02.",
-							"Debe indicar roles, responsabilidades, funciones, instancias de coordinación requeridas, principales procesos, mecanismos operativos y de difusión asociados a Bienestar.",
-							"Debe entregar orientaciones y/o criterios asociados a las tipos de beneficios que se podrán ofrecer, como se asignarán beneficiarios, responsabilidades de beneficiarios y estrategias de financiamiento de para dar sostenibilidad a los beneficios.",
-							"Debe establecer calendario y actividades asociadas a procesos periódicos de Bienestar."
-						]
-					},
-					{
-						"nombre": "Validador de ingreso de reglamento a SUDESO",
-						"plazo": "nov",
-						"estandar": [
-							"Debe ser coherente con versión final aprobada del reglamento."
-						]
-					}
-				]
-			},
-			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Definidos los diversos servicios, beneficios y convenios conductores que serán articulados a través de Bienestar para su implementación progresiva.",
+				"desc": "Propuesta de Reglamento de Bienestar, ingresado a SUSESO.",
 				"actores": [
 					{
 						"cai": "DAF-DP", "rol": "Responsable",
@@ -2931,143 +2669,6 @@
 							"Debe indicar roles, responsabilidades, funciones, instancias de coordinación requeridas, principales procesos, mecanismos operativos y de difusión asociados a Bienestar.",
 							"Debe entregar orientaciones y/o criterios asociados a las tipos de beneficios que se podrán ofrecer, como se asignarán beneficiarios, responsabilidades de beneficiarios y estrategias de financiamiento de para dar sostenibilidad a los beneficios.",
 							"Debe establecer calendario y actividades asociadas a procesos periódicos de Bienestar."
-						]
-					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Planificada la implementación de los diversos principales servicios, beneficios y convenios conductores que servirán para el despliegue inicial de Bienestar.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado", "participacion": "Esporádica",
-						"capacidades": [ "todos-tacticos"]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Propuesta de despliegue de Bienestar",
-						"plazo": "ene",
-						"estandar": [
-							"Informe simple que caracteriza servicios, beneficios y convenios a desarrollar en una primera instancia.",
-							"Debe dar cuenta de gestiones realizadas para dar de alta servicios asociados, clasificación de estos servicios y mecanismos de acceso.",
-							"Debe establecer un plan de implementación y socialización para el periodo siguiente, describiendo actividades, plazos, responsables y otros elementos relevantes.",
-							"Debe establecer una estrategia de aplicación progresiva, indicando grupos de funcionarios/as según caracterización que sean pertinentes."
-						]
-					},
-					{
-						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
-						"plazo": "ene",
-						"estandar": [
-							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
-							"Debe responder al plan de despliegue de Bienestar definido.",
-							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
-						]
-					}
-				]
-			}
-		]
-	},
-	{	
-		"id": "19b", "area": "DAF",
-		"titulo": "Salud Ocupacional en la Universidad de Aysén.",
-		"objetivo": "Desarrollar mecanismos y actividades que avancen en abordar la temática de la salud ocupacional en la comunidad universitaria, especialmente focalizado en la crisis sanitaria COVID-19.",
-		"responsable": "DAF-DP",
-		"tipo": "Desarrollo",
-		"tacticas": [
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Aplicado Protocolo de Vigilancia y riesgos psicosociales en el trabajo en UAYSEN.",
-				"actores": [
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Especificación técnica sobre requerimientos para protocolo.",
-						"plazo": "jun",
-						"estandar": [
-							"Debe considerar necesidades institucionales en la materia y diagnósticos requeridos.",
-							"Debe dar cuenta sobre retroalimentación de propuesta de parte de DPAC-AI para articular incorporación de datos levantados.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-							"Debe establecer productos esperados, plazos y condiciones generales."
-						]
-					},
-					{
-						"nombre": "Informe de resultados ISTAS 2021.",
-						"plazo": "sep",
-						"estandar": [
-							"Debe ser coherente con Específicación técnica establecida.",
-							"Se puede acompañar de actas y otros validadores que den cuenta de socialización de resultados con actores claves.",
-							"Se debe establece propuesta de uso de la información levantada en articulación a la planificación institucional."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Formulado Plan de Clima Laboral UAysén.",
-				"actores": [
-					{
-						"cai": "Rectoria", "rol": "Aprobador",
-						"capacidades": [ "rectoria" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "psicologico", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Plan que documenta estrategias para abordar temática de clima laboral.",
-						"plazo": "dic",
-						"estandar": [
-							"Debe dar cuenta de un análisis cuantitativo y cualitativo de los resultados obtenidos desde H01.",
-							"Debe incorporar un conjunto de estrategias concretas para abordar la problemática y en contexto a situación de pandemia",
-							"Debe responder a una validación en instancias estratégicas y con actores académicos clave."
-						]
-					},
-					{
-						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
-						"plazo": "ene",
-						"estandar": [
-							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
-							"Debe responder al plan para el clima laboral diseñado.",
-							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
 						]
 					}
 				]
@@ -3145,7 +2746,7 @@
 				"verificadores": [
 					{
 						"nombre": "Proceso para gestión de contratos suscritos",
-						"plazo": "nov",
+						"plazo": "ene",
 						"estandar": [
 							"Debe dar cuenta de la incorporación de elementos asociados a la ley 19.886.",
 							"Debe establecer principales mecanismos operativos, normativos (internos) y comunicacionales que permitirán la implementación apropiada del proceso.",
@@ -3185,77 +2786,10 @@
 						]
 					}
 				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñados y validados mecanismos para la gestión de adquisiciones en el contexto internacional.",
-				"actores": [
-					{
-						"cai": "DAF", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Índice de mecanismos para implementar compras internacionales",
-						"plazo": "ago",
-						"estandar": [
-							"Listado simple de mecanismos aque permiten la operacionalización de compras internacionales.",
-							"Mecanismos deben ser coherentes con capacidades incorporadas en las capacitaciones.",
-							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
-						]
-					},
-					{
-						"nombre": "Mecanismos diseñados",
-						"plazo": "oct",
-						"estandar": [
-							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
-							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Generadas e institucionalizadas redes de apoyo en materia de adquisiciones (Aduana, SII, etc.).",
-				"actores": [
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de incorporación",
-						"plazo": "jun",
-						"estandar": [
-							"Evidencia escrita (correo, documento firmado, etc.) que permita dar cuenta de la incorporación de la Universidad en redes asociadas."
-						]
-					},
-					{
-						"nombre": "Minutas de participación en redes",
-						"plazo": "dic",
-						"estandar": [
-							"Resúmenes sobre actividades realizadas en el contexto de las redes de colaboraciones en las cuales el equipo DAF-ADQ haya participado.",
-							"Pueden servir actas emitidas por las redes respectivas, idealmente explicitando la participación de la Institución en ellas",
-							"Debe agregar antecedentes y orientaciones respecto a como la participación del equipo DAF-ADQ se retroalimenta con las actividades realizadas en las redes respectivas."
-						]
-					}
-				]
-			},
+			},			
 			{
 				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñados medios de transferencia y difusión de los mecanismos de compras con orientación al usuario (estamentos).",
+				"desc": "Diseñados y aplicados mecanismos de transferencia y difusión de los mecanismos de compra.",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -3264,6 +2798,10 @@
 					{
 						"cai": "DVcM-COM", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
 					}
 				],
 				"verificadores": [
@@ -3284,30 +2822,10 @@
 							"Coherente con el índice que los específica.",
 							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
 						]
-					}
-				]
-			},
-			{
-				"id": "H07", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Aplicados los medios de transferencia y difusión de mecanismos de compras junto a los diversos equipos de la institución.",
-				"actores": [
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "compras" ]
 					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
 					{
 						"nombre": "Actas de difusión con personal de colaboración",
-						"plazo": "dic",
+						"plazo": "ene",
 						"estandar": [
 							"Un acta por sesión de difusión / grupo atendido.",
 							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
@@ -3316,36 +2834,10 @@
 					},
 					{
 						"nombre": "Material de difusión",
-						"plazo": "dic",
+						"plazo": "ene",
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
 							"Incorporar registro visual de las instancias."
-						]
-					}
-				]
-			},
-			{
-				"id": "H08", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Piloteados y evaluados los diversos mecanismos de adquisiciones de forma integrada.",
-				"actores": [
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de resultados de pilotaje",
-						"plazo": "ene",
-						"estandar": [
-							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a las necesidades del área de adquisiciones.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
 						]
 					}
 				]
@@ -3359,36 +2851,6 @@
 		"responsable": "DAF-ADQ",
 		"tipo": "Desarrollo",
 		"tacticas": [
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Actualizada y/o levantada la normalización de procesos claves asociados al inventario institucional.",
-				"actores": [
-					{
-						"cai": "DPAC", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-ADQ", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "inventario" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Documentación de normalización de procesos actualizada.",
-						"plazo": "ago",
-						"estandar": [
-							"Especificación de macroproceso según estándares institucionales.",
-							"Debe ser coherente con modelo diseñado.",
-							"Manuales de procesos críticos normalizados según estándares institucionales.",
-							"Plan de implementación de procesos críticos según estándares institucionales."
-						]
-					}
-				]
-			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Diseñado y validado un Reglamento de inventario para la institución.",
@@ -3417,7 +2879,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto de Reglamento de Inventario",
-						"plazo": "sep",
+						"plazo": "ene",
 						"estandar": [
 							"Compila aspectos conceptuales y operacionales para el control de existencias de la Institución.",
 							"Su diseño debe considerar integralmente estándares planteados desde Contraloría General, CNA, Normativa sobre bienes muebles (decreto 180, decreto 577, etc.), Política de Finanzas y manuales de procedimientos generados desde la institución.",
@@ -3432,7 +2894,7 @@
 			},			
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Diseñados medios de transferencia y difusión de los mecanismos de inventario con orientación al usuario (estamentos).",
+				"desc": "Diseñados y aplicados medios de transferencia y difusión de los mecanismos de inventario con los diversos equipos de la institución.",
 				"actores": [
 					{
 						"cai": "DAF-ADQ", "rol": "Responsable",
@@ -3440,40 +2902,6 @@
 					},
 					{
 						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Índice de mecanismos para difusión asociada a inventario",
-						"plazo": "ago",
-						"estandar": [
-							"Listado simple de mecanismos que permiten comunicar a la comunidad universitaria respecto a servicios, procedimientos y normativa asociada a inventario, con orientación a la comunicación efectiva.",
-							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
-						]
-					},
-					{
-						"nombre": "Mecanismos diseñados",
-						"plazo": "nov",
-						"estandar": [
-							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
-							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Aplicados los medios de transferencia y difusión de mecanismos de inventario con los diversos equipos de la institución.",
-				"actores": [
-					{
-						"cai": "DAF-ADQ", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "inventario" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
 					},
 					{
@@ -3483,8 +2911,26 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de difusión con personal de colaboración",
+						"nombre": "Índice de mecanismos para difusión asociada a inventario",
 						"plazo": "dic",
+						"estandar": [
+							"Listado simple de mecanismos que permiten comunicar a la comunidad universitaria respecto a servicios, procedimientos y normativa asociada a inventario, con orientación a la comunicación efectiva.",
+							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados",
+						"plazo": "ene",
+						"estandar": [
+							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
+							"Coherente con el índice que los específica.",
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+						]
+					},
+					{
+						"nombre": "Actas de difusión con personal de colaboración",
+						"plazo": "ene",
 						"estandar": [
 							"Un acta por sesión de difusión / grupo atendido.",
 							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
@@ -3493,7 +2939,7 @@
 					},
 					{
 						"nombre": "Material de difusión",
-						"plazo": "dic",
+						"plazo": "ene",
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
 							"Incorporar registro visual de las instancias."
@@ -3732,7 +3178,7 @@
 				"verificadores": [
 					{
 						"nombre": "Definición inicial de criterios institucionales para priorización del presupuesto institucional.",
-						"plazo": "sep",
+						"plazo": "ene",
 						"estandar": [
 							"Documento de trabajo que, al alero del modelo conceptual definido en H01, establece directrices estratégicas para la asignación y priorización de items presupuestarios, que puedan ser aplicados en la construcción del presupuesto institucional anual.",
 							"Criterios definidos deben permitir asegurar recursos cada periodo hacia temáticas misionales críticas y asociadas a la planificación estratégica de la institución, como es la investigación, la innovación, el territorio, etc.",
@@ -3853,7 +3299,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos",
-						"plazo": "ago",
+						"plazo": "nov",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
@@ -3887,7 +3333,7 @@
 				"verificadores": [
 					{
 						"nombre": "Caracterización de requerimientos de información.",
-						"plazo": "sep",
+						"plazo": "ene",
 						"estandar": [
 							"Compilación estructurada de datos e información relevante para los procesos asociados al modelo.",
 							"Considera diccionario de datos, indicadores y otros insumos clave, establecidos en los formatos institucionales aportados por Análisis Institucional.",
@@ -3934,161 +3380,6 @@
 						]
 					}
 				]
-			},
-			{
-				"id": "H08", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementados, piloteados y evaluados otros mecanismos operacionales del sistema desarrollado.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "contabilidad", "tesoreria" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Índice de mecanismos operacionales asociados al modelo",
-						"plazo": "ago",
-						"estandar": [
-							"Listado simple de mecanismos relevantes.",
-							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
-							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
-						]
-					},
-					{
-						"nombre": "Mecanismos diseñados",
-						"plazo": "nov",
-						"estandar": [
-							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
-							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					},
-					{
-						"nombre": "Informe de resultados de implementación de mecanismos",
-						"plazo": "ene",
-						"estandar": [
-							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia al modelo y a los procesos normalizados.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el modelo, los procesos u otros mecanismos relevantes."
-						]
-					}
-				]
-			}
-		]
-	},
-	{
-		"id": "24", "area": "DAF",
-		"titulo": "Modernización para el seguimiento financiero de los estudiantes",
-		"objetivo": "Implementar mecanismos tecnológicos para hacer un seguimiento eficiente de la situación financiera de los estudiantes en el marco de procesos formativos.",
-		"responsable": "DAF-FIN",
-		"tipo": "Desarrollo",
-		"tacticas": [
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Identificados y sistematizados requerimientos tecnológicos para el seguimiento de la situación financiera de los estudiantes.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas", "contabilidad" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},					
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DAC-SA", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-DE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Evaluación de requerimientos tecnológicos",
-						"plazo": "may",
-						"estandar": [
-							"Documento simple que sintetiza necesidades funcionales y procedimentales respecto al soporte tecnológico que requiere el seguimiento de situación financiera de los estudiantes.",
-							"Incorpora diagnóstico y evaluación de alternativas, considerando externalización.",
-							"Incorpora miradas desde la perspectiva de aseguramiento de calidad del área TGI.",
-							"Propone criterios para escoger alternativas y formas de implementación."
-						]
-					},
-					{
-						"nombre": "Términos de referencia de servicios externos",
-						"plazo": "may",
-						"estandar": [
-							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
-							"En coherencia con evaluación realizada.",
-							"Establece productos, plazos esperados, roles y responsabilidades.",
-							"Considera asesoría de DPAC-TGI."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Implementados y evaluados los mecanismos tecnológicos para el seguimiento eficiente de la situación financiera de los estudiantes.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas", "contabilidad" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},					
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DAC-SA", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-DE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					}
-				],
-				"verificadores": [					
-					{
-						"nombre": "Validadores de mecanismos tecnológicos incorporados",
-						"plazo": "dic",
-						"estandar": [
-							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
-							"Coherente con TdRs desarrollados.",
-							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
-						]
-					}
-				]
 			}
 		]
 	},
@@ -4099,94 +3390,6 @@
 		"responsable": "DAF-FIN",
 		"tipo": "Desarrollo",
 		"tacticas": [
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantado un catastro estructurado de iniciativas de generación de recursos para la institución que entreguen insumos al diseño de la estrategia.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPYEC", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "educacion-continua" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Compilación estructurada de iniciativas realizadas.",
-						"plazo": "abr",
-						"estandar": [
-							"Detalle estructurado de iniciativas que han sido realizadas históricamente y que de forma planificada han generado y gestionado nuevos recursos hacia la Institución.",
-							"Compilación debe considerar diversidad de medios de ingreso, como son fondos concursables y/o basales, oferta académica en sus diversos niveles, mecanismos o estrategias de ahorro de recursos, servicios al medio externo, transferencia tecnológica, convenios asociados a generación de ingresos, entre otros que sean pertinentes.",
-							"Debe incorporar análisis que permita clasificar iniciativas compiladas según su naturaleza, contribución a mejoramiento de la situación financiera, impacto identificado y verificable en términos cuantitativos, actores clave en su desarrollo y otras variables que sean pertinentes al tema.",
-							"Se debe diagnósticar la organización sistémica de las actividades, estableciendo en que circunstancias existe una vinculación explícita, institucionalizada y verificable entre ellas, y cuando estas vinculaciones están ausentes o no obedecen a un diseño intencionado.",
-							"Se debe identificar los componentes de datos e información que se gestionan desde las actividades, explicitando insumos y salidas de las actividades en materia de información, y explicitando (si corresponde) los usos que se da a esta información en los procesos de toma de decisión asociados a iniciativas de acompañamiento y nivelación estudiantil.",
-							"En los diferentes aspectos identificados, se debe analizar y explicitar las ventajas y desventajas existentes que permitan orientar una revisión del diseño integrado de estrategia de sostenibilidad financiera de la Institución en el largo plazo.",
-							"Presentado en formato de informe y/o compilación de datos según conveniencia."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñados y validados criterios y orientaciones institucionales para el desarrollo de acciones que aporten a la sostenibilidad institucional por medio de ingreso de recursos.",
-				"actores": [
-					{
-						"cai": "Rectoria", "rol": "Aprobador",
-						"capacidades": [ "rectoria" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPYEC", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "coordinacion-postgrado", "educacion-continua", "postgrado" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Definición inicial de criterios institucionales para sostenibilidad financiera de la institución.",
-						"plazo": "jun",
-						"estandar": [
-							"Documento de trabajo que, en función a la compilación de H01, establece directrices estratégicas para la planificación, priorización y desarrollo de actividades que generan recursos para el presupuesto institucional.",
-							"Los criterios deben plantearse y diseñarse con una lógica sistémica, estableciendo de forma estructurada cómo cada tipo de iniciativa contribuye desde áreas estratégicas de la institución, la complejidad y envergadura de aporte financiero que pueda generar cada tipo, el estado actual y proyectado de madurez en la institución de cada tipo, la envergadura de demanda presupuestaria que cada tipo puede requerir, la temporalidad de ejecución y generación de ingresos de cada tipo, lso actores clave que promueven y operacionalizan los distintos tipos, entre diversos otros factores que sean pertinentes.",
-							"En función a la organización sistémica planteada, deben establecerse mecanismos estratégicos y operativos para poder evaluar cuantitativamente el impacto financiero de las diversas iniciativas de forma integrada, permitiendo evaluar y proyectar dicho impacto e integrarlo como variable crítica en las proyecciones que se realicen sobre el presupuesto institucional en sus diversos escenarios.",
-							"Se deben incorporar orientaciones respecto a la gestión de información asociadas a la medición de impactos financieros de actividades que generan ingreso, estableciendo grandes requerimientos estratégicos de información, indicadores y métricas que permiten abordarlas, datos necesarios para resolverlos y mecanismos de reportería periódica que aportarán a ello.",
-							"Se debe incorporar una estrategía de implementación inicial en el proceso de definición de presupuesto del periodo, en coherencia a la planificación institucional."
-						]
-					}
-				]
-			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Actualizada la planificación financiera al 2025 bajo nuevas condiciones reglamentarias y bajo los criterios definidos en la estrategia.",
@@ -4207,7 +3410,7 @@
 				"verificadores": [
 					{
 						"nombre": "Planificación financiera actualizada en función a mecanismos de generación de ingresos.",
-						"plazo": "dic",
+						"plazo": "ene",
 						"estandar": [
 							"Proyección estructurada y sistemática del presupuesto institucional a largo plazo, incorporando y explicitando escenarios asociados a la generación de recursos por medio de acciones amparadas en los criterios establecidos en H02.",
 							"Debe responder y basarse en los aspectos metodológicos planteados en H04 de DAF-23 para la proyección de presupuesto institucional basado en escenarios.",
@@ -4247,337 +3450,12 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto actualizado sobre distribución de recursos y overhead en proyectos.",
-						"plazo": "sep",
+						"plazo": "ene",
 						"estandar": [
 							"Debe establecer mejoras importantes y detalladas en la normativa actual, basándose en la diversidad de criterios y orientaciones que se establezcan desde lo definido en H02.",
 							"Se debe establecer una casuística de distribución variada según las características de los proyectos que generen recursos para la institución.",
 							"Debe incorporar criterios explícitos para beneficiar distintos componentes desde la institución según su participación en la formulación, implementación y rendición de los proyectos.",
 							"Debe dar cuenta de una revisión sobre políticas y/o protocolos de otras instituciones que aborden la materia."
-						]
-					}
-				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Diseñados y validados mecanismos metodológicos e instrumentales para promover y desarrollar intraemprendimientos en la Universidad.",
-				"actores": [
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},					
-					{
-						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPYEC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "coordinacion-postgrado", "educacion-continua", "postgrado" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Índice de mecanismos para operacionalizar intraemprendimientos",
-						"plazo": "jul",
-						"estandar": [
-							"Listado simple de mecanismos relevantes que entreguen un marco de trabajo a los diversos actores institucionales respecto a la propuesta, priorización, diseño, implementación, rendición y proyección de servicios que aprovechen las capacidades institucionales instaladas, que puedan atraer nuevas capacidades y que generen productos en beneficios al medio directo con que se relaciona la Institución, produciendo a su vez ingresos para el presupuesto institucional.",
-							"Se deben considerar mecanismos que permitan formular modelos de negocio o diseños similares que evidencien y proyecten la generación de ingresos y sostenibilidad de las iniciativas en el largo plazo.",
-							"Se deben considerar mecanismos que exploten de forma intensiva los beneficios legales y normativos que tiene la Universidad en su calidad de Institución de Educación Superior Estatal (ej.: convenios de servicios directos con instituciones públicas de forma independiente a la ley de compras).",
-							"Mecanismos clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
-							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
-						]
-					},
-					{
-						"nombre": "Mecanismos diseñados",
-						"plazo": "dic",
-						"estandar": [
-							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
-							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					}
-				]
-			},
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y validado plan de pilotaje de la estrategia para su puesta en práctica en la institución.",
-				"actores": [
-					{
-						"cai": "Rectoria", "rol": "Aprobador",
-						"capacidades": [ "rectoria" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPYEC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "coordinacion-educacion-continua", "coordinacion-postgrado", "educacion-continua", "postgrado" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-tacticos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
-						"plazo": "ene",
-						"estandar": [
-							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
-							"Debe responder a la implementación de actividades que explícitamente declaren generación de ingresos, y que estos puedan ser cuantificados y proyectados en función a las orientaciones y criterios definidos en H02.",
-							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
-						]
-					}
-				]
-			}
-		]
-	},
-	{
-		"id": "26", "area": "DAF",
-		"titulo": "Construcción del Edificio Aulario de la Universidad - Primera Etapa Campus Río Simpson",
-		"objetivo": "Ejercer el rol institucional de gestión del proyecto, realizando seguimiento permanente de su avance para asegurar el éxito en los plazos establecidos.",
-		"tipo": "Desarrollo",
-		"responsable": "DAF-INSG",
-		"tacticas": [
-			{
-				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Detectar y resolver emergentes que permitan asegurar el avance del proyecto en los tiempos planificados.",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Seguimiento de temas emergentes", 
-						"formula": "Número de seguimientos con temas emergentes abordados y acordados.",
-						"meta": "10"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Actas de reuniones en desarrollo de obras.",
-						"estandar": [
-							"Respaldo de reuniones realizadas con contrapartes para hacer seguimiento de obras y resolver emergentes.",
-							"Un acta por reunión realizada",
-							"Cada acta debe establecer temas tratados y detallar participantes.",
-							"Se debe indicar si se detectan emergentes que resolver, cmo se bordarán y compromisos al respecto."
-						]
-					}
-				]
-			},
-			{
-				"id": "F02", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Coordinar periódicamente con empresas contrapartes para monitorear y evaluar avance del proyecto.",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Seguimiento de trabajos realizados", 
-						"formula": "Número de reuniones de seguimiento y evaluación de avance de obras.",
-						"meta": "60"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Actas de reuniones en desarrollo de obras.",
-						"estandar": [
-							"Equivalente a lo definido en F01 (se pueden trabajar de forma combinada)."
-						]
-					}
-				]
-			},
-			{
-				"id": "F03", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Realizar trámites administrativos que den soporte al apropiado avance y desarrollo de la construcción.",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DAF-ADQ", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Trámites para desarrollo de construcción", 
-						"formula": "Número de trámites realizados en relación a avances de la construcción.",
-						"meta": "40"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Validadores de trámites realizados",
-						"estandar": [
-							"Cualquier tipo de documentación que respalde trámites realizados en el contexto del avance de la construcción.",
-							"Considera documentación como decretos, certificados, comunicaciones, correos electrónicos, entre otros validadores.",
-							"Registrados y ordenados de forma estructurada en sistema de archivos para su apropiado seguimiento."
-						]
-					}
-				]
-			},
-			{
-				"id": "F04", "tipo": "Función", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Gestionar la toma de decisiones emergentes relacionadas a los espacios de docencia que permitan avanzar de forma apropiada con la construcción.",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DAC", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "DAC-BRA", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"ios":[
-					{ 
-						"nombre": "Coordinación por asuntos de docencia", 
-						"formula": "Número de reuniones de seguimiento y evaluación asociadas a definiciones de espacios de docencia.",
-						"meta": "5"
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Actas de reuniones en desarrollo de obras.",
-						"estandar": [
-							"Equivalente a lo definido en F01 (se pueden trabajar de forma combinada)."
-						]
-					}
-				]
-			},
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y aprobado plan de identificación y manejo de riesgos en el desarrollo de la construcción del Aulario.",
-				"actores": [
-					{
-						"cai": "DAF", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Plan propuesto.",
-						"plazo": "abr",
-						"estandar": [
-							"Debe responder a las necesidades de avance prioritarias del proyecto.",
-							"Debe explicitar estándares de manejo de riesgos utilizados en su definición.",
-							"Debe acompañarse de validadores asociados a acuerdos con empresa constructora respecto al Plan establecido.",
-							"Debe detallar metodología de identificación y manejo de los riesgos, establecer procedimientos de acción y gestión de contingencias asociadas.",
-							"Debe establecer actividades necesarias, roles, responsabilidades y otros elementos asociados a la metodología.",
-							"Debe establecer cronograma, fechas e hitos clave que estén presupuestados."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Realizada difusión de avance del 2do semestre a comunidad universitaria.",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "interna", "diseno" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-tacticos", "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Actas de difusión con comunidad universitaria",
-						"plazo": "ene",
-						"estandar": [
-							"Un acta por sesión de difusión / grupo.",
-							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
-							"Acta debe indicar contenidos a los cuales se hace difusión en la sesión."
-						]
-					},
-					{
-						"nombre": "Material de difusión",
-						"plazo": "ene",
-						"estandar": [
-							"PPT, documento u otro que explique el objeto de la difusión.",
-							"Incorporar registro visual de las instancias."
 						]
 					}
 				]
@@ -4845,89 +3723,10 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Modelo conceptual sobre gestión de Plan Maestro.",
-						"plazo": "may",
-						"estandar": [
-							"Considera aspectos teóricos y conceptuales para orientar la identificación, sistematización, proyección, priorización y gestión de información de diversos requerimientos de infraestructura en la Institución.",
-							"Debe establecer los criterios institucionales a través de los cuales se clasifican y priorizan los diversos requerimientos de infraestructura, tomando como orientación central la misión académica de la Institución, esto es, cómo esta priorización y sistematización responde al desarrollo integral de la docencia, investigación y vinculación con el medio.",
-							"Establece la manera en que se gestionan sistemáticamente los requerimientos en una lógica de demanda y oferta, entendiendo la demanda como los requerimientos sistematizados y la oferta como la infraestructura que se puede colocar a disposición.",
-							"En función a los criterios establecidos en el modelo, se deben además orientar mecanismos procedimentales que permitan establecer las condiciones y necesidades para buscar, acceder y recurrir a nuevas oportunidades de infraestructura que permitan sosteníblemente en el tiempo abordar las diversas necesidades de crecimiento de la comunidad universitaria.",
-							"El modelo debe tener una fuerte orientación hacia la gestión de información, estableciendo parámetros sistemáticos para caracterizar los requerimientos de infraestructura y caracterizar la oferta de infraestructura existente, de forma que se puedan implementar mecanismos para resolver dichos requerimientos desde información existente, de forma analíticamente orientada, planificada en largo plazo y basada en evidencia.",
-							"Se deben establecer de forma general los principales mecanismos operativos que servirán para toda esta gestión, desde artefactos para la sistematización de datos hasta procesos y procedimientos específicos que hagan uso de dichos datos para la toma de decisiones en lo que respecta a la priorización de requerimientos de infraestructura.",
-							"Define los principales mecanismos para la implementación y operacionalización del marco."
-						]
-					},
-					{
 						"nombre": "Actas de validación y difusión de Modelo conceptual con actores clave.",
 						"plazo": "jun",
 						"estandar": [
 							"Considera la presentación y evaluación de actores estratégicos que adoptarán responsabilidades en la implementación del sistema.",
-							"Acompañado de material que explica los elementos críticos del sistema."
-						]
-					},
-					{
-						"nombre": "Decreto que formaliza Modelo conceptual.",
-						"plazo": "jul",
-						"estandar": [
-							"Explicita su aplicación piloto durante el periodo, y futuros ajustes desde la experiencia respectiva."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñados y formalizados criterios institucionales para la priorización de requerimientos de infraestructura basados en aspectos de la misión institucional y la planificación estratégica.",
-				"actores": [
-					{
-						"cai": "Rectoria", "rol": "Aprobador", "participacion": "Puntual",
-						"capacidades": [ "rectoria" ]
-					},
-					{
-						"cai": "DAC-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},			
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Versión inicial de criterios institucionales para la priorización de requerimientos de infraestructura.",
-						"plazo": "ago",
-						"estandar": [
-							"Propuesta estructurada respecto a los criterios que responden al modelo definido en H01.",
-							"Los criterios deben funcionar en base a la caracterización de los requerimientos de infraestructura pertinentes, de forma estructurada y sistemática, considerando elementos de naturaleza académica (ej.: prioridades de investigación, orientaciones docentes, etc.), presupuestarias (ej.: costos de implementación), demanda de espacio (ej.: tamaño de la infraestructura requerida), entre otros pertinentes.",
-							"Debe acompañarse de una metodología y/o rúbrica de priorización, que permita ponderar cuantitativamente las diversas características de los requerimientos, y en base a ponderaciones de decisión establecidas, orientar la definición de aquellos requerimientos que sean más o menos prioritarios.",
-							"Se deben establecer los mecanismos para definir los factores y/o ponderadores de decisión influyentes en la priorización, estableciendo roles, responsabilidades y funciones claves al respecto por parte de los actores institucionales.",
-							"Se deben esbozar mecanismos operativos para implementar los criterios, los cuales deben basarse y responder a los datos e información necesarios para su funcionamiento."
-						]
-					},
-					{
-						"nombre": "Actas de definición de criterios críticos.",
-						"plazo": "ago",
-						"estandar": [
-							"Considera la presentación y evaluación de propuestas de criterios para establecer decisiones y definiciones en donde la participación de actores estratégicos es clave.",
 							"Acompañado de material que explica los elementos críticos del sistema."
 						]
 					}
@@ -5016,7 +3815,7 @@
 			},
 			{
 				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñados e integrados mecanismos financieros y presupuestarios que permitan valorizar requerimientos de infraestructura y proyectarlos, como insumo a un Plan de Inversión.",
+				"desc": "Aprobado Plan de Infraestructura Institucional 2021 al 2026.",
 				"actores": [
 					{
 						"cai": "DAF", "rol": "Aprobador",
@@ -5058,85 +3857,6 @@
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica.",
 							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					}
-				]
-			},
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Implementados, piloteados y evaluados mecanismos críticos del sistema por medio de la sistematización, priorización y valorización de requerimientos de infraestructura.",
-				"actores": [
-					{
-						"cai": "DAC-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "procesos", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de resultados de implementación de modelo",
-						"plazo": "ene",
-						"estandar": [
-							"Informe simple que indica principales resultados de la aplicación de los mecanismos asociados al modelo propuesto y en coherencia a los procesos normalizados.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
-						]
-					}
-				]
-			},
-			{
-				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Incorporados y evaluados mediante los mecanismos diseñados los requerimientos de infraestructura asociados al Centro de Simulación Médica y al Centro de Atención Psicosocial proyectados para la institución.",
-				"actores": [
-					{
-						"cai": "DAC-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "DCS", "rol": "Consultado",
-						"capacidades": [ "gestion" ]
-					},
-					{
-						"cai": "DCSH", "rol": "Consultado",
-						"capacidades": [ "gestion" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Datos de caracterización y priorización de requerimientos de infraestructura asociados",
-						"plazo": "ene",
-						"estandar": [
-							"Deben contextualizarse en los entregables definidos en H06.",
-							"Caracterización y priorización debe responder a las definiciones del modelo en H01 y a los criterios establecidos en H02.",
-							"Para los requerimientos priorizados, debe incorporar una propuesta de resolución e implementación de la infraestructura priorizada a partir del próximo periodo."
 						]
 					}
 				]
@@ -5251,16 +3971,6 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Índice de mecanismos para normar el orden, higiene y seguridad.",
-						"plazo": "jul",
-						"estandar": [
-							"Listado simple de mecanismos relevantes.",
-							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
-							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
-						]
-					},
-					{
 						"nombre": "Mecanismos diseñados",
 						"plazo": "sep",
 						"estandar": [
@@ -5334,6 +4044,52 @@
 							"Debe indicar los elementos que resultan exitosos.",
 							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
 							"Debe incorporar un plan de mejora simple para el siguiente periodo."
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "30", "area": "DAF",
+		"titulo": "Instalación de capacidades institucionales para valorizar la implementación de los programas de pregrado.",
+		"objetivo": "Aplicar, retroalimentar y mejorar mecanismos institucionales implementados en periodos anteriores para valorizar programas en el contexto de nueva oferta.",
+		"responsable": "DAF-FIN",
+		"tipo": "Desarrollo",
+		"tacticas": [
+			{
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Evaluado los mecanismos de valorización de costos e inversión desarrollados por la Universidad de los Lagos para programas de pregrado.",
+				"actores": [					
+					{
+						"cai": "DAF-FIN", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "finanzas" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DAC-SA", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Costeo y proyección financiera de oferta",
+						"plazo": "dic",
+						"estandar": [
+							"Documentación y artefactos de costeo acorde a metodologías.",
+							"Acompañado de datos e información usada para su generación.",
+							"Debe especificar supuestos y otros elementos aplicados en la proyección en función a implementación incipiente de oferta y/o carencia de datos necesarios."
 						]
 					}
 				]

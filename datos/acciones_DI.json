@@ -7,50 +7,6 @@
 		"tipo": "Desarrollo",
 		"tacticas": [			
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Identificados y normalizados procesos asociados a la sistematización de información sobre productos de investigación.",
-				"actores": [					
-					{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "procesos" ]
-					},
-					{
-						"cai": "DI-ITT", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-DA", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "gobierno-datos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Documentación de normalización de procesos.",
-						"plazo": "may",
-						"estandar": [
-							"Especificación de macroproceso según estándares institucionales.",
-							"Manuales de procesos críticos normalizados según estándares institucionales.",
-							"Plan de implementación de procesos críticos según estándares institucionales.",
-							"Se deben crear artefactos que permitan evaluar de forma dinámica los diversos escenarios posibles, sus combinaciones, parámetros y variables relevantes para la sistematización de datos.",
-							"Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos",
-							"Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
-						]
-					}
-				]
-			},
-			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Caracterizados los requerimientos de información que dan soporte a la gestión de productos de investigación.",
 				"actores": [
@@ -98,49 +54,6 @@
 					}
 				]
 			},			
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Adquirida una herramienta de apoyo a la gestión de información de productos de investigación (ej.: Isotope)",
-				"actores": [
-					{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-ADQ", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Especificación de requerimientos tecnológicos.",
-						"plazo": "abr",
-						"estandar": [
-							"Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para modernización tecnológica requerida.",
-							"Debe tener coherencia con normalización de procesos en H01.",
-							"Aproximación incremental: debe entenderse como una especificación con un alcance acotado, estableciendo los elementos incorporados en su primera versión y cuales se podrán incorporar en futuras versiones."
-						]
-					},
-					{
-						"nombre": "Términos de referencia y/o Especificación Técnica",
-						"plazo": "abr",
-						"estandar": [
-							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
-							"En coherencia con evaluación realizada.",
-							"Establece productos, plazos esperados, roles y responsabilidades.",
-							"Considera asesoría general de DPAC-TGI."
-						]
-					}
-				]
-			},
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Implementada y validada la herramienta de apoyo a la gestión de información de productos de investigación",
@@ -227,7 +140,7 @@
 				"verificadores": [
 					{
 						"nombre": "Documentación de normalización de procesos.",
-						"plazo": "junio",
+						"plazo": "jun",
 						"estandar": [
 							"Especificación de macroproceso según estándares institucionales.",
 							"Manuales de procesos críticos normalizados según estándares institucionales.",
@@ -264,7 +177,7 @@
 				"verificadores": [
 					{
 						"nombre": "Índice de mecanismos para gestión de proyectos de investigación",
-						"plazo": "junio",
+						"plazo": "jun",
 						"estandar": [
 							"Listado simple de mecanismos que permiten la operacionalización de la gestión de proyectos de investigación.",
 							"Mecanismos deben ser coherentes con procesos normalizados en H01.",
@@ -433,17 +346,8 @@
 					}
 				],
 				"verificadores": [
-					{
-						"nombre": "Actas de difusión con cuerpo académico",
-						"plazo": "ago",
-						"estandar": [
-							"Un acta por sesión de difusión / grupo.",
-							"Se debe indicar las características del grupo al cual se hace difusión y registrar listado de asistencia.",
-							"Acta debe indicar contenidos a los cuales se hace difusión en la sesión."
-						]
-					},
-					{
-						"nombre": "Material de difusión",
+					{				
+						"nombre": "Boletín de difusión",
 						"plazo": "ago",
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
@@ -624,13 +528,13 @@
 	{
 		"id": "04", "area": "DI",
 		"titulo": "Seguimiento y control de proyectos de investigación adjudicados y asociados a la institución.",
-		"objetivo": "Realizar el control de gestión de los proyectos de investigación, con mirada específica en las necesidades de desarrollo científico y el éxito de sus resultados.",
+		"objetivo": "Realizar el control de gestión de los proyectos de investigación en ejecución, con mirada específica en las necesidades de desarrollo científico y el éxito de sus resultados.",
 		"responsable": "DI-DINV",
 		"tipo": "Misional",
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", 
-				"desc": "Generado un reporte de control de gestión de los proyectos de investigación de la institución para el 1er semestre.",
+				"desc": "Generado un reporte de control de gestión de los proyectos de investigación de la institución anual.",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
@@ -655,33 +559,6 @@
 							"Debe proveer un diagnóstico general de la situación de los proyectos, sustentado en métricas e indicadores asociados a los proyectos, indicando logros y brechas detectadas.",
 							"Debe entregar un plan de contingencia respecto a las brechas identificados, considerando plazos asociados a la entrega de los informes siguientes.",
 							"Formato basado en estándares DI."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", 
-				"desc": "Generado un reporte de control de gestión de los proyectos de investigación de la institución para el 2do semestre.",
-				"actores": [
-				{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}					
-				],
-				"verificadores": [
-					{
-						"nombre": "Reporte de seguimiento de proyectos de investigación.",
-						"plazo": "ene",
-						"estandar": [
-							"Equivalente al de H01 para el periodo respectivo."
 						]
 					}
 				]
@@ -781,7 +658,7 @@
 					{ 
 						"nombre": "Seguimiento de proyectos internos", 
 						"formula": "Número de instancias de monitoreo y revisión periódicas del estado de avance de proyectos internos.",
-						"meta": "120"
+						"meta": "20"
 					}
 				],
 				"verificadores": [
@@ -804,7 +681,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Elaboradas y aplicadas propuestas de mejora a decretos internos.",
+				"desc": "Solicitudes de decretos, sugerencias y revisión.",
 				"actores": [
 					{
 						"cai": "DI-DINV", "rol": "Responsable",
@@ -864,25 +741,18 @@
 					{ 
 						"nombre": "Trámites asociados a adquisiciones en proyectos de investigación", 
 						"formula": "Número de tramites internos para realizar adquisiciones en el marco del desarrollo de proyectos de investigación asociados a la Institución que son completados.",
-						"meta": "300"
+						"meta": "120"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Registro en plataforma de gestión de proyectos de investigación.",
+						"nombre": "Solicitudes de adquisiciones y seguimiento de Fuentes de Financiamiento de Investigación.",
 						"estandar": [
 							"Registro estructurado y sistemático respecto a tramites internos realizados en la Institución para dar soporte a los proyectos de investigación en desarrollo.",
 							"Debe ser cuantificable en cantidad de trámites efectuados.",
 							"Cada registro / tramite debe especificar información de seguimiento como: proyecto asociados, responsable de trámite / proyecto, funcionario/a que resuelve en DI, fecha recepción, fecha tramitación, fecha resolución, tipo de trámite, insumos, estado de trámite, entre otros datos que sean pertinentes para el control.",
 							"Cada registro debe hacer referencia a documentación anexa que corresponda al trámite, para casos de adquisiciones, contrataciones, etc.",
 							"Entregado en formato que permita análisis de datos (ej.: excel)."
-						]
-					},
-					{
-						"nombre": "Validadores de trámite conforme.",
-						"estandar": [
-							"Validador simple de comunicación (ej.: correo electrónico) que de cuenta de la finalización de cada trámite y conformidad de contraparte de proyecto.",
-							"Debe terminar con recepción conforme de equipo o de insumos y/o decretos en caso de honorarios, pagos o documentación que corresponda a la unidades solicitadas"
 						]
 					}
 				]
@@ -920,19 +790,19 @@
 					{ 
 						"nombre": "Trámites asociados a contrataciones en proyectos de investigación", 
 						"formula": "Número de tramites internos para realizar contrataciones en el marco del desarrollo de proyectos de investigación asociados a la Institución que son completados.",
-						"meta": "20"
+						"meta": "60"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Registro en plataforma de gestión de proyectos de investigación.",
+						"nombre": "Solicitudes de contrataciones vía convenios de honorarios y otros relacionados; y seguimiento de Fuentes de Financiamiento de Investigación.",
 						"estandar": [
 							"Equivalente al definido en F01 (pueden se trabajados como uno solo).",
 							"Considerar un tipo de trámite correspondiente a las contrataciones."
 						]
 					},
 					{
-						"nombre": "Respaldo de contratación de personal",
+						"nombre": "Solicitudes de convenios a honorarios via memoradum o correo SAP",
 						"estandar": [
 							"Forma dependiendo de tipo de contratación (honorarios / contrata)."
 						]
@@ -964,19 +834,19 @@
 					{ 
 						"nombre": "Gestiones articuladas en el marco de proyectos de investigación", 
 						"formula": "Número de gestiones realizadas con otras unidades de la Institución en el marco del soporte entregado al desarrollo de proyectos de investigación.",
-						"meta": "320"
+						"meta": "200"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Registro en plataforma de gestión de proyectos de investigación.",
+						"nombre": "Seguimiento de Fuentes de Financiamiento de Investigación.",
 						"estandar": [
 							"Equivalente al definido en F01 (pueden se trabajados como uno solo).",
 							"Considerar la especificación de información sobre gestiones internas hechas en el marco de cada trámite sistematizado."
 						]
 					},
 					{
-						"nombre": "Correos SAP con solicitudes a otras unidades.",
+						"nombre": "Solicitud y/o Correos SAP.",
 						"estandar": [
 							"Deben dar cuenta de gestiones realizadas con otras áreas de la Institución para abordar necesidades de soporte de los proyectos de investigación."
 						]
@@ -1020,7 +890,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto de plan anual de fondos internos de investigación.",
-						"plazo": "mayo",
+						"plazo": "may",
 						"estandar": [
 							"Documento formal que entrega todos los detalles asociados a la disponibilidad de fondos para investigación que son entregados por la Institución y las definiciones necesarias para su operacionalización.",
 							"Debe especificar los distintos fondos que se ofrecerán durante el año, los montos a distribuir, objetivos generales de cada fondo, entre otros elementos informativos pertinentes.",
@@ -1058,7 +928,7 @@
 				"verificadores": [
 					{
 						"nombre": "Decreto de plan anual de fondos internos de investigación.",
-						"plazo": "mayo",
+						"plazo": "may",
 						"estandar": [
 							"Equivalente al definido en H01 (pueden ser tratados como el mismo).",
 							"Para efectos de temáticas de interdisciplina, se deben incorporar orientaciones explícitas respecto a los fondos que bonificarán se orientarán directamente a esta estrategia.",
@@ -1399,7 +1269,7 @@
 			},
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Sistematizados y difundidos los servicios de apoyo al cuerpo académico en materia de desarrollo y difusión de sus investigaciones.",
+				"desc": "Diseñados y validados procedimientos para dar soporte a la difusión y divulgación de la ciencia en el contexto regional, nacional e internacional.",
 				"actores": [
 					{
 						"cai": "DI-DDC", "rol": "Responsable",
@@ -1590,45 +1460,6 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantada y validada una propuesta de mejoramiento de redes de colaboración nacionales e internacionales para la investigación en base a la situación del cuerpo académico.",
-				"actores": [
-					{
-						"cai": "DI", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-RI", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Plan de mejoramiento de redes de colaboración para la investigación.",
-						"plazo": "ago",
-						"estandar": [
-							"Informe propuesta que, en colaboración a actores claves de la institución, establece un plan de trabajo de corto y mediano plazo para fortalecer redes regionales, nacionales e internacionales de colaboración con el cuerpo académico en materia de investigación.",
-							"Debe responder integralmente a los diagnósticos realizados en H01",
-							"Debe establecer los grandes objetivos del plan en función a la estrategia del área y de los PED de los departamentos respectivos, grandes hitos, roles, responsabilidades, fechas estimadas y alcance del plan en términos de número de vínculos que se espera ampliar en los distintos planos territoriales.",
-							"Debe confeccionarse en función a las líneas de investigación que promoverá la Institución (ver DI-17).",
-							"Debe proponerse como una estrategia emergente, en función al alcance establecido, detallando que se logrará en el periodo y que se dejará para los siguientes."
-						]
-					}
-				]
-			},
-			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Realizar acciones de comunicación y coordinación con redes nacionales e internacionales que mantiene el cuerpo académico en materia de investigación.",
 				"actores": [
@@ -1653,7 +1484,7 @@
 					{ 
 						"nombre": "Gestión de redes académicas", 
 						"formula": "Número de instancias de coordinación para la gestión de redes nacionales e internacionales asociadas al cuerpo académico.",
-						"meta": "8"
+						"meta": "4"
 					}
 				],
 				"verificadores": [
@@ -1742,7 +1573,7 @@
 					{ 
 						"nombre": "Trámites de soporte sobre laboratorios de investigación", 
 						"formula": "Número de tramites realizados para dar soporte al trabajo de académicos/as en los laboratorios de investigación de la Institución.",
-						"meta": "30"
+						"meta": "10"
 					}
 				],				
 				"verificadores": [
@@ -2080,7 +1911,7 @@
 			},
 			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado un marco de trabajo que entregue contexto a la instalación de mecanismos para dar soporte a la difusión y divulgación de la ciencia, considerando impacto territorial, proyección nacional e incorporación del componente artístico.",
+				"desc": "Plan de Divulgación y Comunicación de la Ciencia elaborado y validado.",
 				"actores": [
 					{
 						"cai": "DI", "rol": "Aprobador",
@@ -2140,60 +1971,8 @@
 				]
 			},
 			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñada y validada una política que establezca directrices de principios para el desarrollo de la difusión y divulgación de la ciencia, bajo el marco de trabajo establecido.",
-				"actores": [
-					{
-						"cai": "DI", "rol": "Aprobador",
-						"capacidades": [ "direccion" ]
-					},
-					{
-						"cai": "DI-DDC", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-CU", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "planificacion" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Decreto que formaliza política de difusión y divulgación de la ciencia.",
-						"plazo": "dic",
-						"estandar": [
-							"Debe responder integralmente a elementos establecidos en el modelo.",
-							"Debe haber sido elaborada en función a los estándares institucionales para creación de políticas (DPAC-PCI)."
-						]
-					}
-				]
-			},
-			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Desarrolladas actividades de formación y de sistematización de ideas para orientar y operacionalizar el área de difusión y divulgación de la ciencia.",
+				"desc": "Desarrolladas actividades para la puesta en valor y potenciar capacidades para la difusión, divulgación científica y creación artística.",
 				"actores": [
 					{
 						"cai": "DI-DDC", "rol": "Responsable",
@@ -2404,133 +2183,6 @@
 						"estandar": [
 							"Deben dar cuenta de la presentación hacia actores clave de los diagnósticos realizados y los acuerdos pertinentes.",
 							"Deben especificar lista de asistentes y desarrollo de los temas tratados."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Formalizados y financieramente soportados proyectos de centros de investigación piloto para su conformación y proyección en el tiempo.",
-				"actores": [
-					{
-						"cai": "DVcM-TE", "rol": "Responsable", 
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-FIN", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "finanzas" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "DI-ITT", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Decretos formalizadores de Centros de investigación priorizados.",
-						"plazo": "dic",
-						"estandar": [
-							"Deben dar cuenta de una selección de iniciativas priorizadas para su financiamiento y formalización respecto al diagnóstico levantado en H01.",
-							"Estándares de decreto según definiciones de SG (un solo decreto o decreto por iniciativa)",
-							"Decretos deben detallar el financiamiento que se otorgará a las iniciativas priorizadas, estableciendo como fuente principal URY20993.",
-							"Deben dar cuenta de la normativa establecida y que respalda la priorización y formalización de los centros decretados."
-						]
-					}
-				]
-			},			
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Diseñado y validado un estudio de sostenibilidad financiera, jurídica y administrativa para dar soporte a institucionalidad de centros de investigación.",
-				"actores": [
-					{
-						"cai": "DI-ITT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "SG-JUR", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Estudio propuesto.",
-						"plazo": "nov",
-						"estandar": [
-							"Documento detallado que entrega antecedentes financieros y jurídicos de naturaleza cuantitativa y cualitativa respecto a las oportunidades, capacidades y proyecciones institucionales para la Creación de Centros de Investigación.",
-							"Debe tener una aproximación abductiva, desde la perspectiva que puede basarse en la casuística de las iniciativas en revisión en H02, para luego establecer parámetros generales y transversales desde dicha casuística.",
-							"Desde la perspectiva financiera, deben presentarse antecedentes asociados al aporte de la sostenibilidad financiera en el largo plazo, evaluando el tipo de actividades que se podrán realizar a través de iniciativas, y como estas se incorporan y proyectan en el presupuesto institucional de largo plazo, para lo cual debe considerar el trabajo realizado en paralelo en DAF-25.",
-							"Desde la perspectiva jurídica, debe presentarse un catastro de mecanismos normativos (decretos, normas externas, etc.) que deba ser ampliada, modificada y/o compatibilizada con los aspectos normativos necesarios para la creación de centros, además de establecer orientaciones respecto a las figuras legales que las distintas iniciativas deberían tener, o como esta debería evolucionar en el tiempo según como evolucionan las mismas.",
-							"De forma analítica, el estudio debe proponer criterios metodológicos para orientar la definición, formalización y operacionalización de centros, que sirva para futuros reglamentos en el tema."
-						]
-					},
-					{
-						"nombre": "Actas de validación de estudio.",
-						"plazo": "dic",
-						"estandar": [
-							"Deben dar cuenta de la presentación hacia actores clave del estudio realizado, incluyendo el Consejo Superior.",
-							"Deben especificar lista de asistentes y desarrollo de los temas tratados."
-						]
-					}
-				]
-			},
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Fortalecidas las capacidades académicas y del personal de colaboración en materia de gestión de centros de investigación.",
-				"actores": [
-					{
-						"cai": "DI-ITT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},					
-					{
-						"cai": "DAF-DP", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "psicologico" ]
-					},
-					{
-						"cai": "DAC-DA", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Certificados de capacitación (diplomado vía URY20993)",
-						"plazo": "nov",
-						"estandar": [
-							"Validadores respecto a sesiones de capacitación que den cuenta de lo propuesto.",
-							"Cada acta debe indicar contenidos asociados a la capacitación, asistentes y fechas y otros elementos pertinentes al seguimiento.",
-							"Actas deben dar cuenta de cómo los contenidos entregados tributan a los mecanismos y diagnósticos asociados a la formalización de Centros asociados a esta acción.",
-							"Si aplica, debe adjuntarse material, certificaciones u otro tipo de anexos derivados de las capacitaciones."
 						]
 					}
 				]
@@ -3083,41 +2735,6 @@
 						]
 					}
 				]
-			},
-			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Piloteados y validados los diversos mecanismos implementados al plan desplegado.",
-				"actores": [
-					{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-ITT", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DDC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de resultados de pilotaje",
-						"plazo": "dic",
-						"estandar": [
-							"Informe simple que indica principales resultados de la aplicación de los mecanismos asociados a productividad científica.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre el marco conceptual como de sus mecanismos derivados.",
-							"Debe establecer plan de trabajo para su consolidación en el tiempo y estrategia de desarrollo en el largo plazo."
-						]
-					}
-				]
 			}
 		]
 	},
@@ -3128,110 +2745,7 @@
 		"responsable": "DI-DINV",
 		"tipo": "Desarrollo",
 		"tacticas": [
-			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Formalizado el Fablab en el contexto de los procesos de institucionalización de centros de investigación.",
-				"actores": [
-					{
-						"cai": "DI-ITT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Decreto que formaliza Fablab",
-						"plazo": "dic",
-						"estandar": [
-							"En coherencia a avances desarrollados en H02 de DI-13."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Elaborados y validados criterios de colaboración entre el Fablab y actores del medio.",
-				"actores": [
-					{
-						"cai": "DI-ITT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Propuesta de modelo de gestión Fablab",
-						"plazo": "may",
-						"estandar": [
-							"Documento de trabajo que establece las orientaciones para la articulación del Fablab con actores externos del medio, y el soporte que recibe para ello desde los actores internos de la Institución.",
-							"El modelo debe presentar entre otras cosas: actores claves, funciones desarrolladas por cada actor, productos y/o flujos de información que se generan desde funciones realizadas, productos y/o flujos de información que sirven de insumo para la realización de otras funciones, mecanismos fundamentales de coordinación, estructura orgánica asociada, entre otros elementos que sean pertinentes al modelo de gestión.",
-							"Debe responder integralmente a lineamientos institucionales tanto del área de Investigación como de Vinculación con el Medio.",
-							"En formato que responda a estándares DI."
-						]
-					}
-				]
-			},
-			{
-				"id": "H03", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Diseñados y validados mecanismos internos de seguimiento y sistematización de actividades del Fablab.",
-				"actores": [
-					{
-						"cai": "DI-ITT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-TE", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Índice de mecanismos para desarrollo de actividades de Fablab.",
-						"plazo": "ago",
-						"estandar": [
-							"Listado simple de mecanismos relevantes.",
-							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
-							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
-						]
-					},
-					{
-						"nombre": "Mecanismos diseñados",
-						"plazo": "nov",
-						"estandar": [
-							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
-							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					}
-				]
-			},
+		
 			{
 				"id": "H04", "tipo": "Hito", "cobertura": "Mediana",
 				"desc": "Diseñada y sistematizada una cartera de potenciales acciones lideradas por el Fablab, en coherencia a los estándares de planificación institucional.",
@@ -3428,93 +2942,6 @@
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Propuesto y validado externamente un plan de Bioseguridad para el periodo.",
-				"actores": [
-					{
-						"cai": "DAF-INSG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "riesgos" ]
-					},
-					{
-						"cai": "DI-ADQ", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "compras" ]
-					},
-					{
-						"cai": "DI-INSG", "rol": "Soporte",
-						"capacidades": [ "operacion-misc" ]
-					},
-					{
-						"cai": "DI-DINV", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Consultado",
-						"capacidades": [ "infraestructura" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Propuesta de Plan de Bioseguridad.",
-						"plazo": "may",
-						"estandar": [
-							"Documento de trabajo que entrega las pautas generales respecto a reglas y estándares, información y formación de personal, aplicación de normativa, equipamiento y otros elementos fundamentales para la Bioseguridad.",
-							"Debe establecer acciones asociadas al diseño de mecanismos específicos a implementar durante el periodo que permitan el desarrollo de la investigación con estándares de Bioseguridad pertinentes.",
-							"Debe establecer actores clave, roles, responsabilidades, hitos, actividades, calendario y otros aspectos pertinentes al Plan.",
-							"En formato según estándares DI."
-						]
-					},
-					{
-						"nombre": "Actas de aprobación de Plan",
-						"plazo": "may",
-						"estandar": [
-							"Un acta por sesión de trabajo realizada en el tema.",
-							"Debe dar cuenta de la participación de actores académicos y estratégicos clave, capturando observaciones y compromisos acordados."
-						]
-					}
-				]
-			},
-			{
-				"id": "H01b", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Generadas directrices especificas para complementar las metodologías de gestión de requerimientos de infraestructura con necesidades específicas sobre el desarrollo de la investigación.",
-				"actores": [
-					{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Anexos a criterios institucionales para priorización de requerimientos de infraestructura orientada a la investigación.",
-						"plazo": "oct",
-						"estandar": [
-							"Formulación de directrices complementarias a las desarrolladas en DAF-28-H02.",
-							"Deben incorporar aspectos estratégicos y académicos de la investigación respecto a las necesidades de infraestructura, tomando como insumos aspectos de la Política de Investigación, Líneas de investigación, PEDs de departamentos, entre otros mecanismos orientadores.",
-							"Propuesta debe ser coherente con estrategias de sostenibilidad institucional, privilegiar orientaciones hacia la interdisciplina y apuntar a un uso eficiente y productivo de los espacios físicos para la investigación entre múltiples disciplinas."
-						]
-					}
-				]
-			},
-			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
 				"desc": "Diseñados y aplicados mecanismos protocolares para la clasificación y manejo de residuos peligrosos.",
 				"actores": [
@@ -3608,49 +3035,6 @@
 					}
 				]
 			},			
-			{
-				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Generados y validados mecanismos protocolares para de uso de laboratorios por parte del personal universitario autorizado.",
-				"actores": [
-					{
-						"cai": "DI-DINV", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "riesgos" ]
-					},
-					{
-						"cai": "DAF-INSG", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "infraestructura" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Índice de mecanismos protocolares para de uso de laboratorios por parte del personal universitario autorizado.",
-						"plazo": "jul",
-						"estandar": [
-							"Listado simple de mecanismos relevantes.",
-							"Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
-							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
-							"Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
-						]
-					},
-					{
-						"nombre": "Mecanismos diseñados",
-						"plazo": "sep",
-						"estandar": [
-							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
-							"Coherente con el índice que los específica.",
-							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
-						]
-					}
-				]
-			},
 			{
 				"id": "H05", "tipo": "Hito", "cobertura": "Mediana",
 				"desc": "Piloteados y evaluados los mecanismos diseñados al alero de la realización del plan de Bioseguridad.",

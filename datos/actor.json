@@ -171,7 +171,7 @@
 		] 
 	},
 	{ 
-		"cai": "DVcM-RI", "nombre": "Relaciones Internacionales", "depende": "DVcM", "capacidades": [ 
+		"cai": "REC-RI", "nombre": "Relaciones Internacionales", "depende": "Rectoria", "capacidades": [ 
 			{ "id": "coordinacion-general", "tipo": "tactica", "desc": "Coordinación general" },
 			{ "id": "operacion-misc", "tipo": "operativa", "desc": "Operación misc." }
 		] 

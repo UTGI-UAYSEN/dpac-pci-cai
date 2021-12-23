@@ -317,7 +317,7 @@
 			},
 			{
 				"id": "H03", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Difundida y desarrollada la semana de la Diversidad y Disidencia Sexual y de Género.",
+				"desc": "Difundida y desarrollada la semana de la Diversidad y Disidencia Sexual y de Género y en Seminario de Géneros y Disidencias",
 				"actores": [
 					{
 						"cai": "EG", "rol": "Responsable",
@@ -441,56 +441,6 @@
 							"Incluye comunicaciones por canales oficiales y medios gráficos.",
 							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
 							"Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
-						]
-					}
-				]
-			},
-			{
-				"id": "H07", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Gestionado y desarrollado el Seminario de Géneros y Disidencias.",
-				"actores": [
-					{
-						"cai": "EG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Cronograma de organización",
-						"plazo": "sep",
-						"estandar": [
-							"Define principales actividades, fechas y acciones críticas.",
-							"Establece responsables y requerimientos de organización",
-							"Establece pautas de contenido e impactos esperados en materia de género"
-						]
-					},
-					{
-						"nombre": "Material de difusión",
-						"plazo": "sep",
-						"estandar": [
-							"Incluye comunicaciones por canales oficiales y medios gráficos.",
-							"Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia."
-						]
-					},
-					{
-						"nombre": "Listado de inscripción y ejecución",
-						"plazo": "sep",
-						"estandar": [
-							"Listado de inscripción y asistencia final, compilando información fundamental de participantes (nombre, edad, institución, etc.).",
-							"Evidencias de realización (fotografías, videos, material gráfico, etc.).",
-							"Material de apoyo (documentación, PPTs, etc.)."
-						]
-					},
-					{
-						"nombre": "Evaluación de actividad",
-						"plazo": "oct",
-						"estandar": [
-							"Informe simple que incorpore antecedentes y plantee análisis sobre impacto de actividad como medida de prevención / promoción en la Institución.",
-							"El análisis debe estar basado en antecedentes recopilados desde asistentes / participantes."
 						]
 					}
 				]
@@ -732,36 +682,6 @@
 				]
 			},
 			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Gestionado y formalizado un convenio con SERNAMEG para el desarrollo de acciones institucionales y certificación en materia de género.",
-				"actores": [
-					{
-						"cai": "EG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc", "juridico" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "posicionamiento" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Convenio formalizado",
-						"plazo": "jun",
-						"estandar": [
-							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
-							"Establece líneas de trabajo de corto, mediano y largo plazo.",
-							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
-							"Establece productos principales a generar desde el corto plazo a través del convenio."
-						]
-					}
-				]
-			},
-			{
 				"id": "F01", "tipo": "Función", "cobertura": "Mínima", "prioridad": "Alta",
 				"desc": "Organizar y desarrollar periódicamente sesiones de la Comisión de Género.",
 				"actores": [
@@ -794,7 +714,7 @@
 					{ 
 						"nombre": "Sesiones de la Comisión", 
 						"formula": "Número de sesiones realizadas durante el periodo.",
-						"meta": "25"
+						"meta": "15"
 					}
 				],
 				"verificadores": [
@@ -827,7 +747,7 @@
 					{ 
 						"nombre": "Recomendaciones de trabajo en materia de género y perspectivas transversales", 
 						"formula": "Número de informes emitidos desde la comisión durante el periodo con recomendaciones en la materia.",
-						"meta": "4"
+						"meta": "2"
 					}
 				],
 				"verificadores": [
@@ -859,7 +779,7 @@
 					{ 
 						"nombre": "Instancias de participación en Redes relevantes", 
 						"formula": "Número de participaciones de la Institución evidenciadas en las Redes relevantes.",
-						"meta": "5"
+						"meta": "10"
 					}
 				],
 				"verificadores": [
@@ -932,12 +852,12 @@
 					{ 
 						"nombre": "Verificación de canales para aplicación de protocolo", 
 						"formula": "Número de instancias periódicas de revisión de canales para recepción de denuncias a través del protocolo.",
-						"meta": "40"
+						"meta": "2"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Validadores de revisión de canales",
+						"nombre": "Acta de recepción de denuncia",
 						"estandar": [
 							"Debe dar cuenta que persona responsable ha revisado los contenidos o información que puede dar cuenta de la recepción de denuncias.",
 							"El canal dependerá de los mecanismos operativos implementados por EG en el tema.",
@@ -964,12 +884,12 @@
 					{ 
 						"nombre": "Instancias de coordinación efectuadas", 
 						"formula": "Número de instancias conformadas en prevención, ensayo o respuesta a casos de violencia y discriminación.",
-						"meta": "10"
+						"meta": "1"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Validadores de conformación de instancias",
+						"nombre": "Actas de constitucion de Comisión de Acoso y Discriminación (CAD)",
 						"estandar": [
 							"Instancias deben dar cuenta respecto a si se conforman ante una denuncia, o como instancia periódica de conformación.",
 							"Considerar que, aunque no existan denuncias, se recomienda conformar instancias a modo de ensayo, prevención y para levantar necesidades emergentes respecto a los canales.",
@@ -1000,12 +920,12 @@
 					{ 
 						"nombre": "Registros (innominados) asociados a la revisión y/o seguimiento de casos de violencia y discriminación", 
 						"formula": "Número de registros sistematizados respecto a casos detectados y/o instancias de revisión periódica y preventiva a través del protocolo.",
-						"meta": "20"
+						"meta": "2"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Registro sistematizado de revisión y seguimiento",
+						"nombre": "Planilla de sistematización",
 						"estandar": [
 							"Debe dar cuenta de la información que es ingresada respecto al seguimiento de casos, o revisiones de rutina sobre la aplicación del protocolo.",
 							"En el caso de existir casos activos de denuncias, el registro debe entregarse innominado y ocultando toda la información que pueda evidenciar la identidad de las personas involucradas.",
@@ -1040,12 +960,12 @@
 					{ 
 						"nombre": "Registro de acciones operativas y derivaciones legales asociadas a la aplicación del protocolo", 
 						"formula": "Número de reportes sistematizados que dan cuenta de la evaluación, aplicación y ejecución del protocolo.",
-						"meta": "10"
+						"meta": "1"
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Reportes mensuales de aplicación de protocolo",
+						"nombre": "Planilla de sistematización",
 						"estandar": [
 							"Debe dar cuenta de las acciones procedimentales y legales realizadas por los responsables institucionales para la aplicación del protocolo.",
 							"Cada informe debe resumir posibles casos detectados, y todas las acciones realizadas, tanto en materia interna como derivación a asuntos legales.",
@@ -1082,7 +1002,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Reportes bimensuales sobre acciones de derivación",
+						"nombre": "Memo SAP solicitando adquisición de atención psicológica",
 						"estandar": [
 							"Debe dar cuenta de las acciones ejecutadas, en complemento a lo reportado en F04, respecto a tratamiento psicológico.",
 							"En caso de no existir casos que evidenciar, cada reporte lo debe explicitar",
@@ -1350,49 +1270,8 @@
 				]
 			},
 			{
-				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Difundidos los ajustes y nuevos mecanismos que apoyan el mejoramiento en el funcionamiento del PVSDA.",
-				"actores": [
-					{
-						"cai": "EG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc", "juridico", "psicologico" ]
-					},
-					{
-						"cai": "DVcM-COM", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "posicionamiento", "interna", "diseno" ]
-					},
-					{
-						"cai": "EG", "rol": "Consultado",
-						"capacidades": [ "juridico", "psicologico" ]
-					},
-					{
-						"cai": "multiple", "rol": "Informado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Lista de asistencia a actividades de difusión",
-						"plazo": "oct",
-						"estandar": [
-							"Consolidada o dividida en cantidad de presentaciones realizadas.",
-							"Debe ser identificable de forma clara el número de asistentes.",
-							"Los asistentes deben estar clasificados por cargo."
-						]
-					},
-					{
-						"nombre": "Material de capacitación",
-						"plazo": "oct",
-						"estandar": [
-							"PPT, documento u otro que explique nueva versión de protocolo y sus mecanismos.",
-							"Opcionalmente acompañadas de grabaciones de presentaciones (si aplica)."
-						]
-					}
-				]
-			},
-			{
 				"id": "H09", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Piloteados y evaluados los diversos ajustes y mecanismos incorporados para la mejora en la aplicación del PVSDA.",
+				"desc": "Evaluados los ajustes procedimentales y de los mecanismos para la atención de denuncias en concordancia con la LEY 21369.",
 				"actores": [
 					{
 						"cai": "EG", "rol": "Responsable",
@@ -1843,58 +1722,6 @@
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
-				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñada y validada la Política de Equidad de Género.",
-				"actores": [
-					{
-						"cai": "EG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "EG", "rol": "Consultado",
-						"capacidades": [ "psicologico", "juridico" ]
-					},
-					{
-						"cai": "DAC-DE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "SG", "rol": "Consultado",
-						"capacidades": [ "secretaria-general" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Propuesta de política de Equidad de Género.",
-						"plazo": "may",
-						"estandar": [
-							"Su diseño debe seguir las orientaciones institucionales para este tipo de instrumento.",
-							"Debe articularse con instrumentos de planificación estratégica.",
-							"Debe dar cuenta de la validación y retroalimentación de actores estratégicos, especialmente Rectoría."
-						]
-					},
-					{
-						"nombre": "Decreto que aprueba Política diseñada.",
-						"plazo": "jun",
-						"estandar": [
-							"En base a propuesta validada."
-						]
-					}
-				]
-			},
-			{
 				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
 				"desc": "Revisado y ajustado el reglamento de admisión para promover criterios en materia de equidad de género.",
 				"actores": [
@@ -2022,91 +1849,6 @@
 				]
 			},
 			{
-				"id": "H05", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado y aprobado el manual de lenguaje inclusivo (no sexista).",
-				"actores": [
-					{
-						"cai": "EG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-DE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-EPRE", "rol": "Consultado",
-						"capacidades": [ "coordinacion-curricular", "curricular" ]
-					},
-					{
-						"cai": "DAF-DP", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "SG-JUR", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Propuesta inicial de manual",
-						"plazo": "jul",
-						"estandar": [
-							"Documento simple que provee orientaciones procedimentales y funcionales respecto al lenguaje inclusivo.",
-							"Debe incorporar referencias a elementos conceptuales y normativos que respalden el manual.",
-							"Debe dar cuenta de un diagnóstico y análisis en la materia de lenguaje inclusivo que sea considerado en la propuesta",
-							"Debe dar cuenta del cumplimiento de requisitos normativos y legales que sean pertinentes.",
-							"Debe dar cuenta de seguir pautas de aseguramiento de la calidad en el diseño del instrumento.",
-							"Debe dar cuenta de una construcción socializada y trabajada con actores claves en la materia."
-						]
-					},
-					{
-						"nombre": "Decreto que formaliza manual.",
-						"plazo": "ago",
-						"estandar": [
-							"En base a propuesta validada."
-						]
-					}
-				]
-			},
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Elaborado un plan de acción para la implementación del manual de lenguaje inclusivo.",
-				"actores": [
-					{
-						"cai": "EG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-PCI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Acciones sistematizadas en Cartera de Acciones Institucionales.",
-						"plazo": "nov",
-						"estandar": [
-							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
-							"Debe responder a la propuesta de ajustes propuestas durante esta acción.",
-							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional.",
-							"Acciones diseñadas deben hacer referencia a diversos instrumentos que pueden ser actualizados y complementados en búsqueda de la incorporación de lenguaje inclusivo."
-						]
-					}
-				]
-			},
-			{
 				"id": "H07", "tipo": "Hito", "cobertura": "Acotada",
 				"desc": "Evaluados y aplicados ajustes para la incorporación de la perspectiva de género en los instrumentos de análisis institucional y atingentes a procesos críticos (caracterización de estudiantes, evaluación docente, etc.).",
 				"actores": [
@@ -2179,56 +1921,233 @@
 						]
 					}
 				]
-			},
+			}
+		]
+	},	
+	{
+		"id": "10", "area": "Rectoria",
+		"titulo": "Despliegue de la estrategia de posicionamiento de actividades académicas en el medio Internacional.",
+		"objetivo": "Desarrollar actividades académicas en vinculación al medio internacional bajo lineamientos estratégicos establecidos, que permitan enriquecer y profundizar las relaciones y el posicionamiento internacional.",
+		"responsable": "RI",
+		"tipo": "Desarrollo",
+		"tacticas": [
 			{
-				"id": "H09", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Levantadas y sistematizadas participatívamente propuestas que permitan abordar los desafíos de transversalización del género en la gestión universitaria.",
+				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado un catastro de iniciativas realizadas en la Institución con vinculación al medio internacional, que permita guiar la revisión de estrategias y mecanismos tanto establecidos como nuevos en materia de internacionalización.",
 				"actores": [
 					{
-						"cai": "EG", "rol": "Responsable",
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos", "todos-tacticos", "todos-gestion-academica" ]
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
 					}
 				],
 				"verificadores": [
 					{
-						"nombre": "Actas de instancias de participación",
-						"plazo": "oct",
+						"nombre": "Compilación estructurada de actividades académicas en el medio internacional.",
+						"plazo": "abr",
 						"estandar": [
-							"Cada acta debe explicitar grupos de trabajo con los cuales se trabajo la temática.",
-							"Cada acta debe dar cuenta de participantes y sus roles en la institución.",
-							"Cada acta debe establecer temáticas tratadas y retroalimentación obtenida.",
-							"Cada acta debe dar cuenta de alcance de temas tratados en base a grupo objetivo."
-						]
-					},
-					{
-						"nombre": "Informe de sistematización de propuestas",
-						"plazo": "nov",
-						"estandar": [
-							"Debe compilar sistemática y estructuradamente propuestas y recomendaciones obtenidas desde instancias de participación.",
-							"Debe establecer alcances para las propuestas levantadas (corto, mediano largo plazo).",
-							"Debe establecer participaciones requeridas a nivel institucional para las diversas propuestas sistematizadas (actores relevantes, estamentos, etc.)."
+							"Detalle estructurado sobre actividades lideradas por la Institución de naturaleza académica que hayan sido desarrolladas y hayan tenido impacto en el medio internacional.",
+							"Debe incorporar análisis que permita clasificar las iniciativas compiladas según la contribución a las funciones misionales, actor ejecutor, país o países de realización, su contribución posicionamiento internacional, articulaciones desplegadas y/o formalizadas (ej.: convenios), temáticas disciplinares, impacto identificado y verificable en términos cuantitativos, percepción de actores asociados y otras variables que sean pertinentes al tema.",
+							"Se debe presentar un análisis respecto a las estrategias de coordinación entre actores relevantes para la realización de las actividades y la aplicación de mecanismos específicos que haya impulsado la Institución, describiendo y evaluando el grado de formalidad e institucionalidad.",
+							"En los diferentes aspectos identificados, se debe analizar y explicitar las brechas existentes que permitan orientar un modelo de gestión para las relaciones internacionales.",
+							"Presentado en formato de informe y/o compilación de datos según conveniencia."
 						]
 					}
 				]
 			},
 			{
-				"id": "H10", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Diseñado un plan de acción, en coherencia a los mecanismos de planificación institucional, que permita instalar medidas que promuevan la transversalización del género en las actividades académicas, tanto desde los diagnósticos realizados como desde la sistematización de iniciativas.",
+				"id": "H02", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Levantado diagnóstico de características y estado de desarrollo de convenios de colaboración con Instituciones internacionales, que permita guiar la revisión de estrategias y mecanismos tanto establecidos como nuevos en materia de internacionalización.",
 				"actores": [
 					{
-						"cai": "EG", "rol": "Responsable",
+						"cai": "REC-RI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DPAC-PCI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "planificacion" ]
+						"cai": "SG-JUR", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DPAC-AI", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
 						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					},
+					{
+						"cai": "multiple", "rol": "Informado",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de actualización y avance de convenios internacionales.",
+						"plazo": "may",
+						"estandar": [
+							"Puede complementar o anexar el diagnóstico desarrollado en H01.",
+							"Debe establecer un resumen descriptivo de los diversos convenios internacionales propuestos y/o desarrollados y/o formalizados, describiendo el estado de avance y profundización de los mismos.",
+							"Se debe hacer un análisis de impacto territorial en el contexto internacional desde los convenios sistematizados, describiendo las tendencias y aproximaciones de vinculación con países específicos.",
+							"Debe establecer un diagnóstico de avance de las acciones comprometidas en los distintos convenios, con antecedentes cuantitativos y cualitativos, estableciendo métricas agregadas y destacando en casos de relevancia para el análisis.",
+							"Debe diagnosticar tanto avances como brechas asociadas a los convenios, dando cuenta de las principales causales detectadas y contrastadas con el desarrollo institucional de los periodos respectivos."
+						]
+					}
+				]
+			},
+			{
+				"id": "H03", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Diseñada y validada una propuesta sobre el potencial alcance geográfico de las relaciones internacionales proyectada en el mediano plazo para la Universidad de Aysén en función a los insumos sistematizados y diagnosticados.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Estrategia de alcance geográfico para las relaciones internacionales.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe responder integralmente a los diagnósticos realizados en H01 y H02.",
+							"Debe considerar y responder a los antecedentes levantados en el ámbito de las redes de colaboración para la investigación (DI-09).",
+							"Debe establecer una hoja de ruta de corto, mediano y largo plazo para la búsqueda, coordinación, definición, formalización y operacionalización de relaciones internacionales en función a una distribución geográfica propuesta desde los antecedentes previamente levantados.",
+							"Debe establecer mecanismos para la participación del cuerpo académico en la hoja de ruta respectiva, estableciendo acciones periódicas y emergentes que ayuden a consolidar redes en función a las oportunidades trabajadas con el estamento académico.",
+							"Debe responder integralmente a instrumentos de planificación institucional."
+						]
+					},
+					{
+						"nombre": "Acta de validación.",
+						"plazo": "ago",
+						"estandar": [
+							"Debe dar cuenta de la presentación y visación de actores estratégicos y tácticos clave.",
+							"Debe indicar participantes, temas presentados, retroalimentación recibida y otros relevantes para su aprobación."
+						]
+					}
+				]
+			},
+			{
+				"id": "H04", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisadas y actualizadas las directrices estratégicas en materia de internacionalización para la Institución, acorde a diagnósticos y definiciones de alcance realizadas.",
+				"actores": [
+					{
+						"cai": "Rectoria", "rol": "Aprobador",
+						"capacidades": [ "rectoria" ]
+					},
+					{
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "interna", "posicionamiento" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Propuesta de mejora sobre directrices estratégicas de relaciones internacionales",
+						"plazo": "oct",
+						"estandar": [
+							"Debe responder integralmente a las brechas detectadas en el diagnóstico de H01 y  H02.",
+							"Debe responder integralmente a distintos otros instrumentos estratégicos y directrices contenidas en ellos que sean relevantes para las relaciones internacionales (PEDI, Política de VcM, PFI, etc.).",
+							"Debe dar cuenta del aporte de la mirada académica en las directrices establecidas, y como actores claves del estamento académico participan, retroalimentan y orientan aspectos de las relaciones internacionales.",
+							"Diseño debe responder a formato que permita su difusión y presentación como instrumento estratégico (ej.: documento estrategia), utilizando estándares institucionales (DPAC-PCI)."
+						]
+					}
+				]
+			},
+			{
+				"id": "H05", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Desarrollada una cartera de acciones en materia de internacionalización para el mediano plazo, al alero de las directrices estratégicas establecidas y en coherencia a los mecanismos de planificación institucional, que permitan impulsar el área de forma apropiada.",
+				"actores": [
+					{
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DAC-EPYEC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DI-DINV", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general" ]
+					},
+					{
+						"cai": "DVcM-COM", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "posicionamiento" ]
+					},
+					{
+						"cai": "DPAC-PCI", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "planificacion" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
 					}
 				],
@@ -2238,14 +2157,166 @@
 						"plazo": "dic",
 						"estandar": [
 							"Debe proveer reportes de acciones sistematizadas en los estándares definidos por DPAC-PCI.",
-							"Debe responder a la propuesta de acciones de transversalización levantadas.",
+							"Debe responder a la necesidad de implementar las estrategias en mejoramiento para el área de relaciones internacionales.",
 							"Debe indicar explícitamente acciones que tendrán pertinencia en siguiente periodo, según proceso de planificación institucional."
 						]
 					}
 				]
+			},
+			{
+				"id": "H06", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Generada una propuesta de fortalecimiento de capacidades y diseño de mecanismos conductores para el desarrollo de la internacionalización en la Institución.",
+				"actores": [
+					{
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado", "participacion": "Esporádica",
+						"capacidades": [ "todos-estrategicos" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Informe de capacidades requeridas",
+						"plazo": "ago",
+						"estandar": [
+							"Informe ejecutivo, diseñado en coherencia a diagnósticos levantados en H01 y H02.",
+							"Debe entregar un análisis y justificación sobre requerimientos en talento humano y fortalecimiento necesario de equipo asociado a internacionalización, tanto en el corto como en el largo plazo.",
+							"Debe establecer los requerimientos desde perspectivas cuantitativos (JCE) y cualitativas, bajo criterios de sostenibilidad y coherencia con proyecciones de largo plazo sobre recursos (ej.: PFI).",
+							"Debe expresar coherencia con instrumentos de planificación estratégica."
+						]
+					},
+					{
+						"nombre": "Índice de mecanismos",
+						"plazo": "jul",
+						"estandar": [
+							"Listado simple de mecanismos que deberán usarse para operacionalizar nueva versión de protocolo.",
+							"Clasificados según tipo (procedimiento, registro, etc.).",
+							"Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto."
+						]
+					},
+					{
+						"nombre": "Mecanismos diseñados.",
+						"plazo": "dic",
+						"estandar": [
+							"Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto.",
+							"Coherentes con el índice que los específica.",
+							"Registro ordenado de documentos que compilan los mecanismos diseñados."
+						]
+					}
+				]
+			},
+			{
+				"id": "H07", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisada, aprobada y formalizada la propuesta de reglamento de movilidad estudiantil para desarrollar acciones piloto de intercambio internacional (URY 1856).",
+				"actores": [
+					{
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Decreto de reglamento de movilidad estudiantil",
+						"plazo": "abr",
+						"estandar": [
+							"Desarrollado según definiciones asociadas a URY 1856 en temas de internacionalización.",
+							"Debe responder integralmente a definiciones del Modelo Educativo y estrategias institucionales en el área de docencia."
+						]
+					}
+				]
+			},
+			{
+				"id": "H08", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
+				"desc": "Revisados y actualizados convenios que permitan la implementación de acciones piloto en materia de movilidad estudiantil internacional (URY 1856).",
+				"actores": [
+					{
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "SG-JUR", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "DPAC-GC", "rol": "Consultado",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-estrategicos", "todos-gestion-academica" ]
+					}
+				],
+				"verificadores": [
+					{
+						"nombre": "Convenios actualizados",
+						"plazo": "abr",
+						"estandar": [
+							"Debe adjuntarse listado resumen de convenios actualizados y principales ajustes.",
+							"Establece principales responsabilidades y compromisos de instituciones involucradas.",
+							"Establece líneas de trabajo de corto, mediano y largo plazo.",
+							"Establece representantes, responsables, roles y otra información que permita su apropiada coordinación.",
+							"Establece productos principales a generar desde el corto plazo a través de cada convenio."
+						]
+					}
+				]
+			},
+			{
+				"id": "H09", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
+				"desc": "Piloteadas y evaluadas actividades de movilidad estudiantil internacional (URY 1856).",
+				"actores": [
+					{
+						"cai": "REC-RI", "rol": "Responsable",
+						"capacidades": [ "coordinacion-general", "operacion-misc" ]
+					},
+					{
+						"cai": "DAC-EPRE", "rol": "Soporte", "participacion": "Esporádica",
+						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
+					},
+					{
+						"cai": "multiple", "rol": "Consultado",
+						"capacidades": [ "todos-gestion-academica" ]
+					}					
+				],
+				"verificadores": [
+					{
+						"nombre": "Evidencias de realización de actividades",
+						"plazo": "jun",
+						"estandar": [
+							"Distintos validadores que den cuenta de la realización de las actividades.",
+							"Debe considerar cosas como: material gráfico presentado, fotografías, grabaciones, actas, etc.",
+							"Debe considerar listados de asistencia a las actividades."
+						]
+					}
+				]				
 			}
 		]
-	},	
+	},
 	{
 		"id": "01", "area": "SG",
 		"titulo": "Provisión de documentación institucional y correspondencia.",
@@ -2275,7 +2346,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de requerimientos de documentación institucional",
+						"nombre": "Planilla de requerimientos de transparencia",
 						"estandar": [
 							"Registro simple (planilla, documento, etc.) con detalle de requerimientos recibidos y sus características.",
 							"Debe dar cuenta del estado de derivación del requerimiento.",
@@ -2452,7 +2523,7 @@
 					{ 
 						"nombre": "Documentación legal formalizada", 
 						"formula": "Números de actos administrativos emitidos.",
-						"meta": "200"
+						"meta": "50"
 					}					
 				],
 				"verificadores": [
@@ -2615,7 +2686,7 @@
 						"nombre": "Planillas de seguimiento de los acuerdos del Consejo Superior",
 						"estandar": [
 							"Generados periódicamente en base a sesiones del Consejo Superior realizadas.",
-							"Detallan y sintetizan el uso de los resultados de las sesiones del Consejo para su debida instalación y despliegue en la institución.",
+							"Detallan y sintetizan los acuerdos de las sesiones del Consejo para su debida instalación y despliegue en la institución",
 							"Dan cuenta de cómo se han utilizado dichos resultados, el impacto que han tenido y las estrategias de coordinación utilizadas.",
 							"Cada uno provee reflexiones y propuestas sobre mejoras en el trabajo coordinado con el Consejo Superior y otras instancias relacionadas."
 						]
@@ -2820,7 +2891,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada",
-				"desc": "Normalizados los procesos institucionales asociados a la gestión documental.",
+				"desc": "Documentar procesos asociados a la gestión documental.",
 				"actores": [
 					{
 						"cai": "DPAC-GC", "rol": "Responsable",
@@ -3056,97 +3127,6 @@
 						]
 					}
 				]
-			},	
-			{
-				"id": "H06", "tipo": "Hito", "cobertura": "Mediana",
-				"desc": "Piloteados y Evaluados mecanismos tecnológicos para automatizar firmas digitales en documentación institucional.",
-				"actores": [
-					{
-						"cai": "SG-OPGDT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "desarrollo" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Evaluación de requerimientos tecnológicos",
-						"plazo": "oct",
-						"estandar": [
-							"Documento simple que sintetiza necesidades funcionales y procedimentales respecto a la implementación de firmas digitales.",
-							"Incorpora diagnóstico y evaluación de alternativas, considerando externalización.",
-							"Incorpora miradas desde la perspectiva de aseguramiento de calidad del área TGI.",
-							"Propone criterios para escoger alternativas y formas de implementación."
-						]
-					},
-					{
-						"nombre": "Términos de referencia de servicios externos",
-						"plazo": "nov",
-						"estandar": [
-							"Sistematización de requerimientos para incorporación de servicio externo que permita implementar mecanismos tecnológicos necesarios.",
-							"En coherencia con evaluación realizada.",
-							"Establece productos, plazos esperados, roles y responsabilidades.",
-							"Considera asesoría de DPAC-TGI, y gestión integral de SG."
-						]
-					},
-					{
-						"nombre": "Validadores de mecanismos tecnológicos incorporados",
-						"plazo": "ene",
-						"estandar": [
-							"Evidencias de implementación tecnológica realizada (sistema, manual, reportes de ejemplos, etc.).",
-							"Coherente con TdRs desarrollados.",
-							"Expresa validación de calidad de DPAC-TGI sobre entregas realizadas."
-						]
-					}
-				]
-			},
-			{
-				"id": "H07", "tipo": "Hito", "cobertura": "Mediana", "prioridad": "Alta",
-				"desc": "Piloteados y evaluados los mecanismos desarrollados para la gestión documental.",
-				"actores": [
-					{
-						"cai": "SG-OPGDT", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-TGI", "rol": "Soporte",
-						"capacidades": [ "coordinacion-general", "desarrollo", "plataforma" ]
-					},
-					{
-						"cai": "CI-LCJ", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DPAC-GC", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc", "procesos" ]
-					},					
-					{
-						"cai": "DPAC-AI", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado", "participacion": "Puntual",
-						"capacidades": [ "todos-tacticos", "todos-gestion-academica" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Informe de resultados de pilotaje",
-						"plazo": "ene",
-						"estandar": [
-							"Informe simple que indica principales resultados de la aplicación de los mecanismos en coherencia a los procesos normalizados.",
-							"Debe indicar los elementos que resultan exitosos.",
-							"Debe indicar los elementos que no lograron implementarse según lo esperado.",
-							"Debe incorporar un plan de mejora simple para el siguiente periodo, tanto sobre los procesos mismos como con los mecanismos trabajados."
-						]
-					}
-				]
 			}
 		]
 	},
@@ -3154,7 +3134,7 @@
 		"id": "06", "area": "SG",
 		"titulo": "Mejoramiento de la gestión de convenios institucionales.",
 		"objetivo": "Implementar mecanismos de gestión para mejorar la recepción, registro y tramitación de convenios que sostiene la Institución con actores externos del medio.",
-		"responsable": "SG-OPGDT",
+		"responsable": "SG-JUR",
 		"tipo": "Desarrollo",
 		"tacticas": [
 			{
@@ -3162,7 +3142,7 @@
 				"desc": "Actualizado el catastro e información respecto de convenios institucionales que se encuentren en tramitación en Secretaría General.",
 				"actores": [
 					{
-						"cai": "SG-OPGDT", "rol": "Responsable",
+						"cai": "SG-JUR", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -3204,7 +3184,7 @@
 				"desc": "Diseñado y validados mecanismos procedimentales de formalización de los convenios institucionales.",
 				"actores": [
 					{
-						"cai": "SG-OPGDT", "rol": "Responsable",
+						"cai": "SG-JUR", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -3249,7 +3229,7 @@
 					},
 					{
 						"nombre": "Mecanismos diseñados",
-						"plazo": "sep",
+						"plazo": "nov",
 						"estandar": [
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica.",
@@ -3263,7 +3243,7 @@
 				"desc": "Piloteados y evaluados los mecanismos para la formalización de convenios.",
 				"actores": [
 					{
-						"cai": "SG-OPGDT", "rol": "Responsable",
+						"cai": "SG-JUR", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},					
 					{
@@ -3304,7 +3284,7 @@
 		"tacticas": [
 			{
 				"id": "H01", "tipo": "Hito", "cobertura": "Acotada", "prioridad": "Alta",
-				"desc": "Realizado un diagnóstico sobre las necesidades de soporte administrativo y jurídico que requerirán los nuevos egresados de la Universidad en el periodo.",
+				"desc": "Realizado un diagnóstico sobre las necesidades de soporte administrativo y jurídico que requerirán los nuevos egresados de la Universidad en el periodo con propuestas de capacidades para el área de títulos y grados.",
 				"actores": [					
 					{
 						"cai": "DAC-EPRE", "rol": "Responsable",
@@ -3341,34 +3321,7 @@
 							"Establece necesidades de gestión procedimental, tecnológica y de información requeridas.",
 							"Debe dar cuenta de los principales mecanismos legales y jurídicos que deben ser implementados.",
 							"Debe tener en consideración aspectos de aseguramiento de la calidad.",
-							"Debe dar cuenta de validación y soporte de actores claves (SG, AI, etc.)."
-						]
-					}
-				]
-			},
-			{
-				"id": "H02", "tipo": "Hito", "cobertura": "Mínima", "prioridad": "Alta",
-				"desc": "Generada una propuesta para la instalación y desarrollo de capacidades para el área de títulos y grados.",
-				"actores": [					
-					{
-						"cai": "SG-TG", "rol": "Responsable",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "DAC-SA", "rol": "Consultado",
-						"capacidades": [ "coordinacion-general", "operacion-misc" ]
-					},
-					{
-						"cai": "multiple", "rol": "Consultado",
-						"capacidades": [ "todos-estrategicos" ]
-					}
-				],
-				"verificadores": [
-					{
-						"nombre": "Complemento a informe de diagnóstico con capacidades requeridas",
-						"plazo": "abr",
-						"estandar": [
-							"Complemento al informe de H01.",
+							"Debe dar cuenta de validación y soporte de actores claves (SG, AI, etc.).",
 							"Debe profundizar en talentos y fortalecimiento necesario de equipo, tanto en el corto como en el largo plazo.",
 							"Debe expresar coherencia con planificación institucional y otros instrumentos de planificación estratégica."
 						]
@@ -3465,7 +3418,7 @@
 				"verificadores": [
 					{
 						"nombre": "Mecanismos diseñados",
-						"plazo": "sep",
+						"plazo": "nov",
 						"estandar": [
 							"Registro ordenado de documentos que compilan los mecanismos diseñados.",
 							"Coherente con el índice que los específica (H03).",
