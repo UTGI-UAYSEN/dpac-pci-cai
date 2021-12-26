@@ -1431,7 +1431,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DVcM-RI", "rol": "Soporte",
+						"cai": "REC-RI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -1464,7 +1464,7 @@
 				"desc": "Realizar acciones de comunicación y coordinación con redes nacionales e internacionales que mantiene el cuerpo académico en materia de investigación.",
 				"actores": [
 					{
-						"cai": "DVcM-RI", "rol": "Responsable",
+						"cai": "REC-RI", "rol": "Responsable",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -1497,7 +1497,7 @@
 							"Se debe explicitar cuando se establecen condiciones para generar convenios de colaboración y los plazos estimados para su formalización y operacionalización",
 							"Participantes deben incorporar actores estratégicos y académicos relevantes.",
 							"Acompañar de documentación e insumos entregados en las definiciones.",
-							"Insumos provienen desde DVcM-RI"
+							"Insumos provienen desde REC-RI"
 						]
 					}
 				]
@@ -2046,7 +2046,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{

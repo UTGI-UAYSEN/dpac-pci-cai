@@ -198,7 +198,7 @@
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
-						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
@@ -257,7 +257,7 @@
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
-						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
@@ -2369,7 +2369,7 @@
 						"capacidades": [ "coordinacion-general", "posicionamiento", "diseno" ]
 					},
 					{
-						"cai": "DVcM-RI", "rol": "Soporte",
+						"cai": "REC-RI", "rol": "Soporte",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
