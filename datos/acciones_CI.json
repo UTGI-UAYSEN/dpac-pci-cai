@@ -270,7 +270,7 @@
 					{ 
 						"nombre": "Controles de legalidad sujetos a revisión y entregados.", 
 						"formula": "Número de informes de toma de razón emitidos y que han sido informados a actores pertinentes.",
-						"meta": "165"
+						"meta": "80"
 					}
 				],
 				"verificadores": [

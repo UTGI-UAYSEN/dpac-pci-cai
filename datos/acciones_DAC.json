@@ -2540,7 +2540,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado",
+						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -3013,6 +3013,7 @@
 					},
 					{
 						"nombre": "Encuesta de satisfacción del proceso de inducción.",
+						"plazo": "may",
 						"estandar": [
 							"Considerar al menos una encuesta por sesión realizada.",
 							"Debe indicar tasa de respuesta de asistentes por sesión.",
@@ -3648,7 +3649,7 @@
 	{
 		"id": "14", "area": "DAC",
 		"titulo": "Gestión de becas y beneficios estudiantiles.",
-		"objetivo": "Ofrecer soporte y realizar difusión a los estudiantes respecto al acceso a beneficios para apoyar su proceso formativo.",
+		"objetivo": "Gestionar aspectos académicos del funcionamiento del CAE.",
 		"responsable": "DAC-DE",
 		"tipo": "Misional",
 		"tacticas": [
@@ -6822,7 +6823,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -6877,7 +6878,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado",
+						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -6932,7 +6933,7 @@
 						"capacidades": [ "todos-gestion-academica" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -7217,7 +7218,7 @@
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado",
+						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general" ]
 					},
 					{
@@ -7274,7 +7275,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},	
 					{
-						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},									
 					{
@@ -7338,7 +7339,7 @@
 						"capacidades": [ "coordinacion-general", "compras", "inventario" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado",
+						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -7382,7 +7383,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -7424,7 +7425,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},			
 					{
@@ -7721,7 +7722,7 @@
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
-						"cai": "REC-RI", "rol": "Consultado",
+						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -7792,7 +7793,7 @@
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},				
 					{
-						"cai": "REC-RI", "rol": "Consultado",
+						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -7842,7 +7843,7 @@
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},					
 					{
-						"cai": "REC-RI", "rol": "Consultado",
+						"cai": "DVcM-RI", "rol": "Consultado",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{
@@ -7880,7 +7881,7 @@
 						"capacidades": [ "coordinacion-general", "coordinacion-curricular", "curricular" ]
 					},				
 					{
-						"cai": "REC-RI", "rol": "Consultado", "participacion": "Esporádica",
+						"cai": "DVcM-RI", "rol": "Consultado", "participacion": "Esporádica",
 						"capacidades": [ "coordinacion-general", "operacion-misc" ]
 					},
 					{

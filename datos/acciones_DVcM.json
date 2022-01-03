@@ -60,15 +60,6 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Manuales de uso y manejo de redes sociales institucionales",
-						"plazo": "may",
-						"estandar": [
-							"Incorpora una revisión bibliografica en materia de uso y manejo de redes sociales a nivel organizacional.",
-							"Incluye revisión de normativa de instituciones públicas, especialmente de Instituciones de Educación SUperior Estatales, respecto del uso de plataforma digitales.",
-							"Considerar su formalización vía decreto."
-						]
-					},
-					{
 						"nombre": "Mecanismos diseñados",
 						"plazo": "jul",
 						"estandar": [
@@ -4066,7 +4057,7 @@
 		]
 	},	
 	{
-		"id": "20", "area": "DVCM",
+		"id": "20", "area": "DVcM",
 		"titulo": "Preparación a la vida laboral para primeros/as egresados/as UAysén.",
 		"objetivo": "Desplegar mecanismos que permitan preparar y dar soporte integral al mundo laboral al que se enfrentarán los/as primeros/as egresados/as de la Institución.",
 		"responsable": "DVCM-TE",

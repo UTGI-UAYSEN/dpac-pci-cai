@@ -2385,7 +2385,7 @@
 				],
 				"verificadores": [
 					{
-						"nombre": "Bitácora de requerimientos de transparencia",
+						"nombre": "Planilla de requerimientos de transparencia",
 						"estandar": [
 							"Registro simple (planilla, documento, etc.) con detalle de requerimientos recibidos y sus características.",
 							"Debe dar cuenta del estado de resolución del requerimiento.",

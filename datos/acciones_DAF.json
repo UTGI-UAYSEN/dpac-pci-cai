@@ -311,6 +311,7 @@
 					},
 					{
 						"nombre": "Material de difusión",
+						"plazo": "abr",
 						"estandar": [
 							"PPT, documento u otro que explique el objeto de la difusión.",
 							"Incorporar registro visual de las instancias.",
@@ -1200,7 +1201,7 @@
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					},
 					{
-						"cai": "multiple", "rol": "Informados",
+						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
 				],
@@ -1224,7 +1225,7 @@
 						"capacidades": [ "coordinacion-general", "finanzas" ]
 					},
 					{
-						"cai": "multiple", "rol": "Informados",
+						"cai": "multiple", "rol": "Informado",
 						"capacidades": [ "todos-estrategicos" ]
 					}
 				],
